@@ -1,0 +1,592 @@
+2025-06-10 10:03:00,873 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 10:03:05,408 [ERROR] Prediction failed
+Traceback (most recent call last):
+  File "E:\Wireless_Network_Attack\streamlit_app.py", line 140, in <module>
+    prediction, info = predict_attack(input_data)
+    ^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-06-10 10:03:15,920 [ERROR] Prediction failed
+Traceback (most recent call last):
+  File "E:\Wireless_Network_Attack\streamlit_app.py", line 140, in <module>
+    prediction, info = predict_attack(input_data)
+    ^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-06-10 10:03:20,617 [ERROR] Prediction failed
+Traceback (most recent call last):
+  File "E:\Wireless_Network_Attack\streamlit_app.py", line 140, in <module>
+    prediction, info = predict_attack(input_data)
+    ^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-06-10 10:08:16,442 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 10:08:16,442 [INFO] 
+==============================
+Testing Input for: Normal
+2025-06-10 10:08:16,468 [INFO] Predicted Attack Type: Black Hole
+2025-06-10 10:08:16,468 [INFO] 
+==============================
+Testing Input for: Black Hole
+2025-06-10 10:08:16,496 [INFO] Predicted Attack Type: Scheduling
+2025-06-10 10:08:16,496 [INFO] 
+==============================
+Testing Input for: Flooding
+2025-06-10 10:08:16,530 [INFO] Predicted Attack Type: Scheduling
+2025-06-10 10:08:16,530 [INFO] 
+==============================
+Testing Input for: Grayhole
+2025-06-10 10:08:16,555 [INFO] Predicted Attack Type: Black Hole
+2025-06-10 10:08:16,555 [INFO] 
+==============================
+Testing Input for: Scheduling
+2025-06-10 10:08:16,580 [INFO] Predicted Attack Type: Scheduling
+2025-06-10 10:11:20,037 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 10:11:20,037 [INFO] 
+==============================
+Testing Input for: Normal
+2025-06-10 10:11:20,070 [INFO] Predicted Attack Type: Black Hole
+2025-06-10 10:11:20,070 [INFO] 
+==============================
+Testing Input for: Black Hole
+2025-06-10 10:11:20,093 [INFO] Predicted Attack Type: Scheduling
+2025-06-10 10:11:20,094 [INFO] 
+==============================
+Testing Input for: Flooding
+2025-06-10 10:11:20,116 [INFO] Predicted Attack Type: Scheduling
+2025-06-10 10:11:20,117 [INFO] 
+==============================
+Testing Input for: Grayhole
+2025-06-10 10:11:20,142 [INFO] Predicted Attack Type: Black Hole
+2025-06-10 10:11:20,142 [INFO] 
+==============================
+Testing Input for: Scheduling
+2025-06-10 10:11:20,165 [INFO] Predicted Attack Type: Scheduling
+2025-06-10 10:15:16,025 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 10:15:56,127 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 10:15:56,127 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 10:15:56,153 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 10:15:56,154 [INFO] 
+==============================
+Testing: Black Hole
+2025-06-10 10:15:56,189 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 10:15:56,190 [INFO] 
+==============================
+Testing: Flooding
+2025-06-10 10:15:56,229 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 10:15:56,229 [INFO] 
+==============================
+Testing: Grayhole
+2025-06-10 10:15:56,253 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 10:15:56,254 [INFO] 
+==============================
+Testing: Scheduling
+2025-06-10 10:15:56,277 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 10:18:57,692 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 16:00:04,929 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 16:08:53,213 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 16:08:53,213 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 16:08:53,244 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:08:53,244 [INFO] 
+==============================
+Testing: Black Hole
+2025-06-10 16:08:53,266 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:08:53,267 [INFO] 
+==============================
+Testing: Flooding
+2025-06-10 16:08:53,303 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:08:53,303 [INFO] 
+==============================
+Testing: Grayhole
+2025-06-10 16:08:53,326 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:08:53,328 [INFO] 
+==============================
+Testing: Scheduling
+2025-06-10 16:08:53,351 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:13:48,485 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 16:13:48,485 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 16:13:48,487 [ERROR] Encoding error in column 'service': y contains previously unseen labels: 'echo_i'
+2025-06-10 16:14:23,886 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 16:14:23,887 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 16:14:23,915 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:14:23,916 [INFO] 
+==============================
+Testing: Black Hole
+2025-06-10 16:14:23,941 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:14:23,941 [INFO] 
+==============================
+Testing: Flooding
+2025-06-10 16:14:23,964 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:14:23,964 [INFO] 
+==============================
+Testing: Grayhole
+2025-06-10 16:14:23,987 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:14:23,987 [INFO] 
+==============================
+Testing: Scheduling
+2025-06-10 16:14:24,010 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:20:22,406 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 16:20:22,406 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 16:20:22,432 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:20:22,432 [INFO] 
+==============================
+Testing: Black Hole
+2025-06-10 16:20:22,456 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:20:22,456 [INFO] 
+==============================
+Testing: Flooding
+2025-06-10 16:20:22,479 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:20:22,480 [INFO] 
+==============================
+Testing: Grayhole
+2025-06-10 16:20:22,506 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:20:22,506 [INFO] 
+==============================
+Testing: Scheduling
+2025-06-10 16:20:22,530 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:23:57,287 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 16:23:57,288 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 16:23:57,338 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:23:57,339 [INFO] 
+==============================
+Testing: Black Hole
+2025-06-10 16:23:57,382 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:23:57,382 [INFO] 
+==============================
+Testing: Flooding
+2025-06-10 16:23:57,422 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:23:57,423 [INFO] 
+==============================
+Testing: Grayhole
+2025-06-10 16:23:57,466 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:23:57,467 [INFO] 
+==============================
+Testing: Scheduling
+2025-06-10 16:23:57,509 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:25:19,898 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 16:25:19,898 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 16:25:19,945 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:25:19,950 [INFO] 
+==============================
+Testing: Black Hole
+2025-06-10 16:25:19,999 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:25:19,999 [INFO] 
+==============================
+Testing: Flooding
+2025-06-10 16:25:20,059 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:25:20,060 [INFO] 
+==============================
+Testing: Grayhole
+2025-06-10 16:25:20,096 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:25:20,097 [INFO] 
+==============================
+Testing: Scheduling
+2025-06-10 16:25:20,125 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}2025-06-10 16:40:42,653 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 16:40:42,654 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 16:40:42,695 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:40:42,695 [INFO] 
+==============================
+Testing: Black Hole
+2025-06-10 16:40:42,740 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:40:42,740 [INFO] 
+==============================
+Testing: Flooding
+2025-06-10 16:40:42,782 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:40:42,783 [INFO] 
+==============================
+Testing: Grayhole
+2025-06-10 16:40:42,825 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:40:42,826 [INFO] 
+==============================
+Testing: Scheduling
+2025-06-10 16:40:42,868 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:44:08,867 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 16:44:08,867 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 16:44:08,914 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:44:08,914 [INFO] 
+==============================
+Testing: Black Hole
+2025-06-10 16:44:08,956 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:44:08,958 [INFO] 
+==============================
+Testing: Flooding
+2025-06-10 16:44:09,000 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:44:09,001 [INFO] 
+==============================
+Testing: Grayhole
+2025-06-10 16:44:09,045 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:44:09,045 [INFO] 
+==============================
+Testing: Scheduling
+2025-06-10 16:44:09,094 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:45:17,700 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 16:45:17,700 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 16:45:17,748 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:45:17,749 [INFO] 
+==============================
+Testing: Black Hole
+2025-06-10 16:45:17,791 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:45:17,792 [INFO] 
+==============================
+Testing: Flooding
+2025-06-10 16:45:17,839 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:45:17,840 [INFO] 
+==============================
+Testing: Grayhole
+2025-06-10 16:45:17,880 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:45:17,881 [INFO] 
+==============================
+Testing: Scheduling
+2025-06-10 16:45:17,924 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:49:48,357 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 16:49:48,358 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 16:49:48,389 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:49:48,391 [INFO] 
+==============================
+Testing: Black Hole
+2025-06-10 16:49:48,436 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:49:48,437 [INFO] 
+==============================
+Testing: Flooding
+2025-06-10 16:49:48,482 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:49:48,483 [INFO] 
+==============================
+Testing: Grayhole
+2025-06-10 16:49:48,525 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:49:48,528 [INFO] 
+==============================
+Testing: Scheduling
+2025-06-10 16:49:48,561 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:50:01,707 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 16:50:01,708 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 16:50:01,765 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:50:01,765 [INFO] 
+==============================
+Testing: Black Hole
+2025-06-10 16:50:01,812 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:50:01,813 [INFO] 
+==============================
+Testing: Flooding
+2025-06-10 16:50:01,855 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:50:01,856 [INFO] 
+==============================
+Testing: Grayhole
+2025-06-10 16:50:01,900 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:50:01,900 [INFO] 
+==============================
+Testing: Scheduling
+2025-06-10 16:50:01,940 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:52:37,498 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 16:52:37,499 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 16:52:37,548 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:52:37,548 [INFO] 
+==============================
+Testing: Black Hole
+2025-06-10 16:52:37,591 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:52:37,591 [INFO] 
+==============================
+Testing: Flooding
+2025-06-10 16:52:37,621 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:52:37,622 [INFO] 
+==============================
+Testing: Grayhole
+2025-06-10 16:52:37,651 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:52:37,651 [INFO] 
+==============================
+Testing: Scheduling
+2025-06-10 16:52:37,691 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:53:02,128 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 16:53:02,129 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 16:53:02,178 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:53:02,178 [INFO] 
+==============================
+Testing: Black Hole
+2025-06-10 16:53:02,222 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:53:02,223 [INFO] 
+==============================
+Testing: Flooding
+2025-06-10 16:53:02,270 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:53:02,271 [INFO] 
+==============================
+Testing: Grayhole
+2025-06-10 16:53:02,328 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:53:02,329 [INFO] 
+==============================
+Testing: Scheduling
+2025-06-10 16:53:02,382 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:59:14,785 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 16:59:14,785 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 16:59:14,833 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:59:14,834 [INFO] 
+==============================
+Testing: Black Hole
+2025-06-10 16:59:14,877 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:59:14,878 [INFO] 
+==============================
+Testing: Flooding
+2025-06-10 16:59:14,924 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 16:59:14,925 [INFO] 
+==============================
+Testing: Grayhole
+2025-06-10 16:59:14,972 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 16:59:14,974 [INFO] 
+==============================
+Testing: Scheduling
+2025-06-10 16:59:15,055 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 17:00:19,837 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 17:00:19,838 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 17:00:19,888 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 17:00:19,890 [INFO] 
+==============================
+Testing: Black Hole
+2025-06-10 17:00:19,941 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 17:00:19,941 [INFO] 
+==============================
+Testing: Flooding
+2025-06-10 17:00:19,988 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 17:00:19,989 [INFO] 
+==============================
+Testing: Grayhole
+2025-06-10 17:00:20,031 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 17:00:20,031 [INFO] 
+==============================
+Testing: Scheduling
+2025-06-10 17:00:20,076 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 17:00:47,067 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 17:03:39,054 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 17:14:31,445 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 17:15:00,263 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 17:15:00,264 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 17:15:00,314 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 17:15:00,315 [INFO] 
+==============================
+Testing: Black Hole
+2025-06-10 17:15:00,367 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 17:15:00,368 [INFO] 
+==============================
+Testing: Flooding
+2025-06-10 17:15:00,411 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 17:15:00,412 [INFO] 
+==============================
+Testing: Grayhole
+2025-06-10 17:15:00,444 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 17:15:00,444 [INFO] 
+==============================
+Testing: Scheduling
+2025-06-10 17:15:00,479 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 17:16:12,732 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 17:16:12,732 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 17:16:12,780 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 17:16:12,781 [INFO] 
+==============================
+Testing: Black Hole
+2025-06-10 17:16:12,830 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 17:16:12,831 [INFO] 
+==============================
+Testing: Flooding
+2025-06-10 17:16:12,875 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 17:16:12,876 [INFO] 
+==============================
+Testing: Grayhole
+2025-06-10 17:16:12,918 [INFO] Predicted: Black Hole | Info: {'prevention': 'Use secure routing and watchdog timers.', 'precautions': 'Continuously monitor packet drops.'}
+2025-06-10 17:16:12,918 [INFO] 
+==============================
+Testing: Scheduling
+2025-06-10 17:16:12,960 [INFO] Predicted: Scheduling | Info: {'prevention': 'Synchronize network schedules.', 'precautions': 'Use secure time-sync protocols.'}
+2025-06-10 22:17:15,631 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 22:17:15,633 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 22:39:14,356 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 22:40:30,614 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 22:40:30,615 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 22:43:12,113 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 22:43:12,114 [INFO] 
+==============================
+Testing: Normal
+2025-06-10 22:44:44,487 [INFO] Model, encoders, and feature columns loaded successfully.
+2025-06-10 22:44:44,488 [INFO] 
+==============================
+Testing: Normal
+//////////////\\\\\\\\\\
+
+Prediction Input: {'duration': 0, 'protocol_type': 'tcp', 'service': 'ftp', 'flag': 'SF', 'src_bytes': 235, 'dst_bytes': 0, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 1, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 1, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 36, 'srv_count': 4, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 0.0, 'dst_host_count': 127, 'dst_host_srv_count': 33, 'dst_host_same_srv_rate': 0.26, 'dst_host_diff_srv_rate': 0.16, 'dst_host_same_src_port_rate': 0.14, 'dst_host_srv_diff_host_rate': 0.27, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.01, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Normal
+Prevention: No attack detected.
+Precaution: Maintain standard security practices.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'tcp', 'service': 'smtp', 'flag': 'SF', 'src_bytes': 269, 'dst_bytes': 403, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 1, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 10, 'srv_count': 15, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 0.0, 'dst_host_count': 255, 'dst_host_srv_count': 255, 'dst_host_same_srv_rate': 1.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 1.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Normal
+Prevention: No attack detected.
+Precaution: Maintain standard security practices.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'icmp', 'service': 'eco_i', 'flag': 'SF', 'src_bytes': 8, 'dst_bytes': 0, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 1, 'srv_count': 18, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 1.0, 'dst_host_count': 1, 'dst_host_srv_count': 65, 'dst_host_same_srv_rate': 1.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 1.0, 'dst_host_srv_diff_host_rate': 0.51, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Grayhole
+Prevention: Multipath routing and monitoring.
+Precaution: Detect and isolate misbehaving nodes.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'tcp', 'service': 'smtp', 'flag': 'REJ', 'src_bytes': 0, 'dst_bytes': 0, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 511, 'srv_count': 511, 'serror_rate': 1.0, 'srv_serror_rate': 1.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 0.0, 'dst_host_count': 255, 'dst_host_srv_count': 255, 'dst_host_same_srv_rate': 1.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 1.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 1.0, 'dst_host_srv_serror_rate': 1.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Flooding
+Prevention: Rate-limiting and firewall filtering.
+Precaution: Use intrusion detection systems.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'tcp', 'service': 'smtp', 'flag': 'SF', 'src_bytes': 616, 'dst_bytes': 330, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 1, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 1, 'srv_count': 2, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 1.0, 'dst_host_count': 255, 'dst_host_srv_count': 129, 'dst_host_same_srv_rate': 0.51, 'dst_host_diff_srv_rate': 0.03, 'dst_host_same_src_port_rate': 0.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.33, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Normal
+Prevention: No attack detected.
+Precaution: Maintain standard security practices.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'tcp', 'service': 'smtp', 'flag': 'SF', 'src_bytes': 616, 'dst_bytes': 330, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 1, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 1, 'srv_count': 2, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 1.0, 'dst_host_count': 255, 'dst_host_srv_count': 129, 'dst_host_same_srv_rate': 0.51, 'dst_host_diff_srv_rate': 0.03, 'dst_host_same_src_port_rate': 0.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.33, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Normal
+Prevention: No attack detected.
+Precaution: Maintain standard security practices.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'tcp', 'service': 'smtp', 'flag': 'REJ', 'src_bytes': 0, 'dst_bytes': 0, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 511, 'srv_count': 511, 'serror_rate': 1.0, 'srv_serror_rate': 1.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 0.0, 'dst_host_count': 255, 'dst_host_srv_count': 255, 'dst_host_same_srv_rate': 1.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 1.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 1.0, 'dst_host_srv_serror_rate': 1.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Flooding
+Prevention: Rate-limiting and firewall filtering.
+Precaution: Use intrusion detection systems.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'icmp', 'service': 'eco_i', 'flag': 'SF', 'src_bytes': 8, 'dst_bytes': 0, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 1, 'srv_count': 18, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 1.0, 'dst_host_count': 1, 'dst_host_srv_count': 65, 'dst_host_same_srv_rate': 1.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 1.0, 'dst_host_srv_diff_host_rate': 0.51, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Grayhole
+Prevention: Multipath routing and monitoring.
+Precaution: Detect and isolate misbehaving nodes.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'tcp', 'service': 'smtp', 'flag': 'SF', 'src_bytes': 269, 'dst_bytes': 403, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 1, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 10, 'srv_count': 15, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 0.0, 'dst_host_count': 255, 'dst_host_srv_count': 255, 'dst_host_same_srv_rate': 1.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 1.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Normal
+Prevention: No attack detected.
+Precaution: Maintain standard security practices.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'tcp', 'service': 'smtp', 'flag': 'SF', 'src_bytes': 616, 'dst_bytes': 330, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 1, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 1, 'srv_count': 2, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 1.0, 'dst_host_count': 255, 'dst_host_srv_count': 129, 'dst_host_same_srv_rate': 0.51, 'dst_host_diff_srv_rate': 0.03, 'dst_host_same_src_port_rate': 0.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.33, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Normal
+Prevention: No attack detected.
+Precaution: Maintain standard security practices.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'tcp', 'service': 'smtp', 'flag': 'REJ', 'src_bytes': 0, 'dst_bytes': 0, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 511, 'srv_count': 511, 'serror_rate': 1.0, 'srv_serror_rate': 1.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 0.0, 'dst_host_count': 255, 'dst_host_srv_count': 255, 'dst_host_same_srv_rate': 1.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 1.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 1.0, 'dst_host_srv_serror_rate': 1.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Flooding
+Prevention: Rate-limiting and firewall filtering.
+Precaution: Use intrusion detection systems.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'icmp', 'service': 'http', 'flag': 'REJ', 'src_bytes': 1, 'dst_bytes': 0, 'land': 1, 'wrong_fragment': 14, 'urgent': 0, 'hot': 0, 'num_failed_logins': 1, 'logged_in': 0, 'num_compromised': 1, 'root_shell': 1, 'su_attempted': 1, 'num_root': 1, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 0, 'srv_count': 0, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 0.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 0.0, 'dst_host_count': 0, 'dst_host_srv_count': 0, 'dst_host_same_srv_rate': 0.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 0.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Grayhole
+Prevention: Multipath routing and monitoring.
+Precaution: Detect and isolate misbehaving nodes.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'tcp', 'service': 'http', 'flag': 'SF', 'src_bytes': 0, 'dst_bytes': 0, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 0, 'srv_count': 0, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 0.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 0.0, 'dst_host_count': 0, 'dst_host_srv_count': 0, 'dst_host_same_srv_rate': 0.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 0.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Grayhole
+Prevention: Multipath routing and monitoring.
+Precaution: Detect and isolate misbehaving nodes.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'tcp', 'service': 'smtp', 'flag': 'SF', 'src_bytes': 616, 'dst_bytes': 330, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 1, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 1, 'srv_count': 2, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 1.0, 'dst_host_count': 255, 'dst_host_srv_count': 129, 'dst_host_same_srv_rate': 0.51, 'dst_host_diff_srv_rate': 0.03, 'dst_host_same_src_port_rate': 0.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.33, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Normal
+Prevention: No attack detected.
+Precaution: Maintain standard security practices.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'tcp', 'service': 'smtp', 'flag': 'REJ', 'src_bytes': 0, 'dst_bytes': 0, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 511, 'srv_count': 511, 'serror_rate': 1.0, 'srv_serror_rate': 1.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 0.0, 'dst_host_count': 255, 'dst_host_srv_count': 255, 'dst_host_same_srv_rate': 1.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 1.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 1.0, 'dst_host_srv_serror_rate': 1.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Flooding
+Prevention: Rate-limiting and firewall filtering.
+Precaution: Use intrusion detection systems.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'icmp', 'service': 'eco_i', 'flag': 'SF', 'src_bytes': 8, 'dst_bytes': 0, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 1, 'srv_count': 18, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 1.0, 'dst_host_count': 1, 'dst_host_srv_count': 65, 'dst_host_same_srv_rate': 1.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 1.0, 'dst_host_srv_diff_host_rate': 0.51, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Grayhole
+Prevention: Multipath routing and monitoring.
+Precaution: Detect and isolate misbehaving nodes.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'tcp', 'service': 'smtp', 'flag': 'SF', 'src_bytes': 616, 'dst_bytes': 330, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 1, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 1, 'srv_count': 2, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 1.0, 'dst_host_count': 255, 'dst_host_srv_count': 129, 'dst_host_same_srv_rate': 0.51, 'dst_host_diff_srv_rate': 0.03, 'dst_host_same_src_port_rate': 0.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.33, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Normal
+Prevention: No attack detected.
+Precaution: Maintain standard security practices.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'tcp', 'service': 'smtp', 'flag': 'REJ', 'src_bytes': 0, 'dst_bytes': 0, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 511, 'srv_count': 511, 'serror_rate': 1.0, 'srv_serror_rate': 1.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 0.0, 'dst_host_count': 255, 'dst_host_srv_count': 255, 'dst_host_same_srv_rate': 1.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 1.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 1.0, 'dst_host_srv_serror_rate': 1.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Flooding
+Prevention: Rate-limiting and firewall filtering.
+Precaution: Use intrusion detection systems.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'icmp', 'service': 'eco_i', 'flag': 'SF', 'src_bytes': 8, 'dst_bytes': 0, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 1, 'srv_count': 18, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 1.0, 'dst_host_count': 1, 'dst_host_srv_count': 65, 'dst_host_same_srv_rate': 1.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 1.0, 'dst_host_srv_diff_host_rate': 0.51, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Grayhole
+Prevention: Multipath routing and monitoring.
+Precaution: Detect and isolate misbehaving nodes.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'tcp', 'service': 'smtp', 'flag': 'SF', 'src_bytes': 616, 'dst_bytes': 330, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 1, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 1, 'srv_count': 2, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 1.0, 'dst_host_count': 255, 'dst_host_srv_count': 129, 'dst_host_same_srv_rate': 0.51, 'dst_host_diff_srv_rate': 0.03, 'dst_host_same_src_port_rate': 0.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.33, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Normal
+Prevention: No attack detected.
+Precaution: Maintain standard security practices.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'tcp', 'service': 'smtp', 'flag': 'REJ', 'src_bytes': 0, 'dst_bytes': 0, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 511, 'srv_count': 511, 'serror_rate': 1.0, 'srv_serror_rate': 1.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 0.0, 'dst_host_count': 255, 'dst_host_srv_count': 255, 'dst_host_same_srv_rate': 1.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 1.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 1.0, 'dst_host_srv_serror_rate': 1.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Flooding
+Prevention: Rate-limiting and firewall filtering.
+Precaution: Use intrusion detection systems.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'icmp', 'service': 'eco_i', 'flag': 'SF', 'src_bytes': 8, 'dst_bytes': 0, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 1, 'srv_count': 18, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 1.0, 'dst_host_count': 1, 'dst_host_srv_count': 65, 'dst_host_same_srv_rate': 1.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 1.0, 'dst_host_srv_diff_host_rate': 0.51, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Grayhole
+Prevention: Multipath routing and monitoring.
+Precaution: Detect and isolate misbehaving nodes.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'tcp', 'service': 'smtp', 'flag': 'SF', 'src_bytes': 616, 'dst_bytes': 330, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 1, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 1, 'srv_count': 2, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 1.0, 'dst_host_count': 255, 'dst_host_srv_count': 129, 'dst_host_same_srv_rate': 0.51, 'dst_host_diff_srv_rate': 0.03, 'dst_host_same_src_port_rate': 0.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.33, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Normal
+Prevention: No attack detected.
+Precaution: Maintain standard security practices.
+------------------------------------------------------------
+Prediction Input: {'duration': 1, 'protocol_type': 'udp', 'service': 'ftp', 'flag': 'RSTR', 'src_bytes': 1, 'dst_bytes': 1, 'land': 1, 'wrong_fragment': 2, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 1, 'num_access_files': 2, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 0, 'srv_count': 0, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 0.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 0.0, 'dst_host_count': 0, 'dst_host_srv_count': 0, 'dst_host_same_srv_rate': 0.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 0.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Grayhole
+Prevention: Multipath routing and monitoring.
+Precaution: Detect and isolate misbehaving nodes.
+------------------------------------------------------------
+Prediction Input: {'duration': 1, 'protocol_type': 'udp', 'service': 'ftp', 'flag': 'RSTR', 'src_bytes': 1, 'dst_bytes': 1, 'land': 1, 'wrong_fragment': 2, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 1, 'num_access_files': 2, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 0, 'srv_count': 0, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 0.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 0.0, 'dst_host_count': 0, 'dst_host_srv_count': 0, 'dst_host_same_srv_rate': 0.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 0.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Grayhole
+Prevention: Multipath routing and monitoring.
+Precaution: Detect and isolate misbehaving nodes.
+------------------------------------------------------------
+Prediction Input: {'duration': 1, 'protocol_type': 'udp', 'service': 'smtp', 'flag': 'S1', 'src_bytes': 1, 'dst_bytes': 0, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 0, 'srv_count': 0, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 0.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 0.0, 'dst_host_count': 0, 'dst_host_srv_count': 0, 'dst_host_same_srv_rate': 0.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 0.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Grayhole
+Prevention: Multipath routing and monitoring.
+Precaution: Detect and isolate misbehaving nodes.
+------------------------------------------------------------
+Prediction Input: {'duration': 0, 'protocol_type': 'icmp', 'service': 'eco_i', 'flag': 'SF', 'src_bytes': 8, 'dst_bytes': 0, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 1, 'srv_count': 18, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 1.0, 'dst_host_count': 1, 'dst_host_srv_count': 65, 'dst_host_same_srv_rate': 1.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 1.0, 'dst_host_srv_diff_host_rate': 0.51, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Grayhole
+Prevention: Multipath routing and monitoring.
+Precaution: Detect and isolate misbehaving nodes.
+------------------------------------------------------------
+Prediction Input: {'duration': 1, 'protocol_type': 'udp', 'service': 'private', 'flag': 'RSTR', 'src_bytes': 1, 'dst_bytes': 1, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 0, 'srv_count': 0, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 0.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 0.0, 'dst_host_count': 0, 'dst_host_srv_count': 0, 'dst_host_same_srv_rate': 0.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 0.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Grayhole
+Prevention: Multipath routing and monitoring.
+Precaution: Detect and isolate misbehaving nodes.
+------------------------------------------------------------
+Prediction Input: {'duration': 1, 'protocol_type': 'udp', 'service': 'private', 'flag': 'SH', 'src_bytes': 1, 'dst_bytes': 1, 'land': 0, 'wrong_fragment': 0, 'urgent': 0, 'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0, 'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0, 'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0, 'count': 0, 'srv_count': 0, 'serror_rate': 0.0, 'srv_serror_rate': 0.0, 'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 0.0, 'diff_srv_rate': 0.0, 'srv_diff_host_rate': 0.0, 'dst_host_count': 0, 'dst_host_srv_count': 0, 'dst_host_same_srv_rate': 0.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 0.0, 'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0, 'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0}
+Predicted Attack Type: Grayhole
+Prevention: Multipath routing and monitoring.
+Precaution: Detect and isolate misbehaving nodes.
+------------------------------------------------------------
