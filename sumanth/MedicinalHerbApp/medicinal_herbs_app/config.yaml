@@ -20,10 +20,3 @@ logging:
 groq:
   api_key: "Enter your key"
   model_name: "llama-3.1-8b-instant"
-
-# groq:
-#   api_key: "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"
-
-
-# Gemini API key
-# "AIzaSyD1IeDNsP7QppgE1cXEli5neCJsnQ6Upn4"
