@@ -1,0 +1,29 @@
+data:
+  data_dir: "data"
+  batch_size: 32
+
+model:
+  num_epochs: 5
+  learning_rate: 0.001
+  model_save_path: "medicinal_herbs_app/model.pth"
+  classes_file: C:\Users\HP\OneDrive\Desktop\MedicinalHerbApp\medicinal_herbs_app\class_names.txt
+
+image:
+  image_size: [224, 224]
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
+
+logging:
+  log_file: "logs/app.log"
+  log_level: "INFO"
+
+groq:
+  api_key: "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"
+  model_name: "llama-3.1-8b-instant"
+
+# groq:
+#   api_key: "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"
+
+
+# Gemini API key
+# "AIzaSyD1IeDNsP7QppgE1cXEli5neCJsnQ6Upn4"
