@@ -1,11 +1,15 @@
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.vectorstores import FAISS
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.docstore.document import Document
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_community.vectorstores import FAISS
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_core.documents import Document
 
-# Chunk by words
-word_count = lambda text: len(text.split())
-splitter = RecursiveCharacterTextSplitter(chunk_size=100, chunk_overlap=20, length_function=word_count)
+# Better chunking strategy - larger chunks with semantic boundaries
+splitter = RecursiveCharacterTextSplitter(
+    chunk_size=500,  # Larger chunks for better context
+    chunk_overlap=50,  # Reasonable overlap
+    separators=["\n\n", "\n", ".", "!", "?", ",", " ", ""],  # Respect semantic boundaries
+    length_function=len
+)
 with open('content.txt', 'r', encoding='utf-8') as f:
     content = f.read()
 chunks = splitter.split_text(content)

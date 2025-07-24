@@ -17,9 +17,11 @@ dependencies:
   # Pip-only packages (not available in conda)
   - pip:
       - gradio
-      - langchain
-      - langchain-community
-      - langchain-text-splitters
+      - langchain==0.3.26
+      - langchain-community==0.3.27
+      - langchain-core==0.3.68
+      - langchain-text-splitters==0.3.8
+      - langchain-huggingface
       - faiss-cpu
       - sentence-transformers
       - python-dotenv

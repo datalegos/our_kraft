@@ -1,7 +1,7 @@
 from email import message
 import gradio as gr
 from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -15,22 +15,25 @@ load_dotenv(override = True)
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 openai = OpenAI(api_key = OPENAI_API_KEY)
 
-def rag_qa(query, history, k=3):
+def rag_qa(query, history, k=5):
+    # Get relevant context with higher k for better coverage
     docs = vectorstore.similarity_search(query, k=k)
-    context = "\n---\n".join([doc.page_content for doc in docs])
-    prompt = f"""
-    Imagine You are a receptionist at our company, so you have to take everything into heart(strongly hold the information) to respond to the user questions about the comapany accurately.
-    if you dont know you don't need to helucination instead reply that i am with a limited knowledge instead mail us, we will solve you query.
+    context = "\n\n".join([doc.page_content for doc in docs])
+    
+    # More concise system prompt to save tokens
+    system_prompt = f"""You are DataLegos' AI assistant. Answer questions about the company using the provided context. If information isn't available, say "I don't have that information. Please contact us at info@data-legos.com"
 
-    Context:
-    {context}
-
-    Question: {query}
-    Answer:
-    """
+Context:
+{context}"""
+    
+    # Only use recent history (last 4 messages) to save tokens
+    recent_history = history[-4:] if len(history) > 4 else history
+    
     response = openai.chat.completions.create(
         model="gpt-4o-mini",
-        messages=[{"role": "system", "content": prompt}] + history + [{"role": "user", "content": query}]
+        messages=[{"role": "system", "content": system_prompt}] + recent_history + [{"role": "user", "content": query}],
+        max_tokens=300,  # Limit response length
+        temperature=0.3  # More focused responses
     )
     answer = response.choices[0].message.content
     return answer
