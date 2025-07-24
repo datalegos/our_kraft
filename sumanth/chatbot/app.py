@@ -8,7 +8,7 @@ from openai import OpenAI
 
 # Load embedding model and FAISS index
 embedding_model = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en-v1.5")
-vectorstore = FAISS.load_local("faiss_index_bge_small", embedding_model, allow_dangerous_deserialization=True)
+vectorstore = FAISS.load_local("vector_index", embedding_model, allow_dangerous_deserialization=True)
 
 # Set your OpenAI API key (or use dotenv if you prefer)
 load_dotenv(override = True)
@@ -20,8 +20,14 @@ def rag_qa(query, history, k=5):
     docs = vectorstore.similarity_search(query, k=k)
     context = "\n\n".join([doc.page_content for doc in docs])
     
-    # More concise system prompt to save tokens
-    system_prompt = f"""You are DataLegos' AI assistant. Answer questions about the company using the provided context. If information isn't available, say "I don't have that information. Please contact us at info@data-legos.com"
+    # Enhanced system prompt for better responses
+    system_prompt = f"""You are DataLegos' helpful AI assistant. Use the provided context to answer questions about the company accurately and conversationally.
+
+Guidelines:
+- Answer based on the context provided
+- Be specific and helpful
+- If you don't find relevant information in the context, say "I don't have that specific information. Please contact us at info@data-legos.com for more details."
+- Keep responses concise but informative
 
 Context:
 {context}"""
@@ -45,6 +51,6 @@ demo = gr.ChatInterface(
     description="Feel free to ask any queries related to our company :)"
 )
 
-demo.launch(server_name="127.0.0.1", server_port=7860)
+demo.launch(server_port=7860, inbrowser=True)
 
 # Your Gradio app will run at http://127.0.0.1:7860 
