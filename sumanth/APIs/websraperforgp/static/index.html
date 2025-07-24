@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>GlobalPulse - Telugu News Intelligence</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* Sophisticated Warm Color Palette - Unique & Professional */
+            --primary-coral: #FF6B6B;
+            --deep-coral: #E55555;
+            --soft-coral: #FFE5E5;
+            --accent-teal: #4ECDC4;
+            --deep-teal: #45B7B8;
+            --light-teal: #E8F8F7;
+            --warm-gold: #FFD93D;
+            --deep-gold: #F1C40F;
+            --light-gold: #FFF9E6;
+            --sage-green: #95E1D3;
+            --deep-sage: #6C5CE7;
+            --light-sage: #F0FDF4;
+            --warm-white: #FEFEFE;
+            --cream: #FFF8F0;
+            --soft-beige: #F7F3E9;
+            --medium-gray: #6C7B7F;
+            --dark-charcoal: #2C3E50;
+            --success-emerald: #00D2A3;
+            --warning-amber: #F39C12;
+            --error-crimson: #E74C3C;
+            --accent-lavender: #A29BFE;
+            --soft-lavender: #F4F3FF;
+            
+            /* Sophisticated Gradients */
+            --gradient-primary: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 50%, #FFD93D 100%);
+            --gradient-coral: linear-gradient(135deg, #FF6B6B 0%, #E55555 100%);
+            --gradient-teal: linear-gradient(135deg, #4ECDC4 0%, #45B7B8 100%);
+            --gradient-warm: linear-gradient(135deg, #FFD93D 0%, #F39C12 100%);
+            --gradient-sage: linear-gradient(135deg, #95E1D3 0%, #6C5CE7 100%);
+            --gradient-card: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+            --gradient-sunset: linear-gradient(135deg, #FF6B6B 0%, #FFD93D 50%, #4ECDC4 100%);
+            --gradient-ocean: linear-gradient(135deg, #4ECDC4 0%, #95E1D3 100%);
+            
+            /* Elegant Shadows */
+            --shadow-soft: 0 4px 20px rgba(255, 107, 107, 0.15);
+            --shadow-medium: 0 8px 30px rgba(78, 205, 196, 0.20);
+            --shadow-strong: 0 15px 40px rgba(255, 217, 61, 0.25);
+            --shadow-inset: inset 0 2px 4px rgba(0, 0, 0, 0.06);
+            --shadow-coral: 0 8px 25px rgba(255, 107, 107, 0.3);
+            --shadow-teal: 0 8px 25px rgba(78, 205, 196, 0.3);
+            --shadow-gold: 0 8px 25px rgba(255, 217, 61, 0.3);
+            
+            /* Typography */
+            --font-primary: 'Poppins', 'Noto Sans Telugu', system-ui, sans-serif;
+            --font-telugu: 'Noto Sans Telugu', serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-primary);
+            background: var(--gradient-sunset);
+            min-height: 100vh;
+            color: var(--dark-charcoal);
+            line-height: 1.6;
+            font-weight: 400;
+            position: relative;
+        }
+
+        /* Sophisticated Animated Background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 15% 85%, rgba(255, 107, 107, 0.1) 0%, transparent 60%),
+                radial-gradient(circle at 85% 15%, rgba(78, 205, 196, 0.1) 0%, transparent 60%),
+                radial-gradient(circle at 50% 50%, rgba(255, 217, 61, 0.08) 0%, transparent 70%),
+                radial-gradient(circle at 25% 25%, rgba(149, 225, 211, 0.06) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: -1;
+            animation: backgroundFloat 20s ease-in-out infinite;
+        }
+
+        @keyframes backgroundFloat {
+            0%, 100% { 
+                opacity: 1; 
+                transform: scale(1) rotate(0deg); 
+            }
+            33% { 
+                opacity: 0.8; 
+                transform: scale(1.02) rotate(0.5deg); 
+            }
+            66% { 
+                opacity: 0.9; 
+                transform: scale(0.98) rotate(-0.3deg); 
+            }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        .header {
+            background: var(--gradient-card);
+            border-radius: 20px;
+            padding: 60px 40px;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow-soft);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .header h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 800;
+            background: var(--gradient-coral);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+            letter-spacing: -0.02em;
+            text-shadow: 0 4px 20px rgba(255, 107, 107, 0.3);
+        }
+
+        .header .subtitle {
+            font-size: 1.3rem;
+            color: var(--deep-teal);
+            font-weight: 600;
+            margin-bottom: 15px;
+            text-shadow: 0 2px 10px rgba(78, 205, 196, 0.2);
+        }
+
+        .header .description {
+            font-size: 1.1rem;
+            color: var(--dark-charcoal);
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.9;
+            font-weight: 500;
+        }
+
+        /* Form Section */
+        .form-section {
+            background: var(--gradient-card);
+            border-radius: 20px;
+            padding: 50px 40px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow-soft);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .form-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .form-title h2 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            background: var(--gradient-teal);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+
+        .form-title p {
+            font-size: 1.1rem;
+            color: var(--medium-gray);
+            font-weight: 500;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .form-group {
+            position: relative;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: var(--dark-charcoal);
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .form-group select,
+        .form-group input {
+            width: 100%;
+            padding: 16px 20px;
+            background: var(--warm-white);
+            border: 2px solid var(--soft-coral);
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 400;
+            color: var(--dark-charcoal);
+            transition: all 0.3s ease;
+            font-family: var(--font-primary);
+        }
+
+        .form-group select:focus,
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--accent-teal);
+            box-shadow: 0 0 0 3px rgba(78, 205, 196, 0.2);
+            transform: translateY(-1px);
+            background: var(--light-teal);
+        }
+
+        .form-group select option {
+            background: var(--warm-white);
+            color: var(--dark-gray);
+            padding: 12px;
+        }
+
+        /* Checkbox Styling */
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+            background: var(--light-gold);
+            border: 1px solid var(--warm-gold);
+            border-radius: 12px;
+            margin-top: 10px;
+        }
+
+        .checkbox-wrapper {
+            position: relative;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .checkbox-wrapper input[type="checkbox"] {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .checkmark {
+            width: 24px;
+            height: 24px;
+            background: var(--warm-white);
+            border: 2px solid var(--primary-coral);
+            border-radius: 6px;
+            margin-right: 12px;
+            position: relative;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .checkbox-wrapper:hover .checkmark {
+            background: var(--soft-coral);
+            border-color: var(--deep-coral);
+        }
+
+        .checkbox-wrapper input:checked ~ .checkmark {
+            background: var(--gradient-coral);
+            border-color: var(--primary-coral);
+            box-shadow: var(--shadow-coral);
+        }
+
+        .checkmark::after {
+            content: '✓';
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .checkbox-wrapper input:checked ~ .checkmark::after {
+            opacity: 1;
+        }
+
+        .checkbox-label {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--dark-charcoal);
+            cursor: pointer;
+            user-select: none;
+        }
+
+        /* Action Button */
+        .action-section {
+            text-align: center;
+        }
+
+        .scrape-btn {
+            background: var(--gradient-sunset);
+            color: white;
+            border: none;
+            padding: 18px 50px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: var(--shadow-coral);
+            min-width: 280px;
+            font-family: var(--font-primary);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .scrape-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.6s;
+        }
+
+        .scrape-btn:hover::before {
+            left: 100%;
+        }
+
+        .scrape-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-teal);
+            background: var(--gradient-ocean);
+        }
+
+        .scrape-btn:active {
+            transform: translateY(0);
+        }
+
+        .scrape-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* Loading Section */
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 60px 40px;
+            background: var(--gradient-card);
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow-soft);
+        }
+
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid var(--soft-coral);
+            border-top: 4px solid var(--primary-coral);
+            border-right: 4px solid var(--accent-teal);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            font-size: 1.2rem;
+            color: var(--dark-charcoal);
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .loading-subtext {
+            font-size: 1rem;
+            color: var(--medium-gray);
+            font-weight: 500;
+        }
+
+        /* Results Section */
+        .results {
+            display: none;
+            background: var(--gradient-card);
+            border-radius: 20px;
+            padding: 50px 40px;
+            box-shadow: var(--shadow-soft);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .results-info h2 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            background: var(--gradient-sage);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+
+        .results-meta {
+            font-size: 1.1rem;
+            color: var(--medium-gray);
+            line-height: 1.6;
+            font-weight: 500;
+        }
+
+        .results-meta strong {
+            color: var(--dark-charcoal);
+            font-weight: 700;
+        }
+
+        .status-badge {
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            box-shadow: var(--shadow-soft);
+        }
+
+        .status-success {
+            background: linear-gradient(135deg, var(--light-sage), var(--sage-green));
+            color: var(--success-emerald);
+            border: 1px solid var(--success-emerald);
+        }
+
+        .status-partial {
+            background: linear-gradient(135deg, var(--light-gold), var(--warm-gold));
+            color: var(--warning-amber);
+            border: 1px solid var(--warning-amber);
+        }
+
+        .status-failed {
+            background: linear-gradient(135deg, var(--soft-coral), var(--primary-coral));
+            color: var(--error-crimson);
+            border: 1px solid var(--error-crimson);
+        }
+
+        /* Articles Grid */
+        .articles-grid {
+            display: grid;
+            gap: 30px;
+        }
+
+        .article-card {
+            background: var(--warm-white);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: var(--shadow-soft);
+            border: 1px solid var(--soft-coral);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .article-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--gradient-coral);
+        }
+
+        .article-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-teal);
+            border-color: var(--accent-teal);
+        }
+
+        .article-card:hover::before {
+            background: var(--gradient-teal);
+        }
+
+        .article-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--dark-charcoal);
+            margin-bottom: 15px;
+            line-height: 1.4;
+            font-family: var(--font-telugu);
+        }
+
+        .article-meta {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+            color: var(--medium-gray);
+            font-weight: 500;
+            flex-wrap: wrap;
+        }
+
+        .article-meta span {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .article-summary {
+            color: var(--dark-charcoal);
+            line-height: 1.7;
+            margin-bottom: 20px;
+            font-size: 1rem;
+            font-family: var(--font-telugu);
+            font-weight: 500;
+        }
+
+        .article-content {
+            background: var(--soft-beige);
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            max-height: 250px;
+            overflow-y: auto;
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: var(--dark-charcoal);
+            font-family: var(--font-telugu);
+            white-space: pre-wrap;
+            border: 1px solid var(--light-gold);
+        }
+
+        .article-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            padding: 12px 24px;
+            background: var(--gradient-coral);
+            border-radius: 10px;
+            box-shadow: var(--shadow-coral);
+        }
+
+        .article-link:hover {
+            background: var(--gradient-teal);
+            box-shadow: var(--shadow-teal);
+            transform: translateX(5px) translateY(-2px);
+        }
+
+        /* Error Section */
+        .errors {
+            background: linear-gradient(135deg, #f8d7da, #f5c6cb);
+            border: 1px solid #f5c6cb;
+            border-radius: 12px;
+            padding: 25px;
+            margin-top: 30px;
+            box-shadow: var(--shadow-soft);
+        }
+
+        .errors h4 {
+            color: var(--error-red);
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .errors ul {
+            color: var(--error-red);
+            padding-left: 25px;
+            line-height: 1.6;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--soft-beige);
+            border-radius: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--gradient-coral);
+            border-radius: 5px;
+            border: 1px solid var(--soft-coral);
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--gradient-teal);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .header,
+            .form-section,
+            .results {
+                padding: 40px 25px;
+            }
+            
+            .form-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .results-header {
+                flex-direction: column;
+                gap: 20px;
+                align-items: flex-start;
+            }
+            
+            .article-card {
+                padding: 25px;
+            }
+            
+            .scrape-btn {
+                padding: 16px 40px;
+                min-width: 200px;
+            }
+        }
+
+        /* Animation Classes */
+        .fade-in {
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .slide-up {
+            animation: slideUp 0.8s ease-out;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>🌐 GlobalPulse</h1>
+            <p class="subtitle">Advanced Telugu News Intelligence Platform</p>
+            <p class="description">
+                Discover comprehensive news coverage from 50+ reliable Telugu sources across 200+ categories
+            </p>
+        </header>
+
+        <!-- Form Section -->
+        <section class="form-section">
+            <div class="form-title">
+                <h2>Configure Your News Feed</h2>
+                <p>Select your preferred source, category, and settings</p>
+            </div>
+
+            <form id="scrapeForm">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="source">📰 News Source</label>
+                        <select id="source" name="source_name" required>
+                            <!-- Options populated dynamically -->
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="category">📂 Category</label>
+                        <select id="category" name="category">
+                            <!-- Options populated dynamically -->
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="limit">📊 Article Limit</label>
+                        <select id="limit" name="limit">
+                            <option value="5">5 Articles</option>
+                            <option value="10" selected>10 Articles</option>
+                            <option value="15">15 Articles</option>
+                            <option value="20">20 Articles</option>
+                            <option value="25">25 Articles</option>
+                            <option value="30">30 Articles</option>
+                            <option value="50">50 Articles (Max)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="checkbox-container">
+                            <div class="checkbox-wrapper">
+                                <input type="checkbox" id="fullContent" name="full_content" checked>
+                                <span class="checkmark"></span>
+                                <label for="fullContent" class="checkbox-label">
+                                    🔍 Extract Full Content
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="action-section">
+                    <button type="submit" class="scrape-btn" id="scrapeBtn">
+                        🚀 Start News Gathering
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Loading Section -->
+        <section class="loading" id="loading">
+            <div class="loading-spinner"></div>
+            <p class="loading-text">Gathering News Intelligence...</p>
+            <p class="loading-subtext">Analyzing sources and extracting content</p>
+        </section>
+
+        <!-- Results Section -->
+        <section class="results" id="results">
+            <div class="results-header">
+                <div class="results-info">
+                    <h2>📊 News Report</h2>
+                    <div class="results-meta" id="resultsInfo">
+                        <!-- Populated dynamically -->
+                    </div>
+                </div>
+                <div class="status-badge" id="statusBadge">
+                    <!-- Populated dynamically -->
+                </div>
+            </div>
+
+            <div class="articles-grid" id="articlesContainer">
+                <!-- Articles populated dynamically -->
+            </div>
+
+            <div class="errors" id="errorsContainer" style="display: none;">
+                <h4>⚠️ Processing Errors:</h4>
+                <ul id="errorsList"></ul>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Enhanced JavaScript with better error handling and animations
+        class NewsScraperApp {
+            constructor() {
+                this.init();
+            }
+
+            async init() {
+                await this.loadSources();
+                await this.loadCategories();
+                this.bindEvents();
+                this.addAnimations();
+            }
+
+            async loadSources() {
+                try {
+                    const response = await fetch('/sources');
+                    const data = await response.json();
+                    const sourceSelect = document.getElementById('source');
+                    
+                    sourceSelect.innerHTML = '';
+                    
+                    // Group sources by type
+                    const groupedSources = data.sources.reduce((acc, source) => {
+                        const type = source.type || 'other';
+                        if (!acc[type]) acc[type] = [];
+                        acc[type].push(source);
+                        return acc;
+                    }, {});
+
+                    // Add grouped options
+                    Object.entries(groupedSources).forEach(([type, sources]) => {
+                        const optgroup = document.createElement('optgroup');
+                        optgroup.label = this.formatGroupLabel(type);
+                        
+                        sources.forEach(source => {
+                            const option = document.createElement('option');
+                            option.value = source.value;
+                            option.textContent = source.label;
+                            optgroup.appendChild(option);
+                        });
+                        
+                        sourceSelect.appendChild(optgroup);
+                    });
+                } catch (error) {
+                    console.error('Error loading sources:', error);
+                    this.showError('Failed to load news sources');
+                }
+            }
+
+            async loadCategories() {
+                try {
+                    const response = await fetch('/categories');
+                    const data = await response.json();
+                    const categorySelect = document.getElementById('category');
+                    
+                    categorySelect.innerHTML = '';
+                    
+                    // Group categories
+                    const groupedCategories = data.categories.reduce((acc, category) => {
+                        const group = category.group || 'other';
+                        if (!acc[group]) acc[group] = [];
+                        acc[group].push(category);
+                        return acc;
+                    }, {});
+
+                    // Add grouped options
+                    Object.entries(groupedCategories).forEach(([group, categories]) => {
+                        const optgroup = document.createElement('optgroup');
+                        optgroup.label = this.formatGroupLabel(group);
+                        
+                        categories.forEach(category => {
+                            const option = document.createElement('option');
+                            option.value = category.value;
+                            option.textContent = category.label;
+                            optgroup.appendChild(option);
+                        });
+                        
+                        categorySelect.appendChild(optgroup);
+                    });
+                } catch (error) {
+                    console.error('Error loading categories:', error);
+                    this.showError('Failed to load categories');
+                }
+            }
+
+            formatGroupLabel(type) {
+                const labels = {
+                    'newspaper': '📰 Newspapers',
+                    'tv': '📺 TV Channels',
+                    'digital': '💻 Digital Platforms',
+                    'entertainment': '🎬 Entertainment',
+                    'sports': '⚽ Sports',
+                    'business': '💼 Business',
+                    'technology': '💻 Technology',
+                    'general': '🏠 General',
+                    'politics': '🏛️ Politics & Governance',
+                    'regional': '🏙️ Regional Coverage',
+                    'health': '🏥 Health & Medicine',
+                    'education': '🎓 Education',
+                    'crime': '🚔 Crime & Law',
+                    'agriculture': '🌾 Agriculture & Rural',
+                    'lifestyle': '🌟 Lifestyle & Culture',
+                    'opinion': '💭 Opinion & Analysis',
+                    'environment': '🌿 Weather & Environment',
+                    'spirituality': '🕉️ Spirituality & Religion',
+                    'science': '🔬 Science & Research',
+                    'transport': '🚗 Transportation',
+                    'misc': '📂 Miscellaneous'
+                };
+                return labels[type] || `📂 ${type.charAt(0).toUpperCase() + type.slice(1)}`;
+            }
+
+            bindEvents() {
+                document.getElementById('scrapeForm').addEventListener('submit', (e) => {
+                    this.handleFormSubmit(e);
+                });
+            }
+
+            addAnimations() {
+                // Add fade-in animation to form elements
+                const formElements = document.querySelectorAll('.form-group, .action-section');
+                formElements.forEach((element, index) => {
+                    element.style.animationDelay = `${index * 0.1}s`;
+                    element.classList.add('fade-in');
+                });
+            }
+
+            async handleFormSubmit(e) {
+                e.preventDefault();
+
+                const formData = new FormData(e.target);
+                const data = {
+                    source_name: formData.get('source_name'),
+                    category: formData.get('category') || null,
+                    limit: parseInt(formData.get('limit')),
+                    full_content: document.getElementById('fullContent').checked
+                };
+
+                this.showLoading();
+
+                try {
+                    const response = await fetch('/scrape', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(data)
+                    });
+
+                    const result = await response.json();
+                    this.displayResults(result);
+
+                } catch (error) {
+                    console.error('Error:', error);
+                    this.showError('Network error occurred. Please check your connection and try again.');
+                } finally {
+                    this.hideLoading();
+                }
+            }
+
+            showLoading() {
+                document.getElementById('loading').style.display = 'block';
+                document.getElementById('results').style.display = 'none';
+                document.getElementById('scrapeBtn').disabled = true;
+                
+                // Smooth scroll to loading section
+                document.getElementById('loading').scrollIntoView({ 
+                    behavior: 'smooth', 
+                    block: 'center' 
+                });
+            }
+
+            hideLoading() {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('scrapeBtn').disabled = false;
+            }
+
+            displayResults(data) {
+                const resultsDiv = document.getElementById('results');
+                const statusBadge = document.getElementById('statusBadge');
+                const resultsInfo = document.getElementById('resultsInfo');
+                const articlesContainer = document.getElementById('articlesContainer');
+                const errorsContainer = document.getElementById('errorsContainer');
+                const errorsList = document.getElementById('errorsList');
+
+                // Set status badge
+                statusBadge.textContent = this.formatStatus(data.status);
+                statusBadge.className = `status-badge status-${data.status.replace('_', '-')}`;
+
+                // Set results info
+                resultsInfo.innerHTML = `
+                    <strong>${data.total_articles}</strong> articles extracted from 
+                    <strong>${data.source}</strong>
+                    ${data.category ? ` in <strong>${data.category}</strong> category` : ''}
+                    <br>
+                    <small style="color: var(--medium-gray);">
+                        ⏱️ Processing completed in ${data.duration_seconds}s | 
+                        📊 Success Rate: ${this.calculateSuccessRate(data)}%
+                    </small>
+                `;
+
+                // Display articles
+                articlesContainer.innerHTML = '';
+                data.articles.forEach((article, index) => {
+                    const articleDiv = document.createElement('div');
+                    articleDiv.className = 'article-card slide-up';
+                    articleDiv.style.animationDelay = `${index * 0.1}s`;
+                    
+                    articleDiv.innerHTML = `
+                        <h3 class="article-title">${this.escapeHtml(article.title)}</h3>
+                        <div class="article-meta">
+                            <span>📅 ${new Date(article.published_at).toLocaleDateString('en-IN', {
+                                year: 'numeric',
+                                month: 'long',
+                                day: 'numeric'
+                            })}</span>
+                            <span>✍️ ${this.escapeHtml(article.author)}</span>
+                            <span>🔗 ${this.getDomainFromUrl(article.url)}</span>
+                        </div>
+                        <div class="article-summary">
+                            <strong>📝 Summary:</strong><br>
+                            ${this.escapeHtml(article.summary)}
+                        </div>
+                        ${article.content && article.content !== article.summary ? `
+                            <div class="article-content">
+                                <strong>📄 Full Content:</strong><br>
+                                ${this.escapeHtml(article.content)}
+                            </div>
+                        ` : ''}
+                        <a href="${article.url}" target="_blank" class="article-link" rel="noopener noreferrer">
+                            🔗 Read Original Article
+                            <span>↗</span>
+                        </a>
+                    `;
+                    articlesContainer.appendChild(articleDiv);
+                });
+
+                // Display errors if any
+                if (data.errors && data.errors.length > 0) {
+                    errorsContainer.style.display = 'block';
+                    errorsList.innerHTML = '';
+                    data.errors.forEach(error => {
+                        const li = document.createElement('li');
+                        li.textContent = error;
+                        errorsList.appendChild(li);
+                    });
+                } else {
+                    errorsContainer.style.display = 'none';
+                }
+
+                resultsDiv.style.display = 'block';
+                resultsDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+
+            formatStatus(status) {
+                const statusMap = {
+                    'success': '✅ Success',
+                    'partial_success': '⚠️ Partial Success',
+                    'failed': '❌ Failed'
+                };
+                return statusMap[status] || status;
+            }
+
+            calculateSuccessRate(data) {
+                if (data.total_articles === 0) return 0;
+                const errorCount = data.errors ? data.errors.length : 0;
+                return Math.round(((data.total_articles / (data.total_articles + errorCount)) * 100));
+            }
+
+            getDomainFromUrl(url) {
+                try {
+                    return new URL(url).hostname.replace('www.', '');
+                } catch {
+                    return 'Unknown';
+                }
+            }
+
+            escapeHtml(text) {
+                const div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
+            }
+
+            showError(message) {
+                alert(message);
+            }
+        }
+
+        // Initialize the app when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            new NewsScraperApp();
+        });
+    </script>
+</body>
+</html>

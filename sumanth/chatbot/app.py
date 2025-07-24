@@ -42,8 +42,6 @@ demo = gr.ChatInterface(
     description="Feel free to ask any queries related to our company :)"
 )
 
-demo.launch()
+demo.launch(server_name="127.0.0.1", server_port=7860)
 
-# To run the app, use the following command in your terminal:
-# uvicorn app:app --host 127.0.0.1 --port 8000 --reload
-# Then visit http://localhost:8000/docs in your browser. 
+# Your Gradio app will run at http://127.0.0.1:7860 

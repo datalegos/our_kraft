@@ -1,0 +1,265 @@
+{
+  "info": {
+    "name": "GlobalPulse News Scraper API",
+    "description": "Complete API collection for Telugu news scraping with 50+ sources and 200+ categories",
+    "version": "2.0.0",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:8000",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "API Information",
+      "item": [
+        {
+          "name": "Get API Info",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/info",
+              "host": ["{{base_url}}"],
+              "path": ["api", "info"]
+            },
+            "description": "Get comprehensive API documentation and usage examples"
+          }
+        },
+        {
+          "name": "Health Check",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/health",
+              "host": ["{{base_url}}"],
+              "path": ["health"]
+            },
+            "description": "Check API health status"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Configuration",
+      "item": [
+        {
+          "name": "Get All Categories",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/categories",
+              "host": ["{{base_url}}"],
+              "path": ["categories"]
+            },
+            "description": "Retrieve all 200+ available news categories grouped by type"
+          }
+        },
+        {
+          "name": "Get All Sources",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/sources",
+              "host": ["{{base_url}}"],
+              "path": ["sources"]
+            },
+            "description": "Retrieve all 50+ Telugu news sources with metadata"
+          }
+        }
+      ]
+    },
+    {
+      "name": "News Scraping",
+      "item": [
+        {
+          "name": "Basic Scrape - Homepage",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"source_name\": \"eenadu\",\n  \"limit\": 5,\n  \"full_content\": true\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/scrape",
+              "host": ["{{base_url}}"],
+              "path": ["scrape"]
+            },
+            "description": "Scrape 5 articles from Eenadu homepage with full content"
+          }
+        },
+        {
+          "name": "Category Scrape - Politics",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"source_name\": \"sakshi\",\n  \"category\": \"politics\",\n  \"limit\": 10,\n  \"full_content\": true\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/scrape",
+              "host": ["{{base_url}}"],
+              "path": ["scrape"]
+            },
+            "description": "Scrape 10 politics articles from Sakshi with full content"
+          }
+        },
+        {
+          "name": "Sports Scrape - Cricket",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"source_name\": \"tv9telugu\",\n  \"category\": \"cricket\",\n  \"limit\": 15,\n  \"full_content\": false\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/scrape",
+              "host": ["{{base_url}}"],
+              "path": ["scrape"]
+            },
+            "description": "Scrape 15 cricket articles from TV9 Telugu with summaries only"
+          }
+        },
+        {
+          "name": "Entertainment Scrape - Tollywood",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"source_name\": \"greatandhra\",\n  \"category\": \"tollywood\",\n  \"limit\": 20,\n  \"full_content\": true\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/scrape",
+              "host": ["{{base_url}}"],
+              "path": ["scrape"]
+            },
+            "description": "Scrape 20 Tollywood articles from Great Andhra with full content"
+          }
+        },
+        {
+          "name": "Technology Scrape",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"source_name\": \"gadgets360\",\n  \"category\": \"technology\",\n  \"limit\": 12,\n  \"full_content\": true\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/scrape",
+              "host": ["{{base_url}}"],
+              "path": ["scrape"]
+            },
+            "description": "Scrape 12 technology articles from Gadgets 360 Telugu"
+          }
+        },
+        {
+          "name": "Maximum Articles Scrape",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"source_name\": \"andhrajyothy\",\n  \"category\": \"telangana\",\n  \"limit\": 50,\n  \"full_content\": false\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/scrape",
+              "host": ["{{base_url}}"],
+              "path": ["scrape"]
+            },
+            "description": "Scrape maximum 50 Telangana articles from Andhra Jyothy with summaries"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Error Testing",
+      "item": [
+        {
+          "name": "Invalid Source",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"source_name\": \"invalid_source\",\n  \"limit\": 5\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/scrape",
+              "host": ["{{base_url}}"],
+              "path": ["scrape"]
+            },
+            "description": "Test error handling with invalid source"
+          }
+        },
+        {
+          "name": "Limit Exceeded",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"source_name\": \"eenadu\",\n  \"limit\": 100\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/scrape",
+              "host": ["{{base_url}}"],
+              "path": ["scrape"]
+            },
+            "description": "Test limit validation (should cap at 50)"
+          }
+        }
+      ]
+    }
+  ]
+}

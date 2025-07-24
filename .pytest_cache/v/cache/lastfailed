@@ -1,9 +1,0 @@
-{
-  "tests/test_classifier.py::test_analyze_sentiment_edge_cases": true,
-  "tests/test_clustering.py::test_prepare_features": true,
-  "tests/test_cleaner.py::test_clean_text": true,
-  "tests/test_classifier.py::test_classify_reviews": true,
-  "tests/test_classifier.py::test_classify_reviews_rule_based_extremist": true,
-  "tests/test_clustering.py::test_cluster_users": true,
-  "tests/test_clustering.py::test_cluster_users_empty": true
-}
