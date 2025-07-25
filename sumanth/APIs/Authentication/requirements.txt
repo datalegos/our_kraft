@@ -1,6 +1,0 @@
-Flask
-PyMySQL
-mysql-connector-python
-PyJWT
-Werkzeug
-bcrypt
