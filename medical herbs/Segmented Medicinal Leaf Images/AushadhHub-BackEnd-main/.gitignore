@@ -1,0 +1,6 @@
+env
+.dockerignore
+DrumStick.jpg
+FrontEndTest.py
+.gcloudignore
+readmeprivate.md

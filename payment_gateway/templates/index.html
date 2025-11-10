@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway POC - Stripe & Razorpay</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💳 Payment Gateway POC</h1>
+            <p>Test Stripe & Razorpay payment integrations with FREE test APIs</p>
+        </header>
+
+        <div class="payment-form">
+            <h2>Payment Information</h2>
+            
+            <div class="form-group">
+                <label for="gateway">Payment Gateway</label>
+                <input type="text" id="gateway" name="gateway" value="Stripe (Test Mode)" readonly>
+                <small>Using Stripe test API - No real money involved</small>
+            </div>
+
+            <div class="form-group">
+                <label for="amount">Amount</label>
+                <input type="number" id="amount" name="amount" min="0.50" step="0.01" value="10.00" required>
+                <small id="currencyNote">Minimum: $0.50 USD / ₹50 INR (Test card: 4242 4242 4242 4242)</small>
+            </div>
+
+            <div class="form-group">
+                <label for="currency">Currency</label>
+                <select id="currency" name="currency">
+                    <option value="usd">USD - US Dollar</option>
+                    <option value="inr">INR - Indian Rupee</option>
+                    <option value="eur">EUR - Euro</option>
+                </select>
+            </div>
+
+            <button id="processPayment" class="btn-primary">Process Payment</button>
+            <button id="exploreAPI" class="btn-secondary">Explore API Calls</button>
+        </div>
+
+        <div class="test-cards">
+            <h3>Test Card Numbers</h3>
+            <div class="test-card-info">
+                <strong>Stripe Test Cards:</strong>
+                <ul>
+                    <li>✅ Success: 4242 4242 4242 4242</li>
+                    <li>❌ Decline: 4000 0000 0000 0002</li>
+                    <li>🔐 3D Secure: 4000 0027 6000 3184</li>
+                    <li>💰 Insufficient Funds: 4000 0000 0000 9995</li>
+                    <li>Use any future expiry date & any CVC</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="api-log">
+            <h2>API Call Log</h2>
+            <div id="apiLog" class="log-content">
+                <p class="log-info">Click "Explore API Calls" to see how payment APIs work step by step</p>
+            </div>
+            <button id="clearLog" class="btn-clear">Clear Log</button>
+        </div>
+
+        <div class="payment-status" id="paymentStatus" style="display: none;">
+            <h2>Payment Status</h2>
+            <div id="statusContent"></div>
+        </div>
+    </div>
+
+    <script>
+        // Pass Stripe publishable key to frontend
+        const STRIPE_PUBLISHABLE_KEY = "{{ stripe_publishable_key }}";
+    </script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
