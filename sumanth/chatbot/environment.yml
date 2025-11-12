@@ -22,5 +22,8 @@ dependencies:
       - langchain-text-splitters
       - faiss-cpu
       - sentence-transformers
-      - python-dotenv
       - openai
+      # Document processing
+      - PyPDF2
+      - python-docx
+      - reportlab

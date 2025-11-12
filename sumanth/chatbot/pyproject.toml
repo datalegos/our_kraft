@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chatbot"
+version = "1.0.0"
+description = "Optimized AI chatbot with RAG and token optimization"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "DataLegos"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+dependencies = [
+    "gradio",
+    "langchain",
+    "langchain-community",
+    "langchain-text-splitters",
+    "faiss-cpu",
+    "sentence-transformers",
+    "openai",
+    "beautifulsoup4",
+    "requests",
+    "pyyaml",
+    "PyPDF2",
+    "python-docx",
+    "reportlab",
+]
+
+[project.scripts]
+chatbot = "chatbot.core.app:main"
+create-embeddings = "chatbot.processors.embeddings:main"
+scraper = "chatbot.processors.scraper:main"
+
+[tool.setuptools]
+packages = ["chatbot"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+

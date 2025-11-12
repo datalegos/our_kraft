@@ -1,0 +1,130 @@
+# Chatbot Application Configuration
+# All settings for the chatbot application are defined here
+
+# OpenAI Configuration
+openai:
+  api_key: ""  # Set your OpenAI API key here
+  model: "gpt-4o-mini"
+  temperature: 0.7
+  max_tokens: 2000  # Increased for comprehensive answers
+
+# Embedding Configuration
+embedding:
+  model: "BAAI/bge-small-en-v1.5"
+  faiss_index_dir: "faiss_index_bge_small"
+
+# RAG (Retrieval-Augmented Generation) Configuration
+rag:
+  k_documents: 8  # Number of documents to retrieve initially (increased for better coverage)
+  k_final: 6  # Number of documents after re-ranking (increased for comprehensive answers)
+  chunk_size: 500  # Text chunk size in words
+  chunk_overlap: 50  # Overlap between chunks in words
+  min_chunk_size: 50  # Minimum chunk size to keep
+  max_chunk_tokens: 300  # Maximum tokens per chunk (increased)
+  use_semantic_chunking: true  # Use semantic chunking (preserves context better)
+  use_reranking: true  # Re-rank documents by relevance
+  use_context_compression: false  # Disable compression to preserve all details
+  max_context_tokens: 4000  # Maximum tokens for context (increased for comprehensive answers)
+
+# Document Processing Configuration
+document_processor:
+  input_path: "documents"  # Path to document file or directory
+  recursive: false  # Process files recursively in directories
+  supported_formats: [".pdf", ".docx", ".txt", ".md", ".markdown"]
+
+# Scraper Configuration (optional - for web scraping)
+scraper:
+  url: "https://www.data-legos.com"  # Website URL to scrape (leave empty to use command line argument)
+  config_file: "scraper_config.yaml"
+  timeout: 10  # Request timeout in seconds
+  max_retries: 3  # Maximum retries for failed requests
+  delay: 1.0  # Delay between requests in seconds
+  content_file: "content.txt"
+  max_pages: 10  # Maximum number of pages to scrape
+
+# Application Configuration
+app:
+  title: "DataLegos Info Genie"
+  description: "Feel free to ask any queries related to our company :)"
+  host: "127.0.0.1"
+  port: 7860
+  share: false  # Set to true to create a public Gradio link
+
+# Logging Configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "chatbot.log"
+
+# Fallback Messages
+fallbacks:
+  no_answer: |
+    I apologize, but I don't have enough information to answer your question.
+    Please contact us directly, and we'll be happy to help you with your query.
+  error: |
+    I'm sorry, I encountered an error while processing your request.
+    Please try again or contact us for assistance.
+
+# System Prompt Template (optimized for crisp responses with detailed option)
+system_prompt: |
+  You are an expert information assistant for DataLegos. Your role is to provide accurate, crisp answers from the provided context.
+
+  CRITICAL INSTRUCTIONS:
+  1. RESPONSE STYLE: By default, provide CRISP and CONCISE answers. Be brief and to the point.
+  2. DETAILED RESPONSES: Only provide detailed/comprehensive answers when the user explicitly asks for:
+     - "detailed", "comprehensive", "full", "complete", "everything", "all information", "in depth", "elaborate", "expand"
+     - Or similar phrases requesting more information
+  3. When providing crisp answers, still include all essential information:
+     - Team questions: Names, roles (brief highlights)
+     - Address questions: Complete address (street, city, state, postal code)
+     - Contact questions: Phone, email, office hours
+     - Service questions: Key services and capabilities
+  4. Extract ALL relevant information from the context, including:
+     - Team members, founders, leadership (names, roles, backgrounds, quotes)
+     - Physical addresses (both corporate and registered office)
+     - Contact details (phone, email, office hours)
+     - Services, expertise, and capabilities
+     - Company history, values, and mission
+  5. If information exists in the context, provide it. Do not say "I don't know" if the information is present
+  6. Format crisp answers clearly (use bullet points for lists, keep paragraphs short)
+  7. For detailed responses: Include all relevant details, backgrounds, quotes, and comprehensive information
+  8. Be professional, friendly, and helpful
+  9. Only say you don't know if the information is genuinely not in the provided context
+
+  Context: {context}
+
+  Question: {query}
+
+  Answer (crisp and concise, unless detailed information is explicitly requested):
+
+# Conversation Memory Configuration
+memory:
+  max_recent_messages: 10  # Sliding window size
+  summarization_threshold: 20  # Messages before summarization
+  storage_dir: "conversations"  # Directory for conversation storage
+
+# Query Routing Configuration
+routing:
+  faq_file: "faq_database.json"  # FAQ database file
+  similarity_threshold: 0.6  # FAQ matching threshold (0-1)
+  enable_routing: true  # Enable query classification and routing
+
+# Response Caching Configuration
+cache:
+  cache_dir: "cache"  # Cache storage directory
+  default_ttl_hours: 24  # Default cache TTL in hours
+  similarity_threshold: 0.85  # Similarity threshold for cache matching (0-1)
+  enable_caching: true  # Enable response caching
+
+# Token Control Configuration
+token_control:
+  max_input_tokens: 8000  # Maximum tokens for input (increased for more context)
+  max_output_tokens: 1500  # Maximum tokens for output (increased for comprehensive answers)
+  enable_streaming: false  # Enable streaming responses (future feature)
+  stop_sequences: []  # Removed stop sequences to allow complete answers
+
+# Analytics Configuration
+analytics:
+  analytics_dir: "analytics"  # Analytics storage directory
+  enable_tracking: true  # Enable analytics tracking
+  save_stats_interval: 100  # Save stats every N queries
+

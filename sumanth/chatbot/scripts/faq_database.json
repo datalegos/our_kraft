@@ -1,0 +1,35 @@
+{
+  "faqs": [
+    {
+      "question": "What are your business hours?",
+      "answer": "Our business hours are Monday to Friday, 9 AM to 5 PM EST.",
+      "keywords": [
+        "hours",
+        "time",
+        "open",
+        "when"
+      ]
+    },
+    {
+      "question": "How can I contact support?",
+      "answer": "You can contact our support team via email at support@company.com or call us at 1-800-XXX-XXXX.",
+      "keywords": [
+        "contact",
+        "support",
+        "help",
+        "email",
+        "phone"
+      ]
+    },
+    {
+      "question": "What is your return policy?",
+      "answer": "We offer a 30-day return policy on all products. Items must be in original condition.",
+      "keywords": [
+        "return",
+        "refund",
+        "policy",
+        "exchange"
+      ]
+    }
+  ]
+}
