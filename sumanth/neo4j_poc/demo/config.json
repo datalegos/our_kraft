@@ -1,0 +1,97 @@
+{
+  "database": {
+    "uri": "bolt://localhost:7687",
+    "username": "neo4j",
+    "password": "sumanth@dl",
+    "database": "student-placement"
+  },
+  "data_loading": {
+    "batch_size": 1000,
+    "create_constraints": true,
+    "create_indexes": true,
+    "clear_existing_data": false
+  },
+  "csv_settings": {
+    "file_path": "../Dataset/train.csv",
+    "encoding": "utf-8",
+    "delimiter": ",",
+    "skip_rows": 0,
+    "sample_size": 100
+  },
+  "graph_model": {
+    "nodes": {
+      "Student": {
+        "id_property": "Student_ID",
+        "properties": ["Student_ID", "Age", "Gender", "CGPA", "Aptitude_Test_Score", "Soft_Skills_Rating", "Backlogs"]
+      },
+      "Degree": {
+        "id_property": "name",
+        "properties": ["name"]
+      },
+      "Branch": {
+        "id_property": "name", 
+        "properties": ["name"]
+      },
+      "Skill": {
+        "id_property": "name",
+        "properties": ["name", "type"]
+      },
+      "PlacementStatus": {
+        "id_property": "status",
+        "properties": ["status"]
+      }
+    },
+    "relationships": [
+      {
+        "from": "Student",
+        "to": "Degree", 
+        "type": "PURSUING",
+        "condition": "Degree"
+      },
+      {
+        "from": "Student",
+        "to": "Branch",
+        "type": "SPECIALIZES_IN", 
+        "condition": "Branch"
+      },
+      {
+        "from": "Student",
+        "to": "Skill",
+        "type": "HAS_CODING_SKILL",
+        "condition": "Coding_Skills",
+        "properties": ["rating"]
+      },
+      {
+        "from": "Student", 
+        "to": "Skill",
+        "type": "HAS_COMMUNICATION_SKILL",
+        "condition": "Communication_Skills",
+        "properties": ["rating"]
+      },
+      {
+        "from": "Student",
+        "to": "PlacementStatus",
+        "type": "HAS_STATUS",
+        "condition": "Placement_Status"
+      }
+    ]
+  },
+  "property_transformations": {
+    "Student_ID": "integer",
+    "Age": "integer", 
+    "CGPA": "float",
+    "Internships": "integer",
+    "Projects": "integer",
+    "Coding_Skills": "integer",
+    "Communication_Skills": "integer", 
+    "Aptitude_Test_Score": "integer",
+    "Soft_Skills_Rating": "integer",
+    "Certifications": "integer",
+    "Backlogs": "integer"
+  },
+  "logging": {
+    "level": "INFO",
+    "show_progress": true,
+    "log_file": "data_loading.log"
+  }
+}
