@@ -1,0 +1,74 @@
+{
+  "system_name": "Two-Agent LangChain Agentic Neo4j System",
+  "version": "1.0.0",
+  "description": "Clean demonstration of multi-agent agentic behavior with AI-powered routing",
+  
+  "architecture": {
+    "framework": "LangChain + OpenAI",
+    "agent_count": 2,
+    "routing": "AI-powered (no keyword matching)",
+    "specialization": true
+  },
+  
+  "agents": [
+    {
+      "name": "Query Agent",
+      "specialization": "Direct database queries and data retrieval",
+      "tools": ["neo4j_query", "neo4j_schema"],
+      "memory": 8,
+      "temperature": 0.0,
+      "max_iterations": 5,
+      "focus": "Fast, precise data access"
+    },
+    {
+      "name": "Analytics Agent", 
+      "specialization": "Data analysis, insights, and complex reasoning",
+      "tools": ["neo4j_query", "neo4j_schema", "neo4j_data_loader", "neo4j_analytics"],
+      "memory": 12,
+      "temperature": 0.2,
+      "max_iterations": 10,
+      "focus": "Complex analysis and insights"
+    }
+  ],
+  
+  "router": {
+    "type": "AI-powered",
+    "model": "Uses same LLM as agents",
+    "temperature": 0.0,
+    "decision_process": "Analyzes request complexity and domain requirements",
+    "fallback": "Analytics Agent for comprehensive handling"
+  },
+  
+  "tools": [
+    {
+      "name": "neo4j_query",
+      "description": "Execute Cypher queries or convert natural language to queries",
+      "available_to": ["Query Agent", "Analytics Agent"]
+    },
+    {
+      "name": "neo4j_schema", 
+      "description": "Get database schema and structure information",
+      "available_to": ["Query Agent", "Analytics Agent"]
+    },
+    {
+      "name": "neo4j_data_loader",
+      "description": "Load CSV data with AI-powered analysis",
+      "available_to": ["Analytics Agent"]
+    },
+    {
+      "name": "neo4j_analytics",
+      "description": "Perform statistical analysis and insights",
+      "available_to": ["Analytics Agent"]
+    }
+  ],
+  
+  "agentic_features": {
+    "ai_powered_routing": "LLM analyzes requests and selects optimal agent",
+    "specialized_agents": "Each agent optimized for specific task types",
+    "autonomous_tool_selection": "Agents choose tools without hardcoded rules",
+    "multi_step_reasoning": "Can chain multiple operations for complex tasks",
+    "conversation_memory": "Each agent maintains context and history",
+    "error_recovery": "Graceful handling of failures with alternatives",
+    "transparent_reasoning": "Shows routing decisions and agent specializations"
+  }
+}
