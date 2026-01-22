@@ -1,0 +1,56 @@
+# Agentic ETL Configuration
+app:
+  name: "Agentic ETL System"
+  version: "1.0.0"
+
+# File Configuration
+file:
+  input_path: "data/train.csv"  # Set file path here, leave empty to prompt user
+  output_path: "output/processed_data.csv"  # Where to save processed data
+  metrics_path: "output/metrics_report.json"  # Where to save metrics report
+  neo4j_report_path: "output/neo4j_load_report.json"  # Where to save Neo4j load report
+  auto_process: true  # Automatically process if file path is configured
+  auto_save: true  # Automatically save processed data
+
+# Neo4j Configuration
+neo4j:
+  uri: "bolt://localhost:7687"  # Neo4j database URI
+  username: "neo4j"  # Neo4j username
+  password: "sumanth@dl"  # Neo4j password from environment variable
+  database: "neo4j"  # Database name (default: neo4j)
+
+# LLM Configuration
+llm:
+  provider: "openai"  # openai, anthropic, local
+  model: "gpt-4o-mini"
+  temperature: 0
+  max_tokens: 1000
+  api_key: "your_api_key"
+  
+# Agent Configuration
+agent:
+  max_iterations: 10
+  verbose: true
+  timeout_seconds: 60
+
+# ETL Configuration
+etl:
+  sample_content_chars: 500
+  supported_formats: ["csv", "xlsx", "xls", "json", "jsonl", "tsv"]
+  max_file_size_mb: 100
+  
+  # Default cleaning operations
+  default_operations:
+    - "remove_duplicates"
+    - "drop_nulls" 
+    - "clean_empty_strings"
+    - "standardize_columns"
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# Environment Variables
+environment:
+  OPENAI_API_KEY: "your-openai-key-here"

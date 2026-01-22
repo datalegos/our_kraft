@@ -1,0 +1,273 @@
+{
+  "data_quality": {
+    "null_rates": {
+      "student_id": 0.0,
+      "age": 0.0,
+      "gender": 0.0,
+      "degree": 0.0,
+      "branch": 0.0,
+      "cgpa": 0.0,
+      "internships": 0.0,
+      "projects": 0.0,
+      "coding_skills": 0.0,
+      "communication_skills": 0.0,
+      "aptitude_test_score": 0.0,
+      "soft_skills_rating": 0.0,
+      "certifications": 0.0,
+      "backlogs": 0.0,
+      "placement_status": 0.0
+    },
+    "duplicate_rate": 0.0,
+    "outlier_rates": {
+      "student_id": 0.0,
+      "age": 0.0,
+      "cgpa": 0.34,
+      "internships": 3.67,
+      "projects": 2.51,
+      "coding_skills": 0.0,
+      "communication_skills": 0.0,
+      "aptitude_test_score": 0.0,
+      "soft_skills_rating": 9.68,
+      "certifications": 0.0,
+      "backlogs": 0.0
+    }
+  },
+  "statistics": {
+    "numeric": {
+      "student_id": {
+        "mean": 24977.96,
+        "median": 24957.5,
+        "std": 14425.61,
+        "skew": 0.0
+      },
+      "age": {
+        "mean": 21.0,
+        "median": 21.0,
+        "std": 2.0,
+        "skew": 0.0
+      },
+      "cgpa": {
+        "mean": 7.0,
+        "median": 7.0,
+        "std": 0.99,
+        "skew": 0.03
+      },
+      "internships": {
+        "mean": 0.77,
+        "median": 1.0,
+        "std": 0.84,
+        "skew": 0.81
+      },
+      "projects": {
+        "mean": 3.73,
+        "median": 4.0,
+        "std": 0.92,
+        "skew": 0.01
+      },
+      "coding_skills": {
+        "mean": 5.69,
+        "median": 6.0,
+        "std": 1.99,
+        "skew": -0.02
+      },
+      "communication_skills": {
+        "mean": 5.5,
+        "median": 6.0,
+        "std": 1.52,
+        "skew": 0.0
+      },
+      "aptitude_test_score": {
+        "mean": 69.39,
+        "median": 69.0,
+        "std": 13.91,
+        "skew": -0.03
+      },
+      "soft_skills_rating": {
+        "mean": 5.5,
+        "median": 5.0,
+        "std": 1.24,
+        "skew": -0.01
+      },
+      "certifications": {
+        "mean": 1.8,
+        "median": 2.0,
+        "std": 0.65,
+        "skew": -0.03
+      },
+      "backlogs": {
+        "mean": 0.89,
+        "median": 1.0,
+        "std": 0.97,
+        "skew": 0.74
+      }
+    },
+    "categorical": {
+      "gender": {
+        "unique_count": 2,
+        "top_value": "Female",
+        "top_count": 22620
+      },
+      "degree": {
+        "unique_count": 4,
+        "top_value": "B.Sc",
+        "top_count": 11357
+      },
+      "branch": {
+        "unique_count": 5,
+        "top_value": "ME",
+        "top_count": 9056
+      },
+      "placement_status": {
+        "unique_count": 2,
+        "top_value": "Not Placed",
+        "top_count": 28688
+      }
+    }
+  },
+  "cardinality": {
+    "column_info": {
+      "student_id": {
+        "unique_count": 45000,
+        "ratio": 1.0
+      },
+      "age": {
+        "unique_count": 7,
+        "ratio": 0.0002
+      },
+      "gender": {
+        "unique_count": 2,
+        "ratio": 0.0
+      },
+      "degree": {
+        "unique_count": 4,
+        "ratio": 0.0001
+      },
+      "branch": {
+        "unique_count": 5,
+        "ratio": 0.0001
+      },
+      "cgpa": {
+        "unique_count": 531,
+        "ratio": 0.0118
+      },
+      "internships": {
+        "unique_count": 4,
+        "ratio": 0.0001
+      },
+      "projects": {
+        "unique_count": 6,
+        "ratio": 0.0001
+      },
+      "coding_skills": {
+        "unique_count": 10,
+        "ratio": 0.0002
+      },
+      "communication_skills": {
+        "unique_count": 10,
+        "ratio": 0.0002
+      },
+      "aptitude_test_score": {
+        "unique_count": 66,
+        "ratio": 0.0015
+      },
+      "soft_skills_rating": {
+        "unique_count": 10,
+        "ratio": 0.0002
+      },
+      "certifications": {
+        "unique_count": 4,
+        "ratio": 0.0001
+      },
+      "backlogs": {
+        "unique_count": 4,
+        "ratio": 0.0001
+      },
+      "placement_status": {
+        "unique_count": 2,
+        "ratio": 0.0
+      }
+    },
+    "index_recommendations": [
+      "student_id: Primary index (high cardinality)"
+    ]
+  },
+  "relationships": {
+    "entities": {
+      "student_id": {
+        "type": "Primary Entity",
+        "unique_ratio": 1.0
+      },
+      "age": {
+        "type": "Attribute",
+        "unique_ratio": 0.0
+      },
+      "gender": {
+        "type": "Attribute",
+        "unique_ratio": 0.0
+      },
+      "degree": {
+        "type": "Attribute",
+        "unique_ratio": 0.0
+      },
+      "branch": {
+        "type": "Attribute",
+        "unique_ratio": 0.0
+      },
+      "cgpa": {
+        "type": "Attribute",
+        "unique_ratio": 0.012
+      },
+      "internships": {
+        "type": "Attribute",
+        "unique_ratio": 0.0
+      },
+      "projects": {
+        "type": "Attribute",
+        "unique_ratio": 0.0
+      },
+      "coding_skills": {
+        "type": "Attribute",
+        "unique_ratio": 0.0
+      },
+      "communication_skills": {
+        "type": "Attribute",
+        "unique_ratio": 0.0
+      },
+      "aptitude_test_score": {
+        "type": "Attribute",
+        "unique_ratio": 0.001
+      },
+      "soft_skills_rating": {
+        "type": "Attribute",
+        "unique_ratio": 0.0
+      },
+      "certifications": {
+        "type": "Attribute",
+        "unique_ratio": 0.0
+      },
+      "backlogs": {
+        "type": "Attribute",
+        "unique_ratio": 0.0
+      },
+      "placement_status": {
+        "type": "Attribute",
+        "unique_ratio": 0.0
+      }
+    },
+    "graph_projection": {
+      "estimated_nodes": 45000,
+      "estimated_edges": 45000,
+      "density": "Medium"
+    }
+  },
+  "business_insights": {
+    "domain": "Education",
+    "data_completeness": 100.0,
+    "total_records": 45000,
+    "key_recommendations": [
+      "Data is 100.0% complete",
+      "Domain: Education - consider domain-specific KPIs",
+      "Ready for medium density graph processing"
+    ]
+  }
+}

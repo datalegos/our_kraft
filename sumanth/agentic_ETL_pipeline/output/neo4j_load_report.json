@@ -1,0 +1,63 @@
+{
+  "graph_analysis": {
+    "primary_entities": [
+      "student_id"
+    ],
+    "categorical_fields": [],
+    "relationship_fields": [],
+    "property_fields": [],
+    "index_recommendations": [
+      {
+        "column": "student_id",
+        "reason": "High cardinality (45000 unique values)"
+      }
+    ],
+    "total_records": 45000
+  },
+  "schema_creation": {
+    "constraints": [
+      "student_id"
+    ],
+    "indexes": [
+      "student_id"
+    ],
+    "data_action": "cleared_different_dataset",
+    "existing_nodes": 34000
+  },
+  "categorical_nodes": {},
+  "primary_entities": {
+    "nodes_created": 45000,
+    "nodes_updated": 0,
+    "existing_before": 0,
+    "node_type": "Student",
+    "property_fields": [
+      "student_id",
+      "age",
+      "gender",
+      "degree",
+      "branch",
+      "cgpa",
+      "internships",
+      "projects",
+      "coding_skills",
+      "communication_skills",
+      "aptitude_test_score",
+      "soft_skills_rating",
+      "certifications",
+      "backlogs",
+      "placement_status"
+    ],
+    "excluded_categorical": []
+  },
+  "relationships": {},
+  "final_stats": {
+    "total_nodes": 73380,
+    "total_relationships": 0,
+    "nodes_by_label": {
+      "Student": 45000,
+      "Placed": 16312,
+      "HighlySkilled": 12068
+    },
+    "relationships_by_type": {}
+  }
+}
