@@ -1,0 +1,5 @@
+car,
+gun,
+ring,
+table,
+laptop

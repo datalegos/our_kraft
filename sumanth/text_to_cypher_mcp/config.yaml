@@ -1,0 +1,55 @@
+# Text-to-Cypher Service Configuration
+
+# MCP Server Configuration
+mcp:
+  url: "http://neo4j-mcp:8000/mcp/"
+  timeout: 30
+
+# OpenAI Configuration
+openai:
+  api_key: "${OPENAI_API_KEY}"  # Set via environment variable
+  model: "gpt-4o-mini"
+  max_tokens: 200
+  temperature: 0.1
+
+# Security Configuration
+security:
+  max_query_length: 1000
+  allowed_operations:
+    - "MATCH"
+    - "RETURN" 
+    - "WHERE"
+    - "ORDER BY"
+    - "LIMIT"
+    - "COUNT"
+    - "WITH"
+    - "UNWIND"
+    - "DISTINCT"
+  blocked_operations:
+    - "DELETE"
+    - "CREATE"
+    - "MERGE"
+    - "SET"
+    - "REMOVE"
+    - "DROP"
+    - "DETACH DELETE"
+  blocked_keywords:
+    - "SHOW USERS"
+    - "SHOW DATABASES"
+    - "CALL dbms"
+    - "CALL apoc.export"
+    - "LOAD CSV"
+
+# Service Configuration
+service:
+  host: "0.0.0.0"
+  port: 8081
+  debug: false
+  log_level: "DEBUG"
+
+# Neo4j Configuration (for reference)
+neo4j:
+  uri: "bolt://neo4j:7687"
+  username: "neo4j"
+  password: "password"
+  database: "neo4j"

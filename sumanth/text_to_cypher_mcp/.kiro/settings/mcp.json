@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "text-to-cypher": {
+      "command": "node",
+      "args": ["text-to-cypher-mcp-server.js"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": [
+        "generate_cypher",
+        "execute_cypher",
+        "get_database_schema",
+        "health_check",
+        "get_config"
+      ]
+    }
+  }
+}

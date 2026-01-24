@@ -1,0 +1,80 @@
+services:
+  # Neo4j Database
+  neo4j:
+    image: neo4j:5.15-community
+    container_name: neo4j-db
+    ports:
+      - "7474:7474"  # HTTP
+      - "7687:7687"  # Bolt
+    environment:
+      - NEO4J_AUTH=neo4j/password
+      - NEO4J_PLUGINS=["apoc"]
+    volumes:
+      - neo4j_data:/data
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD-SHELL", "cypher-shell -u neo4j -p password 'RETURN 1'"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Official Neo4j MCP Server with text-to-cypher capabilities
+  neo4j-mcp:
+    image: mcp/neo4j-cypher:latest
+    container_name: neo4j-mcp-server
+    ports:
+      - "8000:8000"  # MCP Server HTTP API
+    environment:
+      - NEO4J_URL=bolt://neo4j:7687
+      - NEO4J_USERNAME=neo4j
+      - NEO4J_PASSWORD=password
+      - NEO4J_DATABASE=neo4j
+      - NEO4J_NAMESPACE=
+      - NEO4J_TRANSPORT=http
+      - NEO4J_MCP_SERVER_HOST=0.0.0.0
+      - NEO4J_MCP_SERVER_PORT=8000
+      - NEO4J_MCP_SERVER_PATH=/mcp/
+      - NEO4J_MCP_SERVER_ALLOW_ORIGINS=*
+      - NEO4J_MCP_SERVER_ALLOWED_HOSTS=localhost,127.0.0.1,neo4j-mcp,text-to-cypher
+      - NEO4J_READ_TIMEOUT=30
+      - NEO4J_RESPONSE_TOKEN_LIMIT=10000
+      - NEO4J_READ_ONLY=false
+      - NEO4J_SCHEMA_SAMPLE_SIZE=1000
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    restart: unless-stopped
+    networks: 
+      - app-network
+    # healthcheck:
+    #   test: ["CMD-SHELL", "wget --quiet --tries=1 --spider http://localhost:8000/mcp/ || exit 1"]
+    #   interval: 15s
+    #   timeout: 10s
+    #   retries: 3
+    #   start_period: 30s
+
+  # Text-to-Cypher REST API Service
+  text-to-cypher:
+    build:
+      context: ./mcp-wrapper
+      dockerfile: Dockerfile
+    container_name: text-to-cypher-api
+    ports:
+      - "8081:8081"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}  # Pass from environment
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro  # Mount config file
+    depends_on:
+      - neo4j-mcp
+    restart: unless-stopped
+    networks:
+      - app-network
+
+volumes:
+  neo4j_data:
+
+networks:
+  app-network:
+    driver: bridge
