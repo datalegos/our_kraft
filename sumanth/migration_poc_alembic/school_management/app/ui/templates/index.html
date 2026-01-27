@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Management System</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🎓 School Management System</h1>
+            <p>Manage departments and students with ease</p>
+        </div>
+
+        <!-- Navigation Tabs -->
+        <div class="nav-tabs">
+            <button class="nav-tab active" data-tab="departments">
+                📚 Departments
+            </button>
+            <button class="nav-tab" data-tab="students">
+                👨‍🎓 Students
+            </button>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="tab-content">
+            <!-- Departments Tab -->
+            <div id="departmentsTab" class="tab-pane active">
+                <div class="section-header">
+                    <h2 class="section-title">Departments</h2>
+                    <button id="addDepartmentBtn" class="btn btn-primary">
+                        ➕ Add Department
+                    </button>
+                </div>
+
+                <div id="departmentsLoading" class="loading">
+                    <p>Loading departments...</p>
+                </div>
+
+                <div class="table-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Description</th>
+                                <th>Students</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="departmentsTableBody">
+                            <!-- Departments will be loaded here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Students Tab -->
+            <div id="studentsTab" class="tab-pane">
+                <div class="section-header">
+                    <h2 class="section-title">Students</h2>
+                    <button id="addStudentBtn" class="btn btn-primary">
+                        ➕ Add Student
+                    </button>
+                </div>
+
+                <div id="studentsLoading" class="loading">
+                    <p>Loading students...</p>
+                </div>
+
+                <div class="table-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Student ID</th>
+                                <th>Email</th>
+                                <th>Phone</th>
+                                <th>Department</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="studentsTableBody">
+                            <!-- Students will be loaded here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Department Modal -->
+    <div id="departmentModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="departmentModalTitle" class="modal-title">Add Department</h3>
+                <button class="close">&times;</button>
+            </div>
+            <form id="departmentForm">
+                <input type="hidden" id="departmentId" name="id">
+                
+                <div class="form-group">
+                    <label for="departmentName" class="form-label">Department Name *</label>
+                    <input type="text" id="departmentName" name="name" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="departmentDescription" class="form-label">Description</label>
+                    <textarea id="departmentDescription" name="description" class="form-control" rows="3"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Save Department</button>
+                    <button type="button" class="btn btn-secondary close">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Student Modal -->
+    <div id="studentModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="studentModalTitle" class="modal-title">Add Student</h3>
+                <button class="close">&times;</button>
+            </div>
+            <form id="studentForm">
+                <input type="hidden" id="studentId" name="id">
+                
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="studentFirstName" class="form-label">First Name *</label>
+                        <input type="text" id="studentFirstName" name="first_name" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="studentLastName" class="form-label">Last Name *</label>
+                        <input type="text" id="studentLastName" name="last_name" class="form-control" required>
+                    </div>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="studentEmail" class="form-label">Email *</label>
+                        <input type="email" id="studentEmail" name="email" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="studentStudentId" class="form-label">Student ID *</label>
+                        <input type="text" id="studentStudentId" name="student_id" class="form-control" required>
+                    </div>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="studentPhone" class="form-label">Phone</label>
+                        <input type="tel" id="studentPhone" name="phone" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="studentDepartment" class="form-label">Department</label>
+                        <select id="studentDepartment" name="department_id" class="form-control">
+                            <option value="">Select Department (Optional)</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="studentAddress" class="form-label">Address</label>
+                    <textarea id="studentAddress" name="address" class="form-control" rows="3"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Save Student</button>
+                    <button type="button" class="btn btn-secondary close">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
