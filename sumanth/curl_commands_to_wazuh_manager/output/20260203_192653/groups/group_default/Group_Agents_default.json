@@ -1,0 +1,126 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "os": {
+          "build": "26200.7623",
+          "major": "10",
+          "minor": "0",
+          "name": "Microsoft Windows 11 Home Single Language",
+          "platform": "windows",
+          "uname": "Microsoft Windows 11 Home Single Language",
+          "version": "10.0.26200.7623"
+        },
+        "configSum": "ab73af41699f13fdd81903b5f23d8d00",
+        "disconnection_time": "2026-02-03T12:53:51+00:00",
+        "group_config_status": "synced",
+        "manager": "wazuh.manager",
+        "mergedSum": "e15cd0c9f7dec03be7b82012b99d73bf",
+        "status": "disconnected",
+        "name": "vishnu",
+        "version": "Wazuh v4.14.2",
+        "id": "001",
+        "node_name": "node01",
+        "dateAdd": "2026-01-29T09:26:47+00:00",
+        "registerIP": "any",
+        "group": [
+          "default"
+        ],
+        "lastKeepAlive": "2026-02-03T12:37:01+00:00",
+        "ip": "192.168.0.10",
+        "status_code": 4
+      },
+      {
+        "os": {
+          "arch": "arm64",
+          "codename": "Unknown",
+          "major": "26",
+          "minor": "2",
+          "name": "macOS",
+          "platform": "darwin",
+          "uname": "Darwin |Naveens-MacBook-Air.local |25.2.0 |Darwin Kernel Version 25.2.0: Tue Nov 18 21:08:48 PST 2025; root:xnu-12377.61.12~1/RELEASE_ARM64_T8132 |arm64",
+          "version": "26.2"
+        },
+        "configSum": "ab73af41699f13fdd81903b5f23d8d00",
+        "group_config_status": "synced",
+        "manager": "wazuh.manager",
+        "mergedSum": "e15cd0c9f7dec03be7b82012b99d73bf",
+        "status": "active",
+        "name": "naveen",
+        "version": "Wazuh v4.14.2",
+        "id": "002",
+        "node_name": "node01",
+        "dateAdd": "2026-01-29T09:41:23+00:00",
+        "registerIP": "any",
+        "group": [
+          "default"
+        ],
+        "lastKeepAlive": "2026-02-03T13:58:35+00:00",
+        "ip": "192.168.0.11",
+        "status_code": 0
+      },
+      {
+        "os": {
+          "build": "26200.7623",
+          "major": "10",
+          "minor": "0",
+          "name": "Microsoft Windows 11 Home Single Language",
+          "platform": "windows",
+          "uname": "Microsoft Windows 11 Home Single Language",
+          "version": "10.0.26200.7623"
+        },
+        "configSum": "ab73af41699f13fdd81903b5f23d8d00",
+        "disconnection_time": "2026-02-03T12:33:51+00:00",
+        "group_config_status": "synced",
+        "manager": "wazuh.manager",
+        "mergedSum": "e15cd0c9f7dec03be7b82012b99d73bf",
+        "status": "disconnected",
+        "name": "sathwik",
+        "version": "Wazuh v4.14.2",
+        "id": "003",
+        "node_name": "node01",
+        "dateAdd": "2026-01-29T10:11:59+00:00",
+        "registerIP": "any",
+        "group": [
+          "default"
+        ],
+        "lastKeepAlive": "2026-02-03T12:16:52+00:00",
+        "ip": "192.168.0.9",
+        "status_code": 4
+      },
+      {
+        "os": {
+          "build": "26200.7623",
+          "major": "10",
+          "minor": "0",
+          "name": "Microsoft Windows 11 Home Single Language",
+          "platform": "windows",
+          "uname": "Microsoft Windows 11 Home Single Language",
+          "version": "10.0.26200.7623"
+        },
+        "configSum": "ab73af41699f13fdd81903b5f23d8d00",
+        "group_config_status": "synced",
+        "manager": "wazuh.manager",
+        "mergedSum": "e15cd0c9f7dec03be7b82012b99d73bf",
+        "status": "active",
+        "name": "gokul",
+        "version": "Wazuh v4.14.2",
+        "id": "004",
+        "node_name": "node01",
+        "dateAdd": "2026-01-29T10:14:36+00:00",
+        "registerIP": "any",
+        "group": [
+          "default"
+        ],
+        "lastKeepAlive": "2026-02-03T13:58:17+00:00",
+        "ip": "192.168.31.180",
+        "status_code": 0
+      }
+    ],
+    "total_affected_items": 4,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All selected agents information was returned",
+  "error": 0
+}

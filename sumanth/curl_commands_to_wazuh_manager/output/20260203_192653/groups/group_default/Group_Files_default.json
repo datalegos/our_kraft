@@ -1,0 +1,107 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "filename": "agent.conf",
+        "hash": "ab73af41699f13fdd81903b5f23d8d00"
+      },
+      {
+        "filename": "ar.conf",
+        "hash": "ed6aa40f37b0ebf910765b5a1633e294"
+      },
+      {
+        "filename": "cis_apache2224_rcl.txt",
+        "hash": "8b74055e0b72ad5e06dc0468f4e992ef"
+      },
+      {
+        "filename": "cis_debian_linux_rcl.txt",
+        "hash": "52bca6f514fede26c4edaf3112614447"
+      },
+      {
+        "filename": "cis_mysql5-6_community_rcl.txt",
+        "hash": "23f48bac6361e28e3cfe9dae65d9cdb7"
+      },
+      {
+        "filename": "cis_mysql5-6_enterprise_rcl.txt",
+        "hash": "732e1cc44433ecd8c13be1b6967eaabc"
+      },
+      {
+        "filename": "cis_rhel5_linux_rcl.txt",
+        "hash": "80c48eb8d9fc25a2bf19f1538d4dc11a"
+      },
+      {
+        "filename": "cis_rhel6_linux_rcl.txt",
+        "hash": "e823532eaa108671cbcb0bf4c687dd8b"
+      },
+      {
+        "filename": "cis_rhel7_linux_rcl.txt",
+        "hash": "7331ea6f235ad8cee69441df3a0a94d1"
+      },
+      {
+        "filename": "cis_rhel_linux_rcl.txt",
+        "hash": "287276a269d9d412229e06e6aae19aa3"
+      },
+      {
+        "filename": "cis_sles11_linux_rcl.txt",
+        "hash": "b774694648d06196c62f18b65c6ae362"
+      },
+      {
+        "filename": "cis_sles12_linux_rcl.txt",
+        "hash": "fdc029f8b838b55395ca317cc4e2bb16"
+      },
+      {
+        "filename": "cis_win2012r2_domainL1_rcl.txt",
+        "hash": "7621888a614065f8a80d3e243f6dd0b2"
+      },
+      {
+        "filename": "cis_win2012r2_domainL2_rcl.txt",
+        "hash": "5cc644ed02a62341960fd46d50e30399"
+      },
+      {
+        "filename": "cis_win2012r2_memberL1_rcl.txt",
+        "hash": "21580a5bd6fa4362deba1070613032d1"
+      },
+      {
+        "filename": "cis_win2012r2_memberL2_rcl.txt",
+        "hash": "39fec042d6f9f68ae6ed6837dd9d36ce"
+      },
+      {
+        "filename": "merged.mg",
+        "hash": "e15cd0c9f7dec03be7b82012b99d73bf"
+      },
+      {
+        "filename": "rootkit_files.txt",
+        "hash": "6943964a87d768d8434fffbaceda89f2"
+      },
+      {
+        "filename": "rootkit_trojans.txt",
+        "hash": "1e76bd210e04f1a1bc8bd735dad81eff"
+      },
+      {
+        "filename": "system_audit_rcl.txt",
+        "hash": "cf63d35a9e7ffdf943c41894f0598f0f"
+      },
+      {
+        "filename": "system_audit_ssh.txt",
+        "hash": "d6384ddcd72864a14bc73e433e3aaf17"
+      },
+      {
+        "filename": "win_applications_rcl.txt",
+        "hash": "ea5686ce6eafe5268bdba42ea367ec17"
+      },
+      {
+        "filename": "win_audit_rcl.txt",
+        "hash": "7081a34961d9d0244a0238d4000b9821"
+      },
+      {
+        "filename": "win_malware_rcl.txt",
+        "hash": "fff2987d676b4bb0a296456a559794de"
+      }
+    ],
+    "total_affected_items": 24,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All selected groups files were returned",
+  "error": 0
+}

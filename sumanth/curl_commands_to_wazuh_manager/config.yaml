@@ -1,0 +1,224 @@
+auth:
+  type: basic
+  username: wazuh-wui
+  password: MyS3cr37P450r.*-
+
+# Base URL for all requests
+base_url: https://62.171.191.132:55000
+
+# Configuration for data retrieval
+data_retrieval:
+  get_full_data: true  # Set to true to get complete data (removes most limits)
+  max_packages: 10000  # Maximum packages per agent
+  max_processes: 5000  # Maximum processes per agent
+  max_ports: 5000      # Maximum ports per agent
+  max_fim_entries: 5000 # Maximum FIM entries per agent
+  max_rootcheck: 5000  # Maximum rootcheck entries per agent
+  max_rules: 10000     # Maximum rules
+  max_decoders: 5000   # Maximum decoders
+
+# Configuration for dynamic agent ID retrieval
+agent_discovery:
+  enabled: true
+  max_agents: 0  # 0 = get all agents, no limit
+  agent_filters:
+    # status: active  # Commented out to get all agents regardless of status
+    # os.platform: linux  # Optional: filter by OS platform
+    # group: default       # Optional: filter by group
+
+# Static requests (no agent ID required)
+static_requests:
+  - name: Root API Info
+    endpoint: /
+    params:
+      pretty: true
+
+  - name: Manager Info
+    endpoint: /manager/info
+    params:
+      pretty: true
+
+  - name: Manager Configuration
+    endpoint: /manager/configuration
+    params:
+      pretty: true
+
+  - name: Manager Status
+    endpoint: /manager/status
+    params:
+      pretty: true
+
+  - name: Manager Stats
+    endpoint: /manager/stats
+    params:
+      pretty: true
+
+  - name: Manager Stats Hourly
+    endpoint: /manager/stats/hourly
+    params:
+      pretty: true
+
+  - name: Manager Stats Weekly
+    endpoint: /manager/stats/weekly
+    params:
+      pretty: true
+
+  - name: All Agents
+    endpoint: /agents
+    params:
+      pretty: true
+      limit: 1000
+      sort: id
+
+  - name: Agents Summary
+    endpoint: /agents/summary
+    params:
+      pretty: true
+
+  - name: Agents Summary Status
+    endpoint: /agents/summary/status
+    params:
+      pretty: true
+
+  - name: Groups List
+    endpoint: /groups
+    params:
+      pretty: true
+      limit: 500
+
+  - name: Rules List
+    endpoint: /rules
+    params:
+      pretty: true
+      limit: 10000  # Increased limit to get all rules
+      sort: id
+
+  - name: Decoders List
+    endpoint: /decoders
+    params:
+      pretty: true
+      limit: 5000   # Increased limit to get all decoders
+      sort: name
+
+  - name: MITRE Techniques
+    endpoint: /mitre/techniques
+    params:
+      pretty: true
+      limit: 2000   # Increased limit to get all techniques
+
+  - name: MITRE Tactics
+    endpoint: /mitre/tactics
+    params:
+      pretty: true
+      limit: 500    # Increased limit to get all tactics
+
+  - name: Cluster Status
+    endpoint: /cluster/status
+    params:
+      pretty: true
+
+  - name: Security Configuration
+    endpoint: /security/config
+    params:
+      pretty: true
+
+  - name: Security Users
+    endpoint: /security/users
+    params:
+      pretty: true
+      limit: 500
+
+  - name: Security Roles
+    endpoint: /security/roles
+    params:
+      pretty: true
+      limit: 500
+
+  - name: Security Policies
+    endpoint: /security/policies
+    params:
+      pretty: true
+      limit: 500
+
+# Agent-specific requests (will be executed for each discovered agent)
+agent_specific_requests:
+  # Note: Agent statistics endpoints don't exist in Wazuh API v4.14.2
+  # Statistics are available at manager level only
+  
+  - name: Syscollector OS Info
+    endpoint: /syscollector/{agent_id}/os
+    params:
+      pretty: true
+
+  - name: Syscollector Hardware
+    endpoint: /syscollector/{agent_id}/hardware
+    params:
+      pretty: true
+
+  - name: Syscollector Packages
+    endpoint: /syscollector/{agent_id}/packages
+    params:
+      pretty: true
+      limit: 10000  # Increased limit to get all packages
+
+  - name: Syscollector Processes
+    endpoint: /syscollector/{agent_id}/processes
+    params:
+      pretty: true
+      limit: 5000   # Increased limit to get all processes
+
+  - name: Syscollector Network Interfaces
+    endpoint: /syscollector/{agent_id}/netiface
+    params:
+      pretty: true
+
+  - name: Syscollector Network Addresses
+    endpoint: /syscollector/{agent_id}/netaddr
+    params:
+      pretty: true
+
+  - name: Syscollector Ports
+    endpoint: /syscollector/{agent_id}/ports
+    params:
+      pretty: true
+      limit: 5000   # Increased limit to get all ports
+
+  - name: File Integrity Monitoring
+    endpoint: /syscheck/{agent_id}
+    params:
+      pretty: true
+      limit: 5000   # Increased limit to get all FIM data
+
+  - name: Rootcheck
+    endpoint: /rootcheck/{agent_id}
+    params:
+      pretty: true
+      limit: 5000   # Increased limit to get all rootcheck data
+
+  - name: Security Configuration Assessment
+    endpoint: /sca/{agent_id}
+    params:
+      pretty: true
+
+  - name: Agent Key Info
+    endpoint: /agents/{agent_id}/key
+    params:
+      pretty: true
+
+# Optional: Group-specific requests (will be executed for each discovered group)
+group_specific_requests:
+  - name: Group Agents
+    endpoint: /groups/{group_id}/agents
+    params:
+      pretty: true
+      limit: 20
+
+  - name: Group Configuration
+    endpoint: /groups/{group_id}/configuration
+    params:
+      pretty: true
+
+  - name: Group Files
+    endpoint: /groups/{group_id}/files
+    params:
+      pretty: true

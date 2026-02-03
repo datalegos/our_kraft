@@ -1,0 +1,297 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "global": {
+          "jsonout_output": "yes",
+          "alerts_log": "yes",
+          "logall": "no",
+          "logall_json": "no",
+          "email_notification": "no",
+          "smtp_server": "smtp.example.wazuh.com",
+          "email_from": "wazuh@example.wazuh.com",
+          "email_to": "recipient@example.wazuh.com",
+          "email_maxperhour": "12",
+          "email_log_source": "alerts.log",
+          "agents_disconnection_time": "10m",
+          "agents_disconnection_alert_time": "0",
+          "white_list": [
+            "127.0.0.1",
+            "^localhost.localdomain$"
+          ]
+        },
+        "alerts": {
+          "log_alert_level": "3",
+          "email_alert_level": "12"
+        },
+        "remote": [
+          {
+            "connection": "secure",
+            "port": "1514",
+            "protocol": [
+              "tcp"
+            ],
+            "queue_size": "131072"
+          }
+        ],
+        "rootcheck": {
+          "disabled": "no",
+          "check_files": "yes",
+          "check_trojans": "yes",
+          "check_dev": "yes",
+          "check_sys": "yes",
+          "check_pids": "yes",
+          "check_ports": "yes",
+          "check_if": "yes",
+          "frequency": "43200",
+          "rootkit_files": [
+            "etc/rootcheck/rootkit_files.txt"
+          ],
+          "rootkit_trojans": [
+            "etc/rootcheck/rootkit_trojans.txt"
+          ],
+          "skip_nfs": "yes"
+        },
+        "cis-cat": {
+          "disabled": "yes",
+          "timeout": "1800",
+          "interval": "1d",
+          "scan-on-start": "yes",
+          "java_path": "wodles/java",
+          "ciscat_path": "wodles/ciscat"
+        },
+        "osquery": {
+          "disabled": "yes",
+          "run_daemon": "yes",
+          "log_path": "/var/log/osquery/osqueryd.results.log",
+          "config_path": "/etc/osquery/osquery.conf",
+          "add_labels": "yes"
+        },
+        "syscollector": {
+          "disabled": "no",
+          "interval": "1h",
+          "scan_on_start": "yes",
+          "hardware": "yes",
+          "os": "yes",
+          "network": "yes",
+          "packages": "yes",
+          "ports": {
+            "all": "yes",
+            "item": "yes"
+          },
+          "processes": "yes",
+          "synchronization": {
+            "max_eps": [
+              "10"
+            ]
+          }
+        },
+        "sca": {
+          "enabled": "yes",
+          "scan_on_start": "yes",
+          "interval": "12h",
+          "skip_nfs": "yes"
+        },
+        "vulnerability-detection": {
+          "enabled": "yes",
+          "index-status": "yes",
+          "feed-update-interval": "60m"
+        },
+        "indexer": {
+          "enabled": "yes",
+          "hosts": [
+            "https://wazuh.indexer:9200"
+          ],
+          "ssl": {
+            "certificate_authorities": [
+              {
+                "ca": [
+                  "/etc/ssl/root-ca.pem"
+                ]
+              }
+            ],
+            "certificate": [
+              "/etc/ssl/filebeat.pem"
+            ],
+            "key": [
+              "/etc/ssl/filebeat.key"
+            ]
+          }
+        },
+        "syscheck": {
+          "disabled": "no",
+          "frequency": "43200",
+          "scan_on_start": "yes",
+          "alert_new_files": "yes",
+          "auto_ignore": {
+            "frequency": "10",
+            "timeframe": "3600",
+            "item": "no"
+          },
+          "directories": [
+            {
+              "path": "/etc"
+            },
+            {
+              "path": "/usr/bin"
+            },
+            {
+              "path": "/usr/sbin"
+            },
+            {
+              "path": "/bin"
+            },
+            {
+              "path": "/sbin"
+            },
+            {
+              "path": "/boot"
+            }
+          ],
+          "ignore": [
+            "/etc/mtab",
+            "/etc/hosts.deny",
+            "/etc/mail/statistics",
+            "/etc/random-seed",
+            "/etc/random.seed",
+            "/etc/adjtime",
+            "/etc/httpd/logs",
+            "/etc/utmpx",
+            "/etc/wtmpx",
+            "/etc/cups/certs",
+            "/etc/dumpdates",
+            "/etc/svc/volatile",
+            {
+              "type": "sregex",
+              "item": ".log$|.swp$"
+            }
+          ],
+          "nodiff": [
+            "/etc/ssl/private.key"
+          ],
+          "skip_nfs": "yes",
+          "skip_dev": "yes",
+          "skip_proc": "yes",
+          "skip_sys": "yes",
+          "process_priority": "10",
+          "max_eps": "100",
+          "synchronization": {
+            "enabled": "yes",
+            "interval": "5m",
+            "max_interval": "1h",
+            "max_eps": "10"
+          }
+        },
+        "command": [
+          {
+            "name": "disable-account",
+            "executable": "disable-account",
+            "timeout_allowed": "yes"
+          },
+          {
+            "name": "restart-wazuh",
+            "executable": "restart-wazuh"
+          },
+          {
+            "name": "firewall-drop",
+            "executable": "firewall-drop",
+            "timeout_allowed": "yes"
+          },
+          {
+            "name": "host-deny",
+            "executable": "host-deny",
+            "timeout_allowed": "yes"
+          },
+          {
+            "name": "route-null",
+            "executable": "route-null",
+            "timeout_allowed": "yes"
+          },
+          {
+            "name": "win_route-null",
+            "executable": "route-null.exe",
+            "timeout_allowed": "yes"
+          },
+          {
+            "name": "netsh",
+            "executable": "netsh.exe",
+            "timeout_allowed": "yes"
+          }
+        ],
+        "localfile": [
+          {
+            "log_format": "command",
+            "command": "df -P",
+            "frequency": "360"
+          },
+          {
+            "log_format": "full_command",
+            "command": "netstat -tulpn | sed 's/\\([[:alnum:]]\\+\\)\\ \\+[[:digit:]]\\+\\ \\+[[:digit:]]\\+\\ \\+\\(.*\\):\\([[:digit:]]*\\)\\ \\+\\([0-9\\.\\:\\*]\\+\\).\\+\\ \\([[:digit:]]*\\/[[:alnum:]\\-]*\\).*/\\1 \\2 == \\3 == \\4 \\5/' | sort -k 4 -g | sed 's/ == \\(.*\\) ==/:\\1/' | sed 1,2d",
+            "alias": "netstat listening ports",
+            "frequency": "360"
+          },
+          {
+            "log_format": "full_command",
+            "command": "last -n 20",
+            "frequency": "360"
+          },
+          {
+            "log_format": "syslog",
+            "location": "/var/ossec/logs/active-responses.log"
+          }
+        ],
+        "ruleset": {
+          "decoder_dir": [
+            "ruleset/decoders",
+            "etc/decoders"
+          ],
+          "rule_dir": [
+            "ruleset/rules",
+            "etc/rules"
+          ],
+          "rule_exclude": [
+            "0215-policy_rules.xml"
+          ],
+          "list": [
+            "etc/lists/audit-keys",
+            "etc/lists/amazon/aws-eventnames",
+            "etc/lists/security-eventchannel",
+            "etc/lists/malicious-ioc/malicious-ip",
+            "etc/lists/malicious-ioc/malicious-domains",
+            "etc/lists/malicious-ioc/malware-hashes"
+          ]
+        },
+        "auth": {
+          "disabled": "no",
+          "port": "1515",
+          "use_source_ip": "no",
+          "purge": "yes",
+          "use_password": "no",
+          "ciphers": "HIGH:!ADH:!EXP:!MD5:!RC4:!3DES:!CAMELLIA:@STRENGTH",
+          "ssl_verify_host": "no",
+          "ssl_manager_cert": "etc/sslmanager.cert",
+          "ssl_manager_key": "etc/sslmanager.key",
+          "ssl_auto_negotiate": "no"
+        },
+        "cluster": {
+          "name": "wazuh",
+          "node_name": "node01",
+          "node_type": "master",
+          "key": "aa093264ef885029653eea20dfcf51ae",
+          "port": "1516",
+          "bind_addr": "0.0.0.0",
+          "nodes": [
+            "wazuh.manager"
+          ],
+          "hidden": "no",
+          "disabled": "yes"
+        }
+      }
+    ],
+    "total_affected_items": 1,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "Configuration was successfully read",
+  "error": 0
+}

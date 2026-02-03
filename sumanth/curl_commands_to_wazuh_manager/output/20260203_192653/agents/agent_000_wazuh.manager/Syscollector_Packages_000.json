@@ -1,0 +1,2215 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:29+00:00"
+        },
+        "source": " ",
+        "name": "audit-libs",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "3.1.5-1.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Dynamic library for libaudit",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 343065,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:29+00:00"
+        },
+        "source": " ",
+        "name": "python3-libs",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "3.9.25-1.amzn2023.0.1",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Python runtime libraries",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 33120486,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:29+00:00"
+        },
+        "source": " ",
+        "name": "findutils",
+        "install_time": "Wed Jan 14 12:48:21 2026",
+        "version": "1:4.8.0-2.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "The GNU versions of find utilities (find and xargs)",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 1758638,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:29+00:00"
+        },
+        "source": " ",
+        "name": "glib2",
+        "install_time": "Wed Dec  3 16:39:34 2025",
+        "version": "2.82.2-767.amzn2023",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "A library of handy utility functions",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 15465742,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:29+00:00"
+        },
+        "source": " ",
+        "name": "crypto-policies",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "20240828-2.git626aa59.amzn2023.0.1",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "System-wide crypto policies",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "Unspecified",
+        "size": 91842,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:29+00:00"
+        },
+        "source": " ",
+        "name": "libacl",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "2.3.1-2.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Dynamic library for access control list support",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 41314,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:30+00:00"
+        },
+        "source": " ",
+        "name": "systemd-libs",
+        "install_time": "Wed Jan 14 12:48:21 2026",
+        "version": "252.23-10.amzn2023",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "systemd libraries",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 1823912,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:30+00:00"
+        },
+        "source": " ",
+        "name": "libxml2",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "2.10.4-1.amzn2023.0.13",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Library providing XML and HTML support",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 1893960,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:30+00:00"
+        },
+        "source": " ",
+        "name": "libsigsegv",
+        "install_time": "Wed Dec  3 16:39:33 2025",
+        "version": "2.13-2.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Library for handling page faults in user mode",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 50474,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:30+00:00"
+        },
+        "source": " ",
+        "name": "gzip",
+        "install_time": "Wed Jan 14 12:48:21 2026",
+        "version": "1.12-1.amzn2023.0.1",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "The GNU data compression program",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 385309,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:30+00:00"
+        },
+        "source": " ",
+        "name": "dnf-data",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "4.14.0-1.amzn2023.0.6",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Common data and configuration files for DNF",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "Unspecified",
+        "size": 39071,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:30+00:00"
+        },
+        "source": " ",
+        "name": "gpgme",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "1.23.2-182.amzn2023.0.1",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "GnuPG Made Easy - high level crypto API",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 604275,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:30+00:00"
+        },
+        "source": " ",
+        "name": "openssl-libs",
+        "install_time": "Wed Dec  3 16:39:34 2025",
+        "version": "1:3.2.2-1.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "A general purpose cryptography library with TLS implementation",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 6710960,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:30+00:00"
+        },
+        "source": " ",
+        "name": "tzdata",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "2025b-1.amzn2023.0.1",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Timezone data",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "Unspecified",
+        "size": 1662405,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:30+00:00"
+        },
+        "source": " ",
+        "name": "procps-ng",
+        "install_time": "Wed Jan 14 12:48:21 2026",
+        "version": "3.3.17-1.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "System and process monitoring utilities",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 1014271,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:30+00:00"
+        },
+        "source": " ",
+        "name": "libffi",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "3.4.4-1.amzn2023.0.1",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "A portable foreign function interface library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 71512,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:31+00:00"
+        },
+        "source": " ",
+        "name": "alternatives",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "1.15-2.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "A tool to maintain symbolic links determining default commands",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 63897,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:31+00:00"
+        },
+        "source": " ",
+        "name": "file-libs",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "5.39-7.amzn2023.0.4",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Libraries for applications using libmagic",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 8086330,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:31+00:00"
+        },
+        "source": " ",
+        "name": "readline",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "8.1-2.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "A library for editing typed command lines",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 493156,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:31+00:00"
+        },
+        "source": " ",
+        "name": "zlib",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "1.2.11-33.amzn2023.0.5",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Compression and decompression library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 207785,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:31+00:00"
+        },
+        "source": " ",
+        "name": "libnghttp2",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "1.59.0-3.amzn2023.0.1",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "A library implementing the HTTP/2 protocol",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 175108,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:31+00:00"
+        },
+        "source": " ",
+        "name": "libmodulemd",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "2.13.0-2.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Module metadata manipulation library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 734170,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:31+00:00"
+        },
+        "source": " ",
+        "name": "sed",
+        "install_time": "Wed Dec  3 16:39:33 2025",
+        "version": "4.8-7.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "A GNU stream text editor",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 813711,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:31+00:00"
+        },
+        "source": " ",
+        "name": "python3-gpg",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "1.23.2-182.amzn2023.0.1",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "gpgme bindings for Python 3",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 1571333,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:31+00:00"
+        },
+        "source": " ",
+        "name": "npth",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "1.6-6.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "The New GNU Portable Threads library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 50731,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:32+00:00"
+        },
+        "source": " ",
+        "name": "system-release",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "2023.9.20251208-2.amzn2023",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Amazon Linux release files",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "Unspecified",
+        "size": 17315,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:32+00:00"
+        },
+        "source": " ",
+        "name": "rpm-build-libs",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "4.16.1.3-29.amzn2023.0.6",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Libraries for building RPM packages",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 199598,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:32+00:00"
+        },
+        "source": " ",
+        "name": "p11-kit-trust",
+        "install_time": "Wed Dec  3 16:39:33 2025",
+        "version": "0.24.1-2.amzn2023.0.3",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "System trust module from p11-kit",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 451623,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:32+00:00"
+        },
+        "source": " ",
+        "name": "libselinux",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "3.4-5.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "SELinux library and simple utilities",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 177941,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:32+00:00"
+        },
+        "source": " ",
+        "name": "json-c",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "0.14-8.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "JSON implementation in C",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 78354,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:32+00:00"
+        },
+        "source": " ",
+        "name": "krb5-libs",
+        "install_time": "Wed Dec  3 16:39:34 2025",
+        "version": "1.21.3-6.amzn2023.0.1",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "The non-admin shared libraries used by Kerberos 5",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 2510167,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:32+00:00"
+        },
+        "source": " ",
+        "name": "basesystem",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "11-11.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "The skeleton package which defines a simple  system",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "Unspecified",
+        "size": 0,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:32+00:00"
+        },
+        "source": " ",
+        "name": "elfutils-libs",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "0.188-3.amzn2023.0.3",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Libraries to handle compiled objects",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 685581,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:32+00:00"
+        },
+        "source": " ",
+        "name": "libsmartcols",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "2.37.4-1.amzn2023.0.4",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Formatting library for ls-like programs.",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 135579,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:32+00:00"
+        },
+        "source": " ",
+        "name": "gmp",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "1:6.2.1-2.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "GNU arbitrary precision library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 839143,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:33+00:00"
+        },
+        "source": " ",
+        "name": "libverto",
+        "install_time": "Wed Dec  3 16:39:34 2025",
+        "version": "0.3.2-1.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Main loop abstraction library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 30485,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:33+00:00"
+        },
+        "source": " ",
+        "name": "glibc-common",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "2.34-231.amzn2023.0.1",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Common binaries and locale data for glibc",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 1082702,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:33+00:00"
+        },
+        "source": " ",
+        "name": "publicsuffix-list-dafsa",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "20240212-61.amzn2023",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Cross-vendor public domain suffix database in DAFSA form",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "Unspecified",
+        "size": 69457,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:33+00:00"
+        },
+        "source": " ",
+        "name": "keyutils-libs",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "1.6.3-1.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Key utilities library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 55387,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:33+00:00"
+        },
+        "source": " ",
+        "name": "gdbm-libs",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "1:1.19-2.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Libraries files for gdbm",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 116522,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:33+00:00"
+        },
+        "source": " ",
+        "name": "libarchive",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "3.7.4-2.amzn2023.0.4",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "A library for handling streaming archive formats",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 956975,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:33+00:00"
+        },
+        "source": " ",
+        "name": "python3-libcomps",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "0.1.20-1.amzn2023",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Python 3 bindings for libcomps library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 147468,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:33+00:00"
+        },
+        "source": " ",
+        "name": "pcre2-syntax",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "10.40-1.amzn2023.0.3",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Documentation for PCRE2 regular expressions",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "Unspecified",
+        "size": 234436,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:33+00:00"
+        },
+        "source": " ",
+        "name": "rpm-sign-libs",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "4.16.1.3-29.amzn2023.0.6",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Libraries for signing RPM packages",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 28380,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:33+00:00"
+        },
+        "source": " ",
+        "name": "libunistring",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "0.9.10-10.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "GNU Unicode string library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 1647203,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:34+00:00"
+        },
+        "source": " ",
+        "name": "libattr",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "2.5.1-3.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Dynamic library for extended attribute support",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 29549,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:34+00:00"
+        },
+        "source": " ",
+        "name": "elfutils-libelf",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "0.188-3.amzn2023.0.3",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Library to read and write ELF files",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 1031880,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:34+00:00"
+        },
+        "source": " ",
+        "name": "libzstd",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "1.5.5-1.amzn2023.0.1",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Zstd shared library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 799606,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:34+00:00"
+        },
+        "source": " ",
+        "name": "gnupg2-minimal",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "2.3.7-1.amzn2023.0.5",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Absolute minimal GPG needed for RPM signature verification",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 937622,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:34+00:00"
+        },
+        "source": " ",
+        "name": "lz4-libs",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "1.9.4-1.amzn2023.0.3",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Libaries for lz4",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 169163,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:34+00:00"
+        },
+        "source": " ",
+        "name": "filebeat",
+        "install_time": "Wed Jan 14 12:49:46 2026",
+        "version": "7.10.2-2",
+        "location": " ",
+        "vendor": "Elastic",
+        "description": "Filebeat sends log files to Logstash or directly to Elasticsearch.",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "default",
+        "size": 73612990,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:34+00:00"
+        },
+        "source": " ",
+        "name": "bzip2-libs",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "1.0.8-6.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Libraries for applications using bzip2",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 82972,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:34+00:00"
+        },
+        "source": " ",
+        "name": "libxcrypt",
+        "install_time": "Wed Dec  3 16:39:34 2025",
+        "version": "4.4.33-7.amzn2023",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Extended crypt library for descrypt, md5crypt, bcrypt, and others",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 277537,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:34+00:00"
+        },
+        "source": " ",
+        "name": "gawk",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "5.1.0-3.amzn2023.0.3",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "The GNU version of the AWK text processing utility",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 1691414,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:34+00:00"
+        },
+        "source": " ",
+        "name": "libcomps",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "0.1.20-1.amzn2023",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Comps XML file manipulation library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 215263,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:35+00:00"
+        },
+        "source": " ",
+        "name": "ncurses-libs",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "6.2-4.20200222.amzn2023.0.6",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Ncurses libraries",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 1002735,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:35+00:00"
+        },
+        "source": " ",
+        "name": "libdnf",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "0.69.0-8.amzn2023.0.6",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Library providing simplified C and Python API to libsolv",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 2134885,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:35+00:00"
+        },
+        "source": " ",
+        "name": "python3-libdnf",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "0.69.0-8.amzn2023.0.6",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Python 3 bindings for the libdnf library.",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 4150076,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:35+00:00"
+        },
+        "source": " ",
+        "name": "libcurl-minimal",
+        "install_time": "Wed Dec  3 16:39:34 2025",
+        "version": "8.11.1-4.amzn2023.0.3",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Conservatively configured build of libcurl for minimal installations",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 683774,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:35+00:00"
+        },
+        "source": " ",
+        "name": "setup",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "2.13.7-3.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "A set of system configuration and setup files",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "System Environment/Base",
+        "size": 726441,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:35+00:00"
+        },
+        "source": " ",
+        "name": "libcap",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "2.73-1.amzn2023.0.4",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Library for getting and setting POSIX.1e capabilities",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 231992,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:35+00:00"
+        },
+        "source": " ",
+        "name": "libidn2",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "2.3.2-1.amzn2023.0.5",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Library to support IDNA2008 internationalized domain names",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 291936,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:35+00:00"
+        },
+        "source": " ",
+        "name": "tar",
+        "install_time": "Wed Jan 14 12:48:21 2026",
+        "version": "2:1.34-1.amzn2023.0.4",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "GNU file archiving program",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 3156504,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:35+00:00"
+        },
+        "source": " ",
+        "name": "libblkid",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "2.37.4-1.amzn2023.0.4",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Block device ID library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 235057,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:36+00:00"
+        },
+        "source": " ",
+        "name": "coreutils-single",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "8.32-30.amzn2023.0.4",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "coreutils multicall binary",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 1403313,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:36+00:00"
+        },
+        "source": " ",
+        "name": "libgcrypt",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "1.10.2-1.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "A general-purpose cryptography library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 1444562,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:36+00:00"
+        },
+        "source": " ",
+        "name": "yum",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "4.14.0-1.amzn2023.0.6",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Package manager",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "Unspecified",
+        "size": 22192,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:36+00:00"
+        },
+        "source": " ",
+        "name": "rpm",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "4.16.1.3-29.amzn2023.0.6",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "The RPM package management system",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 2753272,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:36+00:00"
+        },
+        "source": " ",
+        "name": "libtasn1",
+        "install_time": "Wed Dec  3 16:39:33 2025",
+        "version": "4.19.0-1.amzn2023.0.5",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "The ASN.1 library used in GNUTLS",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 181788,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:36+00:00"
+        },
+        "source": " ",
+        "name": "p11-kit",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "0.24.1-2.amzn2023.0.3",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Library for loading and sharing PKCS#11 modules",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 1668915,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:36+00:00"
+        },
+        "source": " ",
+        "name": "python3-setuptools-wheel",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "59.6.0-2.amzn2023.0.6",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "The setuptools wheel",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "Unspecified",
+        "size": 601307,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:36+00:00"
+        },
+        "source": " ",
+        "name": "elfutils-default-yama-scope",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "0.188-3.amzn2023.0.3",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Default yama attach scope sysctl setting",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "Unspecified",
+        "size": 1810,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:36+00:00"
+        },
+        "source": " ",
+        "name": "libcap-ng",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "0.8.2-4.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Alternate posix capabilities library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 75492,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:36+00:00"
+        },
+        "source": " ",
+        "name": "ca-certificates",
+        "install_time": "Wed Dec  3 16:39:33 2025",
+        "version": "2025.2.76-1.0.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "The Mozilla CA root certificate bundle",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "Unspecified",
+        "size": 2070507,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:37+00:00"
+        },
+        "source": " ",
+        "name": "grep",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "3.8-1.amzn2023.0.4",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Pattern matching utilities",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 1014365,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:37+00:00"
+        },
+        "source": " ",
+        "name": "libreport-filesystem",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "2.15.2-2.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Filesystem layout for libreport",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "Unspecified",
+        "size": 0,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:37+00:00"
+        },
+        "source": " ",
+        "name": "expat",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "2.6.3-1.amzn2023.0.3",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "An XML parser library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 330083,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:37+00:00"
+        },
+        "source": " ",
+        "name": "python3-pip-wheel",
+        "install_time": "Wed Dec  3 16:39:34 2025",
+        "version": "21.3.1-2.amzn2023.0.14",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "The pip wheel",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "Unspecified",
+        "size": 1238825,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:37+00:00"
+        },
+        "source": " ",
+        "name": "libsepol",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "3.4-3.amzn2023.0.3",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "SELinux binary policy manipulation library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 789155,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:37+00:00"
+        },
+        "source": " ",
+        "name": "openssl",
+        "install_time": "Wed Jan 14 12:48:21 2026",
+        "version": "1:3.2.2-1.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Utilities from the general purpose cryptography library with TLS implementation",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 2092357,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:37+00:00"
+        },
+        "source": " ",
+        "name": "ncurses-base",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "6.2-4.20200222.amzn2023.0.6",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Descriptions of common terminals",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "Unspecified",
+        "size": 292349,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:37+00:00"
+        },
+        "source": " ",
+        "name": "glibc",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "2.34-231.amzn2023.0.1",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "The GNU libc libraries",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 6481171,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:37+00:00"
+        },
+        "source": " ",
+        "name": "python3",
+        "install_time": "Wed Dec  3 16:39:34 2025",
+        "version": "3.9.25-1.amzn2023.0.1",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Python 3.9 interpreter",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 33096,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:37+00:00"
+        },
+        "source": " ",
+        "name": "python3-dnf",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "4.14.0-1.amzn2023.0.6",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Python 3 interface to DNF",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "Unspecified",
+        "size": 2316938,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:38+00:00"
+        },
+        "source": " ",
+        "name": "curl-minimal",
+        "install_time": "Wed Dec  3 16:39:34 2025",
+        "version": "8.11.1-4.amzn2023.0.3",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Conservatively configured build of curl for minimal installations",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 309279,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:38+00:00"
+        },
+        "source": " ",
+        "name": "libuuid",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "2.37.4-1.amzn2023.0.4",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Universally unique ID library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 34597,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:38+00:00"
+        },
+        "source": " ",
+        "name": "libyaml",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "0.2.5-5.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "YAML 1.1 parser and emitter written in C",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 142483,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:38+00:00"
+        },
+        "source": " ",
+        "name": "dnf",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "4.14.0-1.amzn2023.0.6",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Package manager",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "Unspecified",
+        "size": 2422654,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:38+00:00"
+        },
+        "source": " ",
+        "name": "openssl-fips-provider-latest",
+        "install_time": "Wed Dec  3 16:39:34 2025",
+        "version": "1:3.2.2-1.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "This package provides the latest build of the OpenSSL FIPS module.",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 2117986,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:38+00:00"
+        },
+        "source": " ",
+        "name": "libstdc++",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "14.2.1-7.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "GNU Standard C++ Library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 2953757,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:38+00:00"
+        },
+        "source": " ",
+        "name": "pcre2",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "10.40-1.amzn2023.0.3",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Perl-compatible regular expression library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 662258,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:38+00:00"
+        },
+        "source": " ",
+        "name": "filesystem",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "3.14-5.amzn2023.0.3",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "The basic directory layout for a Linux system",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "System Environment/Base",
+        "size": 106,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:38+00:00"
+        },
+        "source": " ",
+        "name": "libgcc",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "14.2.1-7.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "GCC version 14 shared support library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 281228,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:39+00:00"
+        },
+        "source": " ",
+        "name": "xz-libs",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "5.2.5-9.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Libraries for decoding LZMA compression",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 181645,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:39+00:00"
+        },
+        "source": " ",
+        "name": "librepo",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "1.14.5-2.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Repodata downloading library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 224740,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:39+00:00"
+        },
+        "source": " ",
+        "name": "bash",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "5.2.15-1.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "The GNU Bourne Again shell",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 8570199,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:39+00:00"
+        },
+        "source": " ",
+        "name": "python3-rpm",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "4.16.1.3-29.amzn2023.0.6",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Python 3 bindings for apps which will manipulate RPM packages",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 207265,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:39+00:00"
+        },
+        "source": " ",
+        "name": "libassuan",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "2.5.5-1.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "GnuPG IPC library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 171261,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:39+00:00"
+        },
+        "source": " ",
+        "name": "libcom_err",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "1.46.5-2.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Common error description library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 69161,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:39+00:00"
+        },
+        "source": " ",
+        "name": "glibc-minimal-langpack",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "2.34-231.amzn2023.0.1",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Minimal language packs for glibc.",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 0,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:39+00:00"
+        },
+        "source": " ",
+        "name": "mpfr",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "4.1.0-7.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "C library for multiple-precision floating-point computations",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 810863,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:39+00:00"
+        },
+        "source": " ",
+        "name": "libsemanage",
+        "install_time": "Wed Jan 14 12:49:01 2026",
+        "version": "3.4-5.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "SELinux binary policy manipulation library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 308310,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:39+00:00"
+        },
+        "source": " ",
+        "name": "libmount",
+        "install_time": "Wed Dec  3 16:39:33 2025",
+        "version": "2.37.4-1.amzn2023.0.4",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Device mounting library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 315405,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:40+00:00"
+        },
+        "source": " ",
+        "name": "libgpg-error",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "1.42-1.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Library for error values used by GnuPG components",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 841368,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:40+00:00"
+        },
+        "source": " ",
+        "name": "shadow-utils",
+        "install_time": "Wed Jan 14 12:49:01 2026",
+        "version": "2:4.9-12.amzn2023.0.4",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Utilities for managing accounts and shadow password files",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 3837437,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:40+00:00"
+        },
+        "source": " ",
+        "name": "amazon-linux-repo-cdn",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "2023.9.20251208-2.amzn2023",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Access to Amazon Linux repositories via CloudFront",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "noarch",
+        "section": "Unspecified",
+        "size": 994,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:40+00:00"
+        },
+        "source": " ",
+        "name": "libpsl",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "0.21.5-1.amzn2023.0.1",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "C library for the Publix Suffix List",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 82296,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:40+00:00"
+        },
+        "source": " ",
+        "name": "sqlite-libs",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "3.40.0-1.amzn2023.0.7",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Shared library for the sqlite3 embeddable SQL database engine.",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 1398930,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:40+00:00"
+        },
+        "source": " ",
+        "name": "python3-hawkey",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "0.69.0-8.amzn2023.0.6",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Python 3 bindings for the hawkey library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 321157,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:40+00:00"
+        },
+        "source": " ",
+        "name": "libsolv",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "0.7.22-1.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Package dependency solver",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 886202,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:40+00:00"
+        },
+        "source": " ",
+        "name": "xz",
+        "install_time": "Wed Jan 14 12:48:21 2026",
+        "version": "5.2.5-9.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "LZMA compression utilities",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 686139,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:40+00:00"
+        },
+        "source": " ",
+        "name": "libgomp",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "14.2.1-7.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "GCC OpenMP v4.5 shared support library",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 535442,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:40+00:00"
+        },
+        "source": " ",
+        "name": "lua-libs",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "5.4.4-3.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Libraries for lua",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 556062,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:41+00:00"
+        },
+        "source": " ",
+        "name": "rpm-libs",
+        "install_time": "Wed Dec  3 16:39:35 2025",
+        "version": "4.16.1.3-29.amzn2023.0.6",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "Libraries for manipulating RPM packages",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 775596,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:41+00:00"
+        },
+        "source": " ",
+        "name": "popt",
+        "install_time": "Wed Dec  3 16:39:32 2025",
+        "version": "1.18-6.amzn2023.0.2",
+        "location": " ",
+        "vendor": "Amazon Linux",
+        "description": "C library for parsing command line parameters",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "Unspecified",
+        "size": 130464,
+        "agent_id": "000"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T09:21:41+00:00"
+        },
+        "source": " ",
+        "name": "wazuh-manager",
+        "install_time": "Wed Jan 14 12:49:19 2026",
+        "version": "4.14.2-1",
+        "location": " ",
+        "vendor": "Wazuh <info@wazuh.com>",
+        "description": "Wazuh helps you to gain security visibility into your infrastructure by monitoring hosts at an operating system and application level. It provides the following capabilities: log analysis, file integrity monitoring, intrusions detection and policy and compliance monitoring",
+        "priority": " ",
+        "format": "rpm",
+        "architecture": "x86_64",
+        "section": "System Environment/Daemons",
+        "size": 965254103,
+        "agent_id": "000"
+      }
+    ],
+    "total_affected_items": 116,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All specified syscollector information was returned",
+  "error": 0
+}

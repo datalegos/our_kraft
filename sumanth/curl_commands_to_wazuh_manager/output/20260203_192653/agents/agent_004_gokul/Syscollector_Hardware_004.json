@@ -1,0 +1,29 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "cpu": {
+          "cores": 16,
+          "mhz": 3194,
+          "name": "AMD Ryzen 7 7735HS with Radeon Graphics"
+        },
+        "ram": {
+          "free": 7797988,
+          "total": 15497440,
+          "usage": 49
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "board_serial": "L1HF58700T2",
+        "agent_id": "004"
+      }
+    ],
+    "total_affected_items": 1,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All specified syscollector information was returned",
+  "error": 0
+}

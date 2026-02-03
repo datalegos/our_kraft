@@ -1,0 +1,35 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "id": 1,
+        "username": "wazuh",
+        "allow_run_as": true,
+        "roles": [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "username": "wazuh-wui",
+        "allow_run_as": true,
+        "roles": [
+          1
+        ]
+      },
+      {
+        "id": 100,
+        "username": "ravi",
+        "allow_run_as": true,
+        "roles": [
+          1
+        ]
+      }
+    ],
+    "total_affected_items": 3,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All specified users were returned",
+  "error": 0
+}

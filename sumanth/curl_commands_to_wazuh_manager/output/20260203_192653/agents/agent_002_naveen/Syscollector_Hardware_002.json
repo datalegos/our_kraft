@@ -1,0 +1,29 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "cpu": {
+          "cores": 10,
+          "mhz": 4.464,
+          "name": "Apple M4"
+        },
+        "ram": {
+          "free": 2970272,
+          "total": 16777216,
+          "usage": 83
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:54:23+00:00"
+        },
+        "board_serial": "HM39HHXVYV",
+        "agent_id": "002"
+      }
+    ],
+    "total_affected_items": 1,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All specified syscollector information was returned",
+  "error": 0
+}

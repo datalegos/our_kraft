@@ -1,0 +1,77 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "log": "Port '57668'(udp) hidden. Kernel-level rootkit or trojaned version of netstat.",
+        "date_last": "2026-02-03T04:16:08Z",
+        "date_first": "2026-02-03T04:16:08Z",
+        "status": "outstanding"
+      },
+      {
+        "log": "Port '62048'(udp) hidden. Kernel-level rootkit or trojaned version of netstat.",
+        "date_last": "2026-02-03T04:16:08Z",
+        "date_first": "2026-02-03T04:16:08Z",
+        "status": "outstanding"
+      },
+      {
+        "log": "Port '64610'(udp) hidden. Kernel-level rootkit or trojaned version of netstat.",
+        "date_last": "2026-02-03T04:16:08Z",
+        "date_first": "2026-02-03T04:16:08Z",
+        "status": "outstanding"
+      },
+      {
+        "log": "Port '53389'(udp) hidden. Kernel-level rootkit or trojaned version of netstat.",
+        "date_last": "2026-02-03T04:16:07Z",
+        "date_first": "2026-02-03T04:16:07Z",
+        "status": "outstanding"
+      },
+      {
+        "log": "Port '55555'(tcp) hidden. Kernel-level rootkit or trojaned version of netstat.",
+        "date_last": "2026-02-03T04:16:06Z",
+        "date_first": "2026-01-29T09:42:56Z",
+        "status": "outstanding"
+      },
+      {
+        "log": "File '/var/log/anydesk.trace' is owned by root and has written permissions to anyone.",
+        "date_last": "2026-02-03T04:15:09Z",
+        "date_first": "2026-01-29T09:41:51Z",
+        "status": "outstanding"
+      },
+      {
+        "log": "Port '58459'(udp) hidden. Kernel-level rootkit or trojaned version of netstat.",
+        "date_last": "2026-02-02T09:00:37Z",
+        "date_first": "2026-02-02T09:00:37Z",
+        "status": "outstanding"
+      },
+      {
+        "log": "Port '59017'(udp) hidden. Kernel-level rootkit or trojaned version of netstat.",
+        "date_last": "2026-01-31T07:12:39Z",
+        "date_first": "2026-01-31T07:12:39Z",
+        "status": "solved"
+      },
+      {
+        "log": "Port '54607'(udp) hidden. Kernel-level rootkit or trojaned version of netstat.",
+        "date_last": "2026-01-30T02:40:10Z",
+        "date_first": "2026-01-30T02:40:10Z",
+        "status": "solved"
+      },
+      {
+        "log": "Port '51875'(udp) hidden. Kernel-level rootkit or trojaned version of netstat.",
+        "date_last": "2026-01-29T09:42:58Z",
+        "date_first": "2026-01-29T09:42:58Z",
+        "status": "solved"
+      },
+      {
+        "log": "Port '55583'(udp) hidden. Kernel-level rootkit or trojaned version of netstat.",
+        "date_last": "2026-01-29T09:42:58Z",
+        "date_first": "2026-01-29T09:42:58Z",
+        "status": "solved"
+      }
+    ],
+    "total_affected_items": 11,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All selected rootcheck information was returned",
+  "error": 0
+}

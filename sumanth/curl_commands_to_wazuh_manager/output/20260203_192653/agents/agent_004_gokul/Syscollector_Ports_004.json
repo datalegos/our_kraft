@@ -1,0 +1,2314 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 445
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T10:15:09+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 4,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "System",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 445
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T10:15:34+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 4,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "System",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 49668
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:44:59+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 4240,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "spoolsv.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 49667
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:44:59+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 3272,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "svchost.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "fe80::5f53:c1dd:9696:d289",
+          "port": 1900
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:44:59+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 9484,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "svchost.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 1900
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 9484,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "svchost.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 49665
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:00+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 1388,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "wininit.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 135
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:00+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 1892,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "svchost.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 49670
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:00+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 1532,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "services.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 49666
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:00+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 2404,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "svchost.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 49665
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:00+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 1388,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "wininit.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 5355
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:00+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 2232,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "svchost.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 49664
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:00+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 1560,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "lsass.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 7070
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:00+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 5236,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "AnyDesk.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 49670
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:00+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 1532,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "services.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 49666
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:00+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 2404,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "svchost.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::1",
+          "port": 1900
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:00+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 9484,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "svchost.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 7070
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:00+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 5236,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "AnyDesk.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 5353
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 2232,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "svchost.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 49664
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:00+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 1560,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "lsass.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 49667
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:00+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 3272,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "svchost.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 5355
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:01+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 2232,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "svchost.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 5050
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:01+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 10684,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "svchost.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 135
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:01+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 1892,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "svchost.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 5040
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:02+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 10684,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "svchost.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 49664
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:02+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 4920,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "svchost.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 49668
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T08:45:03+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 4240,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "spoolsv.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 5353
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 2232,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "svchost.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 6881
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "utweb.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 19575
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "utweb.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 19576
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "utweb.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 19577
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "utweb.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 19575
+        },
+        "remote": {
+          "ip": "127.0.0.1",
+          "port": 57627
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 0,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "time_wait",
+        "process": "System Idle Process",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 50131
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 4,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "System",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 53266
+        },
+        "remote": {
+          "ip": "127.0.0.1",
+          "port": 62520
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 11324,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "helper.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 58354
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 11324,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "helper.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 62513
+        },
+        "remote": {
+          "ip": "127.0.0.1",
+          "port": 62514
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "utweb.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 62514
+        },
+        "remote": {
+          "ip": "127.0.0.1",
+          "port": 62513
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "utweb.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 63303
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 11324,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "helper.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 62520
+        },
+        "remote": {
+          "ip": "127.0.0.1",
+          "port": 53266
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "utweb.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 50131
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 4,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "System",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "fe80::5f53:c1dd:9696:d289",
+          "port": 6881
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "utweb.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 1900
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 6771
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 6881
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 50001
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 5236,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "AnyDesk.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 50088
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 23328,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "ms-teams.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 57484
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 57486
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 57472
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.13",
+          "port": 1900
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.13",
+          "port": 6771
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.13",
+          "port": 57471
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.13",
+          "port": 57473
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.13",
+          "port": 57481
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 6771
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 50088
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 23328,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "ms-teams.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 57485
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 57487
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2406:7400:3b:e69f:61ab:fe5f:92cf:697c",
+          "port": 6771
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2406:7400:3b:e69f:61ab:fe5f:92cf:697c",
+          "port": 57477
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2406:7400:3b:e69f:e113:9973:b326:2afd",
+          "port": 6771
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2406:7400:3b:e69f:e113:9973:b326:2afd",
+          "port": 57478
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "fe80::4650:60f7:199:cb10",
+          "port": 6771
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "fe80::4650:60f7:199:cb10",
+          "port": 57475
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "fe80::5f53:c1dd:9696:d289",
+          "port": 6771
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "fe80::5f53:c1dd:9696:d289",
+          "port": 6881
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "fe80::5f53:c1dd:9696:d289",
+          "port": 57479
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "fe80::8d95:8a3d:2576:b2ea",
+          "port": 6771
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "fe80::8d95:8a3d:2576:b2ea",
+          "port": 57476
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 64941
+        },
+        "remote": {
+          "ip": "127.0.0.1",
+          "port": 64942
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 4860,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "mc-fw-host.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 64942
+        },
+        "remote": {
+          "ip": "127.0.0.1",
+          "port": 64941
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 4860,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "mc-fw-host.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.31.180",
+          "port": 139
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 4,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "System",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.31.180",
+          "port": 50248
+        },
+        "remote": {
+          "ip": "148.113.20.105",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 5236,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "AnyDesk.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.31.180",
+          "port": 50874
+        },
+        "remote": {
+          "ip": "104.208.16.88",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 22576,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "msedgewebview2.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.31.180",
+          "port": 53379
+        },
+        "remote": {
+          "ip": "104.208.16.88",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 22576,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "msedgewebview2.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.31.180",
+          "port": 59905
+        },
+        "remote": {
+          "ip": "104.208.16.88",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 22576,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "msedgewebview2.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.31.180",
+          "port": 60940
+        },
+        "remote": {
+          "ip": "20.44.229.112",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 1660,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "svchost.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.31.180",
+          "port": 60941
+        },
+        "remote": {
+          "ip": "20.189.173.14",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 4792,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "MpDefenderCoreService.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.31.180",
+          "port": 61198
+        },
+        "remote": {
+          "ip": "20.189.173.9",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 0,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "time_wait",
+        "process": "System Idle Process",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.31.180",
+          "port": 63840
+        },
+        "remote": {
+          "ip": "104.208.16.88",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 22576,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "msedgewebview2.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.31.180",
+          "port": 64934
+        },
+        "remote": {
+          "ip": "62.171.191.132",
+          "port": 1514
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 5068,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "wazuh-agent.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.31.180",
+          "port": 64943
+        },
+        "remote": {
+          "ip": "13.204.106.34",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 4860,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "mc-fw-host.exe",
+        "protocol": "tcp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2409:40f0:3088:b78c:2d42:4174:8964:d1c",
+          "port": 6881
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "utweb.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2409:40f0:3088:b78c:2d42:4174:8964:d1c",
+          "port": 49412
+        },
+        "remote": {
+          "ip": "2603:1040:a06:6::2",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 4816,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "svchost.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2409:40f0:3088:b78c:2d42:4174:8964:d1c",
+          "port": 58679
+        },
+        "remote": {
+          "ip": "2603:1040:603:c::d5",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 22576,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "msedgewebview2.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2409:40f0:3088:b78c:2d42:4174:8964:d1c",
+          "port": 60938
+        },
+        "remote": {
+          "ip": "2405:200:1609:1731::312c:8a8b",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 5144,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "servicehost.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2409:40f0:3088:b78c:2d42:4174:8964:d1c",
+          "port": 60939
+        },
+        "remote": {
+          "ip": "2405:200:1609:1731::312c:8a8b",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 4860,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "mc-fw-host.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2409:40f0:3088:b78c:2d42:4174:8964:d1c",
+          "port": 65044
+        },
+        "remote": {
+          "ip": "2603:1040:f02:e::12d",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 23328,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "ms-teams.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2409:40f0:3088:b78c:2d42:4174:8964:d1c",
+          "port": 65048
+        },
+        "remote": {
+          "ip": "2603:1040:a06:6::2",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 14136,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "OneDrive.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2409:40f0:3088:b78c:2d42:4174:8964:d1c",
+          "port": 64086
+        },
+        "remote": {
+          "ip": "2603:1040:5:3::a",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 7192,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "PhoneExperienceHost.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2409:40f0:3088:b78c:af1a:ed30:30cd:19d",
+          "port": 6881
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "listening",
+        "process": "utweb.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2409:40f0:3088:b78c:2d42:4174:8964:d1c",
+          "port": 65049
+        },
+        "remote": {
+          "ip": "2603:1063:5:11e::365:7ea3",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 23328,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": "established",
+        "process": "ms-teams.exe",
+        "protocol": "tcp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 61789
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 2232,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "svchost.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 62569
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 9484,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "svchost.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.31.180",
+          "port": 138
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 4,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "System",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.31.180",
+          "port": 137
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 4,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "System",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.31.180",
+          "port": 1900
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 9484,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "svchost.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "192.168.31.180",
+          "port": 62568
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 9484,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "svchost.exe",
+        "protocol": "udp",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 61789
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 2232,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "svchost.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "::1",
+          "port": 62567
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 9484,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "svchost.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2409:40f0:3088:b78c:2d42:4174:8964:d1c",
+          "port": 6881
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2409:40f0:3088:b78c:af1a:ed30:30cd:19d",
+          "port": 6881
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2409:40f0:3088:b78c:2d42:4174:8964:d1c",
+          "port": 62571
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "2409:40f0:3088:b78c:af1a:ed30:30cd:19d",
+          "port": 62570
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 8096,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "utweb.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "fe80::5f53:c1dd:9696:d289",
+          "port": 62566
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 9484,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "svchost.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      },
+      {
+        "local": {
+          "ip": "fe80::5f53:c1dd:9696:d289",
+          "port": 546
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "rx_queue": 0,
+        "pid": 2396,
+        "tx_queue": 0,
+        "inode": 0,
+        "state": " ",
+        "process": "svchost.exe",
+        "protocol": "udp6",
+        "agent_id": "004"
+      }
+    ],
+    "total_affected_items": 107,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All specified syscollector information was returned",
+  "error": 0
+}

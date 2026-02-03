@@ -1,0 +1,25 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "name": "CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0",
+        "invalid": 9,
+        "score": 26,
+        "fail": 350,
+        "pass": 123,
+        "start_scan": "2026-02-03T08:45:16+00:00",
+        "description": "This document provides prescriptive guidance for establishing a secure configuration posture for Microsoft Windows 11. Please note that the rules provide accurate results for Windows 11 Operating Systems with the System language set to English. The SCA policy will work with other languages but the results will be less accurate due to some of the rules that depend on the System language.",
+        "end_scan": "2026-02-03T08:45:16+00:00",
+        "policy_id": "cis_win11_enterprise",
+        "references": "https://www.cisecurity.org/cis-benchmarks/",
+        "hash_file": "a9c79f0ce95d5d692c2f7dab5dd3b6e286cfd4b33dd5b1b2546443da2ef5d486",
+        "total_checks": 482
+      }
+    ],
+    "total_affected_items": 1,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All selected SCA information was returned",
+  "error": 0
+}

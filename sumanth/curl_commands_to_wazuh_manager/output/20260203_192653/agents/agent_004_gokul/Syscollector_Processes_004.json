@@ -1,0 +1,4450 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 4,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "9668",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 21213184,
+        "stime": 0,
+        "start_time": 1770108278,
+        "size": 3756032,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 12,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\ElevocInstallDriver\\ElevocControlService.exe",
+        "pid": "5020",
+        "name": "ElevocControlService.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 258666496,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 250281984,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 8,
+        "utime": 307,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "9704",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 38313984,
+        "stime": 349,
+        "start_time": 1770108273,
+        "size": 10756096,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 8,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\Lenovo\\Lenovo Smart Meeting Components\\Components\\x64\\IntelligentSensingService\\LsaIssRpcServer.exe",
+        "pid": "5028",
+        "name": "LsaIssRpcServer.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 32247808,
+        "stime": 6,
+        "start_time": 1770108267,
+        "size": 17653760,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\DriverStore\\FileRepository\\litsdrv.inf_amd64_0fefde8b58482d0b\\x64\\LITSSvc.exe",
+        "pid": "5044",
+        "name": "LITSSvc.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 10792960,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2813952,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 9,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\DriverStore\\FileRepository\\dax3_swc_aposvc.inf_amd64_2d43ea2009b9f4a0\\DAX3API.exe",
+        "pid": "5056",
+        "name": "DAX3API.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 24915968,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 8155136,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "9860",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 16949248,
+        "stime": 1,
+        "start_time": 1770108272,
+        "size": 2953216,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 48,
+        "utime": 119,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\ossec-agent\\wazuh-agent.exe",
+        "pid": "5068",
+        "name": "wazuh-agent.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 54607872,
+        "stime": 375,
+        "start_time": 1770108267,
+        "size": 26214400,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 6,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "3820",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 9752576,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2125824,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 4,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "11932",
+        "name": "svchost.exe",
+        "session": 1,
+        "ppid": 1532,
+        "vm_size": 25010176,
+        "stime": 0,
+        "start_time": 1770108277,
+        "size": 5844992,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 3,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "3828",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 10514432,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2383872,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\DriverStore\\FileRepository\\smartstandbycomponent.inf_amd64_3d585c065d8f0236\\SmartStandby.exe",
+        "pid": "5156",
+        "name": "SmartStandby.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 8691712,
+        "stime": 0,
+        "start_time": 1770108268,
+        "size": 2809856,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 10,
+        "utime": 12,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\AnyDesk\\AnyDesk.exe",
+        "pid": "11952",
+        "name": "AnyDesk.exe",
+        "session": 1,
+        "ppid": 11116,
+        "vm_size": 68280320,
+        "stime": 29,
+        "start_time": 1770108529,
+        "size": 45244416,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 23,
+        "utime": 9,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "2692",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 29118464,
+        "stime": 11,
+        "start_time": 1770108267,
+        "size": 8482816,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "2712",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 9555968,
+        "stime": 2,
+        "start_time": 1770108267,
+        "size": 2146304,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 18,
+        "utime": 27,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "4732",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 49221632,
+        "stime": 32,
+        "start_time": 1770108267,
+        "size": 19046400,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 62,
+        "utime": 3,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\McAfee\\WebAdvisor\\uihost.exe",
+        "pid": "7700",
+        "name": "uihost.exe",
+        "session": 1,
+        "ppid": 5144,
+        "vm_size": 37404672,
+        "stime": 19,
+        "start_time": 1770108269,
+        "size": 13598720,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 13,
+        "utime": 0,
+        "priority": 13,
+        "cmd": "C:\\Program Files\\Lenovo\\Lenovo Smart Meeting Components\\Components\\x64\\VirtualCameraService\\VirtualCameraService.exe",
+        "pid": "7520",
+        "name": "VirtualCameraService.exe",
+        "session": 1,
+        "ppid": 5380,
+        "vm_size": 25034752,
+        "stime": 0,
+        "start_time": 1770108269,
+        "size": 17862656,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 16,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "9348",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 35536896,
+        "stime": 0,
+        "start_time": 1770108272,
+        "size": 11919360,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 13,
+        "utime": 12,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "4744",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 29114368,
+        "stime": 13,
+        "start_time": 1770108267,
+        "size": 9674752,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 9,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "9484",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 11079680,
+        "stime": 0,
+        "start_time": 1770108272,
+        "size": 2523136,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "4900",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 8691712,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2015232,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 9,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "10684",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 27279360,
+        "stime": 1,
+        "start_time": 1770108276,
+        "size": 6053888,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 7,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "4920",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 15360000,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 3297280,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 19,
+        "utime": 3,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "4304",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 33918976,
+        "stime": 4,
+        "start_time": 1770108267,
+        "size": 12632064,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "4336",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 11075584,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2306048,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\ELAN_Detection_Service.exe",
+        "pid": "4996",
+        "name": "ELAN_Detection_Service.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 7196672,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 1662976,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 3,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "4388",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 12386304,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2502656,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdppkg.inf_amd64_6b71afde72a0e813\\AmdPpkgSvc.exe",
+        "pid": "5008",
+        "name": "AmdPpkgSvc.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 5943296,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 1425408,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 3,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "3556",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 6336512,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 1454080,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 6,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "3564",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 10293248,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2236416,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 16,
+        "utime": 35,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\DriverStore\\FileRepository\\u0197639.inf_amd64_6e9872ffe0e526d3\\B025646\\atieclxx.exe",
+        "pid": "3576",
+        "name": "atieclxx.exe",
+        "session": 1,
+        "ppid": 3328,
+        "vm_size": 22142976,
+        "stime": 67,
+        "start_time": 1770108267,
+        "size": 5918720,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 3,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "2568",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 12820480,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2625536,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 9,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "2552",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 12185600,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 3067904,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 6,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "2560",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 13664256,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2723840,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 8,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "11204",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 11419648,
+        "stime": 0,
+        "start_time": 1770108276,
+        "size": 2674688,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 4,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "3724",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 11603968,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2273280,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 43,
+        "utime": 14,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\drivers\\lenovo\\UDC\\Service\\UDClientService.exe",
+        "pid": "5076",
+        "name": "UDClientService.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 115908608,
+        "stime": 14,
+        "start_time": 1770108267,
+        "size": 64655360,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 88,
+        "utime": 2,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\McAfee\\WebAdvisor\\servicehost.exe",
+        "pid": "5144",
+        "name": "servicehost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 59424768,
+        "stime": 4,
+        "start_time": 1770108268,
+        "size": 23666688,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 3,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\EPDService.exe",
+        "pid": "3744",
+        "name": "EPDService.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 8110080,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2646016,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\fontdrvhost.exe",
+        "pid": "1720",
+        "name": "fontdrvhost.exe",
+        "session": 0,
+        "ppid": 1388,
+        "vm_size": 3776512,
+        "stime": 0,
+        "start_time": 1770108266,
+        "size": 1708032,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 3,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\DriverStore\\FileRepository\\rtkbtfilter.inf_amd64_b7779c678ebb5b75\\RtkBtManServ.exe",
+        "pid": "5212",
+        "name": "RtkBtManServ.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 8351744,
+        "stime": 0,
+        "start_time": 1770108268,
+        "size": 2138112,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 11,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\WindowsApps\\SenaryTechnologyLimited.SenarySmartAudio_2.45.37.0_x64__dqz7eftfn33jw\\SenaryAudioApp.exe",
+        "pid": "12160",
+        "name": "SenaryAudioApp.exe",
+        "session": 1,
+        "ppid": 10612,
+        "vm_size": 76435456,
+        "stime": 2,
+        "start_time": 1770108277,
+        "size": 43544576,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\fontdrvhost.exe",
+        "pid": "1728",
+        "name": "fontdrvhost.exe",
+        "session": 1,
+        "ppid": 1484,
+        "vm_size": 11427840,
+        "stime": 0,
+        "start_time": 1770108266,
+        "size": 4325376,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 11,
+        "utime": 5,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\sihost.exe",
+        "pid": "4628",
+        "name": "sihost.exe",
+        "session": 1,
+        "ppid": 2816,
+        "vm_size": 50241536,
+        "stime": 10,
+        "start_time": 1770108274,
+        "size": 8429568,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "2816",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 16125952,
+        "stime": 2,
+        "start_time": 1770108267,
+        "size": 3198976,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 6,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "10300",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 26976256,
+        "stime": 4,
+        "start_time": 1770108274,
+        "size": 4116480,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 8,
+        "utime": 0,
+        "priority": 10,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "1744",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 17932288,
+        "stime": 0,
+        "start_time": 1770108266,
+        "size": 7397376,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 9,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\DriverStore\\FileRepository\\ibmpmdrv.inf_amd64_ce00423f6224d769\\x64\\ibmpmsvc.exe",
+        "pid": "5324",
+        "name": "ibmpmsvc.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 7708672,
+        "stime": 0,
+        "start_time": 1770108268,
+        "size": 2064384,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 6,
+        "utime": 3,
+        "priority": 13,
+        "cmd": "C:\\Program Files (x86)\\AnyDesk\\AnyDesk.exe",
+        "pid": "5236",
+        "name": "AnyDesk.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 64028672,
+        "stime": 3,
+        "start_time": 1770108268,
+        "size": 44494848,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 11,
+        "utime": 7,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "4716",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 65179648,
+        "stime": 6,
+        "start_time": 1770108267,
+        "size": 26185728,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 6,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\taskhostw.exe",
+        "pid": "10328",
+        "name": "taskhostw.exe",
+        "session": 1,
+        "ppid": 2404,
+        "vm_size": 25165824,
+        "stime": 0,
+        "start_time": 1770108274,
+        "size": 7454720,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 9,
+        "utime": 1,
+        "priority": 6,
+        "cmd": "C:\\Windows\\SysWOW64\\Lenovo\\PowerMgr\\PowerMgr.exe",
+        "pid": "10436",
+        "name": "PowerMgr.exe",
+        "session": 1,
+        "ppid": 2404,
+        "vm_size": 12189696,
+        "stime": 2,
+        "start_time": 1770108275,
+        "size": 5636096,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "3192",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 8118272,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 1892352,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "4128",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 8126464,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 1679360,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 10,
+        "utime": 141,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "1892",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 31850496,
+        "stime": 77,
+        "start_time": 1770108266,
+        "size": 12124160,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 433,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "3144",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 51687424,
+        "stime": 87,
+        "start_time": 1770108267,
+        "size": 21680128,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 36,
+        "utime": 22,
+        "priority": 4,
+        "cmd": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.20.0\\LenovoVantageService.exe",
+        "pid": "4752",
+        "name": "LenovoVantageService.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 94101504,
+        "stime": 13,
+        "start_time": 1770108267,
+        "size": 43261952,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\WUDFHost.exe",
+        "pid": "1776",
+        "name": "WUDFHost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 6516736,
+        "stime": 0,
+        "start_time": 1770108266,
+        "size": 1773568,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 8,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "4816",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 27803648,
+        "stime": 1,
+        "start_time": 1770108267,
+        "size": 5140480,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 3,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\AggregatorHost.exe",
+        "pid": "10452",
+        "name": "AggregatorHost.exe",
+        "session": 0,
+        "ppid": 4716,
+        "vm_size": 8990720,
+        "stime": 0,
+        "start_time": 1770108275,
+        "size": 1998848,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 3,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "4804",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 5808128,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 1396736,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 1,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "1884",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 5693440,
+        "stime": 0,
+        "start_time": 1770108266,
+        "size": 1265664,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 10,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\spoolsv.exe",
+        "pid": "4240",
+        "name": "spoolsv.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 21917696,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 6844416,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 16,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "3968",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 27484160,
+        "stime": 1,
+        "start_time": 1770108267,
+        "size": 7196672,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 3,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "12568",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 20185088,
+        "stime": 0,
+        "start_time": 1770108279,
+        "size": 5033984,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 8,
+        "utime": 19,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "2020",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 46465024,
+        "stime": 19,
+        "start_time": 1770108266,
+        "size": 23326720,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 8,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\DriverStore\\FileRepository\\FNFA7F~1.INF\\driver\\tposd.exe",
+        "pid": "9504",
+        "name": "tposd.exe",
+        "session": 1,
+        "ppid": 6240,
+        "vm_size": 18456576,
+        "stime": 0,
+        "start_time": 1770108272,
+        "size": 3256320,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 7,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "3976",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 21458944,
+        "stime": 2,
+        "start_time": 1770108267,
+        "size": 3960832,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 9,
+        "utime": 6,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "3272",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 43945984,
+        "stime": 13,
+        "start_time": 1770108267,
+        "size": 21286912,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 9,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\DriverStore\\FileRepository\\u0197639.inf_amd64_6e9872ffe0e526d3\\B025646\\atiesrxx.exe",
+        "pid": "3328",
+        "name": "atiesrxx.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 10543104,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2957312,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "12652",
+        "name": "svchost.exe",
+        "session": 1,
+        "ppid": 1532,
+        "vm_size": 21532672,
+        "stime": 0,
+        "start_time": 1770108279,
+        "size": 3739648,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\DriverStore\\FileRepository\\FNFA7F~1.INF\\driver\\shtctky.exe",
+        "pid": "9656",
+        "name": "shtctky.exe",
+        "session": 1,
+        "ppid": 6240,
+        "vm_size": 15069184,
+        "stime": 2,
+        "start_time": 1770108272,
+        "size": 3821568,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 3,
+        "utime": 0,
+        "priority": 13,
+        "cmd": "C:\\Windows\\System32\\winlogon.exe",
+        "pid": "1484",
+        "name": "winlogon.exe",
+        "session": 1,
+        "ppid": 1380,
+        "vm_size": 14209024,
+        "stime": 0,
+        "start_time": 1770108266,
+        "size": 2707456,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 4,
+        "utime": 18,
+        "priority": 10,
+        "cmd": "C:\\Program Files\\AMD\\Performance Profile Client\\AUEPMaster.exe",
+        "pid": "10876",
+        "name": "AUEPMaster.exe",
+        "session": 0,
+        "ppid": 2404,
+        "vm_size": 15224832,
+        "stime": 81,
+        "start_time": 1770108275,
+        "size": 3813376,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 4,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdfendr.inf_amd64_2a2d80570dc9cadf\\amdfendrsr.exe",
+        "pid": "3336",
+        "name": "amdfendrsr.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 8826880,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2592768,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 7,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\DriverStore\\FileRepository\\fn.inf_amd64_4ad9b0573b01a792\\driver\\tphkload.exe",
+        "pid": "6240",
+        "name": "tphkload.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 15851520,
+        "stime": 1,
+        "start_time": 1770108268,
+        "size": 4272128,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 8,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\DriverStore\\FileRepository\\audioservice.inf_amd64_af656e37001358e4\\SenaryAudioApp.Svc.exe",
+        "pid": "5868",
+        "name": "SenaryAudioApp.Svc.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 46297088,
+        "stime": 0,
+        "start_time": 1770108268,
+        "size": 25714688,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 1,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\LsaIso.exe",
+        "pid": "1540",
+        "name": "LsaIso.exe",
+        "session": 0,
+        "ppid": 1388,
+        "vm_size": 3907584,
+        "stime": 0,
+        "start_time": 1770108266,
+        "size": 1302528,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 6,
+        "utime": 3,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "5604",
+        "name": "svchost.exe",
+        "session": 1,
+        "ppid": 1532,
+        "vm_size": 46370816,
+        "stime": 3,
+        "start_time": 1770108274,
+        "size": 11124736,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 59,
+        "utime": 563,
+        "priority": 13,
+        "cmd": "C:\\Windows\\System32\\dwm.exe",
+        "pid": "2036",
+        "name": "dwm.exe",
+        "session": 1,
+        "ppid": 1484,
+        "vm_size": 260550656,
+        "stime": 205,
+        "start_time": 1770108266,
+        "size": 172142592,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 17,
+        "utime": 6,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "2232",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 14327808,
+        "stime": 22,
+        "start_time": 1770108266,
+        "size": 4534272,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 24,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "pid": "10964",
+        "name": "CrossDeviceResume.exe",
+        "session": 1,
+        "ppid": 4628,
+        "vm_size": 74526720,
+        "stime": 2,
+        "start_time": 1770108276,
+        "size": 31109120,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 9,
+        "utime": 0,
+        "priority": 10,
+        "cmd": "C:\\Windows\\System32\\EPDCtrl.exe",
+        "pid": "6196",
+        "name": "EPDCtrl.exe",
+        "session": 1,
+        "ppid": 3744,
+        "vm_size": 18210816,
+        "stime": 0,
+        "start_time": 1770108268,
+        "size": 6631424,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 7,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "4420",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 9129984,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2195456,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 6,
+        "utime": 7,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "3548",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 22953984,
+        "stime": 40,
+        "start_time": 1770108267,
+        "size": 3596288,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 3,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "5808",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 10194944,
+        "stime": 0,
+        "start_time": 1770108268,
+        "size": 2224128,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 6,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "2296",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 14499840,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 3420160,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 7,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\WUDFHost.exe",
+        "pid": "6440",
+        "name": "WUDFHost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 10764288,
+        "stime": 0,
+        "start_time": 1770108268,
+        "size": 2494464,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "2308",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 9367552,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2162688,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 3,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "2320",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 7315456,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 1867776,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 11,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "12356",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 20312064,
+        "stime": 0,
+        "start_time": 1770108279,
+        "size": 5169152,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 14,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "3000",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 15523840,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 3649536,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "1940",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 14614528,
+        "stime": 2,
+        "start_time": 1770108266,
+        "size": 3756032,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 17,
+        "utime": 2,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\Common Files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe",
+        "pid": "4836",
+        "name": "OfficeClickToRun.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 68825088,
+        "stime": 2,
+        "start_time": 1770108267,
+        "size": 32460800,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 8,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\Lenovo\\Lenovo Smart Meeting Components\\Components\\x64\\VirtualCameraService\\VirtualCamera_Installer.exe",
+        "pid": "5380",
+        "name": "VirtualCamera_Installer.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 8368128,
+        "stime": 0,
+        "start_time": 1770108268,
+        "size": 4841472,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 4,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "1980",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 13574144,
+        "stime": 0,
+        "start_time": 1770108266,
+        "size": 2506752,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "4876",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 10964992,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2379776,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 7,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\DriverStore\\FileRepository\\audioservice.inf_amd64_af656e37001358e4\\SenaryAdvancedFeaturesApp.exe",
+        "pid": "9116",
+        "name": "SenaryAdvancedFeaturesApp.exe",
+        "session": 1,
+        "ppid": 5868,
+        "vm_size": 42418176,
+        "stime": 0,
+        "start_time": 1770108274,
+        "size": 23924736,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 4,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "4092",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 15507456,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 3174400,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "5484",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 10952704,
+        "stime": 0,
+        "start_time": 1770108268,
+        "size": 2457600,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "4008",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 10539008,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2027520,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 135,
+        "utime": 34,
+        "priority": 8,
+        "cmd": "C:\\Windows\\explorer.exe",
+        "pid": "11116",
+        "name": "explorer.exe",
+        "session": 1,
+        "ppid": 11052,
+        "vm_size": 602349568,
+        "stime": 39,
+        "start_time": 1770108275,
+        "size": 256782336,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 9,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "1660",
+        "name": "svchost.exe",
+        "session": 1,
+        "ppid": 1532,
+        "vm_size": 43958272,
+        "stime": 1,
+        "start_time": 1770108274,
+        "size": 10563584,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 1,
+        "utime": 0,
+        "priority": 13,
+        "cmd": "C:\\Windows\\System32\\NgcIso.exe",
+        "pid": "4552",
+        "name": "NgcIso.exe",
+        "session": 0,
+        "ppid": 4512,
+        "vm_size": 5107712,
+        "stime": 1,
+        "start_time": 1770108267,
+        "size": 1400832,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 4,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "4512",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 12926976,
+        "stime": 0,
+        "start_time": 1770108267,
+        "size": 2580480,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "6544",
+        "name": "svchost.exe",
+        "session": 1,
+        "ppid": 1532,
+        "vm_size": 5939200,
+        "stime": 0,
+        "start_time": 1770108274,
+        "size": 1314816,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 14,
+        "utime": 7,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "1692",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 52457472,
+        "stime": 18,
+        "start_time": 1770108266,
+        "size": 13885440,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 45,
+        "utime": 2,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\ShellHost.exe",
+        "pid": "11188",
+        "name": "ShellHost.exe",
+        "session": 1,
+        "ppid": 4628,
+        "vm_size": 172007424,
+        "stime": 2,
+        "start_time": 1770108275,
+        "size": 54710272,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 10,
+        "utime": 2,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "2396",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 11358208,
+        "stime": 2,
+        "start_time": 1770108267,
+        "size": 3088384,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 11,
+        "utime": 2,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "2404",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 22519808,
+        "stime": 3,
+        "start_time": 1770108267,
+        "size": 7282688,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 38,
+        "utime": 4,
+        "priority": 8,
+        "cmd": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "pid": "8596",
+        "name": "SearchHost.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 176103424,
+        "stime": 7,
+        "start_time": 1770108281,
+        "size": 72085504,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 34,
+        "utime": 9,
+        "priority": 8,
+        "cmd": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "pid": "8620",
+        "name": "StartMenuExperienceHost.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 228933632,
+        "stime": 4,
+        "start_time": 1770108281,
+        "size": 84799488,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 11,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\Lenovo\\Lenovo Smart Meeting Components\\Components\\x64\\SmartAppearanceAIService\\SmartAppearanceSVC.exe",
+        "pid": "13432",
+        "name": "SmartAppearanceSVC.exe",
+        "session": 1,
+        "ppid": 5380,
+        "vm_size": 37023744,
+        "stime": 0,
+        "start_time": 1770108281,
+        "size": 21331968,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 48,
+        "utime": 2,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.Client.WebExperience_526.1202.40.0_x64__cw5n1h2txyewy\\WidgetBoard.exe",
+        "pid": "13468",
+        "name": "WidgetBoard.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 143052800,
+        "stime": 4,
+        "start_time": 1770108282,
+        "size": 63377408,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 1,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\oobe\\UserOOBEBroker.exe",
+        "pid": "13676",
+        "name": "UserOOBEBroker.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 10342400,
+        "stime": 0,
+        "start_time": 1770108282,
+        "size": 2002944,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "13808",
+        "name": "svchost.exe",
+        "session": 1,
+        "ppid": 1532,
+        "vm_size": 20500480,
+        "stime": 0,
+        "start_time": 1770108282,
+        "size": 4104192,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 11,
+        "utime": 3,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\WindowsApps\\Microsoft.WidgetsPlatformRuntime_1.6.14.0_x64__8wekyb3d8bbwe\\WidgetService\\WidgetService.exe",
+        "pid": "12780",
+        "name": "WidgetService.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 32989184,
+        "stime": 6,
+        "start_time": 1770108283,
+        "size": 7389184,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "14208",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 13996032,
+        "stime": 0,
+        "start_time": 1770108284,
+        "size": 2965504,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 51,
+        "utime": 3,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "13412",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 8596,
+        "vm_size": 59265024,
+        "stime": 5,
+        "start_time": 1770108284,
+        "size": 45752320,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:05:25+00:00"
+        },
+        "nlwp": 34,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "tty": 0,
+        "pid": "14356",
+        "name": "ShellExperienceHost.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 107720704,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 1,
+        "start_time": 1770108284,
+        "size": 35815424,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 7,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "14304",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 13412,
+        "vm_size": 8589312,
+        "stime": 0,
+        "start_time": 1770108284,
+        "size": 2600960,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 37,
+        "utime": 1,
+        "priority": 10,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "15288",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 13412,
+        "vm_size": 122171392,
+        "stime": 1,
+        "start_time": 1770108285,
+        "size": 118206464,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 24,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "15276",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 13412,
+        "vm_size": 23281664,
+        "stime": 1,
+        "start_time": 1770108285,
+        "size": 15376384,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 12,
+        "utime": 2,
+        "priority": 13,
+        "cmd": "C:\\Windows\\System32\\ctfmon.exe",
+        "pid": "14888",
+        "name": "ctfmon.exe",
+        "session": 1,
+        "ppid": 4008,
+        "vm_size": 38653952,
+        "stime": 8,
+        "start_time": 1770108285,
+        "size": 8921088,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 10,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "14568",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 13412,
+        "vm_size": 10473472,
+        "stime": 0,
+        "start_time": 1770108285,
+        "size": 10452992,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 29,
+        "utime": 5,
+        "priority": 4,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "15180",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 13412,
+        "vm_size": 76152832,
+        "stime": 2,
+        "start_time": 1770108286,
+        "size": 75603968,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 10,
+        "utime": 29,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\SearchIndexer.exe",
+        "pid": "16416",
+        "name": "SearchIndexer.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 44494848,
+        "stime": 13,
+        "start_time": 1770108288,
+        "size": 18767872,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "16732",
+        "name": "svchost.exe",
+        "session": 1,
+        "ppid": 1532,
+        "vm_size": 23687168,
+        "stime": 0,
+        "start_time": 1770108289,
+        "size": 3112960,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 11,
+        "utime": 2,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\WindowsApps\\Microsoft.StartExperiencesApp_1.195.0.0_x64__8wekyb3d8bbwe\\MicrosoftStartFeedProvider\\MicrosoftStartFeedProvider.exe",
+        "pid": "17204",
+        "name": "MicrosoftStartFeedProvider.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 56217600,
+        "stime": 3,
+        "start_time": 1770108290,
+        "size": 10948608,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 9,
+        "utime": 3,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\McAfee\\wps\\1.35.148.1\\neo\\mc-neo-host.exe",
+        "pid": "17088",
+        "name": "mc-neo-host.exe",
+        "session": 0,
+        "ppid": 1692,
+        "vm_size": 46002176,
+        "stime": 1,
+        "start_time": 1770108290,
+        "size": 26386432,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 19,
+        "utime": 4,
+        "priority": 4,
+        "cmd": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.20.0\\LenovoVantage-(VantageCoreAddin).exe",
+        "pid": "16380",
+        "name": "LenovoVantage-(VantageCoreAddin).exe",
+        "session": 0,
+        "ppid": 4752,
+        "vm_size": 35495936,
+        "stime": 2,
+        "start_time": 1770108294,
+        "size": 28348416,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 8,
+        "utime": 2,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "17108",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 26374144,
+        "stime": 3,
+        "start_time": 1770108291,
+        "size": 5173248,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 57,
+        "utime": 47,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25122.50.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "pid": "7192",
+        "name": "PhoneExperienceHost.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 569544704,
+        "stime": 33,
+        "start_time": 1770108296,
+        "size": 227991552,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 70,
+        "utime": 4,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\AMD\\CNext\\CNext\\RadeonSoftware.exe",
+        "pid": "12708",
+        "name": "RadeonSoftware.exe",
+        "session": 1,
+        "ppid": 10316,
+        "vm_size": 288600064,
+        "stime": 7,
+        "start_time": 1770108296,
+        "size": 265117696,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 10,
+        "cmd": "C:\\Program Files\\AMD\\CNext\\CNext\\CPUMetricsServer.exe",
+        "pid": "4432",
+        "name": "CPUMetricsServer.exe",
+        "session": 1,
+        "ppid": 2404,
+        "vm_size": 8355840,
+        "stime": 0,
+        "start_time": 1770108301,
+        "size": 2781184,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 1,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\AMD\\CNext\\CNext\\cncmd.exe",
+        "pid": "17936",
+        "name": "cncmd.exe",
+        "session": 1,
+        "ppid": 12708,
+        "vm_size": 3223552,
+        "stime": 0,
+        "start_time": 1770108308,
+        "size": 1785856,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 1,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\cmd.exe",
+        "pid": "18008",
+        "name": "cmd.exe",
+        "session": 1,
+        "ppid": 17968,
+        "vm_size": 7487488,
+        "stime": 0,
+        "start_time": 1770108308,
+        "size": 4157440,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\conhost.exe",
+        "pid": "18024",
+        "name": "conhost.exe",
+        "session": 1,
+        "ppid": 18008,
+        "vm_size": 2326528,
+        "stime": 0,
+        "start_time": 1770108308,
+        "size": 1196032,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 10,
+        "utime": 2,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\AMD\\CNext\\CNext\\AMDRSServ.exe",
+        "pid": "18308",
+        "name": "AMDRSServ.exe",
+        "session": 1,
+        "ppid": 18008,
+        "vm_size": 16924672,
+        "stime": 24,
+        "start_time": 1770108309,
+        "size": 6946816,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 25,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\AMD\\CNext\\CNext\\AMDRSSrcExt.exe",
+        "pid": "10752",
+        "name": "AMDRSSrcExt.exe",
+        "session": 1,
+        "ppid": 18308,
+        "vm_size": 137707520,
+        "stime": 0,
+        "start_time": 1770108309,
+        "size": 127217664,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 23,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\AMD\\CNext\\CNext\\amdow.exe",
+        "pid": "16488",
+        "name": "amdow.exe",
+        "session": 1,
+        "ppid": 18308,
+        "vm_size": 4472832,
+        "stime": 0,
+        "start_time": 1770108310,
+        "size": 2322432,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 6,
+        "utime": 18,
+        "priority": 8,
+        "cmd": "C:\\Windows\\UUS\\Packages\\Preview\\amd64\\MoUsoCoreWorker.exe",
+        "pid": "18196",
+        "name": "MoUsoCoreWorker.exe",
+        "session": 0,
+        "ppid": 17912,
+        "vm_size": 118968320,
+        "stime": 15,
+        "start_time": 1770108312,
+        "size": 65384448,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 13,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "17912",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 17317888,
+        "stime": 0,
+        "start_time": 1770108312,
+        "size": 3710976,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 1,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\SecurityHealthSystray.exe",
+        "pid": "5884",
+        "name": "SecurityHealthSystray.exe",
+        "session": 1,
+        "ppid": 11116,
+        "vm_size": 11452416,
+        "stime": 0,
+        "start_time": 1770108316,
+        "size": 2183168,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 3,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\RuntimeBroker.exe",
+        "pid": "10764",
+        "name": "RuntimeBroker.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 24539136,
+        "stime": 0,
+        "start_time": 1770108329,
+        "size": 3624960,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 69,
+        "utime": 85,
+        "priority": 8,
+        "cmd": "C:\\Users\\gokul\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe",
+        "pid": "14136",
+        "name": "OneDrive.exe",
+        "session": 1,
+        "ppid": 11116,
+        "vm_size": 271183872,
+        "stime": 31,
+        "start_time": 1770108324,
+        "size": 148094976,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 4,
+        "cmd": "C:\\Windows\\System32\\RuntimeBroker.exe",
+        "pid": "3108",
+        "name": "RuntimeBroker.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 9728000,
+        "stime": 0,
+        "start_time": 1770108334,
+        "size": 3592192,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 16,
+        "utime": 6,
+        "priority": 4,
+        "cmd": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.20.0\\LenovoVantage-(GenericMessagingAddin).exe",
+        "pid": "19084",
+        "name": "LenovoVantage-(GenericMessagingAddin).exe",
+        "session": 1,
+        "ppid": 4752,
+        "vm_size": 41512960,
+        "stime": 3,
+        "start_time": 1770108337,
+        "size": 34574336,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\Locator.exe",
+        "pid": "19384",
+        "name": "Locator.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 3457024,
+        "stime": 0,
+        "start_time": 1770108339,
+        "size": 688128,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 4,
+        "utime": 0,
+        "priority": 4,
+        "cmd": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+        "pid": "18920",
+        "name": "backgroundTaskHost.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 11239424,
+        "stime": 0,
+        "start_time": 1770108340,
+        "size": 6934528,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 10,
+        "utime": 0,
+        "priority": 4,
+        "cmd": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.20.0\\LenovoVantage-(LenovoServiceBridgeAddin).exe",
+        "pid": "19640",
+        "name": "LenovoVantage-(LenovoServiceBridgeAddin).exe",
+        "session": 1,
+        "ppid": 4752,
+        "vm_size": 38998016,
+        "stime": 0,
+        "start_time": 1770108342,
+        "size": 29753344,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 10,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\ProgramData\\Lenovo\\Udc\\Hosts\\x64\\AppProvisioningPlugin.exe",
+        "pid": "19720",
+        "name": "AppProvisioningPlugin.exe",
+        "session": 0,
+        "ppid": 5076,
+        "vm_size": 77565952,
+        "stime": 0,
+        "start_time": 1770108346,
+        "size": 43671552,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 4,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\conhost.exe",
+        "pid": "17184",
+        "name": "conhost.exe",
+        "session": 0,
+        "ppid": 19720,
+        "vm_size": 8953856,
+        "stime": 0,
+        "start_time": 1770108346,
+        "size": 1736704,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 51,
+        "utime": 9,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "5396",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 13468,
+        "vm_size": 164433920,
+        "stime": 8,
+        "start_time": 1770108348,
+        "size": 55103488,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 55,
+        "utime": 4,
+        "priority": 10,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "20588",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 5396,
+        "vm_size": 646303744,
+        "stime": 4,
+        "start_time": 1770108348,
+        "size": 466890752,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 7,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "16336",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 5396,
+        "vm_size": 9723904,
+        "stime": 0,
+        "start_time": 1770108348,
+        "size": 2539520,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 27,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "20596",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 5396,
+        "vm_size": 52379648,
+        "stime": 2,
+        "start_time": 1770108348,
+        "size": 15433728,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 10,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "20640",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 5396,
+        "vm_size": 24592384,
+        "stime": 0,
+        "start_time": 1770108348,
+        "size": 10305536,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 14,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "20916",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 5396,
+        "vm_size": 60657664,
+        "stime": 0,
+        "start_time": 1770108349,
+        "size": 22597632,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 31,
+        "utime": 8,
+        "priority": 4,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "21060",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 5396,
+        "vm_size": 220045312,
+        "stime": 2,
+        "start_time": 1770108349,
+        "size": 91713536,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 9,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "20928",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 5396,
+        "vm_size": 25747456,
+        "stime": 0,
+        "start_time": 1770108351,
+        "size": 9158656,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 42,
+        "utime": 130,
+        "priority": 8,
+        "cmd": "C:\\Users\\gokul\\AppData\\Roaming\\uTorrent Web\\utweb.exe",
+        "pid": "8096",
+        "name": "utweb.exe",
+        "session": 1,
+        "ppid": 11116,
+        "vm_size": 67555328,
+        "stime": 146,
+        "start_time": 1770108364,
+        "size": 30781440,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 7,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "14532",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 21228,
+        "vm_size": 10719232,
+        "stime": 0,
+        "start_time": 1770108364,
+        "size": 2547712,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 60,
+        "utime": 30,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "21228",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 8096,
+        "vm_size": 171769856,
+        "stime": 21,
+        "start_time": 1770108364,
+        "size": 52953088,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 53,
+        "utime": 7,
+        "priority": 10,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "18688",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 21228,
+        "vm_size": 488640512,
+        "stime": 8,
+        "start_time": 1770108365,
+        "size": 369209344,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 24,
+        "utime": 30,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "18556",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 21228,
+        "vm_size": 57839616,
+        "stime": 36,
+        "start_time": 1770108365,
+        "size": 16470016,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 10,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "15140",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 21228,
+        "vm_size": 26791936,
+        "stime": 0,
+        "start_time": 1770108365,
+        "size": 10600448,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 31,
+        "utime": 183,
+        "priority": 4,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "7188",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 21228,
+        "vm_size": 586715136,
+        "stime": 18,
+        "start_time": 1770108365,
+        "size": 269799424,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 58,
+        "utime": 9,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "pid": "13660",
+        "name": "msedge.exe",
+        "session": 1,
+        "ppid": 11116,
+        "vm_size": 170110976,
+        "stime": 8,
+        "start_time": 1770108367,
+        "size": 55836672,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 7,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "pid": "10344",
+        "name": "msedge.exe",
+        "session": 1,
+        "ppid": 13660,
+        "vm_size": 10199040,
+        "stime": 0,
+        "start_time": 1770108368,
+        "size": 2535424,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 30,
+        "utime": 0,
+        "priority": 10,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "pid": "21304",
+        "name": "msedge.exe",
+        "session": 1,
+        "ppid": 13660,
+        "vm_size": 75120640,
+        "stime": 0,
+        "start_time": 1770108368,
+        "size": 38150144,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 24,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "pid": "12964",
+        "name": "msedge.exe",
+        "session": 1,
+        "ppid": 13660,
+        "vm_size": 54194176,
+        "stime": 0,
+        "start_time": 1770108368,
+        "size": 15667200,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 10,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "pid": "20996",
+        "name": "msedge.exe",
+        "session": 1,
+        "ppid": 13660,
+        "vm_size": 25808896,
+        "stime": 0,
+        "start_time": 1770108368,
+        "size": 9211904,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 33,
+        "utime": 4,
+        "priority": 8,
+        "cmd": "C:\\Users\\gokul\\AppData\\Roaming\\uTorrent Web\\helper\\helper.exe",
+        "pid": "11324",
+        "name": "helper.exe",
+        "session": 1,
+        "ppid": 8096,
+        "vm_size": 30277632,
+        "stime": 2,
+        "start_time": 1770108369,
+        "size": 11399168,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 1,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "pid": "21804",
+        "name": "ApplicationFrameHost.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 45322240,
+        "stime": 1,
+        "start_time": 1770108380,
+        "size": 5844992,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\AMD\\Performance Profile Client\\AUEPDU.exe",
+        "pid": "13824",
+        "name": "AUEPDU.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 15994880,
+        "stime": 0,
+        "start_time": 1770108393,
+        "size": 2711552,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "6364",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 11345920,
+        "stime": 0,
+        "start_time": 1770108394,
+        "size": 1961984,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 63,
+        "utime": 3,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\WindowsApps\\MSTeams_26005.213.4315.4117_x64__8wekyb3d8bbwe\\ms-teams.exe",
+        "pid": "22172",
+        "name": "ms-teams.exe",
+        "session": 1,
+        "ppid": 11116,
+        "vm_size": 72347648,
+        "stime": 4,
+        "start_time": 1770108397,
+        "size": 35975168,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 17,
+        "utime": 5,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "20740",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 58224640,
+        "stime": 5,
+        "start_time": 1770108394,
+        "size": 28549120,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 3,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\RuntimeBroker.exe",
+        "pid": "10768",
+        "name": "RuntimeBroker.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 12926976,
+        "stime": 0,
+        "start_time": 1770108398,
+        "size": 2338816,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 55,
+        "utime": 10,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "2136",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 22172,
+        "vm_size": 94044160,
+        "stime": 10,
+        "start_time": 1770108399,
+        "size": 53579776,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 7,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "1840",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 2136,
+        "vm_size": 11063296,
+        "stime": 0,
+        "start_time": 1770108399,
+        "size": 2560000,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 54,
+        "utime": 0,
+        "priority": 10,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "22568",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 2136,
+        "vm_size": 75280384,
+        "stime": 1,
+        "start_time": 1770108399,
+        "size": 68341760,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 24,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "22576",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 2136,
+        "vm_size": 31076352,
+        "stime": 2,
+        "start_time": 1770108399,
+        "size": 13328384,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 34,
+        "utime": 50,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "22808",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 2136,
+        "vm_size": 378945536,
+        "stime": 8,
+        "start_time": 1770108399,
+        "size": 324919296,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 10,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "22620",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 2136,
+        "vm_size": 11403264,
+        "stime": 0,
+        "start_time": 1770108399,
+        "size": 9482240,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 103,
+        "utime": 8,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\WindowsApps\\MSTeams_26005.213.4315.4117_x64__8wekyb3d8bbwe\\ms-teams.exe",
+        "pid": "23328",
+        "name": "ms-teams.exe",
+        "session": 1,
+        "ppid": 22172,
+        "vm_size": 133361664,
+        "stime": 8,
+        "start_time": 1770108404,
+        "size": 96862208,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 5,
+        "utime": 0,
+        "priority": 13,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "pid": "3216",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 28913664,
+        "stime": 0,
+        "start_time": 1770108406,
+        "size": 10039296,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 18,
+        "utime": 11,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25112.60.0_x64__cw5n1h2txyewy\\CrossDeviceService.exe",
+        "pid": "15988",
+        "name": "CrossDeviceService.exe",
+        "session": 1,
+        "ppid": 4628,
+        "vm_size": 136400896,
+        "stime": 13,
+        "start_time": 1770108419,
+        "size": 35782656,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 10,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "6448",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 2136,
+        "vm_size": 12795904,
+        "stime": 0,
+        "start_time": 1770108408,
+        "size": 9379840,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 3,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\RuntimeBroker.exe",
+        "pid": "11652",
+        "name": "RuntimeBroker.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 16781312,
+        "stime": 0,
+        "start_time": 1770108421,
+        "size": 2646016,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 13,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\WindowsApps\\E0469640.LenovoSmartCommunication_3.4.20.0_x64__5grkq8ppsgwt4\\PackageLauncher\\PackageLauncher.exe",
+        "pid": "15676",
+        "name": "PackageLauncher.exe",
+        "session": 1,
+        "ppid": 4628,
+        "vm_size": 59592704,
+        "stime": 0,
+        "start_time": 1770108448,
+        "size": 32997376,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 36,
+        "utime": 5,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\WindowsApps\\E0469640.LenovoSmartCommunication_3.4.20.0_x64__5grkq8ppsgwt4\\LenovoSmartMeeting.exe",
+        "pid": "23252",
+        "name": "LenovoSmartMeeting.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 77684736,
+        "stime": 3,
+        "start_time": 1770108449,
+        "size": 55681024,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 3,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\RuntimeBroker.exe",
+        "pid": "4668",
+        "name": "RuntimeBroker.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 23691264,
+        "stime": 0,
+        "start_time": 1770108449,
+        "size": 4407296,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 4,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Users\\gokul\\AppData\\Local\\Microsoft\\OneDrive\\26.002.0105.0001_1\\FileCoAuth.exe",
+        "pid": "20108",
+        "name": "FileCoAuth.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 38256640,
+        "stime": 0,
+        "start_time": 1770108458,
+        "size": 10178560,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\RuntimeBroker.exe",
+        "pid": "23644",
+        "name": "RuntimeBroker.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 24748032,
+        "stime": 0,
+        "start_time": 1770108458,
+        "size": 3149824,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 41,
+        "utime": 6,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\WindowsApps\\Microsoft.Copilot_1.25121.81.0_x64__8wekyb3d8bbwe\\Copilot.exe",
+        "pid": "14068",
+        "name": "Copilot.exe",
+        "session": 1,
+        "ppid": 4628,
+        "vm_size": 252162048,
+        "stime": 7,
+        "start_time": 1770108483,
+        "size": 68825088,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 57,
+        "utime": 2,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2601.57101.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "pid": "7264",
+        "name": "M365Copilot.exe",
+        "session": 1,
+        "ppid": 7180,
+        "vm_size": 170463232,
+        "stime": 4,
+        "start_time": 1770108489,
+        "size": 63225856,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\RuntimeBroker.exe",
+        "pid": "23964",
+        "name": "RuntimeBroker.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 16646144,
+        "stime": 0,
+        "start_time": 1770108489,
+        "size": 2576384,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 7,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "24376",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 23404,
+        "vm_size": 11472896,
+        "stime": 0,
+        "start_time": 1770108490,
+        "size": 2560000,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 50,
+        "utime": 3,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "23404",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 7264,
+        "vm_size": 65310720,
+        "stime": 4,
+        "start_time": 1770108490,
+        "size": 45510656,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 36,
+        "utime": 0,
+        "priority": 10,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "12912",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 23404,
+        "vm_size": 133074944,
+        "stime": 0,
+        "start_time": 1770108490,
+        "size": 128204800,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 20,
+        "utime": 1,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "12640",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 23404,
+        "vm_size": 24600576,
+        "stime": 1,
+        "start_time": 1770108490,
+        "size": 13271040,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 8,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "11516",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 23404,
+        "vm_size": 10428416,
+        "stime": 0,
+        "start_time": 1770108490,
+        "size": 9220096,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 29,
+        "utime": 7,
+        "priority": 4,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "15156",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 23404,
+        "vm_size": 183345152,
+        "stime": 1,
+        "start_time": 1770108490,
+        "size": 181600256,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\Microsoft Office\\root\\Office16\\ONENOTEM.EXE",
+        "pid": "17140",
+        "name": "ONENOTEM.EXE",
+        "session": 1,
+        "ppid": 11116,
+        "vm_size": 6303744,
+        "stime": 0,
+        "start_time": 1770108560,
+        "size": 3354624,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 7,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\AppActions.exe",
+        "pid": "23940",
+        "name": "AppActions.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 59314176,
+        "stime": 0,
+        "start_time": 1770108876,
+        "size": 13889536,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 10,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\144.0.3719.93\\msedgewebview2.exe",
+        "pid": "24828",
+        "name": "msedgewebview2.exe",
+        "session": 1,
+        "ppid": 21228,
+        "vm_size": 31334400,
+        "stime": 0,
+        "start_time": 1770109120,
+        "size": 9330688,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 1,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\UUS\\Packages\\Preview\\amd64\\MoNotificationUx.exe",
+        "pid": "5104",
+        "name": "MoNotificationUx.exe",
+        "session": 1,
+        "ppid": 18196,
+        "vm_size": 16355328,
+        "stime": 0,
+        "start_time": 1770113966,
+        "size": 2400256,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 18,
+        "utime": 60,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\audiodg.exe",
+        "tty": 0,
+        "pid": "1128",
+        "name": "audiodg.exe",
+        "session": 0,
+        "ppid": 3976,
+        "vm_size": 323059712,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 35,
+        "start_time": 1770117015,
+        "size": 278720512,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 6,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "tty": 0,
+        "pid": "14328",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 12648448,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 0,
+        "start_time": 1770119705,
+        "size": 2183168,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 35,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "tty": 0,
+        "pid": "13948",
+        "name": "LockApp.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 108654592,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 0,
+        "start_time": 1770125797,
+        "size": 36323328,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 9,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "tty": 0,
+        "pid": "29064",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 42668032,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 0,
+        "start_time": 1770122052,
+        "size": 6176768,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 14,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "tty": 0,
+        "pid": "29460",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 36077568,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 0,
+        "start_time": 1770119938,
+        "size": 10956800,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 34,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\RuntimeBroker.exe",
+        "tty": 0,
+        "pid": "25520",
+        "name": "RuntimeBroker.exe",
+        "session": 1,
+        "ppid": 1692,
+        "vm_size": 53645312,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 0,
+        "start_time": 1770125797,
+        "size": 10444800,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 7,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+        "tty": 0,
+        "pid": "1160",
+        "name": "WmiPrvSE.exe",
+        "session": 0,
+        "ppid": 1692,
+        "vm_size": 77979648,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 1,
+        "start_time": 1770125799,
+        "size": 33091584,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 3,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+        "tty": 0,
+        "pid": "26348",
+        "name": "WmiPrvSE.exe",
+        "session": 0,
+        "ppid": 1692,
+        "vm_size": 25247744,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 0,
+        "start_time": 1770125799,
+        "size": 7610368,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "tty": 0,
+        "pid": "26724",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 12292096,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 0,
+        "start_time": 1770125807,
+        "size": 1953792,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 4,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "tty": 0,
+        "pid": "24028",
+        "name": "svchost.exe",
+        "session": 1,
+        "ppid": 1532,
+        "vm_size": 17203200,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 0,
+        "start_time": 1770125807,
+        "size": 1982464,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 2,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "tty": 0,
+        "pid": "25448",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 10506240,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 0,
+        "start_time": 1770125808,
+        "size": 1564672,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 13,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "tty": 0,
+        "pid": "27340",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 21565440,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 0,
+        "start_time": 1770125808,
+        "size": 3809280,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 4,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\svchost.exe",
+        "tty": 0,
+        "pid": "24016",
+        "name": "svchost.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 9371648,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 0,
+        "start_time": 1770125809,
+        "size": 1441792,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 44,
+        "utime": 24,
+        "priority": 8,
+        "cmd": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+        "tty": 0,
+        "pid": "19652",
+        "name": "vlc.exe",
+        "session": 1,
+        "ppid": 11116,
+        "vm_size": 631791616,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 13,
+        "start_time": 1770125833,
+        "size": 353550336,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 8,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+        "tty": 0,
+        "pid": "22888",
+        "name": "WmiPrvSE.exe",
+        "session": 0,
+        "ppid": 1692,
+        "vm_size": 23420928,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 0,
+        "start_time": 1770126113,
+        "size": 6672384,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 9,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\servicing\\TrustedInstaller.exe",
+        "tty": 0,
+        "pid": "20068",
+        "name": "TrustedInstaller.exe",
+        "session": 0,
+        "ppid": 1532,
+        "vm_size": 12345344,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 0,
+        "start_time": 1770126197,
+        "size": 2056192,
+        "agent_id": "004"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T13:43:15+00:00"
+        },
+        "nlwp": 8,
+        "utime": 0,
+        "priority": 8,
+        "cmd": "C:\\Windows\\WinSxS\\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.7704_none_a50081097769e148\\TiWorker.exe",
+        "tty": 0,
+        "pid": "28628",
+        "name": "TiWorker.exe",
+        "session": 0,
+        "ppid": 1692,
+        "vm_size": 22728704,
+        "resident": 0,
+        "pgrp": 0,
+        "nice": 0,
+        "share": 0,
+        "processor": 0,
+        "tgid": 0,
+        "stime": 0,
+        "start_time": 1770126197,
+        "size": 4722688,
+        "agent_id": "004"
+      }
+    ],
+    "total_affected_items": 227,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All specified syscollector information was returned",
+  "error": 0
+}

@@ -1,0 +1,107 @@
+/* ===== WAZUH API ENDPOINTS SUMMARY - 20260203_192653 ===== */
+/* Generated: 2026-02-03 19:28:39 */
+/* Total Endpoints Tested: 78 */
+
+/* ===== General / Manager ===== */
+"/", // ✓ Root API Info
+"/manager/info", // ✓ Manager Info
+"/manager/configuration", // ✓ Manager Configuration
+"/manager/status", // ✓ Manager Status
+"/manager/stats", // ✓ Manager Stats
+"/manager/stats/hourly", // ✓ Manager Stats Hourly
+"/manager/stats/weekly", // ✓ Manager Stats Weekly
+
+/* ===== Agents / Assets ===== */
+"/agents", // ✓ All Agents
+"/agents/summary", // ✓ Agents Summary
+"/agents/summary/status", // ✓ Agents Summary Status
+"/agents/000/key", // ✓ Agent Key Info (000)
+"/agents/001/key", // ✓ Agent Key Info (001)
+"/agents/002/key", // ✓ Agent Key Info (002)
+"/agents/003/key", // ✓ Agent Key Info (003)
+"/agents/004/key", // ✓ Agent Key Info (004)
+
+/* ===== Groups ===== */
+"/groups", // ✓ Groups List
+"/groups/default/agents", // ✓ Group Agents (default)
+"/groups/default/configuration", // ✓ Group Configuration (default)
+"/groups/default/files", // ✓ Group Files (default)
+
+/* ===== Inventory / Syscollector ===== */
+"/syscollector/000/os", // ✓ Syscollector OS Info (000)
+"/syscollector/000/hardware", // ✓ Syscollector Hardware (000)
+"/syscollector/000/packages", // ✓ Syscollector Packages (000)
+"/syscollector/000/processes", // ✓ Syscollector Processes (000)
+"/syscollector/000/netiface", // ✓ Syscollector Network Interfaces (000)
+"/syscollector/000/netaddr", // ✓ Syscollector Network Addresses (000)
+"/syscollector/000/ports", // ✓ Syscollector Ports (000)
+"/syscollector/001/os", // ✓ Syscollector OS Info (001)
+"/syscollector/001/hardware", // ✓ Syscollector Hardware (001)
+"/syscollector/001/packages", // ✓ Syscollector Packages (001)
+"/syscollector/001/processes", // ✓ Syscollector Processes (001)
+"/syscollector/001/netiface", // ✓ Syscollector Network Interfaces (001)
+"/syscollector/001/netaddr", // ✓ Syscollector Network Addresses (001)
+"/syscollector/001/ports", // ✓ Syscollector Ports (001)
+"/syscollector/002/os", // ✓ Syscollector OS Info (002)
+"/syscollector/002/hardware", // ✓ Syscollector Hardware (002)
+"/syscollector/002/packages", // ✓ Syscollector Packages (002)
+"/syscollector/002/processes", // ✓ Syscollector Processes (002)
+"/syscollector/002/netiface", // ✓ Syscollector Network Interfaces (002)
+"/syscollector/002/netaddr", // ✓ Syscollector Network Addresses (002)
+"/syscollector/002/ports", // ✓ Syscollector Ports (002)
+"/syscollector/003/os", // ✓ Syscollector OS Info (003)
+"/syscollector/003/hardware", // ✓ Syscollector Hardware (003)
+"/syscollector/003/packages", // ✓ Syscollector Packages (003)
+"/syscollector/003/processes", // ✓ Syscollector Processes (003)
+"/syscollector/003/netiface", // ✓ Syscollector Network Interfaces (003)
+"/syscollector/003/netaddr", // ✓ Syscollector Network Addresses (003)
+"/syscollector/003/ports", // ✓ Syscollector Ports (003)
+"/syscollector/004/os", // ✓ Syscollector OS Info (004)
+"/syscollector/004/hardware", // ✓ Syscollector Hardware (004)
+"/syscollector/004/packages", // ✓ Syscollector Packages (004)
+"/syscollector/004/processes", // ✓ Syscollector Processes (004)
+"/syscollector/004/netiface", // ✓ Syscollector Network Interfaces (004)
+"/syscollector/004/netaddr", // ✓ Syscollector Network Addresses (004)
+"/syscollector/004/ports", // ✓ Syscollector Ports (004)
+
+/* ===== File Integrity Monitoring ===== */
+"/syscheck/000", // ✓ File Integrity Monitoring (000)
+"/syscheck/001", // ✗ File Integrity Monitoring (001) // HTTP 500
+"/syscheck/002", // ✓ File Integrity Monitoring (002)
+"/syscheck/003", // ✓ File Integrity Monitoring (003)
+"/syscheck/004", // ✗ File Integrity Monitoring (004) // HTTP 500
+
+/* ===== Rootcheck ===== */
+"/rootcheck/000", // ✓ Rootcheck (000)
+"/rootcheck/001", // ✓ Rootcheck (001)
+"/rootcheck/002", // ✓ Rootcheck (002)
+"/rootcheck/003", // ✓ Rootcheck (003)
+"/rootcheck/004", // ✓ Rootcheck (004)
+
+/* ===== Security Configuration Assessment ===== */
+"/sca/000", // ✓ Security Configuration Assessment (000)
+"/sca/001", // ✓ Security Configuration Assessment (001)
+"/sca/002", // ✓ Security Configuration Assessment (002)
+"/sca/003", // ✓ Security Configuration Assessment (003)
+"/sca/004", // ✓ Security Configuration Assessment (004)
+
+/* ===== Rules & Decoders ===== */
+"/rules", // ✓ Rules List
+"/decoders", // ✓ Decoders List
+
+/* ===== MITRE ATT&CK ===== */
+"/mitre/techniques", // ✓ MITRE Techniques
+"/mitre/tactics", // ✓ MITRE Tactics
+
+/* ===== Cluster ===== */
+"/cluster/status", // ✓ Cluster Status
+
+/* ===== Security ===== */
+"/security/config", // ✓ Security Configuration
+"/security/users", // ✓ Security Users
+"/security/roles", // ✓ Security Roles
+"/security/policies", // ✓ Security Policies
+
+/* ===== EXECUTION STATISTICS ===== */
+/* Successful: 76/78 (97.4%) */
+/* Failed: 2/78 (2.6%) */
