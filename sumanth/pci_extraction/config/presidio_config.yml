@@ -1,0 +1,166 @@
+# Presidio PCI Data Analysis Configuration
+
+# Presidio Settings
+presidio:
+  # Analysis mode (local, api, azure)
+  mode: local
+  
+  # API settings (if using API mode)
+  api:
+    base_url: "http://localhost:5002"
+    analyzer_endpoint: "/analyze"
+    anonymizer_endpoint: "/anonymize"
+    timeout: 30
+  
+  # Azure Cognitive Services settings (if using Azure mode)
+  azure:
+    endpoint: "https://your-region.cognitiveservices.azure.com/"
+    subscription_key: "your-subscription-key"
+    
+# PII/PCI Entity Detection Settings
+detection:
+  # Entities to detect (PCI-focused)
+  entities:
+    - CREDIT_CARD
+    - US_SSN
+    - PERSON
+    - PHONE_NUMBER
+    - EMAIL_ADDRESS
+    - US_BANK_NUMBER
+    - IBAN_CODE
+    - US_DRIVER_LICENSE
+    - US_PASSPORT
+    - DATE_TIME
+    - LOCATION
+    - ORGANIZATION
+    - MEDICAL_LICENSE
+    - IP_ADDRESS
+  
+  # Minimum confidence score (0.0 to 1.0)
+  min_score: 0.3
+  
+  # Language for analysis
+  language: "en"
+  
+  # Custom recognizers for specific PCI patterns
+  custom_recognizers:
+    cvv:
+      pattern: "\\b\\d{3,4}\\b"
+      context: ["cvv", "cvc", "security code", "card verification"]
+      score: 0.8
+    
+    account_number:
+      pattern: "\\b\\d{8,17}\\b"
+      context: ["account", "acct", "account number"]
+      score: 0.7
+    
+    routing_number:
+      pattern: "\\b\\d{9}\\b"
+      context: ["routing", "aba", "routing number"]
+      score: 0.8
+
+# Input Processing Settings
+input:
+  # Directory containing extracted database files
+  source_directory: "./data/extracted_data"
+  
+  # File patterns to process
+  file_patterns:
+    - "*.json"
+  
+  # Fields to analyze in JSON (empty = analyze all text fields)
+  analyze_fields: []
+  
+  # Fields to exclude from analysis
+  exclude_fields:
+    - "id"
+    - "created_at"
+    - "updated_at"
+    - "timestamp"
+
+# Output Settings
+output:
+  # Directory for PCI analysis results
+  directory: "./data/pci_analysis_results"
+  
+  # Generate detailed reports
+  detailed_reports: true
+  
+  # Generate summary dashboard
+  summary_report: true
+  
+  # Include original data in results
+  include_original_data: false
+  
+  # File naming pattern
+  filename_pattern: "pci_analysis_{timestamp}_{source_file}.json"
+  
+  # Compliance report filename
+  compliance_report: "pci_compliance_report_{timestamp}.json"
+  
+  # Dashboard report filename
+  dashboard_report: "pci_dashboard_{timestamp}.html"
+
+# Risk Assessment Settings
+risk_assessment:
+  # Risk scoring weights
+  entity_weights:
+    CREDIT_CARD: 10
+    US_SSN: 9
+    US_BANK_NUMBER: 8
+    IBAN_CODE: 8
+    PHONE_NUMBER: 3
+    EMAIL_ADDRESS: 2
+    PERSON: 2
+    DATE_TIME: 1
+    LOCATION: 1
+  
+  # Risk thresholds
+  thresholds:
+    low: 0.3
+    medium: 0.6
+    high: 0.8
+    critical: 0.9
+  
+  # Compliance categories
+  compliance_categories:
+    pci_dss: ["CREDIT_CARD", "US_BANK_NUMBER", "IBAN_CODE"]
+    pii: ["US_SSN", "PERSON", "PHONE_NUMBER", "EMAIL_ADDRESS"]
+    financial: ["CREDIT_CARD", "US_BANK_NUMBER", "IBAN_CODE"]
+
+# Reporting Settings
+reporting:
+  # Include confidence scores in reports
+  include_scores: true
+  
+  # Include context around detected entities
+  include_context: true
+  
+  # Context window size (characters before/after entity)
+  context_window: 50
+  
+  # Group findings by database/table
+  group_by_source: true
+  
+  # Generate executive summary
+  executive_summary: true
+  
+  # Export formats
+  export_formats:
+    - json
+    - csv
+    - html
+
+# Logging Settings
+logging:
+  # Log level
+  level: INFO
+  
+  # Log file location
+  file: "./logs/presidio_analysis_{timestamp}.log"
+  
+  # Console logging
+  console: true
+  
+  # Log detailed analysis results
+  log_detections: true

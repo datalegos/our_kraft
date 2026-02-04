@@ -1,0 +1,118 @@
+source_file,database,table,record_id,field_name,entity_type,entity_text,confidence_score,risk_score,risk_level,context
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,0,first_name,PERSON,John,0.85,0.85,HIGH,John
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,0,email,EMAIL_ADDRESS,john.doe@email.com,1.0,0.9500000000000001,CRITICAL,john.doe@email.com
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,0,email,ORGANIZATION,john.doe@email.com,0.85,0.9500000000000001,CRITICAL,john.doe@email.com
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,0,date_of_birth,DATE_TIME,1985-03-15,0.85,0.85,HIGH,1985-03-15
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,0,city,LOCATION,New York,0.85,0.85,HIGH,New York
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,0,zip_code,DATE_TIME,10001,0.85,0.85,HIGH,10001
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,0,country,LOCATION,USA,0.85,0.85,HIGH,USA
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,1,first_name,PERSON,Jane,0.85,0.85,HIGH,Jane
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,1,email,EMAIL_ADDRESS,jane.smith@email.com,1.0,1.0,CRITICAL,jane.smith@email.com
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,1,date_of_birth,DATE_TIME,1990-07-22,0.85,0.85,HIGH,1990-07-22
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,1,city,LOCATION,Los Angeles,0.85,0.85,HIGH,Los Angeles
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,1,zip_code,DATE_TIME,90210,0.85,0.85,HIGH,90210
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,1,country,LOCATION,USA,0.85,0.85,HIGH,USA
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,2,first_name,PERSON,Michael,0.85,0.85,HIGH,Michael
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,2,last_name,PERSON,Johnson,0.85,0.85,HIGH,Johnson
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,2,email,EMAIL_ADDRESS,michael.j@email.com,1.0,1.0,CRITICAL,michael.j@email.com
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,2,ssn,US_SSN,456-78-9123,0.5,0.5,LOW,456-78-9123
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,2,date_of_birth,DATE_TIME,1988-11-08,0.85,0.85,HIGH,1988-11-08
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,2,city,LOCATION,Chicago,0.85,0.85,HIGH,Chicago
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,2,country,LOCATION,USA,0.85,0.85,HIGH,USA
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,3,first_name,PERSON,Sarah,0.85,0.85,HIGH,Sarah
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,3,last_name,PERSON,Williams,0.85,0.85,HIGH,Williams
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,3,email,EMAIL_ADDRESS,sarah.w@email.com,1.0,0.9500000000000001,CRITICAL,sarah.w@email.com
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,3,email,LOCATION,sarah.w@email.com,0.85,0.9500000000000001,CRITICAL,sarah.w@email.com
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,3,ssn,US_SSN,321-54-9876,0.5,0.5,LOW,321-54-9876
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,3,date_of_birth,DATE_TIME,1992-02-14,0.85,0.85,HIGH,1992-02-14
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,3,city,LOCATION,Houston,0.85,0.85,HIGH,Houston
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,3,zip_code,DATE_TIME,77001,0.85,0.85,HIGH,77001
+20260204_221925_localhost_5432_customer_db_customers.json,customer_db,customers,3,country,LOCATION,USA,0.85,0.85,HIGH,USA
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,0,card_number,DATE_TIME,4532-1234-5678-9012,0.85,0.85,HIGH,4532-1234-5678-9012
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,0,card_holder_name,PERSON,John Doe,0.85,0.85,HIGH,John Doe
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,0,expiry_year,DATE_TIME,2026,0.85,0.85,HIGH,2026
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,0,card_type,ORGANIZATION,VISA,0.85,0.85,HIGH,VISA
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,0,billing_city,LOCATION,New York,0.85,0.85,HIGH,New York
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,0,billing_zip_code,DATE_TIME,10001,0.85,0.85,HIGH,10001
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,0,billing_country,LOCATION,USA,0.85,0.85,HIGH,USA
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,1,card_number,DATE_TIME,5555-4444-3333-2222,0.85,0.85,HIGH,5555-4444-3333-2222
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,1,card_holder_name,PERSON,John Doe,0.85,0.85,HIGH,John Doe
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,1,expiry_year,DATE_TIME,2025,0.85,0.85,HIGH,2025
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,1,card_type,ORGANIZATION,MASTERCARD,0.85,0.85,HIGH,MASTERCARD
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,1,billing_city,LOCATION,New York,0.85,0.85,HIGH,New York
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,1,billing_zip_code,DATE_TIME,10001,0.85,0.85,HIGH,10001
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,1,billing_country,LOCATION,USA,0.85,0.85,HIGH,USA
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,2,card_number,CREDIT_CARD,4111-1111-1111-1111,1.0,0.9863636363636363,CRITICAL,4111-1111-1111-1111
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,2,card_number,DATE_TIME,4111-1111-1111-1111,0.85,0.9863636363636363,CRITICAL,4111-1111-1111-1111
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,2,card_holder_name,PERSON,Jane Smith,0.85,0.85,HIGH,Jane Smith
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,2,expiry_year,DATE_TIME,2027,0.85,0.85,HIGH,2027
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,2,card_type,ORGANIZATION,VISA,0.85,0.85,HIGH,VISA
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,2,billing_city,LOCATION,Los Angeles,0.85,0.85,HIGH,Los Angeles
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,2,billing_zip_code,DATE_TIME,90210,0.85,0.85,HIGH,90210
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,2,billing_country,LOCATION,USA,0.85,0.85,HIGH,USA
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,3,card_number,CREDIT_CARD,3782-822463-10005,1.0,0.9863636363636363,CRITICAL,3782-822463-10005
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,3,card_number,DATE_TIME,3782-822463-10005,0.85,0.9863636363636363,CRITICAL,3782-822463-10005
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,3,card_holder_name,PERSON,Michael Johnson,0.85,0.85,HIGH,Michael Johnson
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,3,expiry_year,DATE_TIME,2025,0.85,0.85,HIGH,2025
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,3,cvv,DATE_TIME,1234,0.85,0.85,HIGH,1234
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,3,card_type,ORGANIZATION,AMEX,0.85,0.85,HIGH,AMEX
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,3,billing_city,LOCATION,Chicago,0.85,0.85,HIGH,Chicago
+20260204_221925_localhost_5432_customer_db_customer_payment_methods.json,customer_db,customer_payment_methods,3,billing_country,LOCATION,USA,0.85,0.85,HIGH,USA
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,0,ip_address,IP_ADDRESS,10.0.0.10,0.6,0.6,MEDIUM,10.0.0.10
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,0,user_agent,ORGANIZATION,Internal System,0.85,0.85,HIGH,Internal System
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,0,audit_timestamp,DATE_TIME,2026-02-04 19:52:50.426700,0.85,0.85,HIGH,2026-02-04 19:52:50.426700
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,1,action_type,ORGANIZATION,VIEW,0.85,0.85,HIGH,VIEW
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,1,ip_address,IP_ADDRESS,10.0.0.20,0.6,0.6,MEDIUM,10.0.0.20
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,1,access_reason,ORGANIZATION,Fraud Analysis,0.85,0.85,HIGH,Fraud Analysis
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,1,audit_timestamp,DATE_TIME,2026-02-04 19:52:50.426700,0.85,0.85,HIGH,2026-02-04 19:52:50.426700
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,2,ip_address,IP_ADDRESS,10.0.0.10,0.6,0.6,MEDIUM,10.0.0.10
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,2,user_agent,ORGANIZATION,Internal System,0.85,0.85,HIGH,Internal System
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,2,audit_timestamp,DATE_TIME,2026-02-04 19:52:50.426700,0.85,0.85,HIGH,2026-02-04 19:52:50.426700
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,3,ip_address,IP_ADDRESS,10.0.0.10,0.6,0.6,MEDIUM,10.0.0.10
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,3,user_agent,ORGANIZATION,Internal System,0.85,0.85,HIGH,Internal System
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,3,audit_timestamp,DATE_TIME,2026-02-04 19:52:50.426700,0.85,0.85,HIGH,2026-02-04 19:52:50.426700
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,4,action_type,ORGANIZATION,VIEW,0.85,0.85,HIGH,VIEW
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,4,user_role,ORGANIZATION,SECURITY,0.85,0.85,HIGH,SECURITY
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,4,ip_address,IP_ADDRESS,10.0.0.30,0.6,0.6,MEDIUM,10.0.0.30
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,4,user_agent,PERSON,Linux x86_64,0.85,0.6666666666666666,MEDIUM,Mozilla/5.0 (X11; Linux x86_64)
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,4,user_agent,US_DRIVER_LICENSE,X11,0.3,0.6666666666666666,MEDIUM,Mozilla/5.0 (X11; Linux x86_64)
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,4,access_reason,ORGANIZATION,Security Review,0.85,0.85,HIGH,Security Review
+20260204_221925_localhost_5432_payment_db_payment_audit_log.json,payment_db,payment_audit_log,4,audit_timestamp,DATE_TIME,2026-02-04 19:52:50.426700,0.85,0.85,HIGH,2026-02-04 19:52:50.426700
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,0,currency,ORGANIZATION,USD,0.85,0.85,HIGH,USD
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,0,card_number_token,LOCATION,TKN_4532123456789012_001,0.85,0.85,HIGH,TKN_4532123456789012_001
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,0,card_holder_name,PERSON,John Doe,0.85,0.85,HIGH,John Doe
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,0,ip_address,IP_ADDRESS,192.168.1.100,0.6,0.45000000000000007,LOW,192.168.1.100
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,0,ip_address,PHONE_NUMBER,192.168.1.100,0.4,0.45000000000000007,LOW,192.168.1.100
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,0,user_agent,ORGANIZATION,Win64,0.85,0.575,LOW,Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,0,user_agent,US_DRIVER_LICENSE,x64,0.3,0.575,LOW,Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,0,billing_city,LOCATION,New York,0.85,0.85,HIGH,New York
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,0,billing_zip_code,DATE_TIME,10001,0.85,0.85,HIGH,10001
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,0,processed_at,DATE_TIME,2024-01-15,0.85,0.85,HIGH,2024-01-15 10:30:00
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,0,processed_at,DATE_TIME,10:30:00,0.85,0.85,HIGH,2024-01-15 10:30:00
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,1,currency,ORGANIZATION,USD,0.85,0.85,HIGH,USD
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,1,card_holder_name,PERSON,Jane Smith,0.85,0.85,HIGH,Jane Smith
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,1,ip_address,IP_ADDRESS,10.0.0.50,0.6,0.6,MEDIUM,10.0.0.50
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,1,user_agent,ORGANIZATION,Macintosh,0.85,0.85,HIGH,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,1,user_agent,ORGANIZATION,Intel Mac OS,0.85,0.85,HIGH,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,1,billing_city,LOCATION,Los Angeles,0.85,0.85,HIGH,Los Angeles
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,1,billing_zip_code,DATE_TIME,90210,0.85,0.85,HIGH,90210
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,1,processed_at,DATE_TIME,2024-01-15,0.85,0.85,HIGH,2024-01-15 14:22:00
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,1,processed_at,DATE_TIME,14:22:00,0.85,0.85,HIGH,2024-01-15 14:22:00
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,2,currency,ORGANIZATION,USD,0.85,0.85,HIGH,USD
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,2,card_holder_name,PERSON,Michael Johnson,0.85,0.85,HIGH,Michael Johnson
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,2,ip_address,IP_ADDRESS,172.16.0.25,0.6,0.6,MEDIUM,172.16.0.25
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,2,user_agent,PERSON,Linux x86_64,0.85,0.6666666666666666,MEDIUM,Mozilla/5.0 (X11; Linux x86_64)
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,2,user_agent,US_DRIVER_LICENSE,X11,0.3,0.6666666666666666,MEDIUM,Mozilla/5.0 (X11; Linux x86_64)
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,2,billing_city,LOCATION,Chicago,0.85,0.85,HIGH,Chicago
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,2,processed_at,DATE_TIME,2024-01-16,0.85,0.85,HIGH,2024-01-16 09:15:00
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,2,processed_at,DATE_TIME,09:15:00,0.85,0.85,HIGH,2024-01-16 09:15:00
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,3,currency,ORGANIZATION,USD,0.85,0.85,HIGH,USD
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,3,card_holder_name,PERSON,Sarah Williams,0.85,0.85,HIGH,Sarah Williams
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,3,processor_response_message,ORGANIZATION,DECLINED,0.85,0.85,HIGH,DECLINED
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,3,transaction_status,ORGANIZATION,DECLINED,0.85,0.85,HIGH,DECLINED
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,3,ip_address,IP_ADDRESS,203.0.113.10,0.6,0.6,MEDIUM,203.0.113.10
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,3,user_agent,ORGANIZATION,CPU iPhone OS 15_0,0.85,0.85,HIGH,Mozilla/5.0 (iPhone; CPU iPhone OS 15_0)
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,3,billing_city,LOCATION,Houston,0.85,0.85,HIGH,Houston
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,3,billing_zip_code,DATE_TIME,77001,0.85,0.85,HIGH,77001
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,3,processed_at,DATE_TIME,2024-01-16,0.85,0.85,HIGH,2024-01-16 16:45:00
+20260204_221925_localhost_5432_payment_db_transactions.json,payment_db,transactions,3,processed_at,DATE_TIME,16:45:00,0.85,0.85,HIGH,2024-01-16 16:45:00

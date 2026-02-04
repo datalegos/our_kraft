@@ -1,0 +1,32 @@
+# Presidio PCI Analysis Requirements
+
+# Core Presidio components
+presidio-analyzer>=2.2.33
+presidio-anonymizer>=2.2.33
+
+# NLP and ML dependencies
+spacy>=3.4.0
+transformers>=4.21.0
+
+# Additional language models (download separately)
+# python -m spacy download en_core_web_lg
+
+# Data processing
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Configuration and utilities
+PyYAML>=6.0
+python-dateutil>=2.8.0
+jinja2>=3.1.0
+
+# HTTP client (for API mode)
+requests>=2.28.0
+
+# Visualization and reporting
+matplotlib>=3.5.0
+plotly>=5.10.0
+
+# Optional: Azure Cognitive Services (if using Azure mode)
+# azure-cognitiveservices-language-textanalytics>=5.2.0
+# azure-core>=1.24.0

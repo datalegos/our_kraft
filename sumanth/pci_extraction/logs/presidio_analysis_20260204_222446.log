@@ -1,0 +1,213 @@
+2026-02-04 22:24:46,140 - INFO - Presidio PCI Analyzer initialized
+2026-02-04 22:24:46,142 - INFO - Output directory: ./data/pci_analysis_results
+2026-02-04 22:24:46,142 - WARNING - model_to_presidio_entity_mapping is missing from configuration, using default
+2026-02-04 22:24:46,143 - WARNING - low_score_entity_names is missing from configuration, using default
+2026-02-04 22:24:46,143 - WARNING - labels_to_ignore is missing from configuration, using default
+2026-02-04 22:24:48,885 - INFO - Created NLP engine: spacy. Loaded models: ['en']
+2026-02-04 22:24:48,906 - INFO - Loaded recognizer: CreditCardRecognizer
+2026-02-04 22:24:48,908 - INFO - Loaded recognizer: CreditCardRecognizer
+2026-02-04 22:24:48,908 - INFO - Loaded recognizer: CreditCardRecognizer
+2026-02-04 22:24:48,909 - INFO - Loaded recognizer: CreditCardRecognizer
+2026-02-04 22:24:48,909 - INFO - Loaded recognizer: UsBankRecognizer
+2026-02-04 22:24:48,910 - INFO - Loaded recognizer: UsLicenseRecognizer
+2026-02-04 22:24:48,911 - INFO - Loaded recognizer: UsItinRecognizer
+2026-02-04 22:24:48,912 - INFO - Loaded recognizer: UsPassportRecognizer
+2026-02-04 22:24:48,913 - INFO - Loaded recognizer: UsSsnRecognizer
+2026-02-04 22:24:48,913 - INFO - Loaded recognizer: NhsRecognizer
+2026-02-04 22:24:48,914 - INFO - Loaded recognizer: EsNifRecognizer
+2026-02-04 22:24:48,914 - INFO - Loaded recognizer: EsNieRecognizer
+2026-02-04 22:24:48,915 - INFO - Loaded recognizer: ItDriverLicenseRecognizer
+2026-02-04 22:24:48,915 - INFO - Loaded recognizer: ItFiscalCodeRecognizer
+2026-02-04 22:24:48,916 - INFO - Loaded recognizer: ItVatCodeRecognizer
+2026-02-04 22:24:48,916 - INFO - Loaded recognizer: ItIdentityCardRecognizer
+2026-02-04 22:24:48,917 - INFO - Loaded recognizer: ItPassportRecognizer
+2026-02-04 22:24:48,917 - INFO - Loaded recognizer: PlPeselRecognizer
+2026-02-04 22:24:48,917 - INFO - Loaded recognizer: CryptoRecognizer
+2026-02-04 22:24:48,918 - INFO - Loaded recognizer: DateRecognizer
+2026-02-04 22:24:48,919 - INFO - Loaded recognizer: EmailRecognizer
+2026-02-04 22:24:48,919 - INFO - Loaded recognizer: IbanRecognizer
+2026-02-04 22:24:48,920 - INFO - Loaded recognizer: IpRecognizer
+2026-02-04 22:24:48,920 - INFO - Loaded recognizer: MedicalLicenseRecognizer
+2026-02-04 22:24:48,920 - INFO - Loaded recognizer: PhoneRecognizer
+2026-02-04 22:24:48,921 - INFO - Loaded recognizer: UrlRecognizer
+2026-02-04 22:24:48,921 - WARNING - Recognizer not added to registry because language is not supported by registry - CreditCardRecognizer supported languages: es, registry supported languages: en
+2026-02-04 22:24:48,921 - WARNING - Recognizer not added to registry because language is not supported by registry - CreditCardRecognizer supported languages: it, registry supported languages: en
+2026-02-04 22:24:48,921 - WARNING - Recognizer not added to registry because language is not supported by registry - CreditCardRecognizer supported languages: pl, registry supported languages: en
+2026-02-04 22:24:48,922 - WARNING - Recognizer not added to registry because language is not supported by registry - EsNifRecognizer supported languages: es, registry supported languages: en
+2026-02-04 22:24:48,922 - WARNING - Recognizer not added to registry because language is not supported by registry - EsNieRecognizer supported languages: es, registry supported languages: en
+2026-02-04 22:24:48,922 - WARNING - Recognizer not added to registry because language is not supported by registry - ItDriverLicenseRecognizer supported languages: it, registry supported languages: en
+2026-02-04 22:24:48,922 - WARNING - Recognizer not added to registry because language is not supported by registry - ItFiscalCodeRecognizer supported languages: it, registry supported languages: en
+2026-02-04 22:24:48,923 - WARNING - Recognizer not added to registry because language is not supported by registry - ItVatCodeRecognizer supported languages: it, registry supported languages: en
+2026-02-04 22:24:48,923 - WARNING - Recognizer not added to registry because language is not supported by registry - ItIdentityCardRecognizer supported languages: it, registry supported languages: en
+2026-02-04 22:24:48,923 - WARNING - Recognizer not added to registry because language is not supported by registry - ItPassportRecognizer supported languages: it, registry supported languages: en
+2026-02-04 22:24:48,924 - WARNING - Recognizer not added to registry because language is not supported by registry - PlPeselRecognizer supported languages: pl, registry supported languages: en
+2026-02-04 22:24:48,924 - INFO - Loaded recognizer: SpacyRecognizer
+2026-02-04 22:24:48,924 - INFO - Loaded recognizer: PatternRecognizer
+2026-02-04 22:24:48,925 - INFO - Added custom recognizer: cvv
+2026-02-04 22:24:48,926 - INFO - Loaded recognizer: PatternRecognizer
+2026-02-04 22:24:48,926 - INFO - Added custom recognizer: account_number
+2026-02-04 22:24:48,927 - INFO - Loaded recognizer: PatternRecognizer
+2026-02-04 22:24:48,927 - INFO - Added custom recognizer: routing_number
+2026-02-04 22:24:48,928 - INFO - Presidio analyzer initialized successfully
+2026-02-04 22:24:48,929 - INFO - Starting PCI data analysis with Presidio
+2026-02-04 22:24:48,930 - INFO - Processing 4 files
+2026-02-04 22:24:48,930 - INFO - Processing file: data\extracted_data\20260204_221925_localhost_5432_customer_db_customers.json
+2026-02-04 22:24:48,931 - INFO - Processing 4 records from customer_db.customers
+2026-02-04 22:24:48,978 - INFO - Found 1 entities in customer_db.customers.first_name
+2026-02-04 22:24:50,168 - INFO - Found 2 entities in customer_db.customers.email
+2026-02-04 22:24:50,179 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,233 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,249 - INFO - Found 1 entities in customer_db.customers.date_of_birth
+2026-02-04 22:24:50,259 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,273 - INFO - Found 1 entities in customer_db.customers.city
+2026-02-04 22:24:50,284 - INFO - Found 1 entities in customer_db.customers.zip_code
+2026-02-04 22:24:50,292 - INFO - Found 1 entities in customer_db.customers.country
+2026-02-04 22:24:50,301 - INFO - Found 1 entities in customer_db.customers.first_name
+2026-02-04 22:24:50,317 - INFO - Found 1 entities in customer_db.customers.email
+2026-02-04 22:24:50,325 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,337 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,350 - INFO - Found 1 entities in customer_db.customers.date_of_birth
+2026-02-04 22:24:50,358 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,369 - INFO - Found 1 entities in customer_db.customers.city
+2026-02-04 22:24:50,377 - INFO - Found 1 entities in customer_db.customers.zip_code
+2026-02-04 22:24:50,386 - INFO - Found 1 entities in customer_db.customers.country
+2026-02-04 22:24:50,394 - INFO - Found 1 entities in customer_db.customers.first_name
+2026-02-04 22:24:50,403 - INFO - Found 1 entities in customer_db.customers.last_name
+2026-02-04 22:24:50,411 - INFO - Found 1 entities in customer_db.customers.email
+2026-02-04 22:24:50,420 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,432 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,435 - INFO - Found 1 entities in customer_db.customers.ssn
+2026-02-04 22:24:50,445 - INFO - Found 1 entities in customer_db.customers.date_of_birth
+2026-02-04 22:24:50,454 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,464 - INFO - Found 1 entities in customer_db.customers.city
+2026-02-04 22:24:50,473 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,484 - INFO - Found 1 entities in customer_db.customers.country
+2026-02-04 22:24:50,492 - INFO - Found 1 entities in customer_db.customers.first_name
+2026-02-04 22:24:50,501 - INFO - Found 1 entities in customer_db.customers.last_name
+2026-02-04 22:24:50,509 - INFO - Found 2 entities in customer_db.customers.email
+2026-02-04 22:24:50,518 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,527 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,530 - INFO - Found 1 entities in customer_db.customers.ssn
+2026-02-04 22:24:50,540 - INFO - Found 1 entities in customer_db.customers.date_of_birth
+2026-02-04 22:24:50,548 - WARNING - Entity PRODUCT is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,557 - INFO - Found 1 entities in customer_db.customers.city
+2026-02-04 22:24:50,566 - INFO - Found 1 entities in customer_db.customers.zip_code
+2026-02-04 22:24:50,574 - INFO - Found 1 entities in customer_db.customers.country
+2026-02-04 22:24:50,574 - INFO - Processing file: data\extracted_data\20260204_221925_localhost_5432_customer_db_customer_payment_methods.json
+2026-02-04 22:24:50,575 - INFO - Processing 4 records from customer_db.customer_payment_methods
+2026-02-04 22:24:50,586 - INFO - Found 1 entities in customer_db.customer_payment_methods.card_number
+2026-02-04 22:24:50,595 - INFO - Found 1 entities in customer_db.customer_payment_methods.card_holder_name
+2026-02-04 22:24:50,604 - INFO - Found 1 entities in customer_db.customer_payment_methods.expiry_year
+2026-02-04 22:24:50,611 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,623 - INFO - Found 1 entities in customer_db.customer_payment_methods.card_type
+2026-02-04 22:24:50,633 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,642 - INFO - Found 1 entities in customer_db.customer_payment_methods.billing_city
+2026-02-04 22:24:50,654 - INFO - Found 1 entities in customer_db.customer_payment_methods.billing_zip_code
+2026-02-04 22:24:50,666 - INFO - Found 1 entities in customer_db.customer_payment_methods.billing_country
+2026-02-04 22:24:50,694 - INFO - Found 1 entities in customer_db.customer_payment_methods.card_number
+2026-02-04 22:24:50,704 - INFO - Found 1 entities in customer_db.customer_payment_methods.card_holder_name
+2026-02-04 22:24:50,713 - INFO - Found 1 entities in customer_db.customer_payment_methods.expiry_year
+2026-02-04 22:24:50,724 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,736 - INFO - Found 1 entities in customer_db.customer_payment_methods.card_type
+2026-02-04 22:24:50,744 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,755 - INFO - Found 1 entities in customer_db.customer_payment_methods.billing_city
+2026-02-04 22:24:50,765 - INFO - Found 1 entities in customer_db.customer_payment_methods.billing_zip_code
+2026-02-04 22:24:50,773 - INFO - Found 1 entities in customer_db.customer_payment_methods.billing_country
+2026-02-04 22:24:50,805 - INFO - Found 2 entities in customer_db.customer_payment_methods.card_number
+2026-02-04 22:24:50,817 - INFO - Found 1 entities in customer_db.customer_payment_methods.card_holder_name
+2026-02-04 22:24:50,826 - INFO - Found 1 entities in customer_db.customer_payment_methods.expiry_year
+2026-02-04 22:24:50,836 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,846 - INFO - Found 1 entities in customer_db.customer_payment_methods.card_type
+2026-02-04 22:24:50,856 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,870 - INFO - Found 1 entities in customer_db.customer_payment_methods.billing_city
+2026-02-04 22:24:50,881 - INFO - Found 1 entities in customer_db.customer_payment_methods.billing_zip_code
+2026-02-04 22:24:50,892 - INFO - Found 1 entities in customer_db.customer_payment_methods.billing_country
+2026-02-04 22:24:50,922 - INFO - Found 2 entities in customer_db.customer_payment_methods.card_number
+2026-02-04 22:24:50,931 - INFO - Found 1 entities in customer_db.customer_payment_methods.card_holder_name
+2026-02-04 22:24:50,940 - INFO - Found 1 entities in customer_db.customer_payment_methods.expiry_year
+2026-02-04 22:24:50,951 - INFO - Found 1 entities in customer_db.customer_payment_methods.cvv
+2026-02-04 22:24:50,959 - INFO - Found 1 entities in customer_db.customer_payment_methods.card_type
+2026-02-04 22:24:50,969 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,977 - INFO - Found 1 entities in customer_db.customer_payment_methods.billing_city
+2026-02-04 22:24:50,988 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:50,998 - INFO - Found 1 entities in customer_db.customer_payment_methods.billing_country
+2026-02-04 22:24:51,013 - INFO - Processing file: data\extracted_data\20260204_221925_localhost_5432_payment_db_payment_audit_log.json
+2026-02-04 22:24:51,014 - INFO - Processing 5 records from payment_db.payment_audit_log
+2026-02-04 22:24:51,045 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,050 - INFO - Found 1 entities in payment_db.payment_audit_log.ip_address
+2026-02-04 22:24:51,058 - INFO - Found 1 entities in payment_db.payment_audit_log.user_agent
+2026-02-04 22:24:51,105 - INFO - Found 1 entities in payment_db.payment_audit_log.audit_timestamp
+2026-02-04 22:24:51,112 - INFO - Found 1 entities in payment_db.payment_audit_log.action_type
+2026-02-04 22:24:51,142 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,146 - INFO - Found 1 entities in payment_db.payment_audit_log.ip_address
+2026-02-04 22:24:51,156 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,178 - INFO - Found 1 entities in payment_db.payment_audit_log.access_reason
+2026-02-04 22:24:51,210 - INFO - Found 1 entities in payment_db.payment_audit_log.audit_timestamp
+2026-02-04 22:24:51,244 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,250 - INFO - Found 1 entities in payment_db.payment_audit_log.ip_address
+2026-02-04 22:24:51,259 - INFO - Found 1 entities in payment_db.payment_audit_log.user_agent
+2026-02-04 22:24:51,306 - INFO - Found 1 entities in payment_db.payment_audit_log.audit_timestamp
+2026-02-04 22:24:51,338 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,340 - INFO - Found 1 entities in payment_db.payment_audit_log.ip_address
+2026-02-04 22:24:51,349 - INFO - Found 1 entities in payment_db.payment_audit_log.user_agent
+2026-02-04 22:24:51,394 - INFO - Found 1 entities in payment_db.payment_audit_log.audit_timestamp
+2026-02-04 22:24:51,406 - INFO - Found 1 entities in payment_db.payment_audit_log.action_type
+2026-02-04 22:24:51,422 - INFO - Found 1 entities in payment_db.payment_audit_log.user_role
+2026-02-04 22:24:51,430 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,434 - INFO - Found 1 entities in payment_db.payment_audit_log.ip_address
+2026-02-04 22:24:51,448 - INFO - Found 2 entities in payment_db.payment_audit_log.user_agent
+2026-02-04 22:24:51,469 - INFO - Found 1 entities in payment_db.payment_audit_log.access_reason
+2026-02-04 22:24:51,498 - INFO - Found 1 entities in payment_db.payment_audit_log.audit_timestamp
+2026-02-04 22:24:51,499 - INFO - Processing file: data\extracted_data\20260204_221925_localhost_5432_payment_db_transactions.json
+2026-02-04 22:24:51,500 - INFO - Processing 4 records from payment_db.transactions
+2026-02-04 22:24:51,524 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,536 - INFO - Found 1 entities in payment_db.transactions.currency
+2026-02-04 22:24:51,555 - INFO - Found 1 entities in payment_db.transactions.card_number_token
+2026-02-04 22:24:51,563 - INFO - Found 1 entities in payment_db.transactions.card_holder_name
+2026-02-04 22:24:51,610 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,627 - INFO - Found 2 entities in payment_db.transactions.ip_address
+2026-02-04 22:24:51,639 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,642 - INFO - Found 2 entities in payment_db.transactions.user_agent
+2026-02-04 22:24:51,652 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,660 - INFO - Found 1 entities in payment_db.transactions.billing_city
+2026-02-04 22:24:51,670 - INFO - Found 1 entities in payment_db.transactions.billing_zip_code
+2026-02-04 22:24:51,683 - INFO - Found 2 entities in payment_db.transactions.processed_at
+2026-02-04 22:24:51,705 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,716 - INFO - Found 1 entities in payment_db.transactions.currency
+2026-02-04 22:24:51,733 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,743 - INFO - Found 1 entities in payment_db.transactions.card_holder_name
+2026-02-04 22:24:51,774 - WARNING - Entity PRODUCT is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,790 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,793 - INFO - Found 1 entities in payment_db.transactions.ip_address
+2026-02-04 22:24:51,806 - INFO - Found 2 entities in payment_db.transactions.user_agent
+2026-02-04 22:24:51,816 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,826 - INFO - Found 1 entities in payment_db.transactions.billing_city
+2026-02-04 22:24:51,836 - INFO - Found 1 entities in payment_db.transactions.billing_zip_code
+2026-02-04 22:24:51,846 - INFO - Found 2 entities in payment_db.transactions.processed_at
+2026-02-04 22:24:51,871 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,879 - INFO - Found 1 entities in payment_db.transactions.currency
+2026-02-04 22:24:51,907 - INFO - Found 1 entities in payment_db.transactions.card_holder_name
+2026-02-04 22:24:51,953 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,956 - INFO - Found 1 entities in payment_db.transactions.ip_address
+2026-02-04 22:24:51,968 - INFO - Found 2 entities in payment_db.transactions.user_agent
+2026-02-04 22:24:51,977 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:51,987 - INFO - Found 1 entities in payment_db.transactions.billing_city
+2026-02-04 22:24:51,994 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:52,007 - INFO - Found 2 entities in payment_db.transactions.processed_at
+2026-02-04 22:24:52,029 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:52,040 - INFO - Found 1 entities in payment_db.transactions.currency
+2026-02-04 22:24:52,069 - INFO - Found 1 entities in payment_db.transactions.card_holder_name
+2026-02-04 22:24:52,086 - INFO - Found 1 entities in payment_db.transactions.processor_response_message
+2026-02-04 22:24:52,094 - INFO - Found 1 entities in payment_db.transactions.transaction_status
+2026-02-04 22:24:52,123 - WARNING - Entity CARDINAL is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:52,126 - INFO - Found 1 entities in payment_db.transactions.ip_address
+2026-02-04 22:24:52,139 - INFO - Found 1 entities in payment_db.transactions.user_agent
+2026-02-04 22:24:52,147 - WARNING - Entity PRODUCT is not mapped to a Presidio entity, but keeping anyway. Add to `NerModelConfiguration.labels_to_ignore` to remove.
+2026-02-04 22:24:52,157 - INFO - Found 1 entities in payment_db.transactions.billing_city
+2026-02-04 22:24:52,167 - INFO - Found 1 entities in payment_db.transactions.billing_zip_code
+2026-02-04 22:24:52,197 - INFO - Found 2 entities in payment_db.transactions.processed_at
+2026-02-04 22:24:52,201 - INFO - Analysis completed. Found 104 records with PII entities
+2026-02-04 22:24:52,225 - INFO - Saved detailed results to ./data/pci_analysis_results\detailed_pci_analysis_20260204_222446.json
+2026-02-04 22:24:52,234 - INFO - Saved compliance report to ./data/pci_analysis_results\pci_compliance_report_20260204_222446.json
+2026-02-04 22:24:52,252 - INFO - Saved CSV report to ./data/pci_analysis_results\pci_analysis_20260204_222446.csv
+2026-02-04 22:24:52,262 - INFO - Generated HTML dashboard: ./data/pci_analysis_results\pci_dashboard_20260204_222446.html

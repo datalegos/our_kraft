@@ -1,0 +1,311 @@
+# PCI Data Extraction Project - .gitignore
+
+# ========================================
+# SENSITIVE DATA - NEVER COMMIT
+# ========================================
+# Extracted database data (contains PCI/PII)
+data/extracted_data/
+data/pci_analysis_results/
+
+# Configuration files with credentials
+config/config.env
+config/*.env
+*.env
+
+# Database connection strings
+*.db
+*.sqlite
+*.sqlite3
+
+# ========================================
+# LOGS AND TEMPORARY FILES
+# ========================================
+# Log files
+logs/
+*.log
+*.log.*
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# ========================================
+# PYTHON
+# ========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+src/__pycache__/
+scripts/__pycache__/
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ========================================
+# CONDA / ANACONDA
+# ========================================
+# Conda environments
+.conda/
+conda-meta/
+
+# ========================================
+# OPERATING SYSTEM
+# ========================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ========================================
+# EDITORS AND IDEs
+# ========================================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ========================================
+# DATABASE SPECIFIC
+# ========================================
+# PostgreSQL
+*.pgsql
+*.backup
+*.dump
+
+# MySQL
+*.sql.gz
+*.sql.bz2
+
+# ========================================
+# SECURITY AND CREDENTIALS
+# ========================================
+# SSH keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# API keys and secrets
+secrets/
+.secrets
+credentials/
+.credentials
+
+# ========================================
+# PROJECT SPECIFIC
+# ========================================
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Output files that might contain sensitive data
+output/
+results/
+exports/
+
+# Test data that might contain PII
+test_data/
+sample_data/
+
+# ========================================
+# KEEP THESE DIRECTORIES BUT IGNORE CONTENTS
+# ========================================
+# Keep directory structure but ignore sensitive contents
+data/extracted_data/.gitkeep
+data/pci_analysis_results/.gitkeep
+logs/.gitkeep
+
+# ========================================
+# EXCEPTIONS - Files to ALWAYS include
+# ========================================
+# Configuration templates (without credentials)
+!config/extraction_config.yml
+!config/presidio_config.yml
+
+# Requirements files
+!requirements/
+!requirements/*.txt
+
+# Documentation
+!README.md
+!*.md
+
+# Scripts (but not data they generate)
+!scripts/
+!scripts/*.sh
+!scripts/*.ps1
+
+# Source code
+!src/
+!src/*.py
+
+# SQL schema files (structure only, no data)
+!sql_scripts/
+!sql_scripts/*_schema.sql
+# Exclude data files
+sql_scripts/*_data.sql

@@ -1,0 +1,28 @@
+2026-02-04 20:26:06,002 - INFO - Database Extractor initialized
+2026-02-04 20:26:06,003 - INFO - Output directory: ./extracted_data
+2026-02-04 20:26:06,003 - INFO - Starting database discovery and extraction
+2026-02-04 20:26:06,009 - INFO - Found open port: localhost:5432 (postgresql)
+2026-02-04 20:26:06,108 - INFO - PostgreSQL connection successful: localhost:5432 - Found 3 databases
+2026-02-04 20:26:06,108 - INFO - Added database: orbit on localhost:5432
+2026-02-04 20:26:06,108 - INFO - Added database: customer_db on localhost:5432
+2026-02-04 20:26:06,109 - INFO - Added database: payment_db on localhost:5432
+2026-02-04 20:26:16,250 - INFO - Discovered 3 databases
+2026-02-04 20:26:16,251 - INFO - Processing database: orbit on localhost:5432
+2026-02-04 20:26:16,337 - WARNING - No tables found in orbit
+2026-02-04 20:26:16,338 - INFO - Processing database: customer_db on localhost:5432
+2026-02-04 20:26:16,423 - INFO - Found table: customer_payment_methods (9 rows)
+2026-02-04 20:26:16,425 - INFO - Found table: customers (8 rows)
+2026-02-04 20:26:16,425 - INFO - Found 2 tables in customer_db
+2026-02-04 20:26:16,426 - INFO - Extracting 4 records from customer_payment_methods
+2026-02-04 20:26:16,507 - INFO - Saved 4 records to ./extracted_data\20260204_202605_localhost_5432_customer_db_customer_payment_methods.json
+2026-02-04 20:26:16,507 - INFO - Extracting 4 records from customers
+2026-02-04 20:26:16,588 - INFO - Saved 4 records to ./extracted_data\20260204_202605_localhost_5432_customer_db_customers.json
+2026-02-04 20:26:16,589 - INFO - Processing database: payment_db on localhost:5432
+2026-02-04 20:26:16,671 - INFO - Found table: payment_audit_log (10 rows)
+2026-02-04 20:26:16,673 - INFO - Found table: transactions (9 rows)
+2026-02-04 20:26:16,674 - INFO - Found 2 tables in payment_db
+2026-02-04 20:26:16,674 - INFO - Extracting 5 records from payment_audit_log
+2026-02-04 20:26:16,754 - INFO - Saved 5 records to ./extracted_data\20260204_202605_localhost_5432_payment_db_payment_audit_log.json
+2026-02-04 20:26:16,754 - INFO - Extracting 4 records from transactions
+2026-02-04 20:26:16,837 - INFO - Saved 4 records to ./extracted_data\20260204_202605_localhost_5432_payment_db_transactions.json
+2026-02-04 20:26:16,838 - INFO - Extraction completed. Generated 4 files in ./extracted_data
