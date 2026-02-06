@@ -8,10 +8,13 @@ An advanced Python program that executes comprehensive HTTP GET requests against
 - **JWT Authentication** - Secure token-based authentication
 - **Dynamic Agent Discovery** - Automatically discovers and queries all agents
 - **Organized Output Structure** - Results categorized by manager, agents, groups, and static data
-- **Comprehensive Coverage** - Queries 40+ different API endpoints
+- **Comprehensive Coverage** - Queries 55+ different API endpoints across all categories
 - **Detailed Reporting** - Generates endpoint summary with success/failure statistics
 - **Flexible Filtering** - Configurable agent and data retrieval limits
 - **Error Handling** - Graceful handling of failed requests with detailed logging
+- **Vulnerability Tracking** - CVE detection and Windows hotfix monitoring
+- **SCA Policy Checks** - Automated security configuration assessment with detailed checks
+- **Network Protocol Stats** - Complete network visibility including protocol-level metrics
 
 ## Setup
 
@@ -82,23 +85,35 @@ Each execution creates a new directory with format: `YYYYMMDD_HHMMSS`
 
 ### Manager & System
 - Root API info, manager status, configuration, and statistics
-- Cluster status and security configuration
-- User management and RBAC policies
+- Manager logs and log summaries
+- Manager files and API configuration
+- Cluster status, configuration, nodes, and health
+- Security configuration, users, roles, and policies
+- Task status monitoring
 
 ### Agents & Assets  
 - Agent discovery with filtering capabilities
-- Agent summaries and status information
-- Syscollector data (OS, hardware, packages, processes, network)
+- Agent summaries, status, and statistics
+- Outdated agents and agents without groups
+- Agent configuration and daemon statistics
+- Syscollector data (OS, hardware, packages, processes, network, protocols, hotfixes)
 
 ### Security Monitoring
 - File Integrity Monitoring (FIM) data
 - Rootcheck results
-- Security Configuration Assessment (SCA)
+- Security Configuration Assessment (SCA) with detailed policy checks
+- Vulnerability detection and CVE tracking
 - MITRE ATT&CK techniques and tactics
 
 ### Rules & Intelligence
 - Detection rules and decoders
+- CDB lists and list files
 - Group configurations and memberships
+
+### Network Monitoring
+- Network interfaces and addresses
+- Open ports and connections
+- Network protocol statistics (TCP/UDP/ICMP)
 
 ## Example Configuration
 

@@ -4,7 +4,7 @@ auth:
   password: MyS3cr37P450r.*-
 
 # Base URL for all requests
-base_url: https://62.171.191.132:55000
+base_url: https://172.27.122.220:55000
 
 # Configuration for data retrieval
 data_retrieval:
@@ -21,9 +21,11 @@ data_retrieval:
 agent_discovery:
   enabled: true
   max_agents: 0  # 0 = get all agents, no limit
+  specific_agents: ['001']  # Leave empty for all, or specify: ['001', '003', '004']
   agent_filters:
+    # name: name  # Filter by agent name
     # status: active  # Commented out to get all agents regardless of status
-    # os.platform: linux  # Optional: filter by OS platform
+    # os.platform: windows  # Optional: filter by OS platform
     # group: default       # Optional: filter by group
 
 # Static requests (no agent ID required)
@@ -140,6 +142,55 @@ static_requests:
       pretty: true
       limit: 500
 
+  - name: Manager Logs Summary
+    endpoint: /manager/logs/summary
+    params:
+      pretty: true
+
+  - name: Manager API Configuration
+    endpoint: /manager/api/config
+    params:
+      pretty: true
+
+  - name: Lists Files
+    endpoint: /lists/files
+    params:
+      pretty: true
+      limit: 500
+
+  - name: CDB Lists
+    endpoint: /lists
+    params:
+      pretty: true
+      limit: 500
+
+  - name: Agents Outdated
+    endpoint: /agents/outdated
+    params:
+      pretty: true
+
+  - name: Agents No Group
+    endpoint: /agents/no_group
+    params:
+      pretty: true
+      limit: 500
+
+  - name: Agents Stats Distinct
+    endpoint: /agents/stats/distinct
+    params:
+      pretty: true
+      fields: os.platform,os.version,version
+
+  - name: Overview Agents
+    endpoint: /overview/agents
+    params:
+      pretty: true
+
+  - name: Task Status
+    endpoint: /tasks/status
+    params:
+      pretty: true
+
 # Agent-specific requests (will be executed for each discovered agent)
 agent_specific_requests:
   # Note: Agent statistics endpoints don't exist in Wazuh API v4.14.2
@@ -183,6 +234,24 @@ agent_specific_requests:
       pretty: true
       limit: 5000   # Increased limit to get all ports
 
+  - name: Syscollector Network Protocol
+    endpoint: /syscollector/{agent_id}/netproto
+    params:
+      pretty: true
+
+  - name: Syscollector Hotfixes
+    endpoint: /syscollector/{agent_id}/hotfixes
+    params:
+      pretty: true
+      limit: 5000   # Increased limit to get all hotfixes (Windows only)
+
+  # NOTE: Vulnerability Detection endpoint disabled - feeds not completing
+  # - name: Vulnerability Detection
+  #   endpoint: /vulnerability/{agent_id}
+  #   params:
+  #     pretty: true
+  #     limit: 5000
+
   - name: File Integrity Monitoring
     endpoint: /syscheck/{agent_id}
     params:
@@ -204,6 +273,18 @@ agent_specific_requests:
     endpoint: /agents/{agent_id}/key
     params:
       pretty: true
+
+  - name: Agent Daemons Stats
+    endpoint: /agents/{agent_id}/daemons/stats
+    params:
+      pretty: true
+
+  - name: SCA Checks
+    endpoint: /sca/{agent_id}/checks/{policy_id}
+    params:
+      pretty: true
+      limit: 5000
+    # Note: This requires policy_id, will need special handling
 
 # Optional: Group-specific requests (will be executed for each discovered group)
 group_specific_requests:

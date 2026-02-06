@@ -1,0 +1,161 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "rx": {
+          "bytes": 0,
+          "dropped": 0,
+          "errors": 0,
+          "packets": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:35+00:00"
+        },
+        "tx": {
+          "bytes": 0,
+          "dropped": 0,
+          "errors": 0,
+          "packets": 0
+        },
+        "mac": "00:00:00:00:00:00",
+        "adapter": "Software Loopback Interface 1",
+        "name": "Loopback Pseudo-Interface 1",
+        "state": "up",
+        "mtu": 4294967295,
+        "type": " ",
+        "agent_id": "001"
+      },
+      {
+        "rx": {
+          "bytes": 0,
+          "dropped": 0,
+          "errors": 0,
+          "packets": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:36+00:00"
+        },
+        "tx": {
+          "bytes": 0,
+          "dropped": 0,
+          "errors": 0,
+          "packets": 0
+        },
+        "mac": "a8:2b:dd:70:e6:85",
+        "adapter": "Realtek PCIe GbE Family Controller",
+        "name": "Ethernet",
+        "state": "down",
+        "mtu": 1500,
+        "type": "ethernet",
+        "agent_id": "001"
+      },
+      {
+        "rx": {
+          "bytes": 0,
+          "dropped": 0,
+          "errors": 0,
+          "packets": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "tx": {
+          "bytes": 0,
+          "dropped": 0,
+          "errors": 0,
+          "packets": 0
+        },
+        "mac": "16:b5:cd:55:d8:89",
+        "adapter": "Microsoft Wi-Fi Direct Virtual Adapter",
+        "name": "Local Area Connection* 1",
+        "state": "down",
+        "mtu": 1500,
+        "type": "wireless",
+        "agent_id": "001"
+      },
+      {
+        "rx": {
+          "bytes": 0,
+          "dropped": 0,
+          "errors": 0,
+          "packets": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "tx": {
+          "bytes": 0,
+          "dropped": 0,
+          "errors": 0,
+          "packets": 0
+        },
+        "mac": "1a:b5:cd:55:d8:89",
+        "adapter": "Microsoft Wi-Fi Direct Virtual Adapter #2",
+        "name": "Local Area Connection* 2",
+        "state": "down",
+        "mtu": 1500,
+        "type": "wireless",
+        "agent_id": "001"
+      },
+      {
+        "rx": {
+          "bytes": 51778193,
+          "dropped": 0,
+          "errors": 0,
+          "packets": 88091
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "tx": {
+          "bytes": 67753914,
+          "dropped": 0,
+          "errors": 0,
+          "packets": 99559
+        },
+        "mac": "00:15:5d:2a:5f:02",
+        "adapter": "Hyper-V Virtual Ethernet Adapter",
+        "name": "vEthernet (WSL (Hyper-V firewall))",
+        "state": "up",
+        "mtu": 1500,
+        "type": "ethernet",
+        "agent_id": "001"
+      },
+      {
+        "rx": {
+          "bytes": 94643315,
+          "dropped": 0,
+          "errors": 0,
+          "packets": 140964
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "tx": {
+          "bytes": 118640423,
+          "dropped": 0,
+          "errors": 0,
+          "packets": 85976
+        },
+        "mac": "14:b5:cd:55:d8:89",
+        "adapter": "Realtek 8852CE WiFi 6E PCI-E NIC",
+        "name": "Wi-Fi",
+        "state": "up",
+        "mtu": 1480,
+        "type": "wireless",
+        "agent_id": "001"
+      }
+    ],
+    "total_affected_items": 6,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All specified syscollector information was returned",
+  "error": 0
+}

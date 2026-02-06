@@ -1,0 +1,131 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "scan": {
+          "id": 0
+        },
+        "dhcp": "disabled",
+        "iface": "Loopback Pseudo-Interface 1",
+        "type": "ipv4",
+        "gateway": " ",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0
+        },
+        "dhcp": "disabled",
+        "iface": "Loopback Pseudo-Interface 1",
+        "type": "ipv6",
+        "gateway": " ",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0
+        },
+        "dhcp": "disabled",
+        "iface": "vEthernet (WSL (Hyper-V firewall))",
+        "type": "ipv4",
+        "gateway": " ",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0
+        },
+        "dhcp": "enabled",
+        "iface": "Ethernet",
+        "type": "ipv6",
+        "gateway": " ",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0
+        },
+        "dhcp": "enabled",
+        "iface": "Ethernet",
+        "type": "ipv4",
+        "gateway": " ",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0
+        },
+        "dhcp": "disabled",
+        "iface": "vEthernet (WSL (Hyper-V firewall))",
+        "type": "ipv6",
+        "gateway": " ",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0
+        },
+        "dhcp": "enabled",
+        "iface": "Wi-Fi",
+        "type": "ipv6",
+        "gateway": "fe80::9aba:5fff:feef:dc3a,192.168.0.1",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0
+        },
+        "dhcp": "enabled",
+        "iface": "Local Area Connection* 1",
+        "type": "ipv4",
+        "gateway": " ",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0
+        },
+        "dhcp": "enabled",
+        "iface": "Local Area Connection* 1",
+        "type": "ipv6",
+        "gateway": " ",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0
+        },
+        "dhcp": "enabled",
+        "iface": "Local Area Connection* 2",
+        "type": "ipv4",
+        "gateway": " ",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0
+        },
+        "dhcp": "enabled",
+        "iface": "Local Area Connection* 2",
+        "type": "ipv6",
+        "gateway": " ",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0
+        },
+        "dhcp": "enabled",
+        "iface": "Wi-Fi",
+        "type": "ipv4",
+        "gateway": "fe80::9aba:5fff:feef:dc3a,192.168.0.1",
+        "agent_id": "001"
+      }
+    ],
+    "total_affected_items": 12,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All specified syscollector information was returned",
+  "error": 0
+}

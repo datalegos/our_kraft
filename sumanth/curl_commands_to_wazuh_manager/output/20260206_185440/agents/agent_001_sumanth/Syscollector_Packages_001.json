@@ -1,0 +1,1417 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:35+00:00"
+        },
+        "install_time": "2025-12-22T00:00:00+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Office 16 Click-to-Run Extensibility Component",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "16.0.19426.20170",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:35+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftJournal_1.25336.1113.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Journal",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "1.25336.1113.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:36+00:00"
+        },
+        "install_time": "2026-01-16T07:39:42+00:00",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\McAfee\\WebAdvisor",
+        "vendor": "McAfee, LLC",
+        "description": " ",
+        "name": "WebAdvisor by McAfee",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "i686",
+        "version": "4.1.1.1086",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:36+00:00"
+        },
+        "install_time": "2026-01-16T09:02:18+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Anaconda, Inc.",
+        "description": " ",
+        "name": "Anaconda3 2025.12-1 (Python 3.13.9 64-bit)",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": " ",
+        "version": "2025.12-1",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:36+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\MSTeams_25306.804.4102.7193_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft",
+        "description": " ",
+        "name": "Microsoft Teams",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "25306.804.4102.7193",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-29T10:26:32+00:00"
+        },
+        "install_time": "2026-01-28T00:00:00+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Wazuh, Inc.",
+        "description": " ",
+        "name": "Wazuh Agent",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "i686",
+        "version": "4.14.2",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:36+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.BingWeather_4.54.63029.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Weather",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "4.54.63029.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:36+00:00"
+        },
+        "install_time": "2025-12-22T04:16:26+00:00",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\Docker\\Docker",
+        "vendor": "Docker Inc.",
+        "description": " ",
+        "name": "Docker Desktop",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "4.55.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:37+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.Todos_2.153.5851.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft To Do",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "2.153.5851.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:37+00:00"
+        },
+        "install_time": "2025-11-01T00:00:00+00:00",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\Lenovo\\Lenovo Smart Meeting Components\\",
+        "vendor": "Lenovo",
+        "description": " ",
+        "name": "Lenovo Smart Meeting Components",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "i686",
+        "version": "3.3.11.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:37+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\E046963F.LenovoCompanion_10.2511.10.0_x64__k1h2ywk1493x8",
+        "vendor": "LENOVO INC.",
+        "description": " ",
+        "name": "Lenovo Vantage",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "10.2511.10.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:37+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.BingNews_4.56.242.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "News",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "4.56.242.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:37+00:00"
+        },
+        "install_time": "2025-12-22T04:22:13+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Windows Subsystem for Linux",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "2.6.3.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:37+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.XboxGamingOverlay_7.325.11061.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Game Bar",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "7.325.11061.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:37+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.Xbox.TCUI_1.24.10001.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Xbox Live",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "1.24.10001.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:37+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\ELANMicroelectronicsCorpo.TrackPoint_24.121.55.0_x64__stws0m115j6hg",
+        "vendor": "ELAN Microelectronics Corporation",
+        "description": " ",
+        "name": "TrackPoint",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "24.121.55.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:38+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.GetHelp_10.2409.33293.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Get Help",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "10.2409.33293.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:38+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.DesktopAppInstaller_1.27.459.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "App Installer",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "1.27.459.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:38+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.Whiteboard_53.20111.128.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft Whiteboard",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "53.20111.128.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:38+00:00"
+        },
+        "install_time": "2025-11-01T00:00:00+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft .NET Host FX Resolver - 8.0.11 (x64)",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "64.44.23191",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:38+00:00"
+        },
+        "install_time": "2025-11-01T00:00:00+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Office 16 Click-to-Run Licensing Component",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "16.0.17328.20206",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:38+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.Windows.Photos_2025.11120.5001.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Photos",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "2025.11120.5001.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:39+00:00"
+        },
+        "install_time": "2025-11-01T00:00:00+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft .NET Runtime - 8.0.11 (x64)",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "64.44.23191",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:39+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCamera_2025.2510.2.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Camera",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "2025.2510.2.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:39+00:00"
+        },
+        "install_time": "2026-01-16T07:43:05+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Neo4j Inc.",
+        "description": " ",
+        "name": "Neo4j Desktop 2 2.1.1",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": " ",
+        "version": "2.1.1",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:39+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.XboxSpeechToTextOverlay_1.97.17002.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Game Speech Window",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "1.97.17002.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:39+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.OutlookForWindows_1.2024.119.200_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Outlook (new)",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "1.2024.119.200",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:39+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.QuickAssist_2.0.29.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corp.",
+        "description": " ",
+        "name": "Quick Assist",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "2.0.29.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:39+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.XboxIdentityProvider_12.130.16001.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Xbox Identity Provider",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "12.130.16001.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:40+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.MicrosoftFamily_0.2.40.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corp.",
+        "description": " ",
+        "name": "Family",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "0.2.40.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:40+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.StorePurchaseApp_22512.1401.1.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Store Experience Host",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "22512.1401.1.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:40+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftSolitaireCollection_4.25.1130.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Studios",
+        "description": " ",
+        "name": "Solitaire & Casual Games",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "4.25.1130.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:40+00:00"
+        },
+        "install_time": "2025-11-02T05:23:10+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft Windows Desktop Runtime - 8.0.11 (x64)",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "i686",
+        "version": "8.0.11.34221",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:40+00:00"
+        },
+        "install_time": "2025-11-01T00:00:00+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft Windows Desktop Runtime - 8.0.11 (x64)",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "64.44.23253",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:40+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25112.36.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Phone Link",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "1.25112.36.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:41+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.Windows.DevHome_0.0.0.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Dev Home",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "0.0.0.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:41+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCalculator_11.2508.4.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Calculator",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "11.2508.4.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:41+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.Paint_11.2511.291.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Paint",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "11.2511.291.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:41+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.PowerAutomateDesktop_11.2601.105.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Power Automate",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "11.2601.105.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:41+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\E0469640.LenovoSmartCommunication_3.4.20.0_x64__5grkq8ppsgwt4",
+        "vendor": "LENOVO INC",
+        "description": " ",
+        "name": "Lenovo Smart Meeting",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "3.4.20.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:41+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\DolbyLaboratories.DolbyAccess_3.27.6410.0_x64__rz1tebttyb220",
+        "vendor": "Dolby Laboratories",
+        "description": " ",
+        "name": "Dolby Access",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "3.27.6410.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:41+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsFeedbackHub_1.2512.16303.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Feedback Hub",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "1.2512.16303.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:41+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_0.25112.60.0_x64__cw5n1h2txyewy",
+        "vendor": "Microsoft Windows",
+        "description": " ",
+        "name": "Mobile devices",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "0.25112.60.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:42+00:00"
+        },
+        "install_time": "2025-12-22T03:59:53+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "McAfee, LLC",
+        "description": " ",
+        "name": "McAfee",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "1.35.148.1",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:42+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\E0469640.TrackPointQuickMenu_1.2511.45.0_x64__5grkq8ppsgwt4",
+        "vendor": "LENOVO INC",
+        "description": " ",
+        "name": "TrackPoint Quick Menu",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "1.2511.45.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:42+00:00"
+        },
+        "install_time": "2025-12-22T05:30:28+00:00",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\Git\\",
+        "vendor": "The Git Development Community",
+        "description": " ",
+        "name": "Git",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "2.52.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:42+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2512.1001.36.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Xbox",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "2512.1001.36.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:42+00:00"
+        },
+        "install_time": "2026-01-15T14:59:14+00:00",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files (x86)\\Lenovo\\LenovoNow\\",
+        "vendor": "Lenovo",
+        "description": " ",
+        "name": "Lenovo Now",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "i686",
+        "version": "4.5.0.24",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:42+00:00"
+        },
+        "install_time": "2026-01-02T06:34:43+00:00",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\cursor\\",
+        "vendor": "Anysphere",
+        "description": " ",
+        "name": "Cursor",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "2.2.44",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:42+00:00"
+        },
+        "install_time": "2025-11-01T00:00:00+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft .NET Host - 8.0.11 (x64)",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "64.44.23191",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-01-30T04:19:25+00:00"
+        },
+        "install_time": "2026-01-30T04:02:36+00:00",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files (x86)\\Lenovo\\VantageService\\\\4.2601.20.0",
+        "vendor": "Lenovo Group Ltd.",
+        "description": " ",
+        "name": "Lenovo Vantage Service",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "i686",
+        "version": "4.2601.20.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-02T03:49:26+00:00"
+        },
+        "install_time": "2026-02-02T03:42:03+00:00",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft Edge",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "i686",
+        "version": "144.0.3719.104",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-02T05:16:01+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22512.1401.6.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft Store",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "22512.1401.6.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T04:56:39+00:00"
+        },
+        "install_time": "2026-02-03T03:56:54+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft OneDrive",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": " ",
+        "version": "26.002.0105.0001",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T06:41:05+00:00"
+        },
+        "install_time": "2026-02-03T06:15:47+00:00",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Users\\sgade\\AppData\\Local\\Programs\\Kiro\\",
+        "vendor": "Amazon Web Services",
+        "description": " ",
+        "name": "Kiro (User)",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": " ",
+        "version": "0.8.206",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T09:12:18+00:00"
+        },
+        "install_time": "2026-02-03T08:48:53+00:00",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\Microsoft Office",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft 365 - en-us",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "16.0.19628.20150",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T09:12:18+00:00"
+        },
+        "install_time": "2026-02-03T08:48:53+00:00",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\Microsoft Office",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft OneNote - en-us",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "16.0.19628.20150",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T09:12:18+00:00"
+        },
+        "install_time": "2026-02-03T08:49:58+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "14.44.35211",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T09:12:18+00:00"
+        },
+        "install_time": "2026-02-03T08:50:01+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "14.44.35211",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "install_time": "2026-02-04T15:04:20+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "i686",
+        "version": "14.44.35211.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T11:14:16+00:00"
+        },
+        "install_time": "2026-02-03T10:51:44+00:00",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Users\\sgade\\AppData\\Local\\Postman",
+        "vendor": "Postman",
+        "description": " ",
+        "name": "Postman x64 11.83.2",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": " ",
+        "version": "11.83.2",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "install_time": "2026-02-03T16:25:52+00:00",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\PostgreSQL\\18",
+        "vendor": "EnterpriseDB",
+        "description": " ",
+        "name": "pgAgent_PG18 4.2.3",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "4.2.3-1",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "install_time": "2026-02-03T16:27:13+00:00",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\PgBouncer",
+        "vendor": "EnterpriseDB",
+        "description": " ",
+        "name": "PgBouncer 1.25.1",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "1.25.1-1",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "install_time": "2026-02-03T16:20:25+00:00",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\PostgreSQL\\18",
+        "vendor": "PostgreSQL Global Development Group",
+        "description": " ",
+        "name": "PostgreSQL 18",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "18.1-2",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "install_time": "2026-02-04T15:04:21+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.44.35211",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "i686",
+        "version": "14.44.35211.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "install_time": "2026-02-03T16:15:02+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.44.35211",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "i686",
+        "version": "14.44.35211",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "install_time": "2026-02-03T16:15:05+00:00",
+        "section": " ",
+        "size": 0,
+        "location": " ",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft Visual C++ 2022 X86 Additional Runtime - 14.44.35211",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "i686",
+        "version": "14.44.35211",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T09:50:13+00:00"
+        },
+        "install_time": "2026-02-04T07:28:06+00:00",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\Google\\Chrome\\Application",
+        "vendor": "Google LLC",
+        "description": " ",
+        "name": "Google Chrome",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "i686",
+        "version": "144.0.7559.133",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-05T11:44:59+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.SecHealthUI_1000.29429.1000.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Windows Security",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "1000.29429.1000.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-05T11:45:01+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneMusic_11.2512.10.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Media Player",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "11.2512.10.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-05T11:45:04+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAlarms_11.2512.0.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Clock",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "11.2512.0.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-05T14:40:06+00:00"
+        },
+        "install_time": "2026-02-05T14:12:29+00:00",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft Edge WebView2 Runtime",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "i686",
+        "version": "144.0.3719.104",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T05:18:57+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Clipchamp.Clipchamp_4.5.10220.0_x64__yxz26nhyzhsrt",
+        "vendor": "Microsoft Corp.",
+        "description": " ",
+        "name": "Microsoft Clipchamp",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "4.5.10220.0",
+        "agent_id": "001"
+      },
+      {
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T05:18:57+00:00"
+        },
+        "install_time": " ",
+        "section": " ",
+        "size": 0,
+        "location": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2602.33151.0_x64__8wekyb3d8bbwe",
+        "vendor": "Microsoft Corporation",
+        "description": " ",
+        "name": "Microsoft 365 Copilot",
+        "source": " ",
+        "priority": " ",
+        "format": "win",
+        "architecture": "x86_64",
+        "version": "19.2602.33151.0",
+        "agent_id": "001"
+      }
+    ],
+    "total_affected_items": 74,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All specified syscollector information was returned",
+  "error": 0
+}

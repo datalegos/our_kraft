@@ -1,0 +1,6713 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 445
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:36+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System",
+        "state": "listening",
+        "inode": 0,
+        "pid": 4,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 445
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-01-28T11:54:49+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System",
+        "state": "listening",
+        "inode": 0,
+        "pid": 4,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 49667
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:02+00:00"
+        },
+        "protocol": "tcp",
+        "process": "svchost.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 3572,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 1900
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:02+00:00"
+        },
+        "protocol": "udp",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 9816,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 49664
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:02+00:00"
+        },
+        "protocol": "tcp",
+        "process": "lsass.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 1712,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 49666
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:02+00:00"
+        },
+        "protocol": "tcp",
+        "process": "svchost.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 2648,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 49670
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:02+00:00"
+        },
+        "protocol": "tcp",
+        "process": "services.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 1684,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 49670
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:03+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "services.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 1684,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 49667
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:03+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "svchost.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 3572,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 135
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:03+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "svchost.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 2040,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 49665
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:03+00:00"
+        },
+        "protocol": "tcp",
+        "process": "wininit.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 1536,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::1",
+          "port": 1900
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:03+00:00"
+        },
+        "protocol": "udp6",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 9816,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 49665
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:03+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "wininit.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 1536,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 49668
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:03+00:00"
+        },
+        "protocol": "tcp",
+        "process": "spoolsv.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 4672,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 49664
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:03+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "lsass.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 1712,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 5040
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:03+00:00"
+        },
+        "protocol": "tcp",
+        "process": "svchost.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 11240,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 135
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:03+00:00"
+        },
+        "protocol": "tcp",
+        "process": "svchost.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 2040,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 49664
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:03+00:00"
+        },
+        "protocol": "udp",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 5008,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 49666
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:04+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "svchost.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 2648,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 5050
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:04+00:00"
+        },
+        "protocol": "udp",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 11240,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 49668
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-03T16:37:04+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "spoolsv.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 4672,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 443
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "tcp",
+        "process": "com.docker.backend.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 18340,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 1514
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "tcp",
+        "process": "com.docker.backend.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 18340,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 1515
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "tcp",
+        "process": "com.docker.backend.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 18340,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 5432
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "tcp",
+        "process": "postgres.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 5288,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 9200
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "tcp",
+        "process": "com.docker.backend.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 18340,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 55000
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "tcp",
+        "process": "com.docker.backend.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 18340,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 6432
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "tcp",
+        "process": "pgbouncer.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 17976,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 62030
+        },
+        "remote": {
+          "ip": "127.0.0.1",
+          "port": 62031
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "tcp",
+        "process": "pgbouncer.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 17976,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 62031
+        },
+        "remote": {
+          "ip": "127.0.0.1",
+          "port": 62030
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "tcp",
+        "process": "pgbouncer.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 17976,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "172.27.112.1",
+          "port": 139
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System",
+        "state": "listening",
+        "inode": 0,
+        "pid": 4,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 443
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "com.docker.backend.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 18340,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 1514
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "com.docker.backend.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 18340,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 1515
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "com.docker.backend.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 18340,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 5432
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "postgres.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 5288,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 9200
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "com.docker.backend.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 18340,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 55000
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "com.docker.backend.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 18340,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::1",
+          "port": 443
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "wslrelay.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 21996,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::1",
+          "port": 1514
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "wslrelay.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 21996,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::1",
+          "port": 1515
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "wslrelay.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 21996,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::1",
+          "port": 5432
+        },
+        "remote": {
+          "ip": "::1",
+          "port": 62020
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-05T16:49:29+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "postgres.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 5288,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::1",
+          "port": 6432
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "pgbouncer.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 17976,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::1",
+          "port": 9200
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "wslrelay.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 21996,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::1",
+          "port": 55000
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "wslrelay.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 21996,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::1",
+          "port": 62020
+        },
+        "remote": {
+          "ip": "::1",
+          "port": 5432
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "pgagent.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 12360,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 53
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "udp",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 3752,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 514
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "udp",
+        "process": "com.docker.backend.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 18340,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 5355
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "udp",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 2484,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 60953
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "udp",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 3752,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 60954
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "udp",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 3752,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "172.27.112.1",
+          "port": 137
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "udp",
+        "process": "System",
+        "state": " ",
+        "inode": 0,
+        "pid": 4,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "172.27.112.1",
+          "port": 138
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "udp",
+        "process": "System",
+        "state": " ",
+        "inode": 0,
+        "pid": 4,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "172.27.112.1",
+          "port": 1900
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "udp",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 9816,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 514
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "udp6",
+        "process": "com.docker.backend.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 18340,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 5355
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "udp6",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 2484,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 60955
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "udp6",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 3752,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 1900
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "udp6",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 9816,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::fc81:83d9:3d94:e9e3",
+          "port": 1900
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T05:17:25+00:00"
+        },
+        "protocol": "udp6",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 9816,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 64116
+        },
+        "remote": {
+          "ip": "127.0.0.1",
+          "port": 64117
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "tcp",
+        "process": "mc-fw-host.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 5028,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 64117
+        },
+        "remote": {
+          "ip": "127.0.0.1",
+          "port": 64116
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-04T10:51:03+00:00"
+        },
+        "protocol": "tcp",
+        "process": "mc-fw-host.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 5028,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::1",
+          "port": 42050
+        },
+        "remote": {
+          "ip": "::",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T05:18:57+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "OneDrive.Sync.Service.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 29336,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 5353
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T10:45:29+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 139
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T03:50:36+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System",
+        "state": "listening",
+        "inode": 0,
+        "pid": 4,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 137
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T03:50:36+00:00"
+        },
+        "protocol": "udp",
+        "process": "System",
+        "state": " ",
+        "inode": 0,
+        "pid": 4,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 138
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T03:50:36+00:00"
+        },
+        "protocol": "udp",
+        "process": "System",
+        "state": " ",
+        "inode": 0,
+        "pid": 4,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 1900
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T03:50:36+00:00"
+        },
+        "protocol": "udp",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 9816,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 49163
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T07:20:47+00:00"
+        },
+        "protocol": "udp",
+        "process": "ONENOTE.EXE",
+        "state": " ",
+        "inode": 0,
+        "pid": 27220,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 54211
+        },
+        "remote": {
+          "ip": "52.57.79.4",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T09:36:31+00:00"
+        },
+        "protocol": "tcp",
+        "process": "chrome.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "2406:7400:3b:e69f:f1a9:e7ce:b332:589c",
+          "port": 49439
+        },
+        "remote": {
+          "ip": "2603:1040:a06:6::",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T09:36:31+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "svchost.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 4296,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "2406:7400:3b:e69f:f1a9:e7ce:b332:589c",
+          "port": 49695
+        },
+        "remote": {
+          "ip": "2404:6800:4003:c0f::bc",
+          "port": 5228
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T09:36:31+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "chrome.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "2406:7400:3b:e69f:f1a9:e7ce:b332:589c",
+          "port": 50433
+        },
+        "remote": {
+          "ip": "2a03:2880:f368:120:face:b00c:0:167",
+          "port": 5222
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T09:36:31+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "chrome.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "2406:7400:3b:e69f:f1a9:e7ce:b332:589c",
+          "port": 50626
+        },
+        "remote": {
+          "ip": "2404:6800:4003:c0f::bc",
+          "port": 5228
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T09:36:31+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "chrome.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "2406:7400:3b:e69f:f1a9:e7ce:b332:589c",
+          "port": 52229
+        },
+        "remote": {
+          "ip": "2603:1063:2202:14::3",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T09:36:31+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "ONENOTE.EXE",
+        "state": "established",
+        "inode": 0,
+        "pid": 27220,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 64058
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T09:36:31+00:00"
+        },
+        "protocol": "udp",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 9816,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "172.27.112.1",
+          "port": 64059
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T09:36:31+00:00"
+        },
+        "protocol": "udp",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 9816,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 64057
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T09:36:31+00:00"
+        },
+        "protocol": "udp",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 9816,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::1",
+          "port": 64055
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T09:36:31+00:00"
+        },
+        "protocol": "udp6",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 9816,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 64054
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T09:36:31+00:00"
+        },
+        "protocol": "udp6",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 9816,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::fc81:83d9:3d94:e9e3",
+          "port": 64056
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T09:36:31+00:00"
+        },
+        "protocol": "udp6",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 9816,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 5353
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T10:45:29+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 22912,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 53896
+        },
+        "remote": {
+          "ip": "0.0.0.0",
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T10:45:29+00:00"
+        },
+        "protocol": "tcp",
+        "process": "Kiro.exe",
+        "state": "listening",
+        "inode": 0,
+        "pid": 26712,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "172.27.112.1",
+          "port": 62775
+        },
+        "remote": {
+          "ip": "172.27.122.220",
+          "port": 1514
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T10:45:29+00:00"
+        },
+        "protocol": "tcp",
+        "process": "wazuh-agent.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 27924,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 58454
+        },
+        "remote": {
+          "ip": "127.0.0.1",
+          "port": 58455
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "mc-fw-host.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 5028,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "127.0.0.1",
+          "port": 58455
+        },
+        "remote": {
+          "ip": "127.0.0.1",
+          "port": 58454
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "mc-fw-host.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 5028,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 49671
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 49672
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 49851
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 50060
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 50104
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 50202
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 50240
+        },
+        "remote": {
+          "ip": "44.193.235.229",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "Kiro.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 26712,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 50404
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 50518
+        },
+        "remote": {
+          "ip": "140.82.112.25",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "chrome.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 50540
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 50632
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 51355
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 51587
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 52031
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 52098
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 52329
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 52439
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 52638
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 52678
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 53098
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 53259
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 53265
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 53423
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 53648
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 54036
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 54122
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 54637
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 54782
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 54890
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 54949
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 54993
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 55757
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 56377
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 56582
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 56652
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 56675
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 56960
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 57282
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 57459
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 57582
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 57618
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 57623
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 58216
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 58357
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 58456
+        },
+        "remote": {
+          "ip": "3.111.241.224",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "mc-fw-host.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 5028,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 58463
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 58605
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 58820
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 58981
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 59194
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 59272
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 59459
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 59616
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 59807
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 59986
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 60144
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 60198
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 60254
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 60267
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 60463
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 60475
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 60476
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 60487
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 60762
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 60772
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 60860
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 60902
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 60991
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 61099
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 61327
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 61375
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 61473
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 61503
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 61833
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 62074
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 62142
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 62236
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 62342
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 62489
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 62662
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 62899
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 62924
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 62963
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 63484
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 63633
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 63769
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 63858
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 64175
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 64223
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 64437
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 64491
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 64873
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 64936
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 64960
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 64995
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 65054
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "192.168.0.5",
+          "port": 65474
+        },
+        "remote": {
+          "ip": "192.168.0.1",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "2406:7400:3b:e69f:f1a9:e7ce:b332:589c",
+          "port": 49904
+        },
+        "remote": {
+          "ip": "2001:4860:4802:34::9d",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "2406:7400:3b:e69f:f1a9:e7ce:b332:589c",
+          "port": 55654
+        },
+        "remote": {
+          "ip": "2001:4860:4802:34::9d",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "2406:7400:3b:e69f:f1a9:e7ce:b332:589c",
+          "port": 59009
+        },
+        "remote": {
+          "ip": "2404:6800:4007:83b::2004",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "chrome.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "2406:7400:3b:e69f:f1a9:e7ce:b332:589c",
+          "port": 60986
+        },
+        "remote": {
+          "ip": "2404:6800:4003:c04::bc",
+          "port": 5228
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "chrome.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "2406:7400:3b:e69f:f1a9:e7ce:b332:589c",
+          "port": 62895
+        },
+        "remote": {
+          "ip": "2404:6800:4003:c02::77",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "chrome.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "2406:7400:3b:e69f:f1a9:e7ce:b332:589c",
+          "port": 63492
+        },
+        "remote": {
+          "ip": "2404:6800:4007:810::2005",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "chrome.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "2406:7400:3b:e69f:f1a9:e7ce:b332:589c",
+          "port": 63914
+        },
+        "remote": {
+          "ip": "2a06:98c1:3108::ac40:94eb",
+          "port": 443
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "chrome.exe",
+        "state": "established",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 49673
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 49674
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 50285
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 50342
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 50497
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 50824
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 50854
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 51562
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 51803
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 51987
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 52401
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 52430
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 53005
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 53083
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 53193
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 53857
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 54359
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 54515
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 54617
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 55104
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 55199
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 55350
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 55704
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 55872
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 56653
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 56674
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 57046
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 57617
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 58682
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 59370
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 59614
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 60204
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 60643
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 60742
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 61158
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 61556
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 61779
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 62064
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 62176
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 63030
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 63403
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 63514
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 63623
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 63801
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 64203
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 64249
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 64272
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 64314
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 64469
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 64703
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 64947
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 65076
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 65331
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "fe80::6ffe:7675:9ccd:2a7d",
+          "port": 65471
+        },
+        "remote": {
+          "ip": "fe80::9aba:5fff:feef:dc3a",
+          "port": 53
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "tcp6",
+        "process": "System Idle Process",
+        "state": "time_wait",
+        "inode": 0,
+        "pid": 0,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 50060
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 50221
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 51610
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 51622
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 52185
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 53535
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 53682
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 54062
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 2484,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 54466
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 54901
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 54912
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 55348
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 55374
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 55941
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 55962
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 56566
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 57303
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 57906
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 57966
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 58313
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 58419
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 2484,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 58636
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 59215
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 59351
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 59442
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 59685
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 61171
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 61738
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 2484,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 62726
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 2484,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 63099
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 63625
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 63700
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 63883
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "0.0.0.0",
+          "port": 65454
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 50060
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 50221
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 51610
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 51622
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 52185
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 53535
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 53682
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 54062
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 2484,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 54466
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 54901
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 54912
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 55374
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 55941
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 55962
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 56566
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 57303
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 57906
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 57966
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 58313
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 58419
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 2484,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 58636
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 59215
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 59351
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 59442
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 59685
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 61171
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 61738
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 2484,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 62726
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "svchost.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 2484,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 63099
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 63625
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 63700
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 63883
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      },
+      {
+        "local": {
+          "ip": "::",
+          "port": 65454
+        },
+        "remote": {
+          "port": 0
+        },
+        "scan": {
+          "id": 0,
+          "time": "2026-02-06T11:46:26+00:00"
+        },
+        "protocol": "udp6",
+        "process": "chrome.exe",
+        "state": " ",
+        "inode": 0,
+        "pid": 26992,
+        "rx_queue": 0,
+        "tx_queue": 0,
+        "agent_id": "001"
+      }
+    ],
+    "total_affected_items": 309,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All specified syscollector information was returned",
+  "error": 0
+}

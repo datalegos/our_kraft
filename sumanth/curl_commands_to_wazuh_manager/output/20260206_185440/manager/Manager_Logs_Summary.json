@@ -1,0 +1,321 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        ":router": {
+          "all": 48,
+          "info": 48,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "indexer-connector": {
+          "all": 84,
+          "info": 70,
+          "error": 0,
+          "critical": 0,
+          "warning": 14,
+          "debug": 0
+        }
+      },
+      {
+        "logger-helper": {
+          "all": 7,
+          "info": 7,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "sca": {
+          "all": 32,
+          "info": 32,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-agentlessd": {
+          "all": 5,
+          "info": 5,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-analysisd": {
+          "all": 25,
+          "info": 25,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-authd": {
+          "all": 28,
+          "info": 28,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-csyslogd": {
+          "all": 9,
+          "info": 5,
+          "error": 3,
+          "critical": 1,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-db": {
+          "all": 16,
+          "info": 16,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-dbd": {
+          "all": 5,
+          "info": 5,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-execd": {
+          "all": 15,
+          "info": 15,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-integratord": {
+          "all": 5,
+          "info": 5,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-logcollector": {
+          "all": 30,
+          "info": 30,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-modulesd": {
+          "all": 135,
+          "info": 7,
+          "error": 0,
+          "critical": 0,
+          "warning": 128,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-modulesd:agent-upgrade": {
+          "all": 5,
+          "info": 5,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-modulesd:ciscat": {
+          "all": 5,
+          "info": 5,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-modulesd:content-updater": {
+          "all": 4,
+          "info": 0,
+          "error": 1,
+          "critical": 0,
+          "warning": 3,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-modulesd:content_manager": {
+          "all": 17,
+          "info": 17,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-modulesd:control": {
+          "all": 5,
+          "info": 5,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-modulesd:database": {
+          "all": 5,
+          "info": 5,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-modulesd:download": {
+          "all": 5,
+          "info": 5,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-modulesd:inventory-harvester": {
+          "all": 17,
+          "info": 17,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-modulesd:osquery": {
+          "all": 5,
+          "info": 5,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-modulesd:router": {
+          "all": 17,
+          "info": 17,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-modulesd:syscollector": {
+          "all": 29,
+          "info": 29,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-modulesd:task-manager": {
+          "all": 5,
+          "info": 5,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-modulesd:vulnerability-scanner": {
+          "all": 21,
+          "info": 21,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-monitord": {
+          "all": 11,
+          "info": 11,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-remoted": {
+          "all": 18,
+          "info": 15,
+          "error": 0,
+          "critical": 0,
+          "warning": 3,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-rootcheck": {
+          "all": 11,
+          "info": 11,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      },
+      {
+        "wazuh-syscheckd": {
+          "all": 146,
+          "info": 146,
+          "error": 0,
+          "critical": 0,
+          "warning": 0,
+          "debug": 0
+        }
+      }
+    ],
+    "total_affected_items": 31,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "Log was successfully summarized",
+  "error": 0
+}

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "id": "001",
+        "key": "MDAxIHN1bWFudGggYW55IDA5ZjkxNjEwMjIzMTVhNjE5MWYwMDYyYzkwNWI1NmE4N2NlNjYwYTg4YjdiYTQ5ODNjZTFiNTkxYjgyMWM2YmQ="
+      }
+    ],
+    "total_affected_items": 1,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "Obtained keys for all selected agents",
+  "error": 0
+}

@@ -1,0 +1,131 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:35+00:00",
+        "hotfix": "KB2267602",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:35+00:00",
+        "hotfix": "KB2468871",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:35+00:00",
+        "hotfix": "KB2478063",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:36+00:00",
+        "hotfix": "KB2533523",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:36+00:00",
+        "hotfix": "KB2544514",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:36+00:00",
+        "hotfix": "KB2600211",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:36+00:00",
+        "hotfix": "KB2600217",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:36+00:00",
+        "hotfix": "KB4052623",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:36+00:00",
+        "hotfix": "KB5007651",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:36+00:00",
+        "hotfix": "KB5042098",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:36+00:00",
+        "hotfix": "KB5043080",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:36+00:00",
+        "hotfix": "KB5050575",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:37+00:00",
+        "hotfix": "KB5054156",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:37+00:00",
+        "hotfix": "KB5066128",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:37+00:00",
+        "hotfix": "KB5067931",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:37+00:00",
+        "hotfix": "KB5071142",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:37+00:00",
+        "hotfix": "KB5071430",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:37+00:00",
+        "hotfix": "KB5072033",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:37+00:00",
+        "hotfix": "KB5074109",
+        "agent_id": "001"
+      },
+      {
+        "scan_id": 0,
+        "scan_time": "2026-01-28T11:54:37+00:00",
+        "hotfix": "KB890830",
+        "agent_id": "001"
+      }
+    ],
+    "total_affected_items": 20,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All specified syscollector information was returned",
+  "error": 0
+}

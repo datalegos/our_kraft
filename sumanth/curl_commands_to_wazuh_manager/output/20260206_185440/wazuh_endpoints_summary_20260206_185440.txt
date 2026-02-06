@@ -1,0 +1,80 @@
+/* ===== WAZUH API ENDPOINTS SUMMARY - 20260206_185440 ===== */
+/* Generated: 2026-02-06 18:54:48 */
+/* Total Endpoints Tested: 47 */
+
+/* ===== General / Manager ===== */
+"/", // ✓ Root API Info
+"/manager/info", // ✓ Manager Info
+"/manager/configuration", // ✓ Manager Configuration
+"/manager/status", // ✓ Manager Status
+"/manager/stats", // ✓ Manager Stats
+"/manager/stats/hourly", // ✓ Manager Stats Hourly
+"/manager/stats/weekly", // ✓ Manager Stats Weekly
+"/manager/logs/summary", // ✓ Manager Logs Summary
+"/manager/api/config", // ✓ Manager API Configuration
+
+/* ===== Agents / Assets ===== */
+"/agents", // ✓ All Agents
+"/agents/summary", // ✓ Agents Summary
+"/agents/summary/status", // ✓ Agents Summary Status
+"/agents/outdated", // ✓ Agents Outdated
+"/agents/no_group", // ✓ Agents No Group
+"/agents/001/key", // ✓ Agent Key Info (001)
+
+/* ===== Agent Stats ===== */
+"/agents/stats/distinct", // ✓ Agents Stats Distinct
+"/agents/001/daemons/stats", // ✓ Agent Daemons Stats (001)
+
+/* ===== Groups ===== */
+"/groups", // ✓ Groups List
+"/groups/default/agents", // ✓ Group Agents (default)
+"/groups/default/configuration", // ✓ Group Configuration (default)
+"/groups/default/files", // ✓ Group Files (default)
+
+/* ===== Inventory / Syscollector ===== */
+"/syscollector/001/os", // ✓ Syscollector OS Info (001)
+"/syscollector/001/hardware", // ✓ Syscollector Hardware (001)
+"/syscollector/001/packages", // ✓ Syscollector Packages (001)
+"/syscollector/001/processes", // ✓ Syscollector Processes (001)
+"/syscollector/001/netiface", // ✓ Syscollector Network Interfaces (001)
+"/syscollector/001/netaddr", // ✓ Syscollector Network Addresses (001)
+"/syscollector/001/ports", // ✓ Syscollector Ports (001)
+"/syscollector/001/netproto", // ✓ Syscollector Network Protocol (001)
+"/syscollector/001/hotfixes", // ✓ Syscollector Hotfixes (001)
+
+/* ===== File Integrity Monitoring ===== */
+"/syscheck/001", // ✓ File Integrity Monitoring (001)
+
+/* ===== Rootcheck ===== */
+"/rootcheck/001", // ✓ Rootcheck (001)
+
+/* ===== Security Configuration Assessment ===== */
+"/sca/001", // ✓ Security Configuration Assessment (001)
+"/sca/001/checks/cis_win11_enterprise", // ✓ SCA Checks - cis_win11_enterprise (001)
+
+/* ===== Rules & Decoders ===== */
+"/rules", // ✓ Rules List
+"/decoders", // ✓ Decoders List
+
+/* ===== MITRE ATT&CK ===== */
+"/mitre/techniques", // ✓ MITRE Techniques
+"/mitre/tactics", // ✓ MITRE Tactics
+
+/* ===== Cluster ===== */
+"/cluster/status", // ✓ Cluster Status
+
+/* ===== Security ===== */
+"/security/config", // ✓ Security Configuration
+"/security/users", // ✓ Security Users
+"/security/roles", // ✓ Security Roles
+"/security/policies", // ✓ Security Policies
+
+/* ===== Other ===== */
+"/lists/files", // ✓ Lists Files
+"/lists", // ✓ CDB Lists
+"/overview/agents", // ✓ Overview Agents
+"/tasks/status", // ✓ Task Status
+
+/* ===== EXECUTION STATISTICS ===== */
+/* Successful: 47/47 (100.0%) */
+/* Failed: 0/47 (0.0%) */

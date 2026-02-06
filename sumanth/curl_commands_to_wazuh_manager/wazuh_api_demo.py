@@ -62,6 +62,34 @@ def discover_agents(session, base_url, agent_config):
     """Discover available agents based on configuration filters."""
     print("🔍 Discovering agents...")
     
+    # Check if specific agents are requested
+    specific_agents = agent_config.get('specific_agents', [])
+    if specific_agents:
+        print(f"   Using specific agent IDs: {specific_agents}")
+        agents = []
+        for agent_id in specific_agents:
+            try:
+                response = session.get(
+                    f"{base_url}/agents",
+                    params={"pretty": "true", "agents_list": agent_id},
+                    verify=False,
+                    timeout=30
+                )
+                if response.status_code == 200:
+                    data = response.json()
+                    agent_data = data.get('data', {}).get('affected_items', [])
+                    agents.extend(agent_data)
+            except Exception as e:
+                print(f"   ⚠️  Could not get agent {agent_id}: {e}")
+        
+        print(f"✅ Found {len(agents)} specific agents")
+        for agent in agents:
+            status = agent.get('status', 'unknown')
+            last_seen = agent.get('lastKeepAlive', 'never')
+            print(f"   - Agent {agent['id']}: {agent['name']} (Status: {status}, Last seen: {last_seen})")
+        return agents
+    
+    # Original discovery logic
     try:
         params = {"pretty": "true", "limit": "1000"}
         
@@ -139,6 +167,28 @@ def discover_groups(session, base_url):
             
     except Exception as e:
         print(f"❌ Error discovering groups: {e}")
+        return []
+
+
+def get_sca_policies(session, base_url, agent_id):
+    """Get SCA policies for a specific agent."""
+    try:
+        response = session.get(
+            f"{base_url}/sca/{agent_id}",
+            params={"pretty": "true"},
+            verify=False,
+            timeout=30
+        )
+        
+        if response.status_code == 200:
+            data = response.json()
+            policies = data.get('data', {}).get('affected_items', [])
+            return [policy.get('policy_id') for policy in policies if policy.get('policy_id')]
+        else:
+            return []
+            
+    except Exception as e:
+        print(f"   ⚠️  Could not get SCA policies: {e}")
         return []
 
 
@@ -344,8 +394,34 @@ def main():
                 agent_dir.mkdir(parents=True, exist_ok=True)
                 print(f"📁 Created directory: {agent_dir}")
                 
+                # Get SCA policies for this agent (needed for SCA checks endpoint)
+                sca_policies = None
+                
                 for request in config["agent_specific_requests"]:
                     endpoint = request['endpoint'].replace('{agent_id}', agent_id)
+                    
+                    # Special handling for SCA checks endpoint (requires policy_id)
+                    if '{policy_id}' in endpoint:
+                        # Get SCA policies if not already fetched
+                        if sca_policies is None:
+                            print(f"   🔍 Fetching SCA policies for agent {agent_id}...")
+                            sca_policies = get_sca_policies(session, base_url, agent_id)
+                        
+                        # Execute SCA checks for each policy
+                        if sca_policies:
+                            print(f"   ✅ Found {len(sca_policies)} SCA policies")
+                            for policy_id in sca_policies:
+                                policy_endpoint = endpoint.replace('{policy_id}', policy_id)
+                                url = f"{base_url}{policy_endpoint}"
+                                params = request.get('params', {})
+                                name = f"{request['name']} - {policy_id} ({agent_id})"
+                                
+                                execute_request(name, url, params, session, results, f"agents/agent_{agent_id}_{agent_name.replace(' ', '_')}")
+                        else:
+                            print(f"   ⚠️  No SCA policies found for agent {agent_id}, skipping SCA checks")
+                        continue
+                    
+                    # Normal endpoint processing
                     url = f"{base_url}{endpoint}"
                     params = request.get('params', {})
                     name = f"{request['name']} ({agent_id})"

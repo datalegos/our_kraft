@@ -1,0 +1,79 @@
+{
+  "data": {
+    "nodes": [
+      {
+        "node_name": "node01",
+        "count": 1
+      }
+    ],
+    "groups": [
+      {
+        "name": "default",
+        "count": 1,
+        "mergedSum": "e15cd0c9f7dec03be7b82012b99d73bf",
+        "configSum": "ab73af41699f13fdd81903b5f23d8d00"
+      }
+    ],
+    "agent_os": [
+      {
+        "os": {
+          "name": "Microsoft Windows 11 Home Single Language",
+          "platform": "windows",
+          "version": "10.0.26200.7623"
+        },
+        "count": 1
+      }
+    ],
+    "agent_status": {
+      "connection": {
+        "active": 1,
+        "disconnected": 0,
+        "never_connected": 0,
+        "pending": 0,
+        "total": 1
+      },
+      "configuration": {
+        "synced": 1,
+        "not_synced": 0,
+        "total": 1
+      }
+    },
+    "agent_version": [
+      {
+        "count": 1,
+        "version": "Wazuh v4.14.2"
+      }
+    ],
+    "last_registered_agent": [
+      {
+        "os": {
+          "build": "26200.7623",
+          "major": "10",
+          "minor": "0",
+          "name": "Microsoft Windows 11 Home Single Language",
+          "platform": "windows",
+          "uname": "Microsoft Windows 11 Home Single Language",
+          "version": "10.0.26200.7623"
+        },
+        "mergedSum": "e15cd0c9f7dec03be7b82012b99d73bf",
+        "ip": "172.27.112.1",
+        "name": "sumanth",
+        "dateAdd": "2026-01-28T11:54:08+00:00",
+        "registerIP": "any",
+        "status_code": 0,
+        "configSum": "ab73af41699f13fdd81903b5f23d8d00",
+        "version": "Wazuh v4.14.2",
+        "lastKeepAlive": "2026-02-06T13:24:40+00:00",
+        "id": "001",
+        "manager": "wazuh.manager",
+        "group": [
+          "default"
+        ],
+        "group_config_status": "synced",
+        "node_name": "node01",
+        "status": "active"
+      }
+    ]
+  },
+  "error": 0
+}

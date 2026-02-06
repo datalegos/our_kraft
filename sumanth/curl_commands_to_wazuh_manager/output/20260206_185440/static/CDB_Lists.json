@@ -1,0 +1,4488 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "items": [
+          {
+            "key": "audit-wazuh-w",
+            "value": "write"
+          },
+          {
+            "key": "audit-wazuh-r",
+            "value": "read"
+          },
+          {
+            "key": "audit-wazuh-a",
+            "value": "attribute"
+          },
+          {
+            "key": "audit-wazuh-x",
+            "value": "execute"
+          },
+          {
+            "key": "audit-wazuh-c",
+            "value": "command"
+          }
+        ],
+        "relative_dirname": "etc/lists",
+        "filename": "audit-keys"
+      },
+      {
+        "items": [
+          {
+            "key": "200",
+            "value": ""
+          },
+          {
+            "key": "201",
+            "value": ""
+          },
+          {
+            "key": "203",
+            "value": ""
+          },
+          {
+            "key": "202",
+            "value": ""
+          },
+          {
+            "key": "204",
+            "value": ""
+          },
+          {
+            "key": "300",
+            "value": ""
+          },
+          {
+            "key": "301",
+            "value": ""
+          },
+          {
+            "key": "302",
+            "value": ""
+          },
+          {
+            "key": "303",
+            "value": ""
+          },
+          {
+            "key": "304",
+            "value": ""
+          },
+          {
+            "key": "305",
+            "value": ""
+          },
+          {
+            "key": "306",
+            "value": ""
+          },
+          {
+            "key": "513",
+            "value": ""
+          },
+          {
+            "key": "517",
+            "value": ""
+          },
+          {
+            "key": "520",
+            "value": ""
+          },
+          {
+            "key": "528",
+            "value": ""
+          },
+          {
+            "key": "529",
+            "value": ""
+          },
+          {
+            "key": "530",
+            "value": ""
+          },
+          {
+            "key": "531",
+            "value": ""
+          },
+          {
+            "key": "532",
+            "value": ""
+          },
+          {
+            "key": "533",
+            "value": ""
+          },
+          {
+            "key": "534",
+            "value": ""
+          },
+          {
+            "key": "535",
+            "value": ""
+          },
+          {
+            "key": "536",
+            "value": ""
+          },
+          {
+            "key": "537",
+            "value": ""
+          },
+          {
+            "key": "538",
+            "value": ""
+          },
+          {
+            "key": "539",
+            "value": ""
+          },
+          {
+            "key": "540",
+            "value": ""
+          },
+          {
+            "key": "551",
+            "value": ""
+          },
+          {
+            "key": "577",
+            "value": ""
+          },
+          {
+            "key": "612",
+            "value": ""
+          },
+          {
+            "key": "624",
+            "value": ""
+          },
+          {
+            "key": "626",
+            "value": ""
+          },
+          {
+            "key": "628",
+            "value": ""
+          },
+          {
+            "key": "629",
+            "value": ""
+          },
+          {
+            "key": "630",
+            "value": ""
+          },
+          {
+            "key": "631",
+            "value": ""
+          },
+          {
+            "key": "632",
+            "value": ""
+          },
+          {
+            "key": "633",
+            "value": ""
+          },
+          {
+            "key": "634",
+            "value": ""
+          },
+          {
+            "key": "635",
+            "value": ""
+          },
+          {
+            "key": "636",
+            "value": ""
+          },
+          {
+            "key": "637",
+            "value": ""
+          },
+          {
+            "key": "638",
+            "value": ""
+          },
+          {
+            "key": "639",
+            "value": ""
+          },
+          {
+            "key": "640",
+            "value": ""
+          },
+          {
+            "key": "641",
+            "value": ""
+          },
+          {
+            "key": "642",
+            "value": ""
+          },
+          {
+            "key": "643",
+            "value": ""
+          },
+          {
+            "key": "644",
+            "value": ""
+          },
+          {
+            "key": "645",
+            "value": ""
+          },
+          {
+            "key": "646",
+            "value": ""
+          },
+          {
+            "key": "647",
+            "value": ""
+          },
+          {
+            "key": "648",
+            "value": ""
+          },
+          {
+            "key": "651",
+            "value": ""
+          },
+          {
+            "key": "652",
+            "value": ""
+          },
+          {
+            "key": "653",
+            "value": ""
+          },
+          {
+            "key": "654",
+            "value": ""
+          },
+          {
+            "key": "656",
+            "value": ""
+          },
+          {
+            "key": "657",
+            "value": ""
+          },
+          {
+            "key": "658",
+            "value": ""
+          },
+          {
+            "key": "659",
+            "value": ""
+          },
+          {
+            "key": "660",
+            "value": ""
+          },
+          {
+            "key": "661",
+            "value": ""
+          },
+          {
+            "key": "662",
+            "value": ""
+          },
+          {
+            "key": "663",
+            "value": ""
+          },
+          {
+            "key": "664",
+            "value": ""
+          },
+          {
+            "key": "665",
+            "value": ""
+          },
+          {
+            "key": "666",
+            "value": ""
+          },
+          {
+            "key": "667",
+            "value": ""
+          },
+          {
+            "key": "671",
+            "value": ""
+          },
+          {
+            "key": "673",
+            "value": ""
+          },
+          {
+            "key": "675",
+            "value": ""
+          },
+          {
+            "key": "680",
+            "value": ""
+          },
+          {
+            "key": "681",
+            "value": ""
+          },
+          {
+            "key": "682",
+            "value": ""
+          },
+          {
+            "key": "683",
+            "value": ""
+          },
+          {
+            "key": "685",
+            "value": ""
+          },
+          {
+            "key": "1001",
+            "value": ""
+          },
+          {
+            "key": "1102",
+            "value": ""
+          },
+          {
+            "key": "4608",
+            "value": ""
+          },
+          {
+            "key": "4609",
+            "value": ""
+          },
+          {
+            "key": "4616",
+            "value": ""
+          },
+          {
+            "key": "4624",
+            "value": ""
+          },
+          {
+            "key": "4625",
+            "value": ""
+          },
+          {
+            "key": "4634",
+            "value": ""
+          },
+          {
+            "key": "4647",
+            "value": ""
+          },
+          {
+            "key": "4648",
+            "value": ""
+          },
+          {
+            "key": "4656",
+            "value": ""
+          },
+          {
+            "key": "4658",
+            "value": ""
+          },
+          {
+            "key": "4663",
+            "value": ""
+          },
+          {
+            "key": "4672",
+            "value": ""
+          },
+          {
+            "key": "4673",
+            "value": ""
+          },
+          {
+            "key": "4690",
+            "value": ""
+          },
+          {
+            "key": "4719",
+            "value": ""
+          },
+          {
+            "key": "4720",
+            "value": ""
+          },
+          {
+            "key": "4722",
+            "value": ""
+          },
+          {
+            "key": "4725",
+            "value": ""
+          },
+          {
+            "key": "4726",
+            "value": ""
+          },
+          {
+            "key": "4727",
+            "value": ""
+          },
+          {
+            "key": "4728",
+            "value": ""
+          },
+          {
+            "key": "4729",
+            "value": ""
+          },
+          {
+            "key": "4730",
+            "value": ""
+          },
+          {
+            "key": "4731",
+            "value": ""
+          },
+          {
+            "key": "4732",
+            "value": ""
+          },
+          {
+            "key": "4733",
+            "value": ""
+          },
+          {
+            "key": "4734",
+            "value": ""
+          },
+          {
+            "key": "4735",
+            "value": ""
+          },
+          {
+            "key": "4737",
+            "value": ""
+          },
+          {
+            "key": "4738",
+            "value": ""
+          },
+          {
+            "key": "4740",
+            "value": ""
+          },
+          {
+            "key": "4741",
+            "value": ""
+          },
+          {
+            "key": "4742",
+            "value": ""
+          },
+          {
+            "key": "4743",
+            "value": ""
+          },
+          {
+            "key": "4744",
+            "value": ""
+          },
+          {
+            "key": "4745",
+            "value": ""
+          },
+          {
+            "key": "4746",
+            "value": ""
+          },
+          {
+            "key": "4747",
+            "value": ""
+          },
+          {
+            "key": "4748",
+            "value": ""
+          },
+          {
+            "key": "4749",
+            "value": ""
+          },
+          {
+            "key": "4750",
+            "value": ""
+          },
+          {
+            "key": "4751",
+            "value": ""
+          },
+          {
+            "key": "4752",
+            "value": ""
+          },
+          {
+            "key": "4753",
+            "value": ""
+          },
+          {
+            "key": "4754",
+            "value": ""
+          },
+          {
+            "key": "4755",
+            "value": ""
+          },
+          {
+            "key": "4756",
+            "value": ""
+          },
+          {
+            "key": "4757",
+            "value": ""
+          },
+          {
+            "key": "4758",
+            "value": ""
+          },
+          {
+            "key": "4759",
+            "value": ""
+          },
+          {
+            "key": "4760",
+            "value": ""
+          },
+          {
+            "key": "4761",
+            "value": ""
+          },
+          {
+            "key": "4762",
+            "value": ""
+          },
+          {
+            "key": "4763",
+            "value": ""
+          },
+          {
+            "key": "4764",
+            "value": ""
+          },
+          {
+            "key": "4766",
+            "value": ""
+          },
+          {
+            "key": "4767",
+            "value": ""
+          },
+          {
+            "key": "4769",
+            "value": ""
+          },
+          {
+            "key": "4778",
+            "value": ""
+          },
+          {
+            "key": "4779",
+            "value": ""
+          },
+          {
+            "key": "4781",
+            "value": ""
+          },
+          {
+            "key": "4797",
+            "value": ""
+          },
+          {
+            "key": "4904",
+            "value": ""
+          },
+          {
+            "key": "4905",
+            "value": ""
+          },
+          {
+            "key": "4907",
+            "value": ""
+          },
+          {
+            "key": "4912",
+            "value": ""
+          },
+          {
+            "key": "4919",
+            "value": ""
+          },
+          {
+            "key": "4985",
+            "value": ""
+          },
+          {
+            "key": "5061",
+            "value": ""
+          },
+          {
+            "key": "13570",
+            "value": ""
+          },
+          {
+            "key": "18453",
+            "value": ""
+          },
+          {
+            "key": "18454",
+            "value": ""
+          },
+          {
+            "key": "18456",
+            "value": ""
+          },
+          {
+            "key": "20014",
+            "value": ""
+          },
+          {
+            "key": "20049",
+            "value": ""
+          },
+          {
+            "key": "20050",
+            "value": ""
+          },
+          {
+            "key": "20078",
+            "value": ""
+          },
+          {
+            "key": "20158",
+            "value": ""
+          },
+          {
+            "key": "20187",
+            "value": ""
+          },
+          {
+            "key": "20189",
+            "value": ""
+          }
+        ],
+        "relative_dirname": "etc/lists",
+        "filename": "security-eventchannel"
+      },
+      {
+        "items": [
+          {
+            "key": "AttachLoadBalancers",
+            "value": "Autoscaling"
+          },
+          {
+            "key": "DetachLoadBalancers",
+            "value": "Autoscaling"
+          },
+          {
+            "key": "PutScalingPolicy",
+            "value": "Autoscaling"
+          },
+          {
+            "key": "TerminateInstanceInAutoScalingGroup",
+            "value": "Autoscaling"
+          },
+          {
+            "key": "CancelUpdateStack",
+            "value": "Cloudformation"
+          },
+          {
+            "key": "CreateStack",
+            "value": "Cloudformation"
+          },
+          {
+            "key": "DeleteStack",
+            "value": "Cloudformation"
+          },
+          {
+            "key": "UpdateStack",
+            "value": "Cloudformation"
+          },
+          {
+            "key": "DeleteConfigRule",
+            "value": "AWS Config"
+          },
+          {
+            "key": "DeleteConfigurationRecorder",
+            "value": "AWS Config"
+          },
+          {
+            "key": "DeleteDeliveryChannel",
+            "value": "AWS Config"
+          },
+          {
+            "key": "DeleteEvaluationResults",
+            "value": "AWS Config"
+          },
+          {
+            "key": "PutConfigurationRecorder",
+            "value": "AWS Config"
+          },
+          {
+            "key": "PutConfigRule",
+            "value": "AWS Config"
+          },
+          {
+            "key": "PutDeliveryChannel",
+            "value": "AWS Config"
+          },
+          {
+            "key": "PutEvaluations",
+            "value": "AWS Config"
+          },
+          {
+            "key": "StartConfigRulesEvaluation",
+            "value": "AWS Config"
+          },
+          {
+            "key": "StartConfigurationRecorder",
+            "value": "AWS Config"
+          },
+          {
+            "key": "StopConfigurationRecorder",
+            "value": "AWS Config"
+          },
+          {
+            "key": "RunInstances",
+            "value": "EC2"
+          },
+          {
+            "key": "StartInstances",
+            "value": "EC2"
+          },
+          {
+            "key": "StopInstances",
+            "value": "EC2"
+          },
+          {
+            "key": "TerminateInstances",
+            "value": "EC2"
+          },
+          {
+            "key": "AbortEnvironmentUpdate",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "CreateApplication",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "CreateApplicationVersion",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "CreateConfigurationTemplate",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "CreateEnvironment",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "CreateStorageLocation",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "DeleteApplication",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "DeleteApplicationVersion",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "DeleteConfigurationTemplate",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "DeleteEnvironmentConfiguration",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "RebuildEnvironment",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "RestartAppServer",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "SwapEnvironmentCNAMEs",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "TerminateEnvironment",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "UpdateApplication",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "UpdateApplicationVersion",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "UpdateConfigurationTemplate",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "UpdateEnvironment",
+            "value": "Elastic Beanstalk"
+          },
+          {
+            "key": "CreateFileSystem",
+            "value": "EFS"
+          },
+          {
+            "key": "CreateMountTarget",
+            "value": "EFS"
+          },
+          {
+            "key": "DeleteFileSystem",
+            "value": "EFS"
+          },
+          {
+            "key": "DeleteMountTarget",
+            "value": "EFS"
+          },
+          {
+            "key": "CreateListener",
+            "value": "ELB"
+          },
+          {
+            "key": "CreateLoadBalancer",
+            "value": "ELB"
+          },
+          {
+            "key": "CreateLoadBalancerListeners",
+            "value": "ELB"
+          },
+          {
+            "key": "CreateLoadBalancerPolicy",
+            "value": "ELB"
+          },
+          {
+            "key": "CreateTargetGroup",
+            "value": "ELB"
+          },
+          {
+            "key": "DeleteListener",
+            "value": "ELB"
+          },
+          {
+            "key": "DeleteLoadBalancer",
+            "value": "ELB"
+          },
+          {
+            "key": "DeleteLoadBalancerListeners",
+            "value": "ELB"
+          },
+          {
+            "key": "DeleteLoadBalancerPolicy",
+            "value": "ELB"
+          },
+          {
+            "key": "DeleteTargetGroup",
+            "value": "ELB"
+          },
+          {
+            "key": "DeregisterInstancesFromLoadBalancer",
+            "value": "ELB"
+          },
+          {
+            "key": "DeregisterTargets",
+            "value": "ELB"
+          },
+          {
+            "key": "DetachLoadBalancerFromSubnets",
+            "value": "ELB"
+          },
+          {
+            "key": "DisableAvailabilityZonesForLoadBalancer",
+            "value": "ELB"
+          },
+          {
+            "key": "EnableAvailabilityZonesForLoadBalance",
+            "value": "ELB"
+          },
+          {
+            "key": "ModifyListener",
+            "value": "ELB"
+          },
+          {
+            "key": "ModifyLoadBalancerAttributes",
+            "value": "ELB"
+          },
+          {
+            "key": "ModifyRule",
+            "value": "ELB"
+          },
+          {
+            "key": "ModifyTargetGroup",
+            "value": "ELB"
+          },
+          {
+            "key": "ModifyTargetGroupAttributes",
+            "value": "ELB"
+          },
+          {
+            "key": "RegisterInstancesWithLoadBalancer",
+            "value": "ELB"
+          },
+          {
+            "key": "RegisterTargets",
+            "value": "ELB"
+          },
+          {
+            "key": "RemoveTags",
+            "value": "ELB"
+          },
+          {
+            "key": "CreateDBCluster",
+            "value": "RDS"
+          },
+          {
+            "key": "CreateDBClusterParameterGroup",
+            "value": "RDS"
+          },
+          {
+            "key": "CreateDBClusterSnapshot",
+            "value": "RDS"
+          },
+          {
+            "key": "CreateDBInstance",
+            "value": "RDS"
+          },
+          {
+            "key": "CreateDBInstanceReadReplica",
+            "value": "RDS"
+          },
+          {
+            "key": "CreateDBParameterGroup",
+            "value": "RDS"
+          },
+          {
+            "key": "CreateDBSnapshot",
+            "value": "RDS"
+          },
+          {
+            "key": "CreateDBSubnetGroup",
+            "value": "RDS"
+          },
+          {
+            "key": "CreateOptionGroup",
+            "value": "RDS"
+          },
+          {
+            "key": "DeleteDBCluster",
+            "value": "RDS"
+          },
+          {
+            "key": "DeleteDBClusterParameterGroup",
+            "value": "RDS"
+          },
+          {
+            "key": "DeleteDBClusterSnapshot",
+            "value": "RDS"
+          },
+          {
+            "key": "DeleteDBInstance",
+            "value": "RDS"
+          },
+          {
+            "key": "DeleteDBParameterGroup",
+            "value": "RDS"
+          },
+          {
+            "key": "DeleteDBSnapshot",
+            "value": "RDS"
+          },
+          {
+            "key": "DeleteDBSubnetGroup",
+            "value": "RDS"
+          },
+          {
+            "key": "DeleteOptionGroup",
+            "value": "RDS"
+          },
+          {
+            "key": "FailoverDBCluster",
+            "value": "RDS"
+          },
+          {
+            "key": "ModifyDBCluster",
+            "value": "RDS"
+          },
+          {
+            "key": "ModifyDBClusterParameterGroup",
+            "value": "RDS"
+          },
+          {
+            "key": "ModifyDBInstance",
+            "value": "RDS"
+          },
+          {
+            "key": "ModifyDBParameterGroup",
+            "value": "RDS"
+          },
+          {
+            "key": "ModifyDBSnapshotAttribute",
+            "value": "RDS"
+          },
+          {
+            "key": "ModifyDBSubnetGroup",
+            "value": "RDS"
+          },
+          {
+            "key": "ModifyOptionGroup",
+            "value": "RDS"
+          },
+          {
+            "key": "PromoteReadReplica",
+            "value": "RDS"
+          },
+          {
+            "key": "RebootDBInstance",
+            "value": "RDS"
+          },
+          {
+            "key": "ResetDBClusterParameterGroup",
+            "value": "RDS"
+          },
+          {
+            "key": "ResetDBParameterGroup",
+            "value": "RDS"
+          },
+          {
+            "key": "RestoreDBClusterFromSnapshot",
+            "value": "RDS"
+          },
+          {
+            "key": "RestoreDBClusterToPointInTime",
+            "value": "RDS"
+          },
+          {
+            "key": "RestoreDBInstanceFromDBSnapshot",
+            "value": "RDS"
+          },
+          {
+            "key": "RestoreDBInstanceToPointInTime",
+            "value": "RDS"
+          },
+          {
+            "key": "ChangeResourceRecordSets",
+            "value": "Route53"
+          },
+          {
+            "key": "DeleteHealthCheck",
+            "value": "Route53"
+          },
+          {
+            "key": "CreateBucket",
+            "value": "S3"
+          },
+          {
+            "key": "DeleteBucket",
+            "value": "S3"
+          },
+          {
+            "key": "DeleteBucketLifecycle",
+            "value": "S3"
+          },
+          {
+            "key": "DeleteBucketReplication",
+            "value": "S3"
+          },
+          {
+            "key": "DeleteBucketTagging",
+            "value": "S3"
+          },
+          {
+            "key": "PutBucketLifecycle",
+            "value": "S3"
+          },
+          {
+            "key": "PutBucketLogging",
+            "value": "S3"
+          },
+          {
+            "key": "PutBucketNotification",
+            "value": "S3"
+          },
+          {
+            "key": "PutBucketReplication",
+            "value": "S3"
+          },
+          {
+            "key": "PutBucketRequestPayment",
+            "value": "S3"
+          },
+          {
+            "key": "PutBucketTagging",
+            "value": "S3"
+          },
+          {
+            "key": "PutBucketVersioning",
+            "value": "S3"
+          },
+          {
+            "key": "ConsoleLogin",
+            "value": "Access"
+          },
+          {
+            "key": "ExitRole",
+            "value": "Access"
+          },
+          {
+            "key": "RenewRole",
+            "value": "Access"
+          },
+          {
+            "key": "SwitchRole",
+            "value": "Access"
+          },
+          {
+            "key": "DeleteCertificate",
+            "value": "Certificate Manager"
+          },
+          {
+            "key": "RequestCertificate",
+            "value": "Certificate Manager"
+          },
+          {
+            "key": "ResendValidationEmail",
+            "value": "Certificate Manager"
+          },
+          {
+            "key": "StopLogging",
+            "value": "Cloudtrail"
+          },
+          {
+            "key": "AllocateConnectionOnInterconnect",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "AllocateHostedConnection",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "AllocatePrivateVirtualInterface",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "AllocatePublicVirtualInterface",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "AssociateConnectionWithLag",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "AssociateHostedConnection",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "AssociateVirtualInterface",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "ConfirmConnection",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "ConfirmPrivateVirtualInterface",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "ConfirmPublicVirtualInterface",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "CreateConnection",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "CreateInterconnect",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "CreateLag",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "CreatePrivateVirtualInterface",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "CreatePublicVirtualInterface",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "DeleteConnection",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "DeleteInterconnect",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "DeleteLag",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "DeleteVirtualInterface",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "DisassociateConnectionFromLag",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "UpdateLag",
+            "value": "Direct Connect"
+          },
+          {
+            "key": "AssociateIamInstanceProfile",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "AssociateAddress",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "AssociateRouteTable",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "AssociateSubnetCidrBlock",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "AssociateVpcCidrBlock",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "AttachClassicLinkVpc",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "AttachInternetGateway",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "AttachNetworkInterface",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "AllocateAddress",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "AssignPrivateIpAddresses",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "AttachVpnGateway",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "CreateKeyPair",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "CreateNatGateway",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "CreateNetworkAcl",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "CreateNetworkAclEntry",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "CreateNetworkInterface",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "CreateRoute",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "CreateRouteTable",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "CreateSecurityGroup",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "CreateVpc",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "CreateVpcEndpoint",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "CreateVpcPeeringConnection",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "CreateVpnConnection",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "CreateVpnConnectionRoute",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "CreateVpnGateway",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DeleteCustomerGateway",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DeleteDhcpOptions",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DeleteEgressOnlyInternetGateway",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DeleteInternetGateway",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DeleteKeyPair",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DeleteNatGateway",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DeleteNetworkAcl",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DeleteNetworkAclEntry",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DeleteNetworkInterface",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DeleteRoute",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DeleteRouteTable",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DeleteSecurityGroup",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DeleteVpcEndpoints",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DeleteVpcPeeringConnection",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DeleteVpnConnection",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DeleteVpnConnectionRoute",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DeleteVpnGateway",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DetachClassicLinkVpc",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DetachInternetGateway",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DetachNetworkInterface",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DetachVolume",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DetachVpnGateway",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DisableVgwRoutePropagation",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DisableVpcClassicLink",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DisassociateAddress",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DisassociateIamInstanceProfile",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DisassociateRouteTable",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DisassociateSubnetCidrBlock",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "DisassociateVpcCidrBlock",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "EnableVgwRoutePropagation",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "EnableVolumeIO",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "EnableVpcClassicLink",
+            "value": "EC2 - VPC"
+          },
+          {
+            "key": "AuthorizeSecurityGroupEgress",
+            "value": "EC2 - Security Groups"
+          },
+          {
+            "key": "AuthorizeSecurityGroupIngress",
+            "value": "EC2 - Security Groups"
+          },
+          {
+            "key": "RevokeSecurityGroupEgress",
+            "value": "EC2 - Security Groups"
+          },
+          {
+            "key": "RevokeSecurityGroupIngress",
+            "value": "EC2 - Security Groups"
+          },
+          {
+            "key": "ModifyMountTargetSecurityGroups",
+            "value": "EFS"
+          },
+          {
+            "key": "ApplySecurityGroupsToLoadBalancer",
+            "value": "ELB"
+          },
+          {
+            "key": "SetSecurityGroups",
+            "value": "ELB"
+          },
+          {
+            "key": "AuthorizeCacheSecurityGroupIngress",
+            "value": "ElastiCache"
+          },
+          {
+            "key": "CreateCacheSecurityGroup",
+            "value": "ElastiCache"
+          },
+          {
+            "key": "DeleteCacheSecurityGroup",
+            "value": "ElastiCache"
+          },
+          {
+            "key": "RevokeCacheSecurityGroupIngress",
+            "value": "ElastiCache"
+          },
+          {
+            "key": "AddClientIDToOpenIDConnectProvider",
+            "value": "IAM"
+          },
+          {
+            "key": "AddRoleToInstanceProfile",
+            "value": "IAM"
+          },
+          {
+            "key": "AddUserToGroup",
+            "value": "IAM"
+          },
+          {
+            "key": "AttachGroupPolicy",
+            "value": "IAM"
+          },
+          {
+            "key": "AttachRolePolicy",
+            "value": "IAM"
+          },
+          {
+            "key": "AttachUserPolicy",
+            "value": "IAM"
+          },
+          {
+            "key": "ChangePassword",
+            "value": "IAM"
+          },
+          {
+            "key": "CreateAccessKey",
+            "value": "IAM"
+          },
+          {
+            "key": "CreateAccountAlias",
+            "value": "IAM"
+          },
+          {
+            "key": "CreateGroup",
+            "value": "IAM"
+          },
+          {
+            "key": "CreateInstanceProfile",
+            "value": "IAM"
+          },
+          {
+            "key": "CreateLoginProfile",
+            "value": "IAM"
+          },
+          {
+            "key": "CreateOpenIDConnectProvider",
+            "value": "IAM"
+          },
+          {
+            "key": "CreatePolicy",
+            "value": "IAM"
+          },
+          {
+            "key": "CreatePolicyVersion",
+            "value": "IAM"
+          },
+          {
+            "key": "CreateRole",
+            "value": "IAM"
+          },
+          {
+            "key": "CreateSAMLProvider",
+            "value": "IAM"
+          },
+          {
+            "key": "CreateUser",
+            "value": "IAM"
+          },
+          {
+            "key": "CreateVirtualMFADevice",
+            "value": "IAM"
+          },
+          {
+            "key": "DeactivateMFADevice",
+            "value": "IAM"
+          },
+          {
+            "key": "DeleteAccessKey",
+            "value": "IAM"
+          },
+          {
+            "key": "DeleteAccountAlias",
+            "value": "IAM"
+          },
+          {
+            "key": "DeleteAccountPasswordPolicy",
+            "value": "IAM"
+          },
+          {
+            "key": "DeleteGroup",
+            "value": "IAM"
+          },
+          {
+            "key": "DeleteGroupPolicy",
+            "value": "IAM"
+          },
+          {
+            "key": "DeleteInstanceProfile",
+            "value": "IAM"
+          },
+          {
+            "key": "DeleteLoginProfile",
+            "value": "IAM"
+          },
+          {
+            "key": "DeleteOpenIDConnectProvider",
+            "value": "IAM"
+          },
+          {
+            "key": "DeletePolicy",
+            "value": "IAM"
+          },
+          {
+            "key": "DeletePolicyVersion",
+            "value": "IAM"
+          },
+          {
+            "key": "DeleteRole",
+            "value": "IAM"
+          },
+          {
+            "key": "DeleteRolePolicy",
+            "value": "IAM"
+          },
+          {
+            "key": "DeleteSAMLProvider",
+            "value": "IAM"
+          },
+          {
+            "key": "DeleteServerCertificate",
+            "value": "IAM"
+          },
+          {
+            "key": "DeleteSigningCertificate",
+            "value": "IAM"
+          },
+          {
+            "key": "DeleteSSHPublicKey",
+            "value": "IAM"
+          },
+          {
+            "key": "DeleteUser",
+            "value": "IAM"
+          },
+          {
+            "key": "DeleteUserPolicy",
+            "value": "IAM"
+          },
+          {
+            "key": "DeleteVirtualMFADevice",
+            "value": "IAM"
+          },
+          {
+            "key": "DetachGroupPolicy",
+            "value": "IAM"
+          },
+          {
+            "key": "DetachRolePolicy",
+            "value": "IAM"
+          },
+          {
+            "key": "DetachUserPolicy",
+            "value": "IAM"
+          },
+          {
+            "key": "EnableMFADevice",
+            "value": "IAM"
+          },
+          {
+            "key": "PutGroupPolicy",
+            "value": "IAM"
+          },
+          {
+            "key": "PutRolePolicy",
+            "value": "IAM"
+          },
+          {
+            "key": "PutUserPolicy",
+            "value": "IAM"
+          },
+          {
+            "key": "RemoveClientIDFromOpenIDConnectProvider",
+            "value": "IAM"
+          },
+          {
+            "key": "RemoveRoleFromInstanceProfile",
+            "value": "IAM"
+          },
+          {
+            "key": "RemoveUserFromGroup",
+            "value": "IAM"
+          },
+          {
+            "key": "ResyncMFADevice",
+            "value": "IAM"
+          },
+          {
+            "key": "SetDefaultPolicyVersion",
+            "value": "IAM"
+          },
+          {
+            "key": "UpdateAccessKey",
+            "value": "IAM"
+          },
+          {
+            "key": "UpdateAccountPasswordPolicy",
+            "value": "IAM"
+          },
+          {
+            "key": "UpdateAssumeRolePolicy",
+            "value": "IAM"
+          },
+          {
+            "key": "UpdateGroup",
+            "value": "IAM"
+          },
+          {
+            "key": "UpdateLoginProfile",
+            "value": "IAM"
+          },
+          {
+            "key": "UpdateOpenIDConnectProviderThumbprint",
+            "value": "IAM"
+          },
+          {
+            "key": "UpdateSAMLProvider",
+            "value": "IAM"
+          },
+          {
+            "key": "UpdateServerCertificate",
+            "value": "IAM"
+          },
+          {
+            "key": "UpdateSigningCertificate",
+            "value": "IAM"
+          },
+          {
+            "key": "UpdateSSHPublicKey",
+            "value": "IAM"
+          },
+          {
+            "key": "UpdateUser",
+            "value": "IAM"
+          },
+          {
+            "key": "UploadServerCertificate",
+            "value": "IAM"
+          },
+          {
+            "key": "UploadSigningCertificate",
+            "value": "IAM"
+          },
+          {
+            "key": "UploadSSHPublicKey",
+            "value": "IAM"
+          },
+          {
+            "key": "AuthorizeSnapshotAccess",
+            "value": "Redshift"
+          },
+          {
+            "key": "RevokeSnapshotAccess",
+            "value": "Redshift"
+          },
+          {
+            "key": "RotateEncryptionKey",
+            "value": "Redshift"
+          },
+          {
+            "key": "AuthorizeClusterSecurityGroupIngress",
+            "value": "Redshift"
+          },
+          {
+            "key": "CreateClusterSecurityGroup",
+            "value": "Redshift"
+          },
+          {
+            "key": "DeleteClusterSecurityGroup",
+            "value": "Redshift"
+          },
+          {
+            "key": "RevokeClusterSecurityGroupIngress",
+            "value": "Redshift"
+          },
+          {
+            "key": "AuthorizeDBSecurityGroupIngress",
+            "value": "RDS"
+          },
+          {
+            "key": "CreateDBSecurityGroup",
+            "value": "RDS"
+          },
+          {
+            "key": "DeleteDBSecurityGroup",
+            "value": "RDS"
+          },
+          {
+            "key": "RevokeDBSecurityGroupIngress",
+            "value": "RDS"
+          },
+          {
+            "key": "DeleteBucketCors",
+            "value": "S3"
+          },
+          {
+            "key": "DeleteBucketPolicy",
+            "value": "S3"
+          },
+          {
+            "key": "DeleteBucketWebsite",
+            "value": "S3"
+          },
+          {
+            "key": "PutBucketAcl",
+            "value": "S3"
+          },
+          {
+            "key": "PutBucketCors",
+            "value": "S3"
+          },
+          {
+            "key": "PutBucketPolicy",
+            "value": "S3"
+          },
+          {
+            "key": "PutBucketWebsite",
+            "value": "S3"
+          },
+          {
+            "key": "CreateByteMatchSet",
+            "value": "WAF"
+          },
+          {
+            "key": "CreateIPSet",
+            "value": "WAF"
+          },
+          {
+            "key": "CreateRule",
+            "value": "WAF"
+          },
+          {
+            "key": "CreateSizeConstraintSet",
+            "value": "WAF"
+          },
+          {
+            "key": "CreateSqlInjectionMatchSet",
+            "value": "WAF"
+          },
+          {
+            "key": "CreateWebACL",
+            "value": "WAF"
+          },
+          {
+            "key": "CreateXssMatchSet",
+            "value": "WAF"
+          },
+          {
+            "key": "DeleteByteMatchSet",
+            "value": "WAF"
+          },
+          {
+            "key": "DeleteIPSet",
+            "value": "WAF"
+          },
+          {
+            "key": "DeleteRule",
+            "value": "WAF"
+          },
+          {
+            "key": "DeleteSizeConstraintSet",
+            "value": "WAF"
+          },
+          {
+            "key": "DeleteSqlInjectionMatchSet",
+            "value": "WAF"
+          },
+          {
+            "key": "DeleteWebACL",
+            "value": "WAF"
+          },
+          {
+            "key": "DeleteXssMatchSet",
+            "value": "WAF"
+          },
+          {
+            "key": "UpdateByteMatchSet",
+            "value": "WAF"
+          },
+          {
+            "key": "UpdateIPSet",
+            "value": "WAF"
+          },
+          {
+            "key": "UpdateRule",
+            "value": "WAF"
+          },
+          {
+            "key": "UpdateSizeConstraintSet",
+            "value": "WAF"
+          },
+          {
+            "key": "UpdateSqlInjectionMatchSet",
+            "value": "WAF"
+          },
+          {
+            "key": "UpdateWebACL",
+            "value": "WAF"
+          },
+          {
+            "key": "UpdateXssMatchSet",
+            "value": "WAF"
+          },
+          {
+            "key": "AssociateDhcpOptions",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "AttachVolume",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "CopySnapshot",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "CreateImage",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "CreatePlacementGroup",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "CreateSnapshot",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "CreateSubnet",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "CreateTags",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "CreateVolume",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "DeletePlacementGroup",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "DeleteSnapshot",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "DeleteTags",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "DeleteVolume",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "DeregisterImage",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "DisableKey",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "GetGroup",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "ListAliases",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "ListGroups",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "ListUsers",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "ModifyImageAttribute",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "ModifyInstanceAttribute",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "ModifyNetworkInterfaceAttribute",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "ModifySnapshotAttribute",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "ModifySubnetAttribute",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "ModifyVolumeAttribute",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "MonitorInstances",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "RebootInstances",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "RegisterImage",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "UnmonitorInstances",
+            "value": "Legacy Wazuh CDB"
+          },
+          {
+            "key": "UpdateInstanceAlias",
+            "value": "Legacy Wazuh CDB"
+          }
+        ],
+        "relative_dirname": "etc/lists/amazon",
+        "filename": "aws-eventnames"
+      },
+      {
+        "items": [],
+        "relative_dirname": "etc/lists/amazon",
+        "filename": "aws-sources"
+      },
+      {
+        "items": [
+          {
+            "key": "netflix-clone-two-opal.vercel.app",
+            "value": ""
+          },
+          {
+            "key": "instagram.archive.com.im",
+            "value": ""
+          },
+          {
+            "key": "netflix-clone-pi-pearl.vercel.app",
+            "value": ""
+          },
+          {
+            "key": "qouv.fr",
+            "value": ""
+          },
+          {
+            "key": "netflix-clone-youtube-psi.vercel.app",
+            "value": ""
+          },
+          {
+            "key": "neftlixpl001-aktualizacja.fr",
+            "value": ""
+          },
+          {
+            "key": "mobillecampaiiqnsg.com",
+            "value": ""
+          },
+          {
+            "key": "lnfractionsandtpermis.fr",
+            "value": ""
+          },
+          {
+            "key": "lmpost.9730932.xyz",
+            "value": ""
+          },
+          {
+            "key": "lmpost.85465377.xyz",
+            "value": ""
+          },
+          {
+            "key": "jhpost.67009032.xyz",
+            "value": ""
+          },
+          {
+            "key": "jhpost.555643566.xyz",
+            "value": ""
+          },
+          {
+            "key": "inpost.tyaoprle.sbs",
+            "value": ""
+          },
+          {
+            "key": "inpost.hduzikel.sbs",
+            "value": ""
+          },
+          {
+            "key": "ibpost.5815495.xyz",
+            "value": ""
+          },
+          {
+            "key": "ibpost.3815495.xyz",
+            "value": ""
+          },
+          {
+            "key": "enpost.8945081.xyz",
+            "value": ""
+          },
+          {
+            "key": "correosprepago.bnext.es",
+            "value": ""
+          },
+          {
+            "key": "contact-us-business-home-64741145817487431956.mdbgo.io",
+            "value": ""
+          },
+          {
+            "key": "allegrolokalnie.plasgja3hlfia21gjk.shop",
+            "value": ""
+          },
+          {
+            "key": "5gsfrsv.cc",
+            "value": ""
+          },
+          {
+            "key": "zoopaposti.pro",
+            "value": ""
+          },
+          {
+            "key": "zonedatapro.info",
+            "value": ""
+          },
+          {
+            "key": "zl.cura-alzheimer.info",
+            "value": ""
+          },
+          {
+            "key": "zipassembly.com",
+            "value": ""
+          },
+          {
+            "key": "zincasimme.pro",
+            "value": ""
+          },
+          {
+            "key": "zenith-sav80.quest",
+            "value": ""
+          },
+          {
+            "key": "zanthsecurity.co.za",
+            "value": ""
+          },
+          {
+            "key": "zampidisgu.pro",
+            "value": ""
+          },
+          {
+            "key": "zamilgroups.com",
+            "value": ""
+          },
+          {
+            "key": "z029kusg15vcip3.h2na9.pl",
+            "value": ""
+          },
+          {
+            "key": "yuvahallabol.in",
+            "value": ""
+          },
+          {
+            "key": "ysp850tbhnvqwor.tvshow-netfiix.cfd",
+            "value": ""
+          },
+          {
+            "key": "ypeadiloa.monster",
+            "value": ""
+          },
+          {
+            "key": "yourfirst10clients.com",
+            "value": ""
+          },
+          {
+            "key": "yourdailyfeedfix.com",
+            "value": ""
+          },
+          {
+            "key": "yedfwx.pro",
+            "value": ""
+          },
+          {
+            "key": "yachtsgalapagos.com",
+            "value": ""
+          },
+          {
+            "key": "yachthelpservice.boats",
+            "value": ""
+          },
+          {
+            "key": "y16ixhvuqose8jn.netflix0s.pl",
+            "value": ""
+          },
+          {
+            "key": "xyberra.info",
+            "value": ""
+          },
+          {
+            "key": "xuzinoe.info",
+            "value": ""
+          },
+          {
+            "key": "xtb24.info",
+            "value": ""
+          },
+          {
+            "key": "xn--facebook-krzyacki-8yd.businesshelpcenter-policy.click",
+            "value": ""
+          },
+          {
+            "key": "xn--dostpnazawsze-l0b.itsforever.org",
+            "value": ""
+          },
+          {
+            "key": "xn--d1aqfkf.xn",
+            "value": ""
+          },
+          {
+            "key": "xn--80ab1amccbm0f.xn",
+            "value": ""
+          },
+          {
+            "key": "ximonite.com",
+            "value": ""
+          },
+          {
+            "key": "xiangshunjy.com",
+            "value": ""
+          },
+          {
+            "key": "xerocdisgr.pro",
+            "value": ""
+          },
+          {
+            "key": "x4mu7p8ohle4h49jwji967pf8vmwbjao7w1olrdxnhzsgylrf.walrus.site",
+            "value": ""
+          },
+          {
+            "key": "wyplacic2750zl.info",
+            "value": ""
+          },
+          {
+            "key": "www.xn--d1aqfkf.xn",
+            "value": ""
+          },
+          {
+            "key": "www.aegtecnoservice.it",
+            "value": ""
+          },
+          {
+            "key": "wsr9f70bimkqg0c93f01d9uq.chicweddingsgallery.beauty",
+            "value": ""
+          },
+          {
+            "key": "wsglasses.com",
+            "value": ""
+          },
+          {
+            "key": "writersgarden.net",
+            "value": ""
+          },
+          {
+            "key": "writerarticle.com",
+            "value": ""
+          },
+          {
+            "key": "writeclear.click",
+            "value": ""
+          },
+          {
+            "key": "write.cura-alzheimer.info",
+            "value": ""
+          },
+          {
+            "key": "wq4dr5rtmcit2e68jj5k75pg.gadgetsglitzs.com",
+            "value": ""
+          },
+          {
+            "key": "wowcleaningcompany.com",
+            "value": ""
+          },
+          {
+            "key": "worthycontacts.com",
+            "value": ""
+          },
+          {
+            "key": "worlddatareportz.info",
+            "value": ""
+          },
+          {
+            "key": "world-key.info",
+            "value": ""
+          },
+          {
+            "key": "woodwisetreeservicellc.com",
+            "value": ""
+          },
+          {
+            "key": "woodruffceremonies.com",
+            "value": ""
+          },
+          {
+            "key": "wolfhowlharmony.pro",
+            "value": ""
+          },
+          {
+            "key": "wo0p5vg20h8nu4683a5u965n.petsglobals.com",
+            "value": ""
+          },
+          {
+            "key": "wkjnvrjq4fpp9e893k8jc2kk.charmingceremonyguide.com",
+            "value": ""
+          },
+          {
+            "key": "wkchmcid04lk6be93auscfpc.weddingsgoesbeyond.beauty",
+            "value": ""
+          },
+          {
+            "key": "wk548l1tfrb5tb683boa23b8.gadgetsgem.com",
+            "value": ""
+          },
+          {
+            "key": "wix-billings.secure826663c3429556f7406dfa47d3.com",
+            "value": ""
+          },
+          {
+            "key": "wivacoe.info",
+            "value": ""
+          },
+          {
+            "key": "witter-auth.paypal-transaction-secure.info",
+            "value": ""
+          },
+          {
+            "key": "wiqalhgcjb.info",
+            "value": ""
+          },
+          {
+            "key": "windideaidea.pro",
+            "value": ""
+          },
+          {
+            "key": "wik5cv1e3pe6sk68j75pjis6.gadgetsglitzs.com",
+            "value": ""
+          },
+          {
+            "key": "wiexdj.info",
+            "value": ""
+          },
+          {
+            "key": "wiccaforum.com",
+            "value": ""
+          },
+          {
+            "key": "wiadomosci-spoleczne.site",
+            "value": ""
+          },
+          {
+            "key": "whoisfrank.net",
+            "value": ""
+          },
+          {
+            "key": "whimsicalharmony.pro",
+            "value": ""
+          },
+          {
+            "key": "whenepoles.pro",
+            "value": ""
+          },
+          {
+            "key": "wgpmhoh57bgrrl48jccq989l.bikesgroups.com",
+            "value": ""
+          },
+          {
+            "key": "wg7j899saga7h968388nfoik.gadgetsgem.com",
+            "value": ""
+          },
+          {
+            "key": "wesleyanquestionnaire.com",
+            "value": ""
+          },
+          {
+            "key": "wellingtonhousecleaners.com",
+            "value": ""
+          },
+          {
+            "key": "weightlossgeneral.com",
+            "value": ""
+          },
+          {
+            "key": "wedfells.com",
+            "value": ""
+          },
+          {
+            "key": "webmail-authblk.riyueguo.com",
+            "value": ""
+          },
+          {
+            "key": "webmail-authblk.ifuqin.com",
+            "value": ""
+          },
+          {
+            "key": "web-direction.info",
+            "value": ""
+          },
+          {
+            "key": "wcywnjbnh1itm0tkucv3ksgb8.navallink.ro",
+            "value": ""
+          },
+          {
+            "key": "wcjcdes6lrelac68j4jq1ipq.gadgetsglitzs.com",
+            "value": ""
+          },
+          {
+            "key": "wbbiu99j31mu3m99jnn1h782.boldbudsgardening.com",
+            "value": ""
+          },
+          {
+            "key": "wazneinformacjezkraju.com.pl",
+            "value": ""
+          },
+          {
+            "key": "washingtonpost.pm",
+            "value": ""
+          },
+          {
+            "key": "warszawskie-info.pl",
+            "value": ""
+          },
+          {
+            "key": "warildisgr.pro",
+            "value": ""
+          },
+          {
+            "key": "waramongthestars.com",
+            "value": ""
+          },
+          {
+            "key": "wanderconnect.pro",
+            "value": ""
+          },
+          {
+            "key": "wanairecruitment.com",
+            "value": ""
+          },
+          {
+            "key": "wakeupanddreamchallenge.info",
+            "value": ""
+          },
+          {
+            "key": "wacmt52ihgqn7i68jrhhrm9o.gadgetsglitzs.com",
+            "value": ""
+          },
+          {
+            "key": "wa544kkv9tvljf68jj9oj9la.gadgetsglitzs.com",
+            "value": ""
+          },
+          {
+            "key": "vxu76kl4bfjysga.vtvsa.pl",
+            "value": ""
+          },
+          {
+            "key": "vvzys.info",
+            "value": ""
+          },
+          {
+            "key": "vulturedistribution.com",
+            "value": ""
+          },
+          {
+            "key": "voxchronos.live",
+            "value": ""
+          },
+          {
+            "key": "voskre.polkderter.top",
+            "value": ""
+          },
+          {
+            "key": "vointi.info",
+            "value": ""
+          },
+          {
+            "key": "vntd-cnxc.info",
+            "value": ""
+          },
+          {
+            "key": "vkyx63sgupm2l7o.pubplat-ntfx.pl",
+            "value": ""
+          },
+          {
+            "key": "vkdlgfjnzbh.info",
+            "value": ""
+          },
+          {
+            "key": "viviannesos.info",
+            "value": ""
+          },
+          {
+            "key": "vitryac.info",
+            "value": ""
+          },
+          {
+            "key": "vitalpriva.pro",
+            "value": ""
+          },
+          {
+            "key": "vitalpartnership.pro",
+            "value": ""
+          },
+          {
+            "key": "vitaldrift.pro",
+            "value": ""
+          },
+          {
+            "key": "visiora.info",
+            "value": ""
+          },
+          {
+            "key": "visiondata.info",
+            "value": ""
+          },
+          {
+            "key": "visionarygoal.info",
+            "value": ""
+          },
+          {
+            "key": "vision-up.info",
+            "value": ""
+          },
+          {
+            "key": "vision-hub.info",
+            "value": ""
+          },
+          {
+            "key": "viscomonod.pro",
+            "value": ""
+          },
+          {
+            "key": "virilitysaviour.com",
+            "value": ""
+          },
+          {
+            "key": "violinextraordinaire.com",
+            "value": ""
+          },
+          {
+            "key": "violetchupacabra.pro",
+            "value": ""
+          },
+          {
+            "key": "vinted.verify9066733.com",
+            "value": ""
+          },
+          {
+            "key": "vinted.verify-pay.cyou",
+            "value": ""
+          },
+          {
+            "key": "vinted.verify-pay.cfd",
+            "value": ""
+          },
+          {
+            "key": "vinted.verify-funds.cfd",
+            "value": ""
+          },
+          {
+            "key": "vinted.make935.info",
+            "value": ""
+          },
+          {
+            "key": "vinted.info98346655.com",
+            "value": ""
+          },
+          {
+            "key": "vinted-es.service-get.info",
+            "value": ""
+          },
+          {
+            "key": "vinted-de.proceed-id.info",
+            "value": ""
+          },
+          {
+            "key": "viking-publications.com",
+            "value": ""
+          },
+          {
+            "key": "viermont.com",
+            "value": ""
+          },
+          {
+            "key": "vescicongi.pro",
+            "value": ""
+          },
+          {
+            "key": "verysimpleideastudios.com",
+            "value": ""
+          },
+          {
+            "key": "vermontgrok.com",
+            "value": ""
+          },
+          {
+            "key": "vermontcabinets.org",
+            "value": ""
+          },
+          {
+            "key": "vermononho.pro",
+            "value": ""
+          },
+          {
+            "key": "verifocus.icu",
+            "value": ""
+          },
+          {
+            "key": "verifiednewss.info",
+            "value": ""
+          },
+          {
+            "key": "verification-center-10003289403.lothianinspection.co.uk",
+            "value": ""
+          },
+          {
+            "key": "verification-center-10003284946.lothianinspection.co.uk",
+            "value": ""
+          },
+          {
+            "key": "verification-center-10003279754.lothianinspection.co.uk",
+            "value": ""
+          },
+          {
+            "key": "verification-center-10003276433.lothianinspection.co.uk",
+            "value": ""
+          },
+          {
+            "key": "verification-center-10003251839.xinlan.co.uk",
+            "value": ""
+          },
+          {
+            "key": "verification-center-10003251836.xinlan.co.uk",
+            "value": ""
+          },
+          {
+            "key": "verification-center-10003242006.lothianinspection.co.uk",
+            "value": ""
+          },
+          {
+            "key": "verification-center-10003235882.xinlan.co.uk",
+            "value": ""
+          },
+          {
+            "key": "verification-center-10003226374.chateauxsharland.co.uk",
+            "value": ""
+          },
+          {
+            "key": "verificatforbooking.quest",
+            "value": ""
+          },
+          {
+            "key": "verifact.cfd",
+            "value": ""
+          },
+          {
+            "key": "venturelead.info",
+            "value": ""
+          },
+          {
+            "key": "venturehubb.info",
+            "value": ""
+          },
+          {
+            "key": "ventrdisgr.pro",
+            "value": ""
+          },
+          {
+            "key": "veltrixi.info",
+            "value": ""
+          },
+          {
+            "key": "velarhairclinc.com",
+            "value": ""
+          },
+          {
+            "key": "vaultsecurity.net",
+            "value": ""
+          },
+          {
+            "key": "vasodrimon.pro",
+            "value": ""
+          },
+          {
+            "key": "vagabondhorse.pro",
+            "value": ""
+          },
+          {
+            "key": "vaccicysto.pro",
+            "value": ""
+          },
+          {
+            "key": "vabawyy.info",
+            "value": ""
+          },
+          {
+            "key": "v6hmr941wdyu8tz.tvshow-netfiix.cfd",
+            "value": ""
+          },
+          {
+            "key": "uxf9ln7pc1sqh6r.tvshow-netfiix.cfd",
+            "value": ""
+          },
+          {
+            "key": "ustvpjlk4f5i3w8.netflix0s.pl",
+            "value": ""
+          },
+          {
+            "key": "ustolrimon.pro",
+            "value": ""
+          },
+          {
+            "key": "usr9rr-g9302-login-zimbra-user.mes-communiques.com",
+            "value": ""
+          },
+          {
+            "key": "userservicedesk.com",
+            "value": ""
+          },
+          {
+            "key": "usacleanair.co",
+            "value": ""
+          },
+          {
+            "key": "us-vitalsurge.com",
+            "value": ""
+          },
+          {
+            "key": "urbanxfair.com",
+            "value": ""
+          },
+          {
+            "key": "upstaterealestatephoto.com",
+            "value": ""
+          },
+          {
+            "key": "upstairsdownstairsco.world",
+            "value": ""
+          },
+          {
+            "key": "upstaincip.pro",
+            "value": ""
+          },
+          {
+            "key": "upsildopoc.pro",
+            "value": ""
+          },
+          {
+            "key": "upscalelandscapes.com",
+            "value": ""
+          },
+          {
+            "key": "ups.my-accesspoint.com",
+            "value": ""
+          },
+          {
+            "key": "ups-parcel.dev.dojo.otomo.io",
+            "value": ""
+          },
+          {
+            "key": "updateinfobnb.world",
+            "value": ""
+          },
+          {
+            "key": "update-verify.crabdance.com",
+            "value": ""
+          },
+          {
+            "key": "upcyclego.com",
+            "value": ""
+          },
+          {
+            "key": "unstesimul.pro",
+            "value": ""
+          },
+          {
+            "key": "unsavalcai.pro",
+            "value": ""
+          },
+          {
+            "key": "unmonannas.pro",
+            "value": ""
+          },
+          {
+            "key": "univertising.com",
+            "value": ""
+          },
+          {
+            "key": "universityofphoenixhighschool.com",
+            "value": ""
+          },
+          {
+            "key": "universidadabiertadeeuropa.com",
+            "value": ""
+          },
+          {
+            "key": "universehealinghub.com",
+            "value": ""
+          },
+          {
+            "key": "universeexpansion.space",
+            "value": ""
+          },
+          {
+            "key": "universbebe.com",
+            "value": ""
+          },
+          {
+            "key": "universalformguest.quest",
+            "value": ""
+          },
+          {
+            "key": "universalforces.website",
+            "value": ""
+          },
+          {
+            "key": "universalcyberguard.st",
+            "value": ""
+          },
+          {
+            "key": "universal-cryptomarketing.com",
+            "value": ""
+          },
+          {
+            "key": "univecontr.pro",
+            "value": ""
+          }
+        ],
+        "relative_dirname": "etc/lists/malicious-ioc",
+        "filename": "malicious-domains"
+      },
+      {
+        "items": [
+          {
+            "key": "196.251.85.62",
+            "value": ""
+          },
+          {
+            "key": "196.251.67.42",
+            "value": ""
+          },
+          {
+            "key": "196.251.69.43",
+            "value": ""
+          },
+          {
+            "key": "196.251.87.42",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.103",
+            "value": ""
+          },
+          {
+            "key": "43.240.223.15",
+            "value": ""
+          },
+          {
+            "key": "196.251.87.35",
+            "value": ""
+          },
+          {
+            "key": "196.251.69.116",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.223",
+            "value": ""
+          },
+          {
+            "key": "92.118.39.65",
+            "value": ""
+          },
+          {
+            "key": "193.32.162.97",
+            "value": ""
+          },
+          {
+            "key": "89.248.167.131",
+            "value": ""
+          },
+          {
+            "key": "66.240.219.146",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.221",
+            "value": ""
+          },
+          {
+            "key": "120.245.84.71",
+            "value": ""
+          },
+          {
+            "key": "45.148.10.67",
+            "value": ""
+          },
+          {
+            "key": "88.151.34.37",
+            "value": ""
+          },
+          {
+            "key": "103.154.143.162",
+            "value": ""
+          },
+          {
+            "key": "92.118.39.90",
+            "value": ""
+          },
+          {
+            "key": "196.251.87.74",
+            "value": ""
+          },
+          {
+            "key": "92.118.39.97",
+            "value": ""
+          },
+          {
+            "key": "194.0.234.16",
+            "value": ""
+          },
+          {
+            "key": "194.0.234.19",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.111",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.216",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.112",
+            "value": ""
+          },
+          {
+            "key": "92.118.39.57",
+            "value": ""
+          },
+          {
+            "key": "193.32.162.84",
+            "value": ""
+          },
+          {
+            "key": "96.67.59.65",
+            "value": ""
+          },
+          {
+            "key": "43.251.16.252",
+            "value": ""
+          },
+          {
+            "key": "176.65.148.10",
+            "value": ""
+          },
+          {
+            "key": "45.84.107.128",
+            "value": ""
+          },
+          {
+            "key": "196.251.70.234",
+            "value": ""
+          },
+          {
+            "key": "195.178.110.50",
+            "value": ""
+          },
+          {
+            "key": "8.208.10.66",
+            "value": ""
+          },
+          {
+            "key": "161.248.246.165",
+            "value": ""
+          },
+          {
+            "key": "175.4.55.185",
+            "value": ""
+          },
+          {
+            "key": "91.205.219.185",
+            "value": ""
+          },
+          {
+            "key": "71.6.199.23",
+            "value": ""
+          },
+          {
+            "key": "61.80.179.118",
+            "value": ""
+          },
+          {
+            "key": "80.253.31.232",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.219",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.231",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.198",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.218",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.220",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.222",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.225",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.226",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.227",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.229",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.230",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.236",
+            "value": ""
+          },
+          {
+            "key": "80.82.77.139",
+            "value": ""
+          },
+          {
+            "key": "80.94.95.125",
+            "value": ""
+          },
+          {
+            "key": "93.174.95.106",
+            "value": ""
+          },
+          {
+            "key": "66.240.236.109",
+            "value": ""
+          },
+          {
+            "key": "164.177.31.66",
+            "value": ""
+          },
+          {
+            "key": "71.6.232.24",
+            "value": ""
+          },
+          {
+            "key": "92.118.39.66",
+            "value": ""
+          },
+          {
+            "key": "183.162.197.57",
+            "value": ""
+          },
+          {
+            "key": "115.190.14.221",
+            "value": ""
+          },
+          {
+            "key": "218.250.231.191",
+            "value": ""
+          },
+          {
+            "key": "45.148.10.79",
+            "value": ""
+          },
+          {
+            "key": "103.39.93.93",
+            "value": ""
+          },
+          {
+            "key": "128.199.95.60",
+            "value": ""
+          },
+          {
+            "key": "195.178.110.232",
+            "value": ""
+          },
+          {
+            "key": "195.178.110.238",
+            "value": ""
+          },
+          {
+            "key": "45.55.137.170",
+            "value": ""
+          },
+          {
+            "key": "51.68.226.87",
+            "value": ""
+          },
+          {
+            "key": "87.251.77.103",
+            "value": ""
+          },
+          {
+            "key": "88.214.48.16",
+            "value": ""
+          },
+          {
+            "key": "92.118.39.68",
+            "value": ""
+          },
+          {
+            "key": "117.241.78.89",
+            "value": ""
+          },
+          {
+            "key": "185.74.4.20",
+            "value": ""
+          },
+          {
+            "key": "189.7.17.61",
+            "value": ""
+          },
+          {
+            "key": "51.195.190.9",
+            "value": ""
+          },
+          {
+            "key": "70.166.207.76",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.228",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.235",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.237",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.217",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.232",
+            "value": ""
+          },
+          {
+            "key": "218.92.0.233",
+            "value": ""
+          },
+          {
+            "key": "141.98.11.128",
+            "value": ""
+          },
+          {
+            "key": "71.6.135.131",
+            "value": ""
+          },
+          {
+            "key": "193.32.162.90",
+            "value": ""
+          },
+          {
+            "key": "87.103.126.54",
+            "value": ""
+          },
+          {
+            "key": "47.74.40.171",
+            "value": ""
+          },
+          {
+            "key": "86.54.31.34",
+            "value": ""
+          },
+          {
+            "key": "86.54.31.38",
+            "value": ""
+          },
+          {
+            "key": "88.214.48.17",
+            "value": ""
+          },
+          {
+            "key": "91.208.197.184",
+            "value": ""
+          },
+          {
+            "key": "154.81.156.51",
+            "value": ""
+          },
+          {
+            "key": "83.235.16.111",
+            "value": ""
+          },
+          {
+            "key": "95.167.225.76",
+            "value": ""
+          },
+          {
+            "key": "103.179.111.6",
+            "value": ""
+          },
+          {
+            "key": "139.59.188.13",
+            "value": ""
+          },
+          {
+            "key": "175.6.141.237",
+            "value": ""
+          },
+          {
+            "key": "193.176.23.7",
+            "value": ""
+          },
+          {
+            "key": "202.165.17.196",
+            "value": ""
+          },
+          {
+            "key": "220.178.8.154",
+            "value": ""
+          },
+          {
+            "key": "45.135.57.192",
+            "value": ""
+          },
+          {
+            "key": "45.55.37.4",
+            "value": ""
+          },
+          {
+            "key": "46.101.206.183",
+            "value": ""
+          },
+          {
+            "key": "88.142.46.185",
+            "value": ""
+          },
+          {
+            "key": "2.57.122.57",
+            "value": ""
+          },
+          {
+            "key": "216.10.250.218",
+            "value": ""
+          },
+          {
+            "key": "123.31.29.192",
+            "value": ""
+          },
+          {
+            "key": "125.94.71.207",
+            "value": ""
+          },
+          {
+            "key": "178.176.250.39",
+            "value": ""
+          },
+          {
+            "key": "196.241.66.194",
+            "value": ""
+          },
+          {
+            "key": "197.5.145.73",
+            "value": ""
+          },
+          {
+            "key": "201.17.133.138",
+            "value": ""
+          },
+          {
+            "key": "51.75.124.228",
+            "value": ""
+          },
+          {
+            "key": "51.75.253.68",
+            "value": ""
+          },
+          {
+            "key": "78.187.21.105",
+            "value": ""
+          },
+          {
+            "key": "180.178.94.73",
+            "value": ""
+          },
+          {
+            "key": "121.28.222.21",
+            "value": ""
+          },
+          {
+            "key": "139.59.108.118",
+            "value": ""
+          },
+          {
+            "key": "161.35.21.48",
+            "value": ""
+          },
+          {
+            "key": "2.33.239.68",
+            "value": ""
+          },
+          {
+            "key": "101.36.124.120",
+            "value": ""
+          },
+          {
+            "key": "117.72.49.183",
+            "value": ""
+          },
+          {
+            "key": "138.197.29.172",
+            "value": ""
+          },
+          {
+            "key": "193.176.23.6",
+            "value": ""
+          },
+          {
+            "key": "197.5.145.8",
+            "value": ""
+          },
+          {
+            "key": "220.80.223.144",
+            "value": ""
+          },
+          {
+            "key": "37.204.226.204",
+            "value": ""
+          },
+          {
+            "key": "51.75.27.218",
+            "value": ""
+          },
+          {
+            "key": "111.12.81.147",
+            "value": ""
+          },
+          {
+            "key": "198.199.71.30",
+            "value": ""
+          },
+          {
+            "key": "103.233.206.154",
+            "value": ""
+          },
+          {
+            "key": "115.91.91.182",
+            "value": ""
+          },
+          {
+            "key": "176.10.207.140",
+            "value": ""
+          },
+          {
+            "key": "104.236.145.10",
+            "value": ""
+          },
+          {
+            "key": "124.220.11.234",
+            "value": ""
+          },
+          {
+            "key": "139.178.98.25",
+            "value": ""
+          },
+          {
+            "key": "165.232.147.130",
+            "value": ""
+          },
+          {
+            "key": "165.232.186.107",
+            "value": ""
+          },
+          {
+            "key": "190.12.102.58",
+            "value": ""
+          },
+          {
+            "key": "197.227.8.186",
+            "value": ""
+          },
+          {
+            "key": "198.163.206.187",
+            "value": ""
+          },
+          {
+            "key": "206.217.133.9",
+            "value": ""
+          },
+          {
+            "key": "221.159.150.85",
+            "value": ""
+          },
+          {
+            "key": "27.254.137.144",
+            "value": ""
+          },
+          {
+            "key": "34.85.163.94",
+            "value": ""
+          },
+          {
+            "key": "36.102.186.6",
+            "value": ""
+          },
+          {
+            "key": "45.84.107.172",
+            "value": ""
+          },
+          {
+            "key": "45.84.107.55",
+            "value": ""
+          },
+          {
+            "key": "81.192.46.45",
+            "value": ""
+          },
+          {
+            "key": "82.207.8.242",
+            "value": ""
+          },
+          {
+            "key": "85.209.134.43",
+            "value": ""
+          },
+          {
+            "key": "88.214.48.18",
+            "value": ""
+          },
+          {
+            "key": "95.58.255.251",
+            "value": ""
+          },
+          {
+            "key": "68.168.222.152",
+            "value": ""
+          },
+          {
+            "key": "116.147.40.93",
+            "value": ""
+          },
+          {
+            "key": "134.17.16.19",
+            "value": ""
+          },
+          {
+            "key": "179.32.33.161",
+            "value": ""
+          },
+          {
+            "key": "220.247.223.56",
+            "value": ""
+          },
+          {
+            "key": "50.192.223.205",
+            "value": ""
+          },
+          {
+            "key": "51.195.190.22",
+            "value": ""
+          },
+          {
+            "key": "51.195.190.32",
+            "value": ""
+          },
+          {
+            "key": "51.195.190.7",
+            "value": ""
+          },
+          {
+            "key": "51.254.101.166",
+            "value": ""
+          },
+          {
+            "key": "92.118.39.61",
+            "value": ""
+          },
+          {
+            "key": "71.6.232.25",
+            "value": ""
+          },
+          {
+            "key": "167.94.146.60",
+            "value": ""
+          },
+          {
+            "key": "93.123.109.114",
+            "value": ""
+          },
+          {
+            "key": "45.84.107.17",
+            "value": ""
+          },
+          {
+            "key": "88.214.50.40",
+            "value": ""
+          },
+          {
+            "key": "82.207.8.154",
+            "value": ""
+          },
+          {
+            "key": "211.253.10.96",
+            "value": ""
+          },
+          {
+            "key": "143.110.205.196",
+            "value": ""
+          },
+          {
+            "key": "193.233.171.224",
+            "value": ""
+          },
+          {
+            "key": "36.88.163.34",
+            "value": ""
+          },
+          {
+            "key": "85.239.33.141",
+            "value": ""
+          },
+          {
+            "key": "196.251.83.136",
+            "value": ""
+          },
+          {
+            "key": "88.214.50.39",
+            "value": ""
+          },
+          {
+            "key": "80.82.77.202",
+            "value": ""
+          },
+          {
+            "key": "143.198.18.46",
+            "value": ""
+          },
+          {
+            "key": "159.203.128.174",
+            "value": ""
+          },
+          {
+            "key": "196.189.87.177",
+            "value": ""
+          },
+          {
+            "key": "158.51.96.38",
+            "value": ""
+          },
+          {
+            "key": "103.144.87.192",
+            "value": ""
+          },
+          {
+            "key": "103.196.20.161",
+            "value": ""
+          },
+          {
+            "key": "116.52.165.35",
+            "value": ""
+          },
+          {
+            "key": "117.50.119.25",
+            "value": ""
+          },
+          {
+            "key": "121.204.165.232",
+            "value": ""
+          },
+          {
+            "key": "128.199.157.145",
+            "value": ""
+          },
+          {
+            "key": "136.232.11.10",
+            "value": ""
+          },
+          {
+            "key": "142.93.116.14",
+            "value": ""
+          },
+          {
+            "key": "165.154.105.128",
+            "value": ""
+          },
+          {
+            "key": "180.100.217.164",
+            "value": ""
+          },
+          {
+            "key": "186.233.208.13",
+            "value": ""
+          },
+          {
+            "key": "190.129.60.240",
+            "value": ""
+          },
+          {
+            "key": "194.152.206.17",
+            "value": ""
+          },
+          {
+            "key": "198.23.174.113",
+            "value": ""
+          },
+          {
+            "key": "209.38.228.147",
+            "value": ""
+          }
+        ],
+        "relative_dirname": "etc/lists/malicious-ioc",
+        "filename": "malicious-ip"
+      },
+      {
+        "items": [
+          {
+            "key": "2fe6a7ae63c878bd84d7b829349b309e7c84194ddbb6a779816f5b84cd8ad45d",
+            "value": "DarkComet"
+          },
+          {
+            "key": "b82b7a6c942551964c3bd0b159dc4af1fb7deb945476183279092328228bd7a9",
+            "value": "Allaple"
+          },
+          {
+            "key": "9e067453f09c5cbfa4c5a74fe3e70d7d8e66a25057e6c35240dce5a40ec31bf3",
+            "value": "MyDoom"
+          },
+          {
+            "key": "ee3647bc00007a5becff10f1bdae0694115bd55fc0d52a6274316146e1258d67",
+            "value": "ZeuS"
+          },
+          {
+            "key": "a828d218d3d99d46ff48122117e2ecb53de196f442702676ed4e4cf0544b4da3",
+            "value": "ZeuS"
+          },
+          {
+            "key": "f03fe28a1b0922f10001dd6bde7f42a91ea9b8aa98c577be4a88734243c88994",
+            "value": "Neshta"
+          },
+          {
+            "key": "dfd5f2dabc9e48eaf333b76da901ffa387e0753fd00353b8b03f976f36d3e00a",
+            "value": "Pykspa"
+          },
+          {
+            "key": "77058147d37749df7378249a128a5298de49787eba629b634090849456774ce8",
+            "value": "DarkComet"
+          },
+          {
+            "key": "9cc64a4cc7e5d132a85a32243a51c2b7b8ccf99b52e022abcb9202ab4f8ecfe3",
+            "value": ""
+          },
+          {
+            "key": "61b0aa94dc56585b7255398cd755e9db6fedd5b06ebca386b2dc5fddc8cf5478",
+            "value": "ZeuS"
+          },
+          {
+            "key": "e477af6d35159a718921669fe67027ac5d529bdb6b75fd68611735e2fb9c1c9b",
+            "value": "CryptoLocker"
+          },
+          {
+            "key": "97e952e79c07ce103290267a4209cadcb96b010ea18d4d7932d4649eb242afc8",
+            "value": "DarkComet"
+          },
+          {
+            "key": "079d1841d6f0fde132f810937d247226410bbc239141493df978da344060f030",
+            "value": "DarkComet"
+          },
+          {
+            "key": "17c3d74e3c0645edb4b5145335b342d2929c92dff856cca1a5e79fa5d935fec2",
+            "value": "Locky"
+          },
+          {
+            "key": "07b8f25e7b536f5b6f686c12d04edc37e11347c8acd5c53f98a174723078c365",
+            "value": "CyberGate"
+          },
+          {
+            "key": "d0491e470e0ae8a4889a14b901bebbf6ffcc237876781d8731c66c0c5add541f",
+            "value": "DarkComet"
+          },
+          {
+            "key": "2f471297673497163af1e741b00cbcc9229a200a6ae1250646fd6d852f57127d",
+            "value": ""
+          },
+          {
+            "key": "763d48d64a654619c3959c658abef5fab32ec010e26425ae82c115ffd690a929",
+            "value": "Vilsel"
+          },
+          {
+            "key": "3cc42cf175f5db337fec2f980b847dc58bd9a62c23830d8797e5bb05e5c69030",
+            "value": "AgentTesla"
+          },
+          {
+            "key": "0b98478bb9572181fa6368bc8cef1098ce8c65e6610d68693fe5404b69ebe42d",
+            "value": "Cosmu"
+          },
+          {
+            "key": "a74ee1dbb1120582708462beadf602396c36e9738b150bbf21bdfce09ecd7538",
+            "value": "Floxif"
+          },
+          {
+            "key": "f264955ae5cdb0c68b8702af9574d8bafd6b30ba793dd0719d6b1c13a928a991",
+            "value": ""
+          },
+          {
+            "key": "b55628770517145bc846b092889e6d96d8bc7c82c5e3704d53ee693101bfe510",
+            "value": "DCRat"
+          },
+          {
+            "key": "e55d6c6652145fe9b7ae5cc8b9806b259f3ed2e134fb825f3bed7fa8bc25fd6c",
+            "value": "NetWire"
+          },
+          {
+            "key": "641bd4ef5e0f64f10e49a0c9b6c3d3344c10a6608dde7faf1bc4fea81984bf3e",
+            "value": "Cybergate"
+          },
+          {
+            "key": "fc7b58c22d9f27207af9c640c751dcab61fd90621ed9df95591d78b2758073f5",
+            "value": "WannaCry"
+          },
+          {
+            "key": "d53021c5a44c990a45650210307d210df4faa0854705565a501786ac42d07730",
+            "value": "Worm.Bundpil"
+          },
+          {
+            "key": "311a169948118631f7d12ec0315f7d6c3e35709db01d8e9a04b82237bf8635bc",
+            "value": "Worm.Bundpil"
+          },
+          {
+            "key": "d9927671fa0f099e3f1dfc998b9b847252d76e0ec19f032d4e73842a24e87230",
+            "value": "Neshta"
+          },
+          {
+            "key": "d4f84f11de8ded3ffe7af89be3f436790ee8a6f78c779bf901ae268d187d6119",
+            "value": "Neshta"
+          },
+          {
+            "key": "6dd63b7d965d6515100e1dba61eb9d1d1e8c2e37adcda6326df64ddbf449ab8a",
+            "value": "Neshta"
+          },
+          {
+            "key": "5b3a10b6481f5d0ce91ae8ebc08106fb061aa9529c25b2bbc6e864c3eaf46b18",
+            "value": "Neshta"
+          },
+          {
+            "key": "46f368c3bfe6d3f9c3f3d9881546635bc9d9654d0fd0146eabe2c9f5ef18a0df",
+            "value": "Neshta"
+          },
+          {
+            "key": "2f1c32ebb0f67ae2eece78f6b34fff3461e6864576126c2d26dee506803b5c68",
+            "value": "Neshta"
+          },
+          {
+            "key": "009e272f31002936c47b7b8bea9f1dbcbd4f106f57787cf9d76588781202adcc",
+            "value": "Neshta"
+          },
+          {
+            "key": "e3aa21dc9ee707579e3037b0482ac4ef838b1c7364fddd76bb41f247707d04ea",
+            "value": "Neshta"
+          },
+          {
+            "key": "e38574e0d3c5d13be54931474871f59b53388eebfaae47c72d3602edff79f60a",
+            "value": "Neshta"
+          },
+          {
+            "key": "9452a93a9a3cafae15835e770052669548b3e0cd50bf4eb29a3bc9513572dd8d",
+            "value": "Neshta"
+          },
+          {
+            "key": "46f4adb2f42b7f4d73cd531f0290d90f2f1b07b5293862c711237e714b0c4eeb",
+            "value": "Neshta"
+          },
+          {
+            "key": "493813116f32ad6f455676cd54e32a2167ece845038202614cbb49e126f5afdc",
+            "value": "MyDoom"
+          },
+          {
+            "key": "712f8fe73fc9955808359aa68bb2e898c6661b4cf7de0f0dc27fd668dca17134",
+            "value": "DarkComet"
+          },
+          {
+            "key": "d8a2f79ef593016b61a3bb8d0cf87312c162f5abc26cc44eb8653545c25d5808",
+            "value": ""
+          },
+          {
+            "key": "b6713d348f0fb012cb8e7d9b57f4ee5a6a2165161f66c6a0b54a631941dea349",
+            "value": ""
+          },
+          {
+            "key": "b078e1c468a22403a61669f4654c5e9ca65312baf0dba193a675309aa6aff5bf",
+            "value": ""
+          },
+          {
+            "key": "1954e06fc952a5a0328774aaf07c23970efd16834654793076c061dffb09a7eb",
+            "value": ""
+          },
+          {
+            "key": "ff84e79cae99f5714f363588bc8238096249a85d34982b8d8c9ac2f9c3a639e8",
+            "value": ""
+          },
+          {
+            "key": "5ef7ff9bda8ff5f5b6154a27e1f37a51f01fd56e2e37aeb1ac71d1d6bf6a20c1",
+            "value": "Worm.Dorkbot"
+          },
+          {
+            "key": "9a958183f582a673caa1e13e96217d8077e01523772ee075b61f162771a4be53",
+            "value": "Pony"
+          },
+          {
+            "key": "b8c479c8f43982f934d0239414add128c4cb94a8376cfd6150dc52c0395ad90d",
+            "value": "DBatLoader"
+          },
+          {
+            "key": "6163a3302b0eb60ff371116b0e90de30df65493ac7192235d4495e43c4a41d4f",
+            "value": "Neshta"
+          },
+          {
+            "key": "dad75edd5c8050ed7c3886858312f2ed445497b1330236f42ccbc6afc3cdeda4",
+            "value": "Neshta"
+          },
+          {
+            "key": "9e424c1f93f1964a2b158bbd626ccf9e2722618710c3d80049c733430fc33045",
+            "value": "Cybergate"
+          },
+          {
+            "key": "c3841ebfd6f8b2d05dfcdb50576d648a8cf90693409d77aa0a1308a34802747e",
+            "value": "Neshta"
+          },
+          {
+            "key": "b72b5c2e565abb02a8f0d05df2ede98bffff9748dc52731933da812f9900a9d5",
+            "value": "Neshta"
+          },
+          {
+            "key": "a27f6a8cde55da2008b6647bb819e62269d0f45860c285c83534cdad050da882",
+            "value": "Neshta"
+          },
+          {
+            "key": "9f8cf9ba6dbd13f970e1413410dc2a7c7bebb76dd94434f0eb004401a268fa28",
+            "value": "Neshta"
+          },
+          {
+            "key": "9dff8d617b5d52df6c6d948e3f422ea706cffed1862a442205b54b9ef60082c8",
+            "value": "Neshta"
+          },
+          {
+            "key": "3ff49706e78067613aa1dcf0174968963b17f15e9a6bc54396a9f233d382d0e6",
+            "value": "ZeuS"
+          },
+          {
+            "key": "e741fb9d0eb11801dd163875479a8b56eff8ae5f3ca1987b996026f752693641",
+            "value": ""
+          },
+          {
+            "key": "392afd6f4839dcf061376864127f3b76d928558168085cf52079067f1a957357",
+            "value": "Neshta"
+          },
+          {
+            "key": "09a1c17ac55cde962b4f3bcd61140d752d86362296ee74736000a6a647c73d8c",
+            "value": "GhostRAT"
+          },
+          {
+            "key": "70d98b736c32160617e8e272c2f5b2c10c72789fe40e27ec16f94ffa09394cd7",
+            "value": "Brontok"
+          },
+          {
+            "key": "cd68f767521571e7cf8acfe5671f15ee164f5f0f075b32448ffddaddd5c6351e",
+            "value": ""
+          },
+          {
+            "key": "a57ddb255fc5421360def944750ddf89170f3099639a6575f66c34a456c18add",
+            "value": "Lazarus"
+          },
+          {
+            "key": "c980ee1107a12c2da7f71e10b3808e1c60481b1eb9d253ca3b387e5cb246ab50",
+            "value": "VMZeuS"
+          },
+          {
+            "key": "e0dfa63bfc9f333897ca3d3fde1f473aba1f42d68ca36afc0824a88c5e020090",
+            "value": "Gh0stRAT"
+          },
+          {
+            "key": "488b3504a1017ce9135816b3eefcdabfcd510f2e76ec32c946dd7f34c5d856ee",
+            "value": "DarkComet"
+          },
+          {
+            "key": "87c160843bc0bdcd754a151c288f899763494385830016c299245f1fe9354b54",
+            "value": "Worm.Ramnit"
+          },
+          {
+            "key": "6d34ded00c0da9887ba752872093f59c649de72a1f629a32014f5ed8be509363",
+            "value": "DarkComet"
+          },
+          {
+            "key": "0181b8118922941d69da3e16674bcdfa319c07b81c20991fe2b0ed7ea2bd2c7a",
+            "value": "Neshta"
+          },
+          {
+            "key": "24d004a104d4d54034dbcffc2a4b19a11f39008a575aa614ea04703480b1022c",
+            "value": "WannaCry"
+          },
+          {
+            "key": "f09ec41136e8e5e5076ca495192d9326e5581c748148fa877412d466db26112d",
+            "value": "Worm.Ramnit"
+          },
+          {
+            "key": "e42991a0d7c95b074b68f6b55b8bcb7aed1749d104d8ab37ae9ded32f18ca74b",
+            "value": "GandCrab"
+          },
+          {
+            "key": "07c44729e2c570b37db695323249474831f5861d45318bf49ccf5d2f5c8ea1cd",
+            "value": "WannaCry"
+          },
+          {
+            "key": "68e07e239fb2fa8584947770bda2ad99453f1cd9e9d64c628760505417579d81",
+            "value": "NanoCore"
+          },
+          {
+            "key": "fa4b3d8ef845584fe46759cc00c0dd7bd1c2d99e228ed888c6f1d275f52a288a",
+            "value": "DarkComet"
+          },
+          {
+            "key": "605ad9822eecaff7b1ba2cc424f286c117edb2250609c71b4ac2c17aa04616f7",
+            "value": ""
+          },
+          {
+            "key": "3c536c1558eba42c1967d9732bf9afd25c9c3c28bfbdc0028b945e88f1141d90",
+            "value": "Zegost"
+          },
+          {
+            "key": "ed492db95034ca288dd52df88e3ce3ec7b146ffd854a394ac187f0553ef966d9",
+            "value": "WannaCry"
+          },
+          {
+            "key": "ac96e79727fd5b19e0aad939d1616f7ac35b9bb63c279563feefe55a68174138",
+            "value": "Berbew"
+          },
+          {
+            "key": "f1becabe1932185f36329cb31570f2015fc10640f0b8b44f67248a6e12086504",
+            "value": "RemcosRAT"
+          },
+          {
+            "key": "2601f484c79211d3d38da9782be3657b4e8dc8dda525d051717592fb77a0d217",
+            "value": ""
+          },
+          {
+            "key": "1e86c4c4dc86d538d3a70be287877f094bee3c8d6639581d20b666ac9a3b6e1b",
+            "value": "Worm.Vobfus"
+          },
+          {
+            "key": "12847fdf80168c4373ba7f9cbe5095a3d347ed9577624e8c60d1a84a482850df",
+            "value": "Neshta"
+          },
+          {
+            "key": "a22274f3fae5fa530d56a97fa59b6d4fc1068192db862a193d7b00f084624f74",
+            "value": "GandCrab"
+          },
+          {
+            "key": "133e1d4c87a3728c2888997025565651e654f5af74c5428f822c9c058ec3b35e",
+            "value": "WannaCry"
+          },
+          {
+            "key": "d56f2c5e247c360ae7cc2d2a942f2586edd7688f2de3f812c02fcd966abdc0e1",
+            "value": "Xtrat"
+          },
+          {
+            "key": "d995f7fba6453d6927bce56b8133ad117f5048fa742140f5a6af87a6e160b83c",
+            "value": "Loki"
+          },
+          {
+            "key": "58791943f34a44ddec9b7fa6d33e9d12e7173300d334a757e960bef72e55d5a7",
+            "value": "Neshta"
+          },
+          {
+            "key": "a370eacabf4af9caa5502c39b40c95eda6be23666231e24da1b56277a222f3e9",
+            "value": "RemcosRAT"
+          },
+          {
+            "key": "f20f7a895d3c4004241bbe4d9084b93fcc5183356aceacfb75b4f8e89f246f69",
+            "value": "AsyncRAT"
+          },
+          {
+            "key": "617e48f932a24405647b38bffd3dda5db0dd83690a16fef9c549273a39f9151f",
+            "value": "Gh0stRAT"
+          },
+          {
+            "key": "2e46d2ca01a4ee795de8fb39109bc4f5eaf53a3fecb5c82950b9824ec1e1209c",
+            "value": "Neshta"
+          },
+          {
+            "key": "838ce866b55bb2926e233d6b362fa4b2addcdeaaddf87ce0811f0501e3384a5c",
+            "value": "DBatLoader"
+          },
+          {
+            "key": "c552825ea2072ed3f64e44ac6ffc3b4d2b101dfe021f896cc6b305f398f33b43",
+            "value": ""
+          },
+          {
+            "key": "565e3379fa532b07aac8fb1b9dbdd6673fdac87c399a7800235c88e7dabe7f28",
+            "value": "Bdaejec"
+          },
+          {
+            "key": "8dfa86ab54225a8e1c2027172d71cebf13dfa2e622ac9cc06fe1058b6be3ff20",
+            "value": "NetWire"
+          },
+          {
+            "key": "22085c67126368a27c68cb62a147c0895f3e4d76d30c704952dcd356cf68b53f",
+            "value": "WannaCry"
+          },
+          {
+            "key": "d91c2e4169492bddd493f9894e3c29d196c4cf1a43986f4d19640ac78db3c962",
+            "value": ""
+          },
+          {
+            "key": "7f66d4580871e3ee6a35c8fef6da7ab26a93ba36b80279625328aaf184435efa",
+            "value": ""
+          },
+          {
+            "key": "6f01d6bd7b69d6e61d55898a1a9f1c228bf644ddb03c7506670dd2e6d9bfc967",
+            "value": "Loki"
+          },
+          {
+            "key": "eb84360ca4e33b8bb60df47ab5ce962501ef3420bc7aab90655fd507d2ffcedd",
+            "value": "PoisonIvy"
+          },
+          {
+            "key": "6d16ed11ce01c6da17526946508ee65b19b39b0f162777c8f8b3f1ce1b085a4b",
+            "value": "Cosmu"
+          },
+          {
+            "key": "6eebe67d08930118f2f319754188b288feef58f2def0b44d049609b860165614",
+            "value": "Picsys"
+          },
+          {
+            "key": "0722a71d9251b626a8c066963a19fe6db4711227c803afc40402c3a3e0fb51fd",
+            "value": "CyberGate"
+          },
+          {
+            "key": "f61a7fa3ca28133a6fcefa0e04b0de4dc1e4020a87388b4b3a315dc8dc18194e",
+            "value": "NetWire"
+          },
+          {
+            "key": "89daa972fd915bd308428f32df0938bb912a2287379c25bcb760b179e4e12ddf",
+            "value": "Neshta"
+          },
+          {
+            "key": "00207fd3bf8a379ab27531ab47b13c775d2519f10df9c331d4d64e90bd5206b9",
+            "value": ""
+          },
+          {
+            "key": "13b46d9524b436eb825c317fde69b0710f295ab95ead1e9d5c4babe39d9287f8",
+            "value": ""
+          },
+          {
+            "key": "003315b0aea2fcb9f77d29223dd8947d0e6792b3a0227e054be8eb2a11f443d9",
+            "value": ""
+          },
+          {
+            "key": "a2f4d3da25e52d88eafb7a7da242e9bb507fe4626af58ca3b8c1a13e391c2000",
+            "value": "DarkComet"
+          },
+          {
+            "key": "5ea3c9390d6042c66a2b71e8484abdb319622874b341def83067725e741d597a",
+            "value": "MyDoom"
+          },
+          {
+            "key": "fde3c339eb9c13c0701e1cf29ed173d4654abf55636a41f5611eb5adb24d23b1",
+            "value": "XRed"
+          },
+          {
+            "key": "beddff3021a12598338e78b51be30f23c37f88f23560fe5d1da79c83b407df86",
+            "value": "Renamer"
+          },
+          {
+            "key": "85a6bca0ebd3e1c99d8fd6669a6db6ddd8463b7c7edaa87702ca2a425fc5cce5",
+            "value": "WannaCry"
+          },
+          {
+            "key": "5d7fa45d2fcb10893ee5bdbfc4b16bdeeffd34aa5791331332a8bbb1015cb63b",
+            "value": "WannaCry"
+          },
+          {
+            "key": "1fc5e4c8809b39d79324848bceac749000ea572d050c81275ae3053a83ba7d12",
+            "value": "WannaCry"
+          },
+          {
+            "key": "da8591758cf7f86fd5bafacb7ce10c2f0b282aa8793227ab0381e13e1273b70f",
+            "value": "WannaCry"
+          },
+          {
+            "key": "fb2ddd079c9ea48c32edc702707a2e117e076a09196deec14f3eb9bb7492d619",
+            "value": "WannaCry"
+          },
+          {
+            "key": "32c0af5a3035f395db45a739bf97e7025ab7646a9a65ba6f129f20dc46773533",
+            "value": "WannaCry"
+          },
+          {
+            "key": "c5eeafb62d5b0fce524e12ad5a94f7e221636dc1bfc8622c8d7e0e61bc0950f8",
+            "value": "WannaCry"
+          },
+          {
+            "key": "eb31c45c0ddc0856667bc17f80716bf2e561bfdf2132d14bcadb5c623b9271be",
+            "value": "WannaCry"
+          },
+          {
+            "key": "8d0c9d2e438f33dd7806ed8017baa1f114b6157f9f0eb1fb5d3b59351609120c",
+            "value": "WannaCry"
+          },
+          {
+            "key": "e55ff68c216152b45e9e2a900cc584907c16bfcfdeb5ed6cc83ec227af907661",
+            "value": "WannaCry"
+          },
+          {
+            "key": "b7d8c3c4d8fa50ea3eb0ffac24904616e3b29659a56cb7f4835bf3348883db4f",
+            "value": "WannaCry"
+          },
+          {
+            "key": "ec2a990e5ceea72eec6128d38e8debedffbe6cac244f7ee5e5e3d58e2ad0b202",
+            "value": "WannaCry"
+          },
+          {
+            "key": "424e8d889288010e58a66fa8c9008c22cef78dced0e46b59ee417cc9e746c23f",
+            "value": "DarkComet"
+          },
+          {
+            "key": "5ee53e7e25a03aff5a92dd99804ecc38795f7513437e82be670b9e0b61a98ea4",
+            "value": "QuasarRAT"
+          },
+          {
+            "key": "e909609bcd7d6a217635b372abba6e55d034d2e55712b032844ce28ded020064",
+            "value": "Worm.Ramnit"
+          },
+          {
+            "key": "bb3181fbf1198c0bf5f5cdc2ae437f4fef6cff39a134854b77ce28c2cedc44f1",
+            "value": "Gh0stRAT"
+          },
+          {
+            "key": "69735cd8499cfbf56dab45602c168d9ce3bec18f106935f17b311c0b17e5ec37",
+            "value": "Sality"
+          },
+          {
+            "key": "a4ef531f35ec95d7ea3310eb9a2ded322d2cdbf57eabe96aa491b8202a420c24",
+            "value": "Sality"
+          },
+          {
+            "key": "e02cdfa2eda01b25a01fcfbda69c03225193d78cc5b6f618e828d3e1c9a83191",
+            "value": "Neshta"
+          },
+          {
+            "key": "1760c5727e5568d3b18a1cbf0d50c311613699af8233c96fb3eee197f438ce9c",
+            "value": "MyDoom"
+          },
+          {
+            "key": "6fcf640d54d863c091f4f3f0005114be507721f40c8e2b64044063e2615a7aba",
+            "value": "Neshta"
+          },
+          {
+            "key": "5a3bf0b8d1a106547a414123b92c2bbf0560d1f38599956335c2bc8c2c9f4e0b",
+            "value": "Neshta"
+          },
+          {
+            "key": "fd0d28aaa381a2c518c1353c1ccdb7c9245a6a599f07622906f21c5d7be2718e",
+            "value": "Neshta"
+          },
+          {
+            "key": "c51c1e6231a18f30b51ed4de92f3cc6108a1519208b24bf70fbf7b576dbf1865",
+            "value": "Neshta"
+          },
+          {
+            "key": "69725114dd1f89e7b21114e8f5c00c14d195b342a458a396d74c86dac3ee47a7",
+            "value": "Neshta"
+          },
+          {
+            "key": "4e8f0bd0e4df821cb8abad7b0832331e2911efe2c1d57ca9b8e2c52fbc668eaf",
+            "value": "XWorm"
+          },
+          {
+            "key": "2d47fe8d5ae0596c94cef8bf2b6bead4b41bb79de9918e52d3758dc9148ebefa",
+            "value": "Neshta"
+          },
+          {
+            "key": "52de83987941b92875cecdd1661cc2757eae4f02ef564fd2e147d06eb9d8ab44",
+            "value": "AveMariaRAT"
+          },
+          {
+            "key": "64d3136fc3cee6e521fe4e2f9b291a86d747da7a657ac0b8e3afdfd607627a6c",
+            "value": "RemcosRAT"
+          },
+          {
+            "key": "a0ae309e0ed6d5df2c9c6501de66c3f4ff6cfc42def792e9b681bc7e7ea462f6",
+            "value": "Gh0stRAT"
+          },
+          {
+            "key": "ca9872bbb75ddf548d771a8fdaff44051cc71100ee88266e524bf25d58473be1",
+            "value": "Berbew"
+          },
+          {
+            "key": "0099626e66b146532bf77150bea42460711afbb212c6aab92aa1be99ab9cf29a",
+            "value": ""
+          },
+          {
+            "key": "42bc22524f9003dedef04edfb674937489c1a3f546d43fd844f8b667fd9ee2ba",
+            "value": ""
+          },
+          {
+            "key": "a2b0df0948c4b5aa93c02230a3931977bba30b3877f20929ed7d2a580b3cfe06",
+            "value": "WannaCry"
+          },
+          {
+            "key": "4d53e7efd90949d6b5de306f3559dea713b9ecd1642966bba24b631743eb5d31",
+            "value": "WannaCry"
+          },
+          {
+            "key": "16cb6e8d745f972b0e247edd092b4b6219575e74e4b65a5edfa3eea088327b80",
+            "value": "WannaCry"
+          },
+          {
+            "key": "f158a9650580dcf9a875b153192a86e20798c7f01b4a458b668704661e2cc89c",
+            "value": "Ramnit"
+          },
+          {
+            "key": "e547adb4f5efdb9519e101e98c54321ef565a0382940c4dd3c5f70ded3581af9",
+            "value": "Ganelp"
+          },
+          {
+            "key": "de69f301deb4220ab2a7cded535a18729647aab4c3c8b1d86b3d497b48050166",
+            "value": ""
+          },
+          {
+            "key": "c714016a86e00deb18aa9c8a9f786b69e5bfcc2e341218d51946b722522cab37",
+            "value": ""
+          },
+          {
+            "key": "d06195acfa6f445df9c8b16d434111f43e348f938709a05df130c24d53832bb9",
+            "value": ""
+          },
+          {
+            "key": "9edbdfe197acf70216e52d558ff3c076be7b71c67beaa56f0fe06ef769db144e",
+            "value": "Ramnit"
+          },
+          {
+            "key": "aa31dc72a91000fd81f2628e1b24971c7f4acd726f758b3790ad9a0d4bc36b5e",
+            "value": "Loki"
+          },
+          {
+            "key": "ed01ebfbc9eb5bbea545af4d01bf5f1071661840480439c6e5babe8e080e41aa",
+            "value": "WannaCry"
+          },
+          {
+            "key": "e1614a878888eddb3296e856dc5f4e63a926b9e4c899cf09da12a8f477ace4cf",
+            "value": ""
+          },
+          {
+            "key": "c5590bb44c587c0140b6f87c74c77d69c2dfdc65f23ffa8b7d064d13b396e962",
+            "value": ""
+          },
+          {
+            "key": "af86c7d38b436ded683e7a304f9200312aaa8e283c31de972bfabcd87a857a1b",
+            "value": ""
+          },
+          {
+            "key": "04f468bec220fa9dfd4897adf86f28f8ceb04a72806c473cd22e366f716389a3",
+            "value": ""
+          },
+          {
+            "key": "027cc450ef5f8c5f653329641ec1fed91f694e0d229928963b30f6b0d7d3a745",
+            "value": ""
+          },
+          {
+            "key": "357ae8bdaa57334484b81fb2cd95930d5fd7a60f21c0de17553c67f5ac097707",
+            "value": "CyberGate"
+          },
+          {
+            "key": "ffed0b49c573e6a4c62f94df29b198b348c9a847d0cd84f03465e74e0543d8a8",
+            "value": "Berbew"
+          },
+          {
+            "key": "f78d7407022b70ca8daf13b801a37befd4a3d1d9c42ace0852f7af04f3daf9f4",
+            "value": "njrat"
+          },
+          {
+            "key": "7f45d112de4bb9aec75ce9e2f22997d10d383fc82c357d1c1f97ea5a10132663",
+            "value": "WannaCry"
+          },
+          {
+            "key": "115e716481945844a24a4c4e21cec431792bffcb2bb6a05728e829742ba9bcf6",
+            "value": "WannaCry"
+          },
+          {
+            "key": "d048f0164808c5daab17d4e224bcaa079ac7371f36618e9e6d4eb1b2b65c3953",
+            "value": "WannaCry"
+          },
+          {
+            "key": "dcbd3a53b07724b50a4a10f75d73be3ad7d427046486f35ceec3aff041a87657",
+            "value": "WannaCry"
+          },
+          {
+            "key": "114cb2b71e51f0a881dd301a9be2af57c5c4cf50ee59c1c19274b85c7be8b0f8",
+            "value": "WannaCry"
+          },
+          {
+            "key": "d7afcc0c252f61c2c3ffc230b9459c762c431e0f7003a186be6fcf234e948eb9",
+            "value": "WannaCry"
+          },
+          {
+            "key": "8a3de78cf177be4c37c1525becf05af336c1dc2a4d181cae79f6903754902efa",
+            "value": "DarkComet"
+          },
+          {
+            "key": "e0989c99125dbc5957c7ecdfdc37ff6b7f31f2979531f3fb8747127243f28b7d",
+            "value": "Gh0stRAT"
+          },
+          {
+            "key": "f7112f236e9bae2fa1ca721ee1979d55c530944e6dfa42bc58b25072f2fa1025",
+            "value": "LummaStealer"
+          },
+          {
+            "key": "030d5d197784ee0df38f139891ba73ae81eba0d2c77d802d05d958dd5a8cbed6",
+            "value": "Adware.QQpass"
+          },
+          {
+            "key": "6190b2a091ca018436741e53de962ba535c0ea8cd14f17fc9eaeeeea835feba8",
+            "value": "Neshta"
+          },
+          {
+            "key": "5a945890f31cf1b341ad7993e3060ea9c0564bb0491a4802b3544eecf440aefc",
+            "value": "Neshta"
+          },
+          {
+            "key": "0112a299785ef16cc0d6b84bf084a0122a700788180242afae4dac3b40a2bb50",
+            "value": "Neshta"
+          },
+          {
+            "key": "b462d28ae1f49b389d1df0213eafc75daf2ce681db989a363348d7f19379c02b",
+            "value": "Neshta"
+          },
+          {
+            "key": "e81dddb7f442779ea5e9ef0f19c59cf8345fa34b85b0e1cd09c5f0260622e838",
+            "value": ""
+          },
+          {
+            "key": "df280b9a52fba22e466c377781bb3ad6bfce91de0aa3a1c14b5008acf456075c",
+            "value": ""
+          },
+          {
+            "key": "291308c749381a449a9e4cbfae06ac98f8e17d9d014e34fbaa18164498b00eff",
+            "value": ""
+          },
+          {
+            "key": "264759d16080f4640a94129629fc42e7a9a389b6e960bda88cdd761b0c897aca",
+            "value": "Gh0stRAT"
+          },
+          {
+            "key": "949894004a0d75ff5336829c5db76dac3fe13917f265e93b3fea57ea12d91cb8",
+            "value": "Neshta"
+          },
+          {
+            "key": "069e227af7b0c0063474eb262faeb4b3dfdf55ef400bd2684e7e249d70be5e45",
+            "value": "DarkComet"
+          },
+          {
+            "key": "f334d177546cec1c77a515b15641ded5051b350c1a4441d28d7a45a0c709d6aa",
+            "value": "DBatLoader"
+          },
+          {
+            "key": "7dbf5c226c252325dc0e94eadef321153fa49c2e9e0003233db2fb01154bd35e",
+            "value": "GandCrab"
+          },
+          {
+            "key": "38a121f620aef32f7fb321bb6e4bcff8bddda4448257ab227c2d25286d40e037",
+            "value": ""
+          },
+          {
+            "key": "789711c3123f268dc9e19dccc7a40bd1c4246ee3f8a599d809d6bb5b3202a36b",
+            "value": "CyberGate"
+          },
+          {
+            "key": "2cf9eb4c0d24734fc4b9d229d51a0ab366ab2c15de72b9921469a1e79973d426",
+            "value": ""
+          },
+          {
+            "key": "d7ec3fcd80b3961e5bab97015c91c843803bb915c13a4a35dfb5e9bdf556c6d3",
+            "value": "Ramnit"
+          },
+          {
+            "key": "324951bdc99c60a3080285e7a75f749575c8e69c8718c52eea0e145b65be490a",
+            "value": "WannaCry"
+          },
+          {
+            "key": "47255efe5cc8b91db407b484e7c21dbadc8cf0207877fd53964c34d10dbbe246",
+            "value": "WannaCry"
+          },
+          {
+            "key": "f31577fef733509a4b60bf368d910efd7631aad8411bda09e559310c2b5cba60",
+            "value": ""
+          },
+          {
+            "key": "9303baf8bfa696731486273de443d5424dbe71c01fb856aa31cd778bbd4753b4",
+            "value": "Ramnit"
+          },
+          {
+            "key": "089ec72adefa248d3de89c4e76cd4f0b1796de19c15a32e1ee7d8825385f4f46",
+            "value": ""
+          },
+          {
+            "key": "3ba8a562f78af7776675f128f12777144fc3c73a471d8efb1950728179bb72d9",
+            "value": "Gh0stRAT"
+          },
+          {
+            "key": "78366b123438b7cd2f167e49623104b76a0e27334ce3f39b91a36abe8c67d665",
+            "value": "CryptOne"
+          }
+        ],
+        "relative_dirname": "etc/lists/malicious-ioc",
+        "filename": "malware-hashes"
+      }
+    ],
+    "total_affected_items": 7,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All specified lists were returned",
+  "error": 0
+}

@@ -1,0 +1,21 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "path": "/var/ossec",
+        "version": "v4.14.2",
+        "type": "server",
+        "max_agents": "unlimited",
+        "openssl_support": "yes",
+        "tz_offset": "+0000",
+        "tz_name": "UTC",
+        "uuid": "2ee8b374-ddee-458f-a5e2-734bc8d9d45a"
+      }
+    ],
+    "total_affected_items": 1,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "Basic information was successfully read",
+  "error": 0
+}

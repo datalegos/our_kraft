@@ -1,0 +1,17 @@
+{
+  "data": {
+    "status": {
+      "active": 1,
+      "disconnected": 0,
+      "never_connected": 0,
+      "pending": 0
+    },
+    "os": {
+      "windows": 1
+    },
+    "groups": {
+      "default": 1
+    }
+  },
+  "error": 0
+}

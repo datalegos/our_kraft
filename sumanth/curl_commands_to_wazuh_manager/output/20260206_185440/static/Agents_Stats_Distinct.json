@@ -1,0 +1,27 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "os": {
+          "platform": "amzn",
+          "version": "2023"
+        },
+        "count": 1,
+        "version": "Wazuh v4.14.2"
+      },
+      {
+        "os": {
+          "platform": "windows",
+          "version": "10.0.26200.7623"
+        },
+        "count": 1,
+        "version": "Wazuh v4.14.2"
+      }
+    ],
+    "total_affected_items": 2,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All selected agents information was returned",
+  "error": 0
+}

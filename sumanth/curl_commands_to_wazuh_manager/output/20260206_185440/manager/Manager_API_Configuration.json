@@ -1,0 +1,90 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "node_name": "manager",
+        "node_api_config": {
+          "host": [
+            "0.0.0.0",
+            "::"
+          ],
+          "port": 55000,
+          "drop_privileges": true,
+          "experimental_features": false,
+          "max_upload_size": 10485760,
+          "authentication_pool_size": 2,
+          "intervals": {
+            "request_timeout": 10
+          },
+          "https": {
+            "enabled": true,
+            "key": "/var/ossec/api/configuration/ssl/server.key",
+            "cert": "/var/ossec/api/configuration/ssl/server.crt",
+            "use_ca": false,
+            "ca": "/var/ossec/api/configuration/ssl/ca.crt",
+            "ssl_protocol": "auto",
+            "ssl_ciphers": ""
+          },
+          "logs": {
+            "level": "info",
+            "format": "plain",
+            "max_size": {
+              "enabled": false,
+              "size": "1M"
+            }
+          },
+          "cors": {
+            "enabled": false,
+            "source_route": "*",
+            "expose_headers": "*",
+            "allow_headers": "*",
+            "allow_credentials": false
+          },
+          "access": {
+            "max_login_attempts": 50,
+            "block_time": 300,
+            "max_request_per_minute": 300
+          },
+          "upload_configuration": {
+            "remote_commands": {
+              "localfile": {
+                "allow": true,
+                "exceptions": []
+              },
+              "wodle_command": {
+                "allow": true,
+                "exceptions": []
+              }
+            },
+            "limits": {
+              "eps": {
+                "allow": true
+              }
+            },
+            "agents": {
+              "allow_higher_versions": {
+                "allow": true
+              }
+            },
+            "indexer": {
+              "allow": true
+            },
+            "integrations": {
+              "virustotal": {
+                "public_key": {
+                  "allow": true,
+                  "minimum_quota": 240
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "total_affected_items": 1,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "API configuration was successfully read",
+  "error": 0
+}

@@ -1,0 +1,17 @@
+{
+  "data": {
+    "affected_items": [
+      {
+        "name": "default",
+        "count": 1,
+        "mergedSum": "e15cd0c9f7dec03be7b82012b99d73bf",
+        "configSum": "ab73af41699f13fdd81903b5f23d8d00"
+      }
+    ],
+    "total_affected_items": 1,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All selected groups information was returned",
+  "error": 0
+}
