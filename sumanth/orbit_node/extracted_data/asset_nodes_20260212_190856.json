@@ -1,0 +1,70 @@
+[
+  {
+    "asset_id": "000",
+    "asset_name": "wazuh.manager",
+    "asset_type": "vm",
+    "status": "active",
+    "first_seen_at": "2026-01-29T09:21:19+00:00",
+    "last_seen_at": null,
+    "is_crown_jewel": false,
+    "classification_reason": "Yet to be classified",
+    "classified_at": null,
+    "group": null
+  },
+  {
+    "asset_id": "001",
+    "asset_name": "vishnu",
+    "asset_type": "vm",
+    "status": "disconnected",
+    "first_seen_at": "2026-01-29T09:26:47+00:00",
+    "last_seen_at": "2026-02-10T12:52:56+00:00",
+    "is_crown_jewel": false,
+    "classification_reason": "Yet to be classified",
+    "classified_at": null,
+    "group": [
+      "default"
+    ]
+  },
+  {
+    "asset_id": "002",
+    "asset_name": "naveen",
+    "asset_type": "vm",
+    "status": "disconnected",
+    "first_seen_at": "2026-01-29T09:41:23+00:00",
+    "last_seen_at": "2026-02-10T12:49:07+00:00",
+    "is_crown_jewel": false,
+    "classification_reason": "Yet to be classified",
+    "classified_at": null,
+    "group": [
+      "default"
+    ]
+  },
+  {
+    "asset_id": "003",
+    "asset_name": "sathwik",
+    "asset_type": "vm",
+    "status": "disconnected",
+    "first_seen_at": "2026-01-29T10:11:59+00:00",
+    "last_seen_at": "2026-02-10T12:24:37+00:00",
+    "is_crown_jewel": false,
+    "classification_reason": "Yet to be classified",
+    "classified_at": null,
+    "group": [
+      "default"
+    ]
+  },
+  {
+    "asset_id": "004",
+    "asset_name": "gokul",
+    "asset_type": "vm",
+    "status": "disconnected",
+    "first_seen_at": "2026-01-29T10:14:36+00:00",
+    "last_seen_at": "2026-02-10T12:16:50+00:00",
+    "is_crown_jewel": false,
+    "classification_reason": "Yet to be classified",
+    "classified_at": null,
+    "group": [
+      "default"
+    ]
+  }
+]

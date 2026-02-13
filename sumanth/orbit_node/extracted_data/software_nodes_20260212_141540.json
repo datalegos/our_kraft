@@ -1,0 +1,6536 @@
+[
+  {
+    "agent_id": "000",
+    "name": "audit-libs",
+    "version": "3.1.5-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "python3-libs",
+    "version": "3.9.25-1.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "findutils",
+    "version": "1:4.8.0-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "glib2",
+    "version": "2.82.2-767.amzn2023",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "crypto-policies",
+    "version": "20240828-2.git626aa59.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libacl",
+    "version": "2.3.1-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "systemd-libs",
+    "version": "252.23-10.amzn2023",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libxml2",
+    "version": "2.10.4-1.amzn2023.0.13",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libsigsegv",
+    "version": "2.13-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "gzip",
+    "version": "1.12-1.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "dnf-data",
+    "version": "4.14.0-1.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "gpgme",
+    "version": "1.23.2-182.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "openssl-libs",
+    "version": "1:3.2.2-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "tzdata",
+    "version": "2025b-1.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "procps-ng",
+    "version": "3.3.17-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libffi",
+    "version": "3.4.4-1.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "alternatives",
+    "version": "1.15-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "file-libs",
+    "version": "5.39-7.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "readline",
+    "version": "8.1-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "zlib",
+    "version": "1.2.11-33.amzn2023.0.5",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libnghttp2",
+    "version": "1.59.0-3.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libmodulemd",
+    "version": "2.13.0-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "sed",
+    "version": "4.8-7.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "python3-gpg",
+    "version": "1.23.2-182.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "npth",
+    "version": "1.6-6.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "system-release",
+    "version": "2023.9.20251208-2.amzn2023",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "rpm-build-libs",
+    "version": "4.16.1.3-29.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "p11-kit-trust",
+    "version": "0.24.1-2.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libselinux",
+    "version": "3.4-5.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "json-c",
+    "version": "0.14-8.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "krb5-libs",
+    "version": "1.21.3-6.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "basesystem",
+    "version": "11-11.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "elfutils-libs",
+    "version": "0.188-3.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libsmartcols",
+    "version": "2.37.4-1.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "gmp",
+    "version": "1:6.2.1-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libverto",
+    "version": "0.3.2-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "glibc-common",
+    "version": "2.34-231.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "publicsuffix-list-dafsa",
+    "version": "20240212-61.amzn2023",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "keyutils-libs",
+    "version": "1.6.3-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "gdbm-libs",
+    "version": "1:1.19-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libarchive",
+    "version": "3.7.4-2.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "python3-libcomps",
+    "version": "0.1.20-1.amzn2023",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "pcre2-syntax",
+    "version": "10.40-1.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "rpm-sign-libs",
+    "version": "4.16.1.3-29.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libunistring",
+    "version": "0.9.10-10.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libattr",
+    "version": "2.5.1-3.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "elfutils-libelf",
+    "version": "0.188-3.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libzstd",
+    "version": "1.5.5-1.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "gnupg2-minimal",
+    "version": "2.3.7-1.amzn2023.0.5",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "lz4-libs",
+    "version": "1.9.4-1.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "filebeat",
+    "version": "7.10.2-2",
+    "vendor": "Elastic",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "bzip2-libs",
+    "version": "1.0.8-6.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libxcrypt",
+    "version": "4.4.33-7.amzn2023",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "gawk",
+    "version": "5.1.0-3.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libcomps",
+    "version": "0.1.20-1.amzn2023",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "ncurses-libs",
+    "version": "6.2-4.20200222.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libdnf",
+    "version": "0.69.0-8.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "python3-libdnf",
+    "version": "0.69.0-8.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libcurl-minimal",
+    "version": "8.11.1-4.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "setup",
+    "version": "2.13.7-3.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libcap",
+    "version": "2.73-1.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libidn2",
+    "version": "2.3.2-1.amzn2023.0.5",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "tar",
+    "version": "2:1.34-1.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libblkid",
+    "version": "2.37.4-1.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "coreutils-single",
+    "version": "8.32-30.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libgcrypt",
+    "version": "1.10.2-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "yum",
+    "version": "4.14.0-1.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "rpm",
+    "version": "4.16.1.3-29.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libtasn1",
+    "version": "4.19.0-1.amzn2023.0.5",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "p11-kit",
+    "version": "0.24.1-2.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "python3-setuptools-wheel",
+    "version": "59.6.0-2.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "elfutils-default-yama-scope",
+    "version": "0.188-3.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libcap-ng",
+    "version": "0.8.2-4.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "ca-certificates",
+    "version": "2025.2.76-1.0.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "grep",
+    "version": "3.8-1.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libreport-filesystem",
+    "version": "2.15.2-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "expat",
+    "version": "2.6.3-1.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "python3-pip-wheel",
+    "version": "21.3.1-2.amzn2023.0.14",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libsepol",
+    "version": "3.4-3.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "openssl",
+    "version": "1:3.2.2-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "ncurses-base",
+    "version": "6.2-4.20200222.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "glibc",
+    "version": "2.34-231.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "python3",
+    "version": "3.9.25-1.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "python3-dnf",
+    "version": "4.14.0-1.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "curl-minimal",
+    "version": "8.11.1-4.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libuuid",
+    "version": "2.37.4-1.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libyaml",
+    "version": "0.2.5-5.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "dnf",
+    "version": "4.14.0-1.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "openssl-fips-provider-latest",
+    "version": "1:3.2.2-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libstdc++",
+    "version": "14.2.1-7.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "pcre2",
+    "version": "10.40-1.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "filesystem",
+    "version": "3.14-5.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libgcc",
+    "version": "14.2.1-7.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "xz-libs",
+    "version": "5.2.5-9.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "librepo",
+    "version": "1.14.5-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "bash",
+    "version": "5.2.15-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "python3-rpm",
+    "version": "4.16.1.3-29.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libassuan",
+    "version": "2.5.5-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libcom_err",
+    "version": "1.46.5-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "glibc-minimal-langpack",
+    "version": "2.34-231.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "mpfr",
+    "version": "4.1.0-7.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libsemanage",
+    "version": "3.4-5.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libmount",
+    "version": "2.37.4-1.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libgpg-error",
+    "version": "1.42-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "shadow-utils",
+    "version": "2:4.9-12.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "amazon-linux-repo-cdn",
+    "version": "2023.9.20251208-2.amzn2023",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libpsl",
+    "version": "0.21.5-1.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "sqlite-libs",
+    "version": "3.40.0-1.amzn2023.0.7",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "python3-hawkey",
+    "version": "0.69.0-8.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libsolv",
+    "version": "0.7.22-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "xz",
+    "version": "5.2.5-9.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "libgomp",
+    "version": "14.2.1-7.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "lua-libs",
+    "version": "5.4.4-3.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "rpm-libs",
+    "version": "4.16.1.3-29.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "popt",
+    "version": "1.18-6.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "000",
+    "name": "wazuh-manager",
+    "version": "4.14.2-1",
+    "vendor": "Wazuh <info@wazuh.com>",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Office 16 Click-to-Run Extensibility Component",
+    "version": "16.0.19426.20170",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "WebAdvisor by McAfee",
+    "version": "4.1.1.1086",
+    "vendor": "McAfee, LLC",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "corepack",
+    "version": "0.34.5",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "npm",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Python 3.12.10 Add to Path (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Wazuh Agent",
+    "version": "4.14.2",
+    "vendor": "Wazuh, Inc.",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Docker Desktop",
+    "version": "4.55.0",
+    "vendor": "Docker Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Node.js",
+    "version": "24.12.0",
+    "vendor": "Node.js Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Lenovo Smart Meeting Components",
+    "version": "3.3.11.0",
+    "vendor": "Lenovo",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Windows Subsystem for Linux",
+    "version": "2.6.3.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "npm",
+    "version": "11.6.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "npm",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft .NET Host FX Resolver - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Office 16 Click-to-Run Licensing Component",
+    "version": "16.0.17328.20206",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft .NET Runtime - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Python 3.12.10 Documentation (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Python 3.12.10 Standard Library (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Python 3.12.10 Core Interpreter (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Python 3.12.10 pip Bootstrap (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft Windows Desktop Runtime - 8.0.11 (x64)",
+    "version": "8.0.11.34221",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Python 3.12.10 Development Libraries (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft Windows Desktop Runtime - 8.0.11 (x64)",
+    "version": "64.44.23253",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Eclipse Temurin JDK with Hotspot 25.0.1+8 (x64)",
+    "version": "25.0.1.8",
+    "vendor": "Eclipse Adoptium",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Android Studio",
+    "version": "2025.2",
+    "vendor": "Google LLC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Python 3.12.10 Tcl/Tk Support (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Cursor",
+    "version": "2.4.21",
+    "vendor": "Anysphere",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Python Launcher",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "McAfee",
+    "version": "1.35.148.1",
+    "vendor": "McAfee, LLC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Python 3.12.10 Executables (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Python 3.12.10 Test Suite (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Git",
+    "version": "2.52.0",
+    "vendor": "The Git Development Community",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Lenovo Now",
+    "version": "4.5.0.24",
+    "vendor": "Lenovo",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft .NET Host - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Lenovo Vantage Service",
+    "version": "4.2601.20.0",
+    "vendor": "Lenovo Group Ltd.",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.44.35211",
+    "version": "14.44.35211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft Visual C++ 2022 X86 Additional Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211",
+    "version": "14.44.35211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "PostgreSQL 18",
+    "version": "18.1-2",
+    "vendor": "PostgreSQL Global Development Group",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Google Chrome",
+    "version": "144.0.7559.133",
+    "vendor": "Google LLC",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Zoom Workplace",
+    "version": "6.7.2 (26346)",
+    "vendor": "Zoom Communications, Inc.",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft Visual Studio Code (User)",
+    "version": "1.108.1",
+    "vendor": "Microsoft Corporation",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Kiro (User)",
+    "version": "0.8.140",
+    "vendor": "Amazon Web Services",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Antigravity (User)",
+    "version": "1.15.8",
+    "vendor": "Google",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Python 3.12.10 (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Dolby Access",
+    "version": "3.27.6410.0",
+    "vendor": "Dolby Laboratories",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Lenovo Vantage",
+    "version": "10.2511.10.0",
+    "vendor": "LENOVO INC.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "TrackPoint",
+    "version": "24.121.55.0",
+    "vendor": "ELAN Microelectronics Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "TrackPoint Quick Menu",
+    "version": "1.2511.45.0",
+    "vendor": "LENOVO INC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Weather",
+    "version": "4.54.63029.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "News",
+    "version": "4.56.242.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Xbox",
+    "version": "2512.1001.36.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "App Installer",
+    "version": "1.27.459.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Journal",
+    "version": "1.25336.1113.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Get Help",
+    "version": "10.2409.33293.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Solitaire & Casual Games",
+    "version": "4.25.1130.0",
+    "vendor": "Microsoft Studios",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Outlook (new)",
+    "version": "1.2024.119.200",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Power Automate",
+    "version": "11.2601.105.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Snipping Tool",
+    "version": "11.2511.47.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Windows Security",
+    "version": "1000.29429.1000.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Start Experiences App",
+    "version": "1.195.0.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Store Experience Host",
+    "version": "22512.1401.1.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft Whiteboard",
+    "version": "53.20111.128.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Dev Home",
+    "version": "0.0.0.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Photos",
+    "version": "2025.11120.5001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Clock",
+    "version": "11.2512.0.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Camera",
+    "version": "2025.2510.2.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Calculator",
+    "version": "11.2508.4.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Feedback Hub",
+    "version": "1.2512.16303.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Xbox Live",
+    "version": "1.24.10001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Game Bar",
+    "version": "7.325.11061.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Xbox Identity Provider",
+    "version": "12.130.16001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Game Speech Window",
+    "version": "1.97.17002.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Quick Assist",
+    "version": "2.0.29.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Family",
+    "version": "0.2.40.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft Teams",
+    "version": "25306.804.4102.7193",
+    "vendor": "Microsoft",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "alembic",
+    "version": "1.12.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "annotated-types",
+    "version": "0.7.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "anyio",
+    "version": "3.7.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "asyncpg",
+    "version": "0.29.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "bcrypt",
+    "version": "4.0.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "black",
+    "version": "23.12.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "certifi",
+    "version": "2025.11.12",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "cffi",
+    "version": "2.0.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "click",
+    "version": "8.3.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "charset-normalizer",
+    "version": "3.4.4",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "colorama",
+    "version": "0.4.6",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "coverage",
+    "version": "7.13.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "distro",
+    "version": "1.9.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "ecdsa",
+    "version": "0.19.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "cryptography",
+    "version": "46.0.3",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "dnspython",
+    "version": "2.8.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "fastapi",
+    "version": "0.104.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "flake8",
+    "version": "6.1.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "email-validator",
+    "version": "2.1.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "greenlet",
+    "version": "3.3.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "h11",
+    "version": "0.16.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "httptools",
+    "version": "0.7.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "httpx",
+    "version": "0.25.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "idna",
+    "version": "3.11",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "MarkupSafe",
+    "version": "3.0.3",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "mccabe",
+    "version": "0.7.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "mypy",
+    "version": "1.7.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Mako",
+    "version": "1.3.10",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "mypy_extensions",
+    "version": "1.1.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "openai",
+    "version": "2.14.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "packaging",
+    "version": "25.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "passlib",
+    "version": "1.7.4",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "pathspec",
+    "version": "0.12.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "httpcore",
+    "version": "1.0.9",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "jiter",
+    "version": "0.12.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "pillow",
+    "version": "12.0.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "platformdirs",
+    "version": "4.5.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "pluggy",
+    "version": "1.6.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "pyasn1",
+    "version": "0.6.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "pycodestyle",
+    "version": "2.11.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "prometheus-client",
+    "version": "0.19.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "pycparser",
+    "version": "2.23",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "pydantic-settings",
+    "version": "2.1.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "pydantic_core",
+    "version": "2.14.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "iniconfig",
+    "version": "2.3.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "pyflakes",
+    "version": "3.1.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "pytest",
+    "version": "7.4.3",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "pytest-cov",
+    "version": "4.1.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "pytest-asyncio",
+    "version": "0.21.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "python-dotenv",
+    "version": "1.2.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "python-jose",
+    "version": "3.3.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "python-json-logger",
+    "version": "2.0.7",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "python-multipart",
+    "version": "0.0.6",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "PyYAML",
+    "version": "6.0.3",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "redis",
+    "version": "7.1.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "regex",
+    "version": "2025.11.3",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "reportlab",
+    "version": "4.0.7",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "requests",
+    "version": "2.32.5",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "rsa",
+    "version": "4.9.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "six",
+    "version": "1.17.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "sniffio",
+    "version": "1.3.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "pip",
+    "version": "25.3",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "SQLAlchemy",
+    "version": "2.0.23",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "starlette",
+    "version": "0.27.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "pydantic",
+    "version": "2.5.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "tqdm",
+    "version": "4.67.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "tiktoken",
+    "version": "0.12.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "typing_extensions",
+    "version": "4.15.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "urllib3",
+    "version": "2.6.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "uvicorn",
+    "version": "0.24.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "watchfiles",
+    "version": "1.1.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "websockets",
+    "version": "15.0.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft Clipchamp",
+    "version": "4.5.10220.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft 365 Copilot",
+    "version": "19.2602.33151.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft Store",
+    "version": "22512.1401.1101.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft To Do",
+    "version": "2.168.6211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft Office Home and Student 2021 - en-us",
+    "version": "16.0.19628.20166",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft 365 - en-us",
+    "version": "16.0.19628.20166",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft Edge",
+    "version": "144.0.3719.115",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft Edge WebView2 Runtime",
+    "version": "144.0.3719.115",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Neo4j Desktop 2 2.1.1",
+    "version": "2.1.1",
+    "vendor": "Neo4j Inc.",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "001",
+    "name": "Microsoft OneDrive",
+    "version": "26.007.0112.0002",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "PIPAgent",
+    "version": "2.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Maps",
+    "version": "3.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "pip",
+    "version": "21.2.4",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "DaVinciKeyboards",
+    "version": null,
+    "vendor": "Blackmagic-design",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "AccessibilityUIServer",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "QuickTime Player",
+    "version": "10.5",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "AOSUIPrefPaneLauncher",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Photos",
+    "version": "11.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0314_AppleLoopsHipHop1",
+    "version": "2.1.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0806_PlugInSettingsGBLogic",
+    "version": "2.0.0.0.1.1602785573",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0615_GBLogicAlchemyEssentials",
+    "version": "2.0.0.0.1.1602785573",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "altgraph",
+    "version": "0.17.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0539_DrummerTambourine",
+    "version": "2.0.0.0.1.1602002531",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Digital Color Meter",
+    "version": "6.10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Memory Slot Utility",
+    "version": "1.5.3b1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "TextEdit",
+    "version": "1.20",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Automator Application Stub",
+    "version": "1.3",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Passwords",
+    "version": "2.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Pro Display Calibrator",
+    "version": " ",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "BluetoothUIServer",
+    "version": "9.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Installer Progress",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Mail",
+    "version": "16.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "GameOverlayUI",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "CoreLocationAgent",
+    "version": "3064.0.10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "ThermalTrap",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "ScreenSaverEngine",
+    "version": "5.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Dwell Control",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Disk Utility",
+    "version": "22.7",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0322_AppleLoopsDiscoFunk1",
+    "version": "2.0.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Screen Sharing",
+    "version": "6.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "XProtectPlistConfigData_10_15.16U4406",
+    "version": "5323.1.1762559907",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Paired Devices",
+    "version": "7.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "CLTools_SDK_macOS14",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Install Command Line Developer Tools",
+    "version": " ",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Script Menu",
+    "version": "1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "ASAF.SDK",
+    "version": "2.1.8",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "CLTools_SDK_macOS_NMOS",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Enhanced Logging",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Spotlight",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "UniversalAccessControl",
+    "version": "7.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Notes",
+    "version": "4.13",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Preview",
+    "version": "11.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "ProfileHelper",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Numbers",
+    "version": "14.4",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "screencaptureui",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Lassen",
+    "version": "7.42.1",
+    "vendor": "Amazon",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Installer",
+    "version": "6.2.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "System Settings",
+    "version": "15.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "XProtectPlistConfigData_10_15.16U4394",
+    "version": "5317.1.1758835150",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "cdm.Numbers_MASReceipt",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "UIKitSystem",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "wheel",
+    "version": "0.37.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Language Chooser",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "XProtectPlistConfigData_10_15.16U4405",
+    "version": "5322.1.1761881349",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "BluetoothSetupAssistant",
+    "version": "9.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "BluetoothUIService",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Contacts",
+    "version": "14.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Font Book",
+    "version": "11.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "PowerChime",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MobileDeviceDevelopment",
+    "version": "16.4.0.9000000001.1667398374",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "pip",
+    "version": "21.2.4",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Accessibility Reader",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "TipsSpotlightHandler",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0509_EXS_StringsEnsemble",
+    "version": "2.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Calendar / Reminders",
+    "version": "8.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Automator Installer",
+    "version": "2.10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0637_AppleLoopsDrummerKyle",
+    "version": "3.1.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Manifest",
+    "version": "20.2.1",
+    "vendor": "Blackmagic-design",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "DiskImageMounter",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "AVB Configuration",
+    "version": "1400.10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Screenshot",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Boot Camp Assistant",
+    "version": "6.1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "AppleScript Utility",
+    "version": "1.1.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Reminders",
+    "version": "7.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "TV",
+    "version": "1.6.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0371_EXS_GuitarsAcoustic",
+    "version": "3.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Dictionary",
+    "version": "2.3.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "EscrowSecurityAlert",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0482_EXS_OrchWoodwindAltoSax",
+    "version": "2.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Stickies",
+    "version": "10.3",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "XProtectPlistConfigData_10_15.16U4403",
+    "version": "5321.1.1761162008",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Keynote14",
+    "version": "14.4.1.1742681647",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Coverage Details",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Dock",
+    "version": "1.8",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0310_UB_DrumMachineDesignerGB",
+    "version": "2.0.0.0.1.1602002531",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "UniversalControl",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "CLTools_SDK_macOS_LMOS",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Mission Control",
+    "version": "1.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "ManifestBlackmagicRawPlayer",
+    "version": "5.0.0",
+    "vendor": "Blackmagic-design",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "App Store",
+    "version": "3.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Calculator",
+    "version": "12.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Freeform",
+    "version": "4.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "iPhone Mirroring",
+    "version": "1.5",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "CLTools_SDK_macOS110",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "CoreServicesUIAgent",
+    "version": "369",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "setuptools",
+    "version": "58.0.4",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Screen Time",
+    "version": "3.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Clock",
+    "version": "1.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "JavaLauncher",
+    "version": "326",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "aiv.AIVApp",
+    "version": "10.98.0",
+    "vendor": "Amazon",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Keyboard Setup Assistant",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Migration Assistant",
+    "version": "26.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Game Center",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Batteries",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "SystemUIServer",
+    "version": "1.7",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Script Editor",
+    "version": "2.11",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "WindowManagerShowDesktopEducation",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "FamilyExtensionHost",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Print Center",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Bluetooth File Exchange",
+    "version": "9.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "WindowManager",
+    "version": " ",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Tips",
+    "version": "26.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Podcasts",
+    "version": "1.1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "KeyboardAccessAgent",
+    "version": "10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "XProtectPlistConfigData_10_15.16U4398",
+    "version": "5319.1.1760457566",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0540_PlugInSettingsGB",
+    "version": "2.0.0.0.1.1602785573",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Safari",
+    "version": "26.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "setuptools",
+    "version": "58.0.4",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Journal",
+    "version": "2.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "RegisterPluginIM",
+    "version": "26.200",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "WorkoutAlert-Mac",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "CLTools_Executables",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0554_AppleLoopsDiscoFunk2",
+    "version": "2.1.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0646_AppleLoopsDrummerElectronic",
+    "version": "3.1.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0048_AlchemyPadsDigitalHolyGhost",
+    "version": "2.0.0.0.1.1601679620",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0484_EXS_OrchWoodwindClarinetSolo",
+    "version": "3.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Music",
+    "version": "1.6.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "FolderActionsDispatcher",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "CLTools_macOS_SDK",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0325_AppleLoopsGarageBand1",
+    "version": "2.1.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Pages14",
+    "version": "14.4.1.1742681647",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "ODSAgent",
+    "version": "1.9",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "SystemIntents",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "cdm.GarageBand_MASReceipt",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "DaVinci Resolve",
+    "version": "20.3.10006",
+    "vendor": "Blackmagic-design",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MRTConfigData_10_15.16U4211",
+    "version": "1.93.1.1657754914",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Phone",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Weather",
+    "version": "6.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "ScriptMonitor",
+    "version": "1.0.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "ControlStrip",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "NowPlayingTouchUI",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0354_EXS_PianoSteinway",
+    "version": "2.0.0.0.1.1602781381",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Keychain Circle Notification",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Photo Booth",
+    "version": "13.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "XcodeSystemResources",
+    "version": "26.1.1.0.1762495571",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Time Machine",
+    "version": "1.3",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Software Update",
+    "version": "6",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "WatchFaceAlert",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0312_UB_UltrabeatKitsGBLogic",
+    "version": "2.0.0.0.1.1602002531",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "future",
+    "version": "0.18.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Keynote",
+    "version": "14.4",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "System Events",
+    "version": "1.3.6",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "TextInputSwitcher",
+    "version": "1.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Magnifier",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "XProtectPlistConfigData_10_15.16U4407",
+    "version": "5324.1.1764904574",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0593_DrummerSoCalGBLogic",
+    "version": "2.0.0.0.1.1602002531",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0317_AppleLoopsModernRnB1",
+    "version": "2.0.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Diagnostics Reporter",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "ColorSync Utility",
+    "version": "12.2.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "macholib",
+    "version": "1.15.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "ManifestPanels",
+    "version": "2.3.4",
+    "vendor": "Blackmagic-design",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "BlackmagicRaw_resolve",
+    "version": "5.0",
+    "vendor": "Blackmagic-design",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "ShortcutsActions",
+    "version": " ",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "FindMy",
+    "version": "4.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0323_AppleLoopsVintageBreaks",
+    "version": "2.1.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "NetAuthAgent",
+    "version": "6.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "CLTools_SwiftBackDeploy",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Activity Monitor",
+    "version": "10.14",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "XProtectPlistConfigData_10_15.16U4408",
+    "version": "5325.1.1765561255",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Install in Progress",
+    "version": "3.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Image Playground",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "NotificationCenter",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Chess",
+    "version": "3.18",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "AddressBookUrlForwarder",
+    "version": "14.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0357_EXS_BassAcousticUprightJazz",
+    "version": "2.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0491_EXS_OrchBrass",
+    "version": "3.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "ManagedClient",
+    "version": "18.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0597_LTPChordTrainer",
+    "version": "2.0.0.0.1.1602007057",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Stocks",
+    "version": "8.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "VoiceOver",
+    "version": "10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0598_LTPBasicGuitar1",
+    "version": "2.0.0.0.1.1602007057",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "UserNotificationCenter",
+    "version": "82",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "DaVinciPanels",
+    "version": null,
+    "vendor": "Blackmagic-design",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "RosettaUpdateAuto",
+    "version": "1.0.0.0.1763820096",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "System Information",
+    "version": "11.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "RapportUIAgent",
+    "version": "7.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Numbers14",
+    "version": "14.4.1.1742681647",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "PosterBoard",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "XProtectPayloads_10_15.16U4381",
+    "version": "153.1.1753944464",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "WhatsApp",
+    "version": "25.27.73",
+    "vendor": "Whatsapp",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Add Printer",
+    "version": "607",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "AirPort Utility",
+    "version": "6.3.9",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Books",
+    "version": "8.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0375_EXS_GuitarsVintageStrat",
+    "version": "2.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "WidgetKit Simulator",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "files.data-template",
+    "version": "26.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Shortcuts Events",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0321_AppleLoopsIndieDisco",
+    "version": "2.0.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Xcode",
+    "version": "26.1.1.0.1.1762494225",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0320_AppleLoopsChillwave1",
+    "version": "2.0.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "OBEXAgent",
+    "version": "9.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0487_EXS_OrchWoodwindFluteSolo",
+    "version": "3.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "OSDUIHelper",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "six",
+    "version": "1.15.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Erase Assistant",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Family",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Xcode Previews",
+    "version": "16.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Database Events",
+    "version": "1.0.6",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MDMMigrationTrampoline",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MTLReplayer",
+    "version": "312.4",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "AirPort Base Station Agent",
+    "version": "2.2.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0358_EXS_BassElectricFingerStyle",
+    "version": "2.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0557_IRsSharedAUX",
+    "version": "2.0.0.0.1.1602781381",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Rosetta 2 Updater",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "XProtectPlistConfigData_10_15.16U4400",
+    "version": "5320.1.1760723678",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "GarageBand_AppStore",
+    "version": "10.4.12.1.1738002869",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "WallpaperAgent",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Apps",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0316_AppleLoopsDubstep1",
+    "version": "2.0.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Image Capture",
+    "version": "8.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "FileProvider-Feedback",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "GatekeeperCompatibilityData.16U1906",
+    "version": "8.0.1.1570042755",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "DiscHelper",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "UnmountAssistantAgent",
+    "version": "5.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "wheel",
+    "version": "0.37.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Calendar",
+    "version": "16.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "SpacesTouchBarAgent",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Shortcuts",
+    "version": "7.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0536_DrummerClapsCowbell",
+    "version": "2.0.0.0.1.1602002531",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Captive Network Assistant",
+    "version": "5.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MusicRecognitionMac",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "FairlightPanels",
+    "version": null,
+    "vendor": "Blackmagic-design",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Pages",
+    "version": "14.4",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Games",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Finder",
+    "version": "26.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0324_AppleLoopsBluesGarage",
+    "version": "2.0.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Messages",
+    "version": "26.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0315_AppleLoopsElectroHouse1",
+    "version": "2.1.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "IOUIAgent",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "ShortcutDroplet",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "WiFiAgent",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "VoiceOver Utility",
+    "version": "10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Grapher",
+    "version": "2.8",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Audio MIDI Setup",
+    "version": "3.7",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "AirPlayUIAgent",
+    "version": "2.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "loginwindow",
+    "version": "9.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "StageManagerOnboarding",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Problem Reporter",
+    "version": "10.13",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "iMovie_AppStore",
+    "version": "10.4.3.1.1729743769",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Setup Assistant",
+    "version": "10.10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "cdm.iMovie_MASReceipt",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Image Events",
+    "version": "1.1.6",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "CLTools_SDK_macOS13",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "ControlCenter",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0560_LTPBasicPiano1",
+    "version": "2.0.0.0.1.1602007057",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Certificate Assistant",
+    "version": "5.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "CLTools_SDK_macOS12",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0538_DrummerSticks",
+    "version": "2.0.0.0.1.1602002531",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "TextInputMenuAgent",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "future",
+    "version": "0.18.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "PeopleMessageService",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MobileAssets",
+    "version": "1.0.0.0.1645860813",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "OneNote",
+    "version": "16.104.25121423",
+    "vendor": "Microsoft",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "XProtectPlistConfigData_10_15.16U4396",
+    "version": "5318.1.1759788944",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "six",
+    "version": "1.15.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "GameTrampoline",
+    "version": " ",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Apple Diagnostics",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "rcd",
+    "version": "362",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "altgraph",
+    "version": "0.17.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "cdm.Pages_MASReceipt",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "XProtectPayloads_10_15.16U4404",
+    "version": "156.1.1761878842",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Home",
+    "version": "10.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Console",
+    "version": "1.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "PeopleViewService",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "macholib",
+    "version": "1.15.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "VoiceMemos",
+    "version": "3.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Pass Viewer",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "XProtectPlistConfigData_10_15.16U4409",
+    "version": "5326.1.1768930737",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Terminal",
+    "version": "2.15",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "cdm.Keynote_MASReceipt",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "FaceTime",
+    "version": "36",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "iCloud+",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "MAContent10_AssetPack_0537_DrummerShaker",
+    "version": "2.0.0.0.1.1602002531",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Automator",
+    "version": "2.10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "News",
+    "version": "11.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "wazuh-agent",
+    "version": "4.14.2",
+    "vendor": "Wazuh",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "XProtectPlistConfigData_10_15.16U4410",
+    "version": "5327.1.1769644697",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Chrome",
+    "version": "144.0.7559.133",
+    "vendor": "Google",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Docker",
+    "version": "4.59.1",
+    "vendor": "Docker",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "WhatsApp",
+    "version": "26.4.73",
+    "vendor": "Whatsapp",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Kiro",
+    "version": "0.9.2",
+    "vendor": "Kiro",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "002",
+    "name": "Cursor",
+    "version": "2.4.32",
+    "vendor": "Todesktop",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "newman",
+    "version": "6.2.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "npm",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Office 16 Click-to-Run Extensibility Component",
+    "version": "16.0.19426.20170",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "WebAdvisor by McAfee",
+    "version": "4.1.1.1086",
+    "vendor": "McAfee, LLC",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Wazuh Agent",
+    "version": "4.14.2",
+    "vendor": "Wazuh, Inc.",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Lenovo Smart Meeting Components",
+    "version": "3.3.11.0",
+    "vendor": "Lenovo",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Node.js",
+    "version": "25.5.0",
+    "vendor": "Node.js Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft .NET Host FX Resolver - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "UiPath Platform",
+    "version": "100.1.152",
+    "vendor": "UiPath",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Office 16 Click-to-Run Licensing Component",
+    "version": "16.0.17328.20206",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft .NET Runtime - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft Windows Desktop Runtime - 8.0.11 (x64)",
+    "version": "8.0.11.34221",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft Windows Desktop Runtime - 8.0.11 (x64)",
+    "version": "64.44.23253",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "npm",
+    "version": "11.8.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "npm",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Cursor",
+    "version": "2.4.21",
+    "vendor": "Anysphere",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "McAfee",
+    "version": "1.35.148.1",
+    "vendor": "McAfee, LLC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Lenovo Now",
+    "version": "4.5.0.24",
+    "vendor": "Lenovo",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft .NET Host - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Lenovo Vantage Service",
+    "version": "4.2601.20.0",
+    "vendor": "Lenovo Group Ltd.",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.44.35211",
+    "version": "14.44.35211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft Visual C++ 2022 X86 Additional Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211",
+    "version": "14.44.35211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Google Chrome",
+    "version": "144.0.7559.133",
+    "vendor": "Google LLC",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft Edge",
+    "version": "144.0.3719.115",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft Edge WebView2 Runtime",
+    "version": "144.0.3719.115",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft 365 - en-us",
+    "version": "16.0.19628.20166",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft OneNote - en-us",
+    "version": "16.0.19628.20166",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Brave",
+    "version": "144.1.86.148",
+    "vendor": "Brave Software Inc",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Postman x64 11.82.1",
+    "version": "11.82.1",
+    "vendor": "Postman",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Kiro (User)",
+    "version": "0.8.0",
+    "vendor": "Amazon Web Services",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Dolby Access",
+    "version": "3.27.6410.0",
+    "vendor": "Dolby Laboratories",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Lenovo Vantage",
+    "version": "10.2511.10.0",
+    "vendor": "LENOVO INC.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Lenovo Smart Meeting",
+    "version": "3.4.20.0",
+    "vendor": "LENOVO INC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "TrackPoint Quick Menu",
+    "version": "1.2511.45.0",
+    "vendor": "LENOVO INC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "TrackPoint",
+    "version": "24.121.55.0",
+    "vendor": "ELAN Microelectronics Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "News",
+    "version": "4.56.242.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Weather",
+    "version": "4.54.63029.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "App Installer",
+    "version": "1.27.459.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Xbox",
+    "version": "2512.1001.36.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Get Help",
+    "version": "10.2409.33293.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Journal",
+    "version": "1.25336.1113.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft 365 Copilot",
+    "version": "19.2602.33151.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Solitaire & Casual Games",
+    "version": "4.25.1130.0",
+    "vendor": "Microsoft Studios",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Outlook (new)",
+    "version": "1.2024.119.200",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Power Automate",
+    "version": "11.2601.105.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Windows Security",
+    "version": "1000.29429.1000.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Store Experience Host",
+    "version": "22512.1401.1.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft Whiteboard",
+    "version": "53.20111.128.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Dev Home",
+    "version": "0.0.0.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Photos",
+    "version": "2025.11120.5001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Calculator",
+    "version": "11.2508.4.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Camera",
+    "version": "2025.2510.2.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Feedback Hub",
+    "version": "1.2512.16303.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Xbox Live",
+    "version": "1.24.10001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Game Bar",
+    "version": "7.325.11061.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Xbox Identity Provider",
+    "version": "12.130.16001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Game Speech Window",
+    "version": "1.97.17002.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Phone Link",
+    "version": "1.25112.36.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Family",
+    "version": "0.2.40.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Quick Assist",
+    "version": "2.0.29.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Mobile devices",
+    "version": "0.25112.60.0",
+    "vendor": "Microsoft Windows",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft Teams",
+    "version": "25306.804.4102.7193",
+    "vendor": "Microsoft",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft Clipchamp",
+    "version": "4.5.10220.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft Store",
+    "version": "22512.1401.1101.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft To Do",
+    "version": "2.168.6211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "WhatsApp",
+    "version": "2.2587.10.0",
+    "vendor": "WhatsApp Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "003",
+    "name": "Microsoft OneDrive",
+    "version": "26.007.0112.0002",
+    "vendor": "Microsoft Corporation",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Office 16 Click-to-Run Extensibility Component",
+    "version": "16.0.19426.20170",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "DaVinci Resolve",
+    "version": "20.3.10006",
+    "vendor": "Blackmagic Design",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "AMD Install Manager",
+    "version": "25.30.26008.1803",
+    "vendor": "Advanced Micro Devices, Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "WebAdvisor by McAfee",
+    "version": "4.1.1.1086",
+    "vendor": "McAfee, LLC",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "AnyDesk",
+    "version": "ad 9.6.8",
+    "vendor": "AnyDesk Software GmbH",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "DaVinci Resolve Control Panels",
+    "version": "2.3.4.0",
+    "vendor": "Blackmagic Design",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Wazuh Agent",
+    "version": "4.14.2",
+    "vendor": "Wazuh, Inc.",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40664",
+    "version": "12.0.40664",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40664",
+    "version": "12.0.40664",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40664",
+    "version": "12.0.40664.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Cursor",
+    "version": "2.3.41",
+    "vendor": "Anysphere",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "AMD Software",
+    "version": "26.1.1",
+    "vendor": "Advanced Micro Devices, Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Teams Meeting Add-in for Microsoft Office",
+    "version": "1.25.28902",
+    "vendor": "Microsoft",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft .NET Host FX Resolver - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "AMD Settings",
+    "version": "2026.0108.1144.2068",
+    "vendor": "Advanced Micro Devices, Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Office 16 Click-to-Run Licensing Component",
+    "version": "16.0.17328.20206",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft .NET Runtime - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Branding64",
+    "version": "1.00.0009",
+    "vendor": "Advanced Micro Devices, Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664",
+    "version": "12.0.40664",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "AMD DVR64",
+    "version": "1.0.2",
+    "vendor": "Advanced Micro Devices, Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "RyzenMasterSDK",
+    "version": "1.2.3.5",
+    "vendor": "Advanced Micro Devices, Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40664",
+    "version": "12.0.40664.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Windows Desktop Runtime - 8.0.11 (x64)",
+    "version": "8.0.11.34221",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "AMD WVR64",
+    "version": "1.0.2",
+    "vendor": "Advanced Micro Devices, Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Visual C++ 2022 X86 Additional Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Blackmagic RAW Common Components",
+    "version": "5.1",
+    "vendor": "Blackmagic Design",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Windows Desktop Runtime - 8.0.11 (x64)",
+    "version": "64.44.23253",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Lenovo Smart Meeting Components",
+    "version": "3.4.20.0",
+    "vendor": "Lenovo",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "AMD User Experience Program Installer",
+    "version": "2510.41.01.108",
+    "vendor": "Advanced Micro Devices, Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "McAfee",
+    "version": "1.35.148.1",
+    "vendor": "McAfee, LLC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Lenovo Now",
+    "version": "4.5.0.24",
+    "vendor": "Lenovo",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664",
+    "version": "12.0.40664",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft .NET Host - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Lenovo Vantage Service",
+    "version": "4.2601.20.0",
+    "vendor": "Lenovo Group Ltd.",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Canon MF3010",
+    "version": "3.9.0.1",
+    "vendor": "CANON INC.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Canon Laser Printer/Scanner/Fax Extended Survey Program",
+    "version": "3.0.4",
+    "vendor": "CANON INC.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Canon Laser Printer/Scanner/Fax Extended Survey Program",
+    "version": "3.0.4.40070",
+    "vendor": "CANON INC.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211",
+    "version": "14.44.35211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.44.35211",
+    "version": "14.44.35211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "uTorrent Web",
+    "version": "1.5.0",
+    "vendor": "BitTorrent Limited",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Dolby Access",
+    "version": "3.27.6410.0",
+    "vendor": "Dolby Laboratories",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Lenovo Vantage",
+    "version": "10.2511.10.0",
+    "vendor": "LENOVO INC.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Lenovo Smart Meeting",
+    "version": "3.4.20.0",
+    "vendor": "LENOVO INC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "TrackPoint",
+    "version": "24.121.55.0",
+    "vendor": "ELAN Microelectronics Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "TrackPoint Quick Menu",
+    "version": "1.2511.45.0",
+    "vendor": "LENOVO INC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Defender",
+    "version": "102.2504.16004.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "News",
+    "version": "4.56.242.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Weather",
+    "version": "4.54.63029.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "App Installer",
+    "version": "1.27.459.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Xbox",
+    "version": "2512.1001.36.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Get Help",
+    "version": "10.2409.33293.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Journal",
+    "version": "1.25336.1113.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Solitaire & Casual Games",
+    "version": "4.25.1130.0",
+    "vendor": "Microsoft Studios",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Outlook",
+    "version": "1.2026.105.100",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Power Automate",
+    "version": "11.2601.105.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Snipping Tool",
+    "version": "11.2510.31.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Windows Security",
+    "version": "1000.29429.1000.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Start Experiences App",
+    "version": "1.195.0.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Store Experience Host",
+    "version": "22512.1401.1.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Whiteboard",
+    "version": "53.20111.128.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Dev Home",
+    "version": "0.0.0.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Photos",
+    "version": "2025.11120.5001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Clock",
+    "version": "11.2512.0.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Calculator",
+    "version": "11.2508.4.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Camera",
+    "version": "2025.2510.2.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Feedback Hub",
+    "version": "1.2512.16303.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Notepad",
+    "version": "11.2510.14.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Store",
+    "version": "22512.1401.6.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Xbox Live",
+    "version": "1.24.10001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Game Bar",
+    "version": "7.325.11061.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Xbox Identity Provider",
+    "version": "12.130.16001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Game Speech Window",
+    "version": "1.97.17002.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Media Player",
+    "version": "11.2512.10.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Quick Assist",
+    "version": "2.0.29.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Family",
+    "version": "0.2.40.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "CrossDevice Files",
+    "version": "1.25112.60.0",
+    "vendor": "Microsoft Windows",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Teams",
+    "version": "26005.213.4315.4117",
+    "vendor": "Microsoft",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft OneDrive",
+    "version": "26.007.0112.0002",
+    "vendor": "Microsoft Corporation",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Google Chrome",
+    "version": "144.0.7559.133",
+    "vendor": "Google LLC",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft 365 Copilot",
+    "version": "19.2602.33151.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Clipchamp",
+    "version": "4.5.10220.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "VLC media player",
+    "version": "3.0.23",
+    "vendor": "VideoLAN",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Edge",
+    "version": "144.0.3719.115",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft Edge WebView2 Runtime",
+    "version": "144.0.3719.115",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft 365 - en-us",
+    "version": "16.0.19628.20166",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft OneNote - en-us",
+    "version": "16.0.19628.20166",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Microsoft To Do",
+    "version": "2.168.6211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  },
+  {
+    "agent_id": "004",
+    "name": "Paint",
+    "version": "11.2512.211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null
+  }
+]

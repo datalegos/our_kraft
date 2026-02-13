@@ -1,0 +1,32 @@
+# Neo4j Database Connection Configuration
+
+neo4j:
+  # Neo4j server connection details
+  uri: "bolt://localhost:7687"  # Default Neo4j bolt port
+  # Alternative URIs:
+  # - "bolt://localhost:7687" (local)
+  # - "neo4j://localhost:7687" (routing)
+  # - "bolt+s://your-neo4j-instance.com:7687" (encrypted)
+  
+  # Authentication
+  username: "neo4j"
+  password: "Sumanth-dl@orbit"  # Change this to your Neo4j password
+  
+  # Connection settings
+  max_connection_lifetime: 3600  # seconds (1 hour)
+  max_connection_pool_size: 50
+  connection_acquisition_timeout: 60  # seconds
+  
+  # Database name (for Neo4j 4.0+ multi-database support)
+  database: "neo4j"  # Default database, change if using a different database
+  
+  # SSL/TLS settings (if required)
+  encrypted: false  # Set to true if using encrypted connection
+  trust: "TRUST_ALL_CERTIFICATES"  # Options: TRUST_ALL_CERTIFICATES, TRUST_SYSTEM_CA_SIGNED_CERTIFICATES, TRUST_CUSTOM_CA_SIGNED_CERTIFICATES
+  
+  # Query execution settings
+  query_timeout: 300  # seconds (5 minutes)
+  
+  # Logging
+  log_level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR
+

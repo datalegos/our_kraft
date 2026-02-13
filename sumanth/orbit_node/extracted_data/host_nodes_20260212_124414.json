@@ -1,0 +1,37 @@
+[
+  {
+    "agent_id": "000",
+    "os_name": "wazuh.manager",
+    "os_version": "Wazuh v4.14.2",
+    "architecture": null,
+    "platform": null
+  },
+  {
+    "agent_id": "001",
+    "os_name": "vishnu",
+    "os_version": "Wazuh v4.14.2",
+    "architecture": null,
+    "platform": null
+  },
+  {
+    "agent_id": "002",
+    "os_name": "naveen",
+    "os_version": "Wazuh v4.14.2",
+    "architecture": null,
+    "platform": null
+  },
+  {
+    "agent_id": "003",
+    "os_name": "sathwik",
+    "os_version": "Wazuh v4.14.2",
+    "architecture": null,
+    "platform": null
+  },
+  {
+    "agent_id": "004",
+    "os_name": "gokul",
+    "os_version": "Wazuh v4.14.2",
+    "architecture": null,
+    "platform": null
+  }
+]

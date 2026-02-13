@@ -1,0 +1,29 @@
+{
+  "required_files": [
+    "main.py",
+    "extract_nodes.py",
+    "build_graph.py"
+  ],
+  "external_dependencies": [
+    "../graph_builder/graph_builder.py",
+    "../graph_builder/neo4j_connection.py",
+    "../graph_builder/constraints_manager.py",
+    "../graph_builder/node_inserter.py",
+    "../graph_builder/relationship_manager.py",
+    "../utils/wazuh_manager_client.py",
+    "../utils/wazuh_indexer_client.py",
+    "../utils/data_collector.py",
+    "../utils/csv_converter.py"
+  ],
+  "config_dependencies": [
+    "../config/config.yaml",
+    "../config/graph_config.yaml",
+    "../config/neo4j_config.yaml",
+    "../config/paths_config.yaml"
+  ],
+  "data_dependencies": [
+    "../collected_data/**/*.json",
+    "../extracted_data/**/*.json"
+  ]
+}
+

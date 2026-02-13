@@ -1,0 +1,27 @@
+# Collected data
+collected_data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config (optional - uncomment if you want to ignore config changes)
+# config.yaml
+

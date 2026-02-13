@@ -1,0 +1,42 @@
+[
+  {
+    "agent_id": "000",
+    "name": "Intel Core Processor (Broadwell, no TSX, IBRS)",
+    "scan_time": "2026-02-10T14:07:02+00:00",
+    "board_serial": " ",
+    "created_at": "2026-02-10T14:07:02+00:00",
+    "last_modified": "2026-02-10T14:07:02+00:00"
+  },
+  {
+    "agent_id": "001",
+    "name": "AMD Ryzen 7 7735HS with Radeon Graphics",
+    "scan_time": "2026-02-10T12:50:20+00:00",
+    "board_serial": "L1HF58700S2",
+    "created_at": "2026-02-10T12:50:20+00:00",
+    "last_modified": "2026-02-10T12:50:20+00:00"
+  },
+  {
+    "agent_id": "002",
+    "name": "Apple M4",
+    "scan_time": "2026-02-10T12:17:59+00:00",
+    "board_serial": "HM39HHXVYV",
+    "created_at": "2026-02-10T12:17:59+00:00",
+    "last_modified": "2026-02-10T12:17:59+00:00"
+  },
+  {
+    "agent_id": "003",
+    "name": "AMD Ryzen 7 7735HS with Radeon Graphics",
+    "scan_time": "2026-02-10T11:33:55+00:00",
+    "board_serial": "L1HF5AJ01G3",
+    "created_at": "2026-02-10T11:33:55+00:00",
+    "last_modified": "2026-02-10T11:33:55+00:00"
+  },
+  {
+    "agent_id": "004",
+    "name": "AMD Ryzen 7 7735HS with Radeon Graphics",
+    "scan_time": "2026-02-10T10:53:56+00:00",
+    "board_serial": "L1HF58700T2",
+    "created_at": "2026-02-10T10:53:56+00:00",
+    "last_modified": "2026-02-10T10:53:56+00:00"
+  }
+]

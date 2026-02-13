@@ -1,0 +1,76 @@
+2026-02-12 12:44:14,087 - __main__ - INFO - ============================================================
+2026-02-12 12:44:14,088 - __main__ - INFO - Host Node Extraction Started
+2026-02-12 12:44:14,088 - __main__ - INFO - ============================================================
+2026-02-12 12:44:14,108 - __main__ - INFO - Loaded graph_config.yaml
+2026-02-12 12:44:14,114 - __main__ - INFO - Loaded paths_config.yaml
+2026-02-12 12:44:14,114 - __main__ - INFO - 
+Extracting host nodes from collected data...
+2026-02-12 12:44:14,114 - __main__ - INFO - Loading agents data from: collected_data\20260210_201344\agents_manager\All_Agents.json
+2026-02-12 12:44:14,115 - __main__ - INFO - Found 5 agents in data file
+2026-02-12 12:44:14,115 - __main__ - INFO - Successfully extracted 5 host nodes
+2026-02-12 12:44:14,115 - __main__ - INFO - 
+Saving extracted host nodes...
+2026-02-12 12:44:14,119 - __main__ - INFO - Saved 5 host nodes to: extracted_data\host_nodes_20260212_124414.json
+2026-02-12 12:44:14,119 - __main__ - INFO - 
+============================================================
+2026-02-12 12:44:14,119 - __main__ - INFO - Host Node Extraction Completed!
+2026-02-12 12:44:14,120 - __main__ - INFO - Extracted 5 host nodes
+2026-02-12 12:44:14,120 - __main__ - INFO - Output file: extracted_data\host_nodes_20260212_124414.json
+2026-02-12 12:44:14,120 - __main__ - INFO - ============================================================
+2026-02-12 12:44:38,992 - __main__ - INFO - ============================================================
+2026-02-12 12:44:38,993 - __main__ - INFO - Host Node Extraction Started
+2026-02-12 12:44:38,993 - __main__ - INFO - ============================================================
+2026-02-12 12:44:39,013 - __main__ - INFO - Loaded graph_config.yaml
+2026-02-12 12:44:39,019 - __main__ - INFO - Loaded paths_config.yaml
+2026-02-12 12:44:39,020 - __main__ - INFO - 
+Extracting host nodes from collected data...
+2026-02-12 12:44:39,020 - __main__ - INFO - Loading agents data from: collected_data\20260210_201344\agents_manager\All_Agents.json
+2026-02-12 12:44:39,020 - __main__ - INFO - Found 5 agents in data file
+2026-02-12 12:44:39,021 - __main__ - INFO - Successfully extracted 5 host nodes
+2026-02-12 12:44:39,021 - __main__ - INFO - 
+Saving extracted host nodes...
+2026-02-12 12:44:39,030 - __main__ - INFO - Saved 5 host nodes to: extracted_data\host_nodes_20260212_124439.json
+2026-02-12 12:44:39,030 - __main__ - INFO - 
+============================================================
+2026-02-12 12:44:39,030 - __main__ - INFO - Host Node Extraction Completed!
+2026-02-12 12:44:39,030 - __main__ - INFO - Extracted 5 host nodes
+2026-02-12 12:44:39,030 - __main__ - INFO - Output file: extracted_data\host_nodes_20260212_124439.json
+2026-02-12 12:44:39,030 - __main__ - INFO - ============================================================
+2026-02-12 12:45:08,079 - __main__ - INFO - ============================================================
+2026-02-12 12:45:08,079 - __main__ - INFO - Host Node Extraction Started
+2026-02-12 12:45:08,079 - __main__ - INFO - ============================================================
+2026-02-12 12:45:08,099 - __main__ - INFO - Loaded graph_config.yaml
+2026-02-12 12:45:08,107 - __main__ - INFO - Loaded paths_config.yaml
+2026-02-12 12:45:08,107 - __main__ - INFO - 
+Extracting host nodes from collected data...
+2026-02-12 12:45:08,108 - __main__ - INFO - Loading agents data from: collected_data\20260210_201344\agents_manager\All_Agents.json
+2026-02-12 12:45:08,109 - __main__ - INFO - Found 5 agents in data file
+2026-02-12 12:45:08,109 - __main__ - INFO - Successfully extracted 5 host nodes
+2026-02-12 12:45:08,109 - __main__ - INFO - 
+Saving extracted host nodes...
+2026-02-12 12:45:08,111 - __main__ - INFO - Saved 5 host nodes to: extracted_data\host_nodes_20260212_124508.json
+2026-02-12 12:45:08,111 - __main__ - INFO - 
+============================================================
+2026-02-12 12:45:08,111 - __main__ - INFO - Host Node Extraction Completed!
+2026-02-12 12:45:08,112 - __main__ - INFO - Extracted 5 host nodes
+2026-02-12 12:45:08,112 - __main__ - INFO - Output file: extracted_data\host_nodes_20260212_124508.json
+2026-02-12 12:45:08,112 - __main__ - INFO - ============================================================
+2026-02-12 12:45:32,786 - __main__ - INFO - ============================================================
+2026-02-12 12:45:32,786 - __main__ - INFO - Host Node Extraction Started
+2026-02-12 12:45:32,786 - __main__ - INFO - ============================================================
+2026-02-12 12:45:32,805 - __main__ - INFO - Loaded graph_config.yaml
+2026-02-12 12:45:32,814 - __main__ - INFO - Loaded paths_config.yaml
+2026-02-12 12:45:32,814 - __main__ - INFO - 
+Extracting host nodes from collected data...
+2026-02-12 12:45:32,815 - __main__ - INFO - Loading agents data from: collected_data\20260210_201344\agents_manager\All_Agents.json
+2026-02-12 12:45:32,816 - __main__ - INFO - Found 5 agents in data file
+2026-02-12 12:45:32,816 - __main__ - INFO - Successfully extracted 5 host nodes
+2026-02-12 12:45:32,816 - __main__ - INFO - 
+Saving extracted host nodes...
+2026-02-12 12:45:32,819 - __main__ - INFO - Saved 5 host nodes to: extracted_data\host_nodes_20260212_124532.json
+2026-02-12 12:45:32,819 - __main__ - INFO - 
+============================================================
+2026-02-12 12:45:32,819 - __main__ - INFO - Host Node Extraction Completed!
+2026-02-12 12:45:32,820 - __main__ - INFO - Extracted 5 host nodes
+2026-02-12 12:45:32,820 - __main__ - INFO - Output file: extracted_data\host_nodes_20260212_124532.json
+2026-02-12 12:45:32,820 - __main__ - INFO - ============================================================

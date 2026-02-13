@@ -1,0 +1,18 @@
+{
+  "required_files": [
+    "wazuh_manager_client.py",
+    "wazuh_indexer_client.py",
+    "data_collector.py",
+    "csv_converter.py",
+    "vulnerability_detector.py"
+  ],
+  "external_dependencies": [],
+  "config_dependencies": [
+    "../config/config.yaml"
+  ],
+  "data_dependencies": [
+    "../collected_data/**/*.json",
+    "../collected_data/**/*.csv"
+  ]
+}
+

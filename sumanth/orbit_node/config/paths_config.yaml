@@ -1,0 +1,62 @@
+# File Paths Configuration
+# Defines directories and file patterns for data collection JSON files
+
+paths:
+  # Base directory for collected data
+  # This should point to the timestamped folder containing all collected data
+  base_directory: "collected_data/20260210_201344"
+  
+  # Alternative: Use latest collected data automatically
+  # Set to null to use base_directory, or set to "latest" to auto-detect latest folder
+  use_latest: false
+  
+  # Data source directories (relative to base_directory)
+  data_sources:
+    agents_manager:
+      directory: "agents_manager"
+      file_pattern: "All_Agents.json"
+      description: "Wazuh Manager agents data"
+      required: true
+    
+    host:
+      directory: "host"
+      file_pattern: "Syscollector_OS_Info_{agent_id}.json"
+      description: "Host/OS information from syscollector"
+      required: false
+    
+    packages:
+      directory: "packages"
+      file_pattern: "Syscollector_Packages_{agent_id}.json"
+      description: "Installed packages from syscollector"
+      required: false
+    
+    hardware:
+      directory: "hardware"
+      file_pattern: "Syscollector_Hardware_{agent_id}.json"
+      description: "Hardware information from syscollector"
+      required: false
+    
+    fim:
+      directory: "fim"
+      file_pattern: "File_Integrity_Monitoring_{agent_id}.json"
+      description: "File Integrity Monitoring data"
+      required: false
+    
+    groups:
+      directory: "groups"
+      file_pattern: "Groups_List.json"
+      description: "Agent groups information"
+      required: false
+    
+    vulnerabilities:
+      directory: "vulnerabilities"
+      file_pattern: "Vulnerabilities_{agent_id}.json"
+      description: "Vulnerability data from indexer"
+      required: false
+  
+  # Output directory for processed/extracted data
+  output_directory: "extracted_data"
+  
+  # Logging
+  log_directory: "logs"
+

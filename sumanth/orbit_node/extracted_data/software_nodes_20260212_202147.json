@@ -1,0 +1,7262 @@
+[
+  {
+    "name": "audit-libs",
+    "version": "3.1.5-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.345632",
+    "last_modified": "2026-01-29T09:21:29+00:00"
+  },
+  {
+    "name": "python3-libs",
+    "version": "3.9.25-1.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.345731",
+    "last_modified": "2026-01-29T09:21:29+00:00"
+  },
+  {
+    "name": "findutils",
+    "version": "1:4.8.0-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.345805",
+    "last_modified": "2026-01-29T09:21:29+00:00"
+  },
+  {
+    "name": "glib2",
+    "version": "2.82.2-767.amzn2023",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.345887",
+    "last_modified": "2026-01-29T09:21:29+00:00"
+  },
+  {
+    "name": "crypto-policies",
+    "version": "20240828-2.git626aa59.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.345960",
+    "last_modified": "2026-01-29T09:21:29+00:00"
+  },
+  {
+    "name": "libacl",
+    "version": "2.3.1-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.346029",
+    "last_modified": "2026-01-29T09:21:29+00:00"
+  },
+  {
+    "name": "systemd-libs",
+    "version": "252.23-10.amzn2023",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.346095",
+    "last_modified": "2026-01-29T09:21:30+00:00"
+  },
+  {
+    "name": "libxml2",
+    "version": "2.10.4-1.amzn2023.0.13",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.346160",
+    "last_modified": "2026-01-29T09:21:30+00:00"
+  },
+  {
+    "name": "libsigsegv",
+    "version": "2.13-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.346228",
+    "last_modified": "2026-01-29T09:21:30+00:00"
+  },
+  {
+    "name": "gzip",
+    "version": "1.12-1.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.346324",
+    "last_modified": "2026-01-29T09:21:30+00:00"
+  },
+  {
+    "name": "dnf-data",
+    "version": "4.14.0-1.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.346394",
+    "last_modified": "2026-01-29T09:21:30+00:00"
+  },
+  {
+    "name": "gpgme",
+    "version": "1.23.2-182.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.346459",
+    "last_modified": "2026-01-29T09:21:30+00:00"
+  },
+  {
+    "name": "openssl-libs",
+    "version": "1:3.2.2-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.346534",
+    "last_modified": "2026-01-29T09:21:30+00:00"
+  },
+  {
+    "name": "tzdata",
+    "version": "2025b-1.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.346603",
+    "last_modified": "2026-01-29T09:21:30+00:00"
+  },
+  {
+    "name": "procps-ng",
+    "version": "3.3.17-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.346667",
+    "last_modified": "2026-01-29T09:21:30+00:00"
+  },
+  {
+    "name": "libffi",
+    "version": "3.4.4-1.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.346737",
+    "last_modified": "2026-01-29T09:21:30+00:00"
+  },
+  {
+    "name": "alternatives",
+    "version": "1.15-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.346805",
+    "last_modified": "2026-01-29T09:21:31+00:00"
+  },
+  {
+    "name": "file-libs",
+    "version": "5.39-7.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.346869",
+    "last_modified": "2026-01-29T09:21:31+00:00"
+  },
+  {
+    "name": "readline",
+    "version": "8.1-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.346944",
+    "last_modified": "2026-01-29T09:21:31+00:00"
+  },
+  {
+    "name": "zlib",
+    "version": "1.2.11-33.amzn2023.0.5",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.347008",
+    "last_modified": "2026-01-29T09:21:31+00:00"
+  },
+  {
+    "name": "libnghttp2",
+    "version": "1.59.0-3.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.347082",
+    "last_modified": "2026-01-29T09:21:31+00:00"
+  },
+  {
+    "name": "libmodulemd",
+    "version": "2.13.0-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.347145",
+    "last_modified": "2026-01-29T09:21:31+00:00"
+  },
+  {
+    "name": "sed",
+    "version": "4.8-7.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.347222",
+    "last_modified": "2026-01-29T09:21:31+00:00"
+  },
+  {
+    "name": "python3-gpg",
+    "version": "1.23.2-182.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.347286",
+    "last_modified": "2026-01-29T09:21:31+00:00"
+  },
+  {
+    "name": "npth",
+    "version": "1.6-6.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.347362",
+    "last_modified": "2026-01-29T09:21:31+00:00"
+  },
+  {
+    "name": "system-release",
+    "version": "2023.9.20251208-2.amzn2023",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.347436",
+    "last_modified": "2026-01-29T09:21:32+00:00"
+  },
+  {
+    "name": "rpm-build-libs",
+    "version": "4.16.1.3-29.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.347515",
+    "last_modified": "2026-01-29T09:21:32+00:00"
+  },
+  {
+    "name": "p11-kit-trust",
+    "version": "0.24.1-2.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.347588",
+    "last_modified": "2026-01-29T09:21:32+00:00"
+  },
+  {
+    "name": "libselinux",
+    "version": "3.4-5.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.347657",
+    "last_modified": "2026-01-29T09:21:32+00:00"
+  },
+  {
+    "name": "json-c",
+    "version": "0.14-8.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.347724",
+    "last_modified": "2026-01-29T09:21:32+00:00"
+  },
+  {
+    "name": "krb5-libs",
+    "version": "1.21.3-6.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.347806",
+    "last_modified": "2026-01-29T09:21:32+00:00"
+  },
+  {
+    "name": "basesystem",
+    "version": "11-11.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.347875",
+    "last_modified": "2026-01-29T09:21:32+00:00"
+  },
+  {
+    "name": "elfutils-libs",
+    "version": "0.188-3.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.348006",
+    "last_modified": "2026-01-29T09:21:32+00:00"
+  },
+  {
+    "name": "libsmartcols",
+    "version": "2.37.4-1.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.348089",
+    "last_modified": "2026-01-29T09:21:32+00:00"
+  },
+  {
+    "name": "gmp",
+    "version": "1:6.2.1-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.348155",
+    "last_modified": "2026-01-29T09:21:32+00:00"
+  },
+  {
+    "name": "libverto",
+    "version": "0.3.2-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.348219",
+    "last_modified": "2026-01-29T09:21:33+00:00"
+  },
+  {
+    "name": "glibc-common",
+    "version": "2.34-231.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.348295",
+    "last_modified": "2026-01-29T09:21:33+00:00"
+  },
+  {
+    "name": "publicsuffix-list-dafsa",
+    "version": "20240212-61.amzn2023",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.348362",
+    "last_modified": "2026-01-29T09:21:33+00:00"
+  },
+  {
+    "name": "keyutils-libs",
+    "version": "1.6.3-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.348424",
+    "last_modified": "2026-01-29T09:21:33+00:00"
+  },
+  {
+    "name": "gdbm-libs",
+    "version": "1:1.19-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.348488",
+    "last_modified": "2026-01-29T09:21:33+00:00"
+  },
+  {
+    "name": "libarchive",
+    "version": "3.7.4-2.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.348551",
+    "last_modified": "2026-01-29T09:21:33+00:00"
+  },
+  {
+    "name": "python3-libcomps",
+    "version": "0.1.20-1.amzn2023",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.348614",
+    "last_modified": "2026-01-29T09:21:33+00:00"
+  },
+  {
+    "name": "pcre2-syntax",
+    "version": "10.40-1.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.348681",
+    "last_modified": "2026-01-29T09:21:33+00:00"
+  },
+  {
+    "name": "rpm-sign-libs",
+    "version": "4.16.1.3-29.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.348749",
+    "last_modified": "2026-01-29T09:21:33+00:00"
+  },
+  {
+    "name": "libunistring",
+    "version": "0.9.10-10.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.348818",
+    "last_modified": "2026-01-29T09:21:33+00:00"
+  },
+  {
+    "name": "libattr",
+    "version": "2.5.1-3.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.348891",
+    "last_modified": "2026-01-29T09:21:34+00:00"
+  },
+  {
+    "name": "elfutils-libelf",
+    "version": "0.188-3.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.348962",
+    "last_modified": "2026-01-29T09:21:34+00:00"
+  },
+  {
+    "name": "libzstd",
+    "version": "1.5.5-1.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.349042",
+    "last_modified": "2026-01-29T09:21:34+00:00"
+  },
+  {
+    "name": "gnupg2-minimal",
+    "version": "2.3.7-1.amzn2023.0.5",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.349108",
+    "last_modified": "2026-01-29T09:21:34+00:00"
+  },
+  {
+    "name": "lz4-libs",
+    "version": "1.9.4-1.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.349182",
+    "last_modified": "2026-01-29T09:21:34+00:00"
+  },
+  {
+    "name": "filebeat",
+    "version": "7.10.2-2",
+    "vendor": "Elastic",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.349250",
+    "last_modified": "2026-01-29T09:21:34+00:00"
+  },
+  {
+    "name": "bzip2-libs",
+    "version": "1.0.8-6.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.349317",
+    "last_modified": "2026-01-29T09:21:34+00:00"
+  },
+  {
+    "name": "libxcrypt",
+    "version": "4.4.33-7.amzn2023",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.349386",
+    "last_modified": "2026-01-29T09:21:34+00:00"
+  },
+  {
+    "name": "gawk",
+    "version": "5.1.0-3.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.349457",
+    "last_modified": "2026-01-29T09:21:34+00:00"
+  },
+  {
+    "name": "libcomps",
+    "version": "0.1.20-1.amzn2023",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.349526",
+    "last_modified": "2026-01-29T09:21:34+00:00"
+  },
+  {
+    "name": "ncurses-libs",
+    "version": "6.2-4.20200222.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.349593",
+    "last_modified": "2026-01-29T09:21:35+00:00"
+  },
+  {
+    "name": "libdnf",
+    "version": "0.69.0-8.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.349665",
+    "last_modified": "2026-01-29T09:21:35+00:00"
+  },
+  {
+    "name": "python3-libdnf",
+    "version": "0.69.0-8.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.349737",
+    "last_modified": "2026-01-29T09:21:35+00:00"
+  },
+  {
+    "name": "libcurl-minimal",
+    "version": "8.11.1-4.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.349809",
+    "last_modified": "2026-01-29T09:21:35+00:00"
+  },
+  {
+    "name": "setup",
+    "version": "2.13.7-3.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.349880",
+    "last_modified": "2026-01-29T09:21:35+00:00"
+  },
+  {
+    "name": "libcap",
+    "version": "2.73-1.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.349951",
+    "last_modified": "2026-01-29T09:21:35+00:00"
+  },
+  {
+    "name": "libidn2",
+    "version": "2.3.2-1.amzn2023.0.5",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.350022",
+    "last_modified": "2026-01-29T09:21:35+00:00"
+  },
+  {
+    "name": "tar",
+    "version": "2:1.34-1.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.350094",
+    "last_modified": "2026-01-29T09:21:35+00:00"
+  },
+  {
+    "name": "libblkid",
+    "version": "2.37.4-1.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.350165",
+    "last_modified": "2026-01-29T09:21:35+00:00"
+  },
+  {
+    "name": "coreutils-single",
+    "version": "8.32-30.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.350234",
+    "last_modified": "2026-01-29T09:21:36+00:00"
+  },
+  {
+    "name": "libgcrypt",
+    "version": "1.10.2-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.350317",
+    "last_modified": "2026-01-29T09:21:36+00:00"
+  },
+  {
+    "name": "yum",
+    "version": "4.14.0-1.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.350388",
+    "last_modified": "2026-01-29T09:21:36+00:00"
+  },
+  {
+    "name": "rpm",
+    "version": "4.16.1.3-29.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.350457",
+    "last_modified": "2026-01-29T09:21:36+00:00"
+  },
+  {
+    "name": "libtasn1",
+    "version": "4.19.0-1.amzn2023.0.5",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.350524",
+    "last_modified": "2026-01-29T09:21:36+00:00"
+  },
+  {
+    "name": "p11-kit",
+    "version": "0.24.1-2.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.350596",
+    "last_modified": "2026-01-29T09:21:36+00:00"
+  },
+  {
+    "name": "python3-setuptools-wheel",
+    "version": "59.6.0-2.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.350662",
+    "last_modified": "2026-01-29T09:21:36+00:00"
+  },
+  {
+    "name": "elfutils-default-yama-scope",
+    "version": "0.188-3.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.350732",
+    "last_modified": "2026-01-29T09:21:36+00:00"
+  },
+  {
+    "name": "libcap-ng",
+    "version": "0.8.2-4.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.350803",
+    "last_modified": "2026-01-29T09:21:36+00:00"
+  },
+  {
+    "name": "ca-certificates",
+    "version": "2025.2.76-1.0.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.350922",
+    "last_modified": "2026-01-29T09:21:36+00:00"
+  },
+  {
+    "name": "grep",
+    "version": "3.8-1.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.351003",
+    "last_modified": "2026-01-29T09:21:37+00:00"
+  },
+  {
+    "name": "libreport-filesystem",
+    "version": "2.15.2-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.351076",
+    "last_modified": "2026-01-29T09:21:37+00:00"
+  },
+  {
+    "name": "expat",
+    "version": "2.6.3-1.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.351147",
+    "last_modified": "2026-01-29T09:21:37+00:00"
+  },
+  {
+    "name": "python3-pip-wheel",
+    "version": "21.3.1-2.amzn2023.0.14",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.351222",
+    "last_modified": "2026-01-29T09:21:37+00:00"
+  },
+  {
+    "name": "libsepol",
+    "version": "3.4-3.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.351294",
+    "last_modified": "2026-01-29T09:21:37+00:00"
+  },
+  {
+    "name": "openssl",
+    "version": "1:3.2.2-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.351362",
+    "last_modified": "2026-01-29T09:21:37+00:00"
+  },
+  {
+    "name": "ncurses-base",
+    "version": "6.2-4.20200222.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.351431",
+    "last_modified": "2026-01-29T09:21:37+00:00"
+  },
+  {
+    "name": "glibc",
+    "version": "2.34-231.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.351502",
+    "last_modified": "2026-01-29T09:21:37+00:00"
+  },
+  {
+    "name": "python3",
+    "version": "3.9.25-1.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.351571",
+    "last_modified": "2026-01-29T09:21:37+00:00"
+  },
+  {
+    "name": "python3-dnf",
+    "version": "4.14.0-1.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.351641",
+    "last_modified": "2026-01-29T09:21:37+00:00"
+  },
+  {
+    "name": "curl-minimal",
+    "version": "8.11.1-4.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.351710",
+    "last_modified": "2026-01-29T09:21:38+00:00"
+  },
+  {
+    "name": "libuuid",
+    "version": "2.37.4-1.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.351778",
+    "last_modified": "2026-01-29T09:21:38+00:00"
+  },
+  {
+    "name": "libyaml",
+    "version": "0.2.5-5.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.351845",
+    "last_modified": "2026-01-29T09:21:38+00:00"
+  },
+  {
+    "name": "dnf",
+    "version": "4.14.0-1.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.351915",
+    "last_modified": "2026-01-29T09:21:38+00:00"
+  },
+  {
+    "name": "openssl-fips-provider-latest",
+    "version": "1:3.2.2-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.351990",
+    "last_modified": "2026-01-29T09:21:38+00:00"
+  },
+  {
+    "name": "libstdc++",
+    "version": "14.2.1-7.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.352060",
+    "last_modified": "2026-01-29T09:21:38+00:00"
+  },
+  {
+    "name": "pcre2",
+    "version": "10.40-1.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.352135",
+    "last_modified": "2026-01-29T09:21:38+00:00"
+  },
+  {
+    "name": "filesystem",
+    "version": "3.14-5.amzn2023.0.3",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.352208",
+    "last_modified": "2026-01-29T09:21:38+00:00"
+  },
+  {
+    "name": "libgcc",
+    "version": "14.2.1-7.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.352281",
+    "last_modified": "2026-01-29T09:21:38+00:00"
+  },
+  {
+    "name": "xz-libs",
+    "version": "5.2.5-9.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.352366",
+    "last_modified": "2026-01-29T09:21:39+00:00"
+  },
+  {
+    "name": "librepo",
+    "version": "1.14.5-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.352443",
+    "last_modified": "2026-01-29T09:21:39+00:00"
+  },
+  {
+    "name": "bash",
+    "version": "5.2.15-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.352517",
+    "last_modified": "2026-01-29T09:21:39+00:00"
+  },
+  {
+    "name": "python3-rpm",
+    "version": "4.16.1.3-29.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.352588",
+    "last_modified": "2026-01-29T09:21:39+00:00"
+  },
+  {
+    "name": "libassuan",
+    "version": "2.5.5-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.352660",
+    "last_modified": "2026-01-29T09:21:39+00:00"
+  },
+  {
+    "name": "libcom_err",
+    "version": "1.46.5-2.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.352730",
+    "last_modified": "2026-01-29T09:21:39+00:00"
+  },
+  {
+    "name": "glibc-minimal-langpack",
+    "version": "2.34-231.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.352799",
+    "last_modified": "2026-01-29T09:21:39+00:00"
+  },
+  {
+    "name": "mpfr",
+    "version": "4.1.0-7.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.352868",
+    "last_modified": "2026-01-29T09:21:39+00:00"
+  },
+  {
+    "name": "libsemanage",
+    "version": "3.4-5.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.352940",
+    "last_modified": "2026-01-29T09:21:39+00:00"
+  },
+  {
+    "name": "libmount",
+    "version": "2.37.4-1.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.353009",
+    "last_modified": "2026-01-29T09:21:39+00:00"
+  },
+  {
+    "name": "libgpg-error",
+    "version": "1.42-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.353077",
+    "last_modified": "2026-01-29T09:21:40+00:00"
+  },
+  {
+    "name": "shadow-utils",
+    "version": "2:4.9-12.amzn2023.0.4",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.353146",
+    "last_modified": "2026-01-29T09:21:40+00:00"
+  },
+  {
+    "name": "amazon-linux-repo-cdn",
+    "version": "2023.9.20251208-2.amzn2023",
+    "vendor": "Amazon Linux",
+    "architecture": "noarch",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.353216",
+    "last_modified": "2026-01-29T09:21:40+00:00"
+  },
+  {
+    "name": "libpsl",
+    "version": "0.21.5-1.amzn2023.0.1",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.353287",
+    "last_modified": "2026-01-29T09:21:40+00:00"
+  },
+  {
+    "name": "sqlite-libs",
+    "version": "3.40.0-1.amzn2023.0.7",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.353363",
+    "last_modified": "2026-01-29T09:21:40+00:00"
+  },
+  {
+    "name": "python3-hawkey",
+    "version": "0.69.0-8.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.353439",
+    "last_modified": "2026-01-29T09:21:40+00:00"
+  },
+  {
+    "name": "libsolv",
+    "version": "0.7.22-1.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.353513",
+    "last_modified": "2026-01-29T09:21:40+00:00"
+  },
+  {
+    "name": "xz",
+    "version": "5.2.5-9.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.353586",
+    "last_modified": "2026-01-29T09:21:40+00:00"
+  },
+  {
+    "name": "libgomp",
+    "version": "14.2.1-7.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.353656",
+    "last_modified": "2026-01-29T09:21:40+00:00"
+  },
+  {
+    "name": "lua-libs",
+    "version": "5.4.4-3.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.353729",
+    "last_modified": "2026-01-29T09:21:40+00:00"
+  },
+  {
+    "name": "rpm-libs",
+    "version": "4.16.1.3-29.amzn2023.0.6",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.353799",
+    "last_modified": "2026-01-29T09:21:41+00:00"
+  },
+  {
+    "name": "popt",
+    "version": "1.18-6.amzn2023.0.2",
+    "vendor": "Amazon Linux",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.353874",
+    "last_modified": "2026-01-29T09:21:41+00:00"
+  },
+  {
+    "name": "wazuh-manager",
+    "version": "4.14.2-1",
+    "vendor": "Wazuh <info@wazuh.com>",
+    "architecture": "x86_64",
+    "format": "rpm",
+    "cpe": null,
+    "created_at": "2026-02-12T20:21:47.353946",
+    "last_modified": "2026-01-29T09:21:41+00:00"
+  },
+  {
+    "name": "Office 16 Click-to-Run Extensibility Component",
+    "version": "16.0.19426.20170",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-22T00:00:00+00:00",
+    "last_modified": "2026-01-29T09:27:20+00:00"
+  },
+  {
+    "name": "WebAdvisor by McAfee",
+    "version": "4.1.1.1086",
+    "vendor": "McAfee, LLC",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-16T03:45:25+00:00",
+    "last_modified": "2026-01-29T09:27:21+00:00"
+  },
+  {
+    "name": "corepack",
+    "version": "0.34.5",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "npm",
+    "cpe": null,
+    "created_at": "2026-01-29T09:27:22+00:00",
+    "last_modified": "2026-01-29T09:27:22+00:00"
+  },
+  {
+    "name": "Python 3.12.10 Add to Path (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T06:50:37+00:00",
+    "last_modified": "2026-01-29T09:27:22+00:00"
+  },
+  {
+    "name": "Wazuh Agent",
+    "version": "4.14.2",
+    "vendor": "Wazuh, Inc.",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-29T09:26:28+00:00",
+    "last_modified": "2026-01-29T09:27:22+00:00"
+  },
+  {
+    "name": "Docker Desktop",
+    "version": "4.55.0",
+    "vendor": "Docker Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-24T11:26:42+00:00",
+    "last_modified": "2026-01-29T09:27:23+00:00"
+  },
+  {
+    "name": "Node.js",
+    "version": "24.12.0",
+    "vendor": "Node.js Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T06:52:00+00:00",
+    "last_modified": "2026-01-29T09:27:23+00:00"
+  },
+  {
+    "name": "Lenovo Smart Meeting Components",
+    "version": "3.3.11.0",
+    "vendor": "Lenovo",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-08-21T13:37:35+00:00",
+    "last_modified": "2026-01-29T09:27:24+00:00"
+  },
+  {
+    "name": "Windows Subsystem for Linux",
+    "version": "2.6.3.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-26T04:07:12+00:00",
+    "last_modified": "2026-01-29T09:27:24+00:00"
+  },
+  {
+    "name": "npm",
+    "version": "11.6.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "npm",
+    "cpe": null,
+    "created_at": "2026-01-29T09:27:25+00:00",
+    "last_modified": "2026-01-29T09:27:25+00:00"
+  },
+  {
+    "name": "Microsoft .NET Host FX Resolver - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-08-21T13:38:14+00:00",
+    "last_modified": "2026-01-29T09:27:26+00:00"
+  },
+  {
+    "name": "Office 16 Click-to-Run Licensing Component",
+    "version": "16.0.17328.20206",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-08-21T13:31:37+00:00",
+    "last_modified": "2026-01-29T09:27:26+00:00"
+  },
+  {
+    "name": "Microsoft .NET Runtime - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-08-21T13:38:13+00:00",
+    "last_modified": "2026-01-29T09:27:27+00:00"
+  },
+  {
+    "name": "Python 3.12.10 Documentation (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T06:50:18+00:00",
+    "last_modified": "2026-01-29T09:27:27+00:00"
+  },
+  {
+    "name": "Python 3.12.10 Standard Library (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T06:50:05+00:00",
+    "last_modified": "2026-01-29T09:27:28+00:00"
+  },
+  {
+    "name": "Python 3.12.10 Core Interpreter (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T06:49:58+00:00",
+    "last_modified": "2026-01-29T09:27:29+00:00"
+  },
+  {
+    "name": "Python 3.12.10 pip Bootstrap (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T06:50:28+00:00",
+    "last_modified": "2026-01-29T09:27:30+00:00"
+  },
+  {
+    "name": "Microsoft Windows Desktop Runtime - 8.0.11 (x64)",
+    "version": "8.0.11.34221",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-08-21T13:38:25+00:00",
+    "last_modified": "2026-01-29T09:27:30+00:00"
+  },
+  {
+    "name": "Python 3.12.10 Development Libraries (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T06:50:01+00:00",
+    "last_modified": "2026-01-29T09:27:30+00:00"
+  },
+  {
+    "name": "Microsoft Windows Desktop Runtime - 8.0.11 (x64)",
+    "version": "64.44.23253",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-08-21T13:38:24+00:00",
+    "last_modified": "2026-01-29T09:27:31+00:00"
+  },
+  {
+    "name": "Eclipse Temurin JDK with Hotspot 25.0.1+8 (x64)",
+    "version": "25.0.1.8",
+    "vendor": "Eclipse Adoptium",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-08T06:16:54+00:00",
+    "last_modified": "2026-01-29T09:27:32+00:00"
+  },
+  {
+    "name": "Android Studio",
+    "version": "2025.2",
+    "vendor": "Google LLC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-07T10:52:16+00:00",
+    "last_modified": "2026-01-29T09:27:32+00:00"
+  },
+  {
+    "name": "Python 3.12.10 Tcl/Tk Support (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T06:50:27+00:00",
+    "last_modified": "2026-01-29T09:27:33+00:00"
+  },
+  {
+    "name": "Cursor",
+    "version": "2.4.21",
+    "vendor": "Anysphere",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-28T05:43:49+00:00",
+    "last_modified": "2026-01-29T09:27:34+00:00"
+  },
+  {
+    "name": "Python Launcher",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T06:50:27+00:00",
+    "last_modified": "2026-01-29T09:27:35+00:00"
+  },
+  {
+    "name": "McAfee",
+    "version": "1.35.148.1",
+    "vendor": "McAfee, LLC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-22T06:03:29+00:00",
+    "last_modified": "2026-01-29T09:27:35+00:00"
+  },
+  {
+    "name": "Python 3.12.10 Executables (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T06:49:59+00:00",
+    "last_modified": "2026-01-29T09:27:35+00:00"
+  },
+  {
+    "name": "Python 3.12.10 Test Suite (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T06:50:15+00:00",
+    "last_modified": "2026-01-29T09:27:35+00:00"
+  },
+  {
+    "name": "Git",
+    "version": "2.52.0",
+    "vendor": "The Git Development Community",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-24T11:47:08+00:00",
+    "last_modified": "2026-01-29T09:27:36+00:00"
+  },
+  {
+    "name": "Lenovo Now",
+    "version": "4.5.0.24",
+    "vendor": "Lenovo",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-15T06:12:50+00:00",
+    "last_modified": "2026-01-29T09:27:36+00:00"
+  },
+  {
+    "name": "Microsoft .NET Host - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-08-21T13:38:16+00:00",
+    "last_modified": "2026-01-29T09:27:37+00:00"
+  },
+  {
+    "name": "Lenovo Vantage Service",
+    "version": "4.2601.20.0",
+    "vendor": "Lenovo Group Ltd.",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-30T07:30:55+00:00",
+    "last_modified": "2026-01-30T08:53:43+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-02T04:04:51+00:00",
+    "last_modified": "2026-02-02T04:28:21+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-02T04:04:53+00:00",
+    "last_modified": "2026-02-02T04:28:21+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.44.35211",
+    "version": "14.44.35211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-10T05:05:38+00:00",
+    "last_modified": "2026-02-10T05:55:41+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-02T04:04:55+00:00",
+    "last_modified": "2026-02-02T04:28:21+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2022 X86 Additional Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-02T04:04:57+00:00",
+    "last_modified": "2026-02-02T04:28:21+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211",
+    "version": "14.44.35211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-10T05:05:37+00:00",
+    "last_modified": "2026-02-10T05:55:41+00:00"
+  },
+  {
+    "name": "PostgreSQL 18",
+    "version": "18.1-2",
+    "vendor": "PostgreSQL Global Development Group",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T04:47:42+00:00",
+    "last_modified": "2026-02-04T05:21:10+00:00"
+  },
+  {
+    "name": "Google Chrome",
+    "version": "144.0.7559.133",
+    "vendor": "Google LLC",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T04:11:16+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Zoom Workplace",
+    "version": "6.7.2 (26346)",
+    "vendor": "Zoom Communications, Inc.",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-21T15:47:34+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Microsoft Visual Studio Code (User)",
+    "version": "1.108.1",
+    "vendor": "Microsoft Corporation",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-22T04:31:53+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Kiro (User)",
+    "version": "0.8.140",
+    "vendor": "Amazon Web Services",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-27T04:32:57+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Antigravity (User)",
+    "version": "1.15.8",
+    "vendor": "Google",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-27T09:45:00+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Python 3.12.10 (64-bit)",
+    "version": "3.12.10150.0",
+    "vendor": "Python Software Foundation",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T06:50:37+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Dolby Access",
+    "version": "3.27.6410.0",
+    "vendor": "Dolby Laboratories",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Lenovo Vantage",
+    "version": "10.2511.10.0",
+    "vendor": "LENOVO INC.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "TrackPoint",
+    "version": "24.121.55.0",
+    "vendor": "ELAN Microelectronics Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "TrackPoint Quick Menu",
+    "version": "1.2511.45.0",
+    "vendor": "LENOVO INC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Weather",
+    "version": "4.54.63029.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "News",
+    "version": "4.56.242.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Xbox",
+    "version": "2512.1001.36.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "App Installer",
+    "version": "1.27.459.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Journal",
+    "version": "1.25336.1113.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Get Help",
+    "version": "10.2409.33293.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Solitaire & Casual Games",
+    "version": "4.25.1130.0",
+    "vendor": "Microsoft Studios",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Outlook (new)",
+    "version": "1.2024.119.200",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Power Automate",
+    "version": "11.2601.105.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Snipping Tool",
+    "version": "11.2511.47.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Windows Security",
+    "version": "1000.29429.1000.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Start Experiences App",
+    "version": "1.195.0.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Store Experience Host",
+    "version": "22512.1401.1.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Microsoft Whiteboard",
+    "version": "53.20111.128.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Dev Home",
+    "version": "0.0.0.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Photos",
+    "version": "2025.11120.5001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Clock",
+    "version": "11.2512.0.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Camera",
+    "version": "2025.2510.2.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Calculator",
+    "version": "11.2508.4.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Feedback Hub",
+    "version": "1.2512.16303.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Xbox Live",
+    "version": "1.24.10001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Game Bar",
+    "version": "7.325.11061.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Xbox Identity Provider",
+    "version": "12.130.16001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Game Speech Window",
+    "version": "1.97.17002.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Quick Assist",
+    "version": "2.0.29.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Family",
+    "version": "0.2.40.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Microsoft Teams",
+    "version": "25306.804.4102.7193",
+    "vendor": "Microsoft",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "alembic",
+    "version": "1.12.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "annotated-types",
+    "version": "0.7.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "anyio",
+    "version": "3.7.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "asyncpg",
+    "version": "0.29.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "bcrypt",
+    "version": "4.0.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "black",
+    "version": "23.12.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "certifi",
+    "version": "2025.11.12",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "cffi",
+    "version": "2.0.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "click",
+    "version": "8.3.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "charset-normalizer",
+    "version": "3.4.4",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "colorama",
+    "version": "0.4.6",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "coverage",
+    "version": "7.13.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "distro",
+    "version": "1.9.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "ecdsa",
+    "version": "0.19.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "cryptography",
+    "version": "46.0.3",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "dnspython",
+    "version": "2.8.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "fastapi",
+    "version": "0.104.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "flake8",
+    "version": "6.1.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "email-validator",
+    "version": "2.1.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "greenlet",
+    "version": "3.3.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "h11",
+    "version": "0.16.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "httptools",
+    "version": "0.7.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "httpx",
+    "version": "0.25.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "idna",
+    "version": "3.11",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "MarkupSafe",
+    "version": "3.0.3",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "mccabe",
+    "version": "0.7.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "mypy",
+    "version": "1.7.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Mako",
+    "version": "1.3.10",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "mypy_extensions",
+    "version": "1.1.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "openai",
+    "version": "2.14.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "packaging",
+    "version": "25.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "passlib",
+    "version": "1.7.4",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "pathspec",
+    "version": "0.12.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "httpcore",
+    "version": "1.0.9",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "jiter",
+    "version": "0.12.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "pillow",
+    "version": "12.0.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "platformdirs",
+    "version": "4.5.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "pluggy",
+    "version": "1.6.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "pyasn1",
+    "version": "0.6.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "pycodestyle",
+    "version": "2.11.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "prometheus-client",
+    "version": "0.19.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "pycparser",
+    "version": "2.23",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "pydantic-settings",
+    "version": "2.1.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "pydantic_core",
+    "version": "2.14.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "iniconfig",
+    "version": "2.3.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "pyflakes",
+    "version": "3.1.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "pytest",
+    "version": "7.4.3",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "pytest-cov",
+    "version": "4.1.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "pytest-asyncio",
+    "version": "0.21.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "python-dotenv",
+    "version": "1.2.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "python-jose",
+    "version": "3.3.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "python-json-logger",
+    "version": "2.0.7",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "python-multipart",
+    "version": "0.0.6",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "PyYAML",
+    "version": "6.0.3",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "redis",
+    "version": "7.1.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "regex",
+    "version": "2025.11.3",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "reportlab",
+    "version": "4.0.7",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "requests",
+    "version": "2.32.5",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "rsa",
+    "version": "4.9.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "sniffio",
+    "version": "1.3.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "pip",
+    "version": "25.3",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "SQLAlchemy",
+    "version": "2.0.23",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "starlette",
+    "version": "0.27.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "pydantic",
+    "version": "2.5.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "tqdm",
+    "version": "4.67.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "tiktoken",
+    "version": "0.12.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.15.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "urllib3",
+    "version": "2.6.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "uvicorn",
+    "version": "0.24.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "watchfiles",
+    "version": "1.1.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "websockets",
+    "version": "15.0.1",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-02-06T05:14:05+00:00",
+    "last_modified": "2026-02-06T05:14:05+00:00"
+  },
+  {
+    "name": "Microsoft Clipchamp",
+    "version": "4.5.10220.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T08:38:25+00:00",
+    "last_modified": "2026-02-06T08:38:25+00:00"
+  },
+  {
+    "name": "Microsoft 365 Copilot",
+    "version": "19.2602.33151.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T08:38:25+00:00",
+    "last_modified": "2026-02-06T08:38:25+00:00"
+  },
+  {
+    "name": "Microsoft Store",
+    "version": "22512.1401.1101.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T08:38:25+00:00",
+    "last_modified": "2026-02-06T08:38:25+00:00"
+  },
+  {
+    "name": "Microsoft To Do",
+    "version": "2.168.6211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-07T19:09:53+00:00",
+    "last_modified": "2026-02-07T19:09:53+00:00"
+  },
+  {
+    "name": "Microsoft Office Home and Student 2021 - en-us",
+    "version": "16.0.19628.20166",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T03:47:49+00:00",
+    "last_modified": "2026-02-09T05:21:09+00:00"
+  },
+  {
+    "name": "Microsoft 365 - en-us",
+    "version": "16.0.19628.20166",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T03:47:49+00:00",
+    "last_modified": "2026-02-09T05:21:09+00:00"
+  },
+  {
+    "name": "Microsoft Edge",
+    "version": "144.0.3719.115",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T03:40:43+00:00",
+    "last_modified": "2026-02-09T05:21:09+00:00"
+  },
+  {
+    "name": "Microsoft Edge WebView2 Runtime",
+    "version": "144.0.3719.115",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T03:41:05+00:00",
+    "last_modified": "2026-02-09T05:21:09+00:00"
+  },
+  {
+    "name": "Neo4j Desktop 2 2.1.1",
+    "version": "2.1.1",
+    "vendor": "Neo4j Inc.",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T05:38:12+00:00",
+    "last_modified": "2026-02-09T06:27:46+00:00"
+  },
+  {
+    "name": "Microsoft OneDrive",
+    "version": "26.007.0112.0002",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-10T03:57:26+00:00",
+    "last_modified": "2026-02-10T04:45:36+00:00"
+  },
+  {
+    "name": "PIPAgent",
+    "version": "2.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:54+00:00",
+    "last_modified": "2026-01-29T09:41:54+00:00"
+  },
+  {
+    "name": "Maps",
+    "version": "3.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:54+00:00",
+    "last_modified": "2026-01-29T09:41:54+00:00"
+  },
+  {
+    "name": "pip",
+    "version": "21.2.4",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:54+00:00",
+    "last_modified": "2026-01-29T09:41:54+00:00"
+  },
+  {
+    "name": "DaVinciKeyboards",
+    "version": null,
+    "vendor": "Blackmagic-design",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-07T09:36:19+00:00",
+    "last_modified": "2026-01-29T09:41:54+00:00"
+  },
+  {
+    "name": "AccessibilityUIServer",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:54+00:00",
+    "last_modified": "2026-01-29T09:41:54+00:00"
+  },
+  {
+    "name": "QuickTime Player",
+    "version": "10.5",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:55+00:00",
+    "last_modified": "2026-01-29T09:41:55+00:00"
+  },
+  {
+    "name": "AOSUIPrefPaneLauncher",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:55+00:00",
+    "last_modified": "2026-01-29T09:41:55+00:00"
+  },
+  {
+    "name": "Photos",
+    "version": "11.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:55+00:00",
+    "last_modified": "2026-01-29T09:41:55+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0314_AppleLoopsHipHop1",
+    "version": "2.1.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:07:56+00:00",
+    "last_modified": "2026-01-29T09:41:55+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0806_PlugInSettingsGBLogic",
+    "version": "2.0.0.0.1.1602785573",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:59+00:00",
+    "last_modified": "2026-01-29T09:41:55+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0615_GBLogicAlchemyEssentials",
+    "version": "2.0.0.0.1.1602785573",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:54+00:00",
+    "last_modified": "2026-01-29T09:41:55+00:00"
+  },
+  {
+    "name": "altgraph",
+    "version": "0.17.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:55+00:00",
+    "last_modified": "2026-01-29T09:41:55+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0539_DrummerTambourine",
+    "version": "2.0.0.0.1.1602002531",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:39+00:00",
+    "last_modified": "2026-01-29T09:41:56+00:00"
+  },
+  {
+    "name": "Digital Color Meter",
+    "version": "6.10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:56+00:00",
+    "last_modified": "2026-01-29T09:41:56+00:00"
+  },
+  {
+    "name": "Memory Slot Utility",
+    "version": "1.5.3b1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:56+00:00",
+    "last_modified": "2026-01-29T09:41:56+00:00"
+  },
+  {
+    "name": "TextEdit",
+    "version": "1.20",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:56+00:00",
+    "last_modified": "2026-01-29T09:41:56+00:00"
+  },
+  {
+    "name": "Automator Application Stub",
+    "version": "1.3",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:56+00:00",
+    "last_modified": "2026-01-29T09:41:56+00:00"
+  },
+  {
+    "name": "Passwords",
+    "version": "2.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:56+00:00",
+    "last_modified": "2026-01-29T09:41:56+00:00"
+  },
+  {
+    "name": "Pro Display Calibrator",
+    "version": " ",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:57+00:00",
+    "last_modified": "2026-01-29T09:41:57+00:00"
+  },
+  {
+    "name": "BluetoothUIServer",
+    "version": "9.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:56+00:00",
+    "last_modified": "2026-01-29T09:41:56+00:00"
+  },
+  {
+    "name": "Installer Progress",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:57+00:00",
+    "last_modified": "2026-01-29T09:41:57+00:00"
+  },
+  {
+    "name": "Mail",
+    "version": "16.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:57+00:00",
+    "last_modified": "2026-01-29T09:41:57+00:00"
+  },
+  {
+    "name": "GameOverlayUI",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:57+00:00",
+    "last_modified": "2026-01-29T09:41:57+00:00"
+  },
+  {
+    "name": "CoreLocationAgent",
+    "version": "3064.0.10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:57+00:00",
+    "last_modified": "2026-01-29T09:41:57+00:00"
+  },
+  {
+    "name": "ThermalTrap",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:57+00:00",
+    "last_modified": "2026-01-29T09:41:57+00:00"
+  },
+  {
+    "name": "ScreenSaverEngine",
+    "version": "5.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:58+00:00",
+    "last_modified": "2026-01-29T09:41:58+00:00"
+  },
+  {
+    "name": "Dwell Control",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:58+00:00",
+    "last_modified": "2026-01-29T09:41:58+00:00"
+  },
+  {
+    "name": "Disk Utility",
+    "version": "22.7",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:58+00:00",
+    "last_modified": "2026-01-29T09:41:58+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0322_AppleLoopsDiscoFunk1",
+    "version": "2.0.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:05+00:00",
+    "last_modified": "2026-01-29T09:41:58+00:00"
+  },
+  {
+    "name": "Screen Sharing",
+    "version": "6.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:58+00:00",
+    "last_modified": "2026-01-29T09:41:58+00:00"
+  },
+  {
+    "name": "XProtectPlistConfigData_10_15.16U4406",
+    "version": "5323.1.1762559907",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-11-12T05:15:33+00:00",
+    "last_modified": "2026-01-29T09:41:59+00:00"
+  },
+  {
+    "name": "Paired Devices",
+    "version": "7.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:59+00:00",
+    "last_modified": "2026-01-29T09:41:59+00:00"
+  },
+  {
+    "name": "CLTools_SDK_macOS14",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-12-17T19:28:49+00:00",
+    "last_modified": "2026-01-29T09:41:59+00:00"
+  },
+  {
+    "name": "Install Command Line Developer Tools",
+    "version": " ",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:59+00:00",
+    "last_modified": "2026-01-29T09:41:59+00:00"
+  },
+  {
+    "name": "Script Menu",
+    "version": "1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:41:59+00:00",
+    "last_modified": "2026-01-29T09:41:59+00:00"
+  },
+  {
+    "name": "ASAF.SDK",
+    "version": "2.1.8",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-07T09:36:09+00:00",
+    "last_modified": "2026-01-29T09:41:59+00:00"
+  },
+  {
+    "name": "CLTools_SDK_macOS_NMOS",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-12-17T19:28:48+00:00",
+    "last_modified": "2026-01-29T09:42:00+00:00"
+  },
+  {
+    "name": "Enhanced Logging",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:00+00:00",
+    "last_modified": "2026-01-29T09:42:00+00:00"
+  },
+  {
+    "name": "Spotlight",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:00+00:00",
+    "last_modified": "2026-01-29T09:42:00+00:00"
+  },
+  {
+    "name": "UniversalAccessControl",
+    "version": "7.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:00+00:00",
+    "last_modified": "2026-01-29T09:42:00+00:00"
+  },
+  {
+    "name": "Notes",
+    "version": "4.13",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:00+00:00",
+    "last_modified": "2026-01-29T09:42:00+00:00"
+  },
+  {
+    "name": "Preview",
+    "version": "11.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:01+00:00",
+    "last_modified": "2026-01-29T09:42:01+00:00"
+  },
+  {
+    "name": "ProfileHelper",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:01+00:00",
+    "last_modified": "2026-01-29T09:42:01+00:00"
+  },
+  {
+    "name": "Numbers",
+    "version": "14.4",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:01+00:00",
+    "last_modified": "2026-01-29T09:42:01+00:00"
+  },
+  {
+    "name": "screencaptureui",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:01+00:00",
+    "last_modified": "2026-01-29T09:42:01+00:00"
+  },
+  {
+    "name": "Lassen",
+    "version": "7.42.1",
+    "vendor": "Amazon",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-03T07:05:28+00:00",
+    "last_modified": "2026-01-29T09:42:01+00:00"
+  },
+  {
+    "name": "Installer",
+    "version": "6.2.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:01+00:00",
+    "last_modified": "2026-01-29T09:42:01+00:00"
+  },
+  {
+    "name": "System Settings",
+    "version": "15.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:02+00:00",
+    "last_modified": "2026-01-29T09:42:02+00:00"
+  },
+  {
+    "name": "XProtectPlistConfigData_10_15.16U4394",
+    "version": "5317.1.1758835150",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-06T09:08:09+00:00",
+    "last_modified": "2026-01-29T09:42:02+00:00"
+  },
+  {
+    "name": "cdm.Numbers_MASReceipt",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:10:34+00:00",
+    "last_modified": "2026-01-29T09:42:02+00:00"
+  },
+  {
+    "name": "UIKitSystem",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:02+00:00",
+    "last_modified": "2026-01-29T09:42:02+00:00"
+  },
+  {
+    "name": "wheel",
+    "version": "0.37.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:02+00:00",
+    "last_modified": "2026-01-29T09:42:02+00:00"
+  },
+  {
+    "name": "Language Chooser",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:02+00:00",
+    "last_modified": "2026-01-29T09:42:02+00:00"
+  },
+  {
+    "name": "XProtectPlistConfigData_10_15.16U4405",
+    "version": "5322.1.1761881349",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-11-07T06:23:00+00:00",
+    "last_modified": "2026-01-29T09:42:03+00:00"
+  },
+  {
+    "name": "BluetoothSetupAssistant",
+    "version": "9.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:03+00:00",
+    "last_modified": "2026-01-29T09:42:03+00:00"
+  },
+  {
+    "name": "BluetoothUIService",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:03+00:00",
+    "last_modified": "2026-01-29T09:42:03+00:00"
+  },
+  {
+    "name": "Contacts",
+    "version": "14.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:03+00:00",
+    "last_modified": "2026-01-29T09:42:03+00:00"
+  },
+  {
+    "name": "Font Book",
+    "version": "11.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:03+00:00",
+    "last_modified": "2026-01-29T09:42:03+00:00"
+  },
+  {
+    "name": "PowerChime",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:03+00:00",
+    "last_modified": "2026-01-29T09:42:03+00:00"
+  },
+  {
+    "name": "MobileDeviceDevelopment",
+    "version": "16.4.0.9000000001.1667398374",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-12-04T09:09:09+00:00",
+    "last_modified": "2026-01-29T09:42:03+00:00"
+  },
+  {
+    "name": "pip",
+    "version": "21.2.4",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:04+00:00",
+    "last_modified": "2026-01-29T09:42:04+00:00"
+  },
+  {
+    "name": "Accessibility Reader",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:04+00:00",
+    "last_modified": "2026-01-29T09:42:04+00:00"
+  },
+  {
+    "name": "TipsSpotlightHandler",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:04+00:00",
+    "last_modified": "2026-01-29T09:42:04+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0509_EXS_StringsEnsemble",
+    "version": "2.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:34+00:00",
+    "last_modified": "2026-01-29T09:42:04+00:00"
+  },
+  {
+    "name": "Calendar / Reminders",
+    "version": "8.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:04+00:00",
+    "last_modified": "2026-01-29T09:42:04+00:00"
+  },
+  {
+    "name": "Automator Installer",
+    "version": "2.10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:04+00:00",
+    "last_modified": "2026-01-29T09:42:04+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0637_AppleLoopsDrummerKyle",
+    "version": "3.1.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:55+00:00",
+    "last_modified": "2026-01-29T09:42:05+00:00"
+  },
+  {
+    "name": "Manifest",
+    "version": "20.2.1",
+    "vendor": "Blackmagic-design",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-07T09:36:35+00:00",
+    "last_modified": "2026-01-29T09:42:05+00:00"
+  },
+  {
+    "name": "DiskImageMounter",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:05+00:00",
+    "last_modified": "2026-01-29T09:42:05+00:00"
+  },
+  {
+    "name": "AVB Configuration",
+    "version": "1400.10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:05+00:00",
+    "last_modified": "2026-01-29T09:42:05+00:00"
+  },
+  {
+    "name": "Screenshot",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:05+00:00",
+    "last_modified": "2026-01-29T09:42:05+00:00"
+  },
+  {
+    "name": "Boot Camp Assistant",
+    "version": "6.1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:05+00:00",
+    "last_modified": "2026-01-29T09:42:05+00:00"
+  },
+  {
+    "name": "AppleScript Utility",
+    "version": "1.1.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:05+00:00",
+    "last_modified": "2026-01-29T09:42:05+00:00"
+  },
+  {
+    "name": "Reminders",
+    "version": "7.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:06+00:00",
+    "last_modified": "2026-01-29T09:42:06+00:00"
+  },
+  {
+    "name": "TV",
+    "version": "1.6.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:06+00:00",
+    "last_modified": "2026-01-29T09:42:06+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0371_EXS_GuitarsAcoustic",
+    "version": "3.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:19+00:00",
+    "last_modified": "2026-01-29T09:42:06+00:00"
+  },
+  {
+    "name": "Dictionary",
+    "version": "2.3.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:06+00:00",
+    "last_modified": "2026-01-29T09:42:06+00:00"
+  },
+  {
+    "name": "EscrowSecurityAlert",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:06+00:00",
+    "last_modified": "2026-01-29T09:42:06+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0482_EXS_OrchWoodwindAltoSax",
+    "version": "2.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:23+00:00",
+    "last_modified": "2026-01-29T09:42:06+00:00"
+  },
+  {
+    "name": "Stickies",
+    "version": "10.3",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:07+00:00",
+    "last_modified": "2026-01-29T09:42:07+00:00"
+  },
+  {
+    "name": "XProtectPlistConfigData_10_15.16U4403",
+    "version": "5321.1.1761162008",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-23T14:12:34+00:00",
+    "last_modified": "2026-01-29T09:42:07+00:00"
+  },
+  {
+    "name": "Keynote14",
+    "version": "14.4.1.1742681647",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:10:16+00:00",
+    "last_modified": "2026-01-29T09:42:07+00:00"
+  },
+  {
+    "name": "Coverage Details",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:07+00:00",
+    "last_modified": "2026-01-29T09:42:07+00:00"
+  },
+  {
+    "name": "Dock",
+    "version": "1.8",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:07+00:00",
+    "last_modified": "2026-01-29T09:42:07+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0310_UB_DrumMachineDesignerGB",
+    "version": "2.0.0.0.1.1602002531",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:07:52+00:00",
+    "last_modified": "2026-01-29T09:42:07+00:00"
+  },
+  {
+    "name": "UniversalControl",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:08+00:00",
+    "last_modified": "2026-01-29T09:42:08+00:00"
+  },
+  {
+    "name": "CLTools_SDK_macOS_LMOS",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-12-17T19:28:49+00:00",
+    "last_modified": "2026-01-29T09:42:08+00:00"
+  },
+  {
+    "name": "Mission Control",
+    "version": "1.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:08+00:00",
+    "last_modified": "2026-01-29T09:42:08+00:00"
+  },
+  {
+    "name": "ManifestBlackmagicRawPlayer",
+    "version": "5.0.0",
+    "vendor": "Blackmagic-design",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-07T09:36:35+00:00",
+    "last_modified": "2026-01-29T09:42:08+00:00"
+  },
+  {
+    "name": "App Store",
+    "version": "3.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:08+00:00",
+    "last_modified": "2026-01-29T09:42:08+00:00"
+  },
+  {
+    "name": "Calculator",
+    "version": "12.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:08+00:00",
+    "last_modified": "2026-01-29T09:42:08+00:00"
+  },
+  {
+    "name": "Freeform",
+    "version": "4.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:09+00:00",
+    "last_modified": "2026-01-29T09:42:09+00:00"
+  },
+  {
+    "name": "iPhone Mirroring",
+    "version": "1.5",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:09+00:00",
+    "last_modified": "2026-01-29T09:42:09+00:00"
+  },
+  {
+    "name": "CLTools_SDK_macOS110",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-12-17T19:28:49+00:00",
+    "last_modified": "2026-01-29T09:42:09+00:00"
+  },
+  {
+    "name": "CoreServicesUIAgent",
+    "version": "369",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:09+00:00",
+    "last_modified": "2026-01-29T09:42:09+00:00"
+  },
+  {
+    "name": "setuptools",
+    "version": "58.0.4",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:09+00:00",
+    "last_modified": "2026-01-29T09:42:09+00:00"
+  },
+  {
+    "name": "Screen Time",
+    "version": "3.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:09+00:00",
+    "last_modified": "2026-01-29T09:42:09+00:00"
+  },
+  {
+    "name": "Clock",
+    "version": "1.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:09+00:00",
+    "last_modified": "2026-01-29T09:42:09+00:00"
+  },
+  {
+    "name": "JavaLauncher",
+    "version": "326",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:10+00:00",
+    "last_modified": "2026-01-29T09:42:10+00:00"
+  },
+  {
+    "name": "aiv.AIVApp",
+    "version": "10.98.0",
+    "vendor": "Amazon",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-01T05:11:13+00:00",
+    "last_modified": "2026-01-29T09:42:10+00:00"
+  },
+  {
+    "name": "Keyboard Setup Assistant",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:10+00:00",
+    "last_modified": "2026-01-29T09:42:10+00:00"
+  },
+  {
+    "name": "Migration Assistant",
+    "version": "26.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:10+00:00",
+    "last_modified": "2026-01-29T09:42:10+00:00"
+  },
+  {
+    "name": "Game Center",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:10+00:00",
+    "last_modified": "2026-01-29T09:42:10+00:00"
+  },
+  {
+    "name": "Batteries",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:10+00:00",
+    "last_modified": "2026-01-29T09:42:10+00:00"
+  },
+  {
+    "name": "SystemUIServer",
+    "version": "1.7",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:11+00:00",
+    "last_modified": "2026-01-29T09:42:11+00:00"
+  },
+  {
+    "name": "Script Editor",
+    "version": "2.11",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:11+00:00",
+    "last_modified": "2026-01-29T09:42:11+00:00"
+  },
+  {
+    "name": "WindowManagerShowDesktopEducation",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:11+00:00",
+    "last_modified": "2026-01-29T09:42:11+00:00"
+  },
+  {
+    "name": "FamilyExtensionHost",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:11+00:00",
+    "last_modified": "2026-01-29T09:42:11+00:00"
+  },
+  {
+    "name": "Print Center",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:11+00:00",
+    "last_modified": "2026-01-29T09:42:11+00:00"
+  },
+  {
+    "name": "Bluetooth File Exchange",
+    "version": "9.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:11+00:00",
+    "last_modified": "2026-01-29T09:42:11+00:00"
+  },
+  {
+    "name": "WindowManager",
+    "version": " ",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:12+00:00",
+    "last_modified": "2026-01-29T09:42:12+00:00"
+  },
+  {
+    "name": "Tips",
+    "version": "26.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:12+00:00",
+    "last_modified": "2026-01-29T09:42:12+00:00"
+  },
+  {
+    "name": "Podcasts",
+    "version": "1.1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:12+00:00",
+    "last_modified": "2026-01-29T09:42:12+00:00"
+  },
+  {
+    "name": "KeyboardAccessAgent",
+    "version": "10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:12+00:00",
+    "last_modified": "2026-01-29T09:42:12+00:00"
+  },
+  {
+    "name": "XProtectPlistConfigData_10_15.16U4398",
+    "version": "5319.1.1760457566",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-17T11:41:19+00:00",
+    "last_modified": "2026-01-29T09:42:12+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0540_PlugInSettingsGB",
+    "version": "2.0.0.0.1.1602785573",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:40+00:00",
+    "last_modified": "2026-01-29T09:42:12+00:00"
+  },
+  {
+    "name": "Safari",
+    "version": "26.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:13+00:00",
+    "last_modified": "2026-01-29T09:42:13+00:00"
+  },
+  {
+    "name": "setuptools",
+    "version": "58.0.4",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:13+00:00",
+    "last_modified": "2026-01-29T09:42:13+00:00"
+  },
+  {
+    "name": "Journal",
+    "version": "2.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:13+00:00",
+    "last_modified": "2026-01-29T09:42:13+00:00"
+  },
+  {
+    "name": "RegisterPluginIM",
+    "version": "26.200",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:13+00:00",
+    "last_modified": "2026-01-29T09:42:13+00:00"
+  },
+  {
+    "name": "WorkoutAlert-Mac",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:13+00:00",
+    "last_modified": "2026-01-29T09:42:13+00:00"
+  },
+  {
+    "name": "CLTools_Executables",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-12-17T19:28:48+00:00",
+    "last_modified": "2026-01-29T09:42:13+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0554_AppleLoopsDiscoFunk2",
+    "version": "2.1.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:42+00:00",
+    "last_modified": "2026-01-29T09:42:14+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0646_AppleLoopsDrummerElectronic",
+    "version": "3.1.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:56+00:00",
+    "last_modified": "2026-01-29T09:42:14+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0048_AlchemyPadsDigitalHolyGhost",
+    "version": "2.0.0.0.1.1601679620",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:07:50+00:00",
+    "last_modified": "2026-01-29T09:42:14+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0484_EXS_OrchWoodwindClarinetSolo",
+    "version": "3.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:24+00:00",
+    "last_modified": "2026-01-29T09:42:14+00:00"
+  },
+  {
+    "name": "Music",
+    "version": "1.6.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:14+00:00",
+    "last_modified": "2026-01-29T09:42:14+00:00"
+  },
+  {
+    "name": "FolderActionsDispatcher",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:14+00:00",
+    "last_modified": "2026-01-29T09:42:14+00:00"
+  },
+  {
+    "name": "CLTools_macOS_SDK",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-12-17T19:28:49+00:00",
+    "last_modified": "2026-01-29T09:42:15+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0325_AppleLoopsGarageBand1",
+    "version": "2.1.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:10+00:00",
+    "last_modified": "2026-01-29T09:42:15+00:00"
+  },
+  {
+    "name": "Pages14",
+    "version": "14.4.1.1742681647",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:10:49+00:00",
+    "last_modified": "2026-01-29T09:42:15+00:00"
+  },
+  {
+    "name": "ODSAgent",
+    "version": "1.9",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:15+00:00",
+    "last_modified": "2026-01-29T09:42:15+00:00"
+  },
+  {
+    "name": "SystemIntents",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:15+00:00",
+    "last_modified": "2026-01-29T09:42:15+00:00"
+  },
+  {
+    "name": "cdm.GarageBand_MASReceipt",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:09:23+00:00",
+    "last_modified": "2026-01-29T09:42:15+00:00"
+  },
+  {
+    "name": "DaVinci Resolve",
+    "version": "20.3.10006",
+    "vendor": "Blackmagic-design",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:15+00:00",
+    "last_modified": "2026-01-29T09:42:15+00:00"
+  },
+  {
+    "name": "MRTConfigData_10_15.16U4211",
+    "version": "1.93.1.1657754914",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-06T09:08:09+00:00",
+    "last_modified": "2026-01-29T09:42:16+00:00"
+  },
+  {
+    "name": "Phone",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:16+00:00",
+    "last_modified": "2026-01-29T09:42:16+00:00"
+  },
+  {
+    "name": "Weather",
+    "version": "6.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:16+00:00",
+    "last_modified": "2026-01-29T09:42:16+00:00"
+  },
+  {
+    "name": "ScriptMonitor",
+    "version": "1.0.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:16+00:00",
+    "last_modified": "2026-01-29T09:42:16+00:00"
+  },
+  {
+    "name": "ControlStrip",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:16+00:00",
+    "last_modified": "2026-01-29T09:42:16+00:00"
+  },
+  {
+    "name": "NowPlayingTouchUI",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:16+00:00",
+    "last_modified": "2026-01-29T09:42:16+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0354_EXS_PianoSteinway",
+    "version": "2.0.0.0.1.1602781381",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:13+00:00",
+    "last_modified": "2026-01-29T09:42:17+00:00"
+  },
+  {
+    "name": "Keychain Circle Notification",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:17+00:00",
+    "last_modified": "2026-01-29T09:42:17+00:00"
+  },
+  {
+    "name": "Photo Booth",
+    "version": "13.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:17+00:00",
+    "last_modified": "2026-01-29T09:42:17+00:00"
+  },
+  {
+    "name": "XcodeSystemResources",
+    "version": "26.1.1.0.1762495571",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-12-04T09:09:09+00:00",
+    "last_modified": "2026-01-29T09:42:17+00:00"
+  },
+  {
+    "name": "Time Machine",
+    "version": "1.3",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:17+00:00",
+    "last_modified": "2026-01-29T09:42:17+00:00"
+  },
+  {
+    "name": "Software Update",
+    "version": "6",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:17+00:00",
+    "last_modified": "2026-01-29T09:42:17+00:00"
+  },
+  {
+    "name": "WatchFaceAlert",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:18+00:00",
+    "last_modified": "2026-01-29T09:42:18+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0312_UB_UltrabeatKitsGBLogic",
+    "version": "2.0.0.0.1.1602002531",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:07:54+00:00",
+    "last_modified": "2026-01-29T09:42:18+00:00"
+  },
+  {
+    "name": "future",
+    "version": "0.18.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:18+00:00",
+    "last_modified": "2026-01-29T09:42:18+00:00"
+  },
+  {
+    "name": "Keynote",
+    "version": "14.4",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:18+00:00",
+    "last_modified": "2026-01-29T09:42:18+00:00"
+  },
+  {
+    "name": "System Events",
+    "version": "1.3.6",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:18+00:00",
+    "last_modified": "2026-01-29T09:42:18+00:00"
+  },
+  {
+    "name": "TextInputSwitcher",
+    "version": "1.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:18+00:00",
+    "last_modified": "2026-01-29T09:42:18+00:00"
+  },
+  {
+    "name": "Magnifier",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:19+00:00",
+    "last_modified": "2026-01-29T09:42:19+00:00"
+  },
+  {
+    "name": "XProtectPlistConfigData_10_15.16U4407",
+    "version": "5324.1.1764904574",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-12-11T19:03:59+00:00",
+    "last_modified": "2026-01-29T09:42:19+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0593_DrummerSoCalGBLogic",
+    "version": "2.0.0.0.1.1602002531",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:47+00:00",
+    "last_modified": "2026-01-29T09:42:19+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0317_AppleLoopsModernRnB1",
+    "version": "2.0.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:01+00:00",
+    "last_modified": "2026-01-29T09:42:19+00:00"
+  },
+  {
+    "name": "Diagnostics Reporter",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:19+00:00",
+    "last_modified": "2026-01-29T09:42:19+00:00"
+  },
+  {
+    "name": "ColorSync Utility",
+    "version": "12.2.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:19+00:00",
+    "last_modified": "2026-01-29T09:42:19+00:00"
+  },
+  {
+    "name": "macholib",
+    "version": "1.15.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:19+00:00",
+    "last_modified": "2026-01-29T09:42:19+00:00"
+  },
+  {
+    "name": "ManifestPanels",
+    "version": "2.3.4",
+    "vendor": "Blackmagic-design",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-07T09:36:35+00:00",
+    "last_modified": "2026-01-29T09:42:20+00:00"
+  },
+  {
+    "name": "BlackmagicRaw_resolve",
+    "version": "5.0",
+    "vendor": "Blackmagic-design",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-07T09:36:33+00:00",
+    "last_modified": "2026-01-29T09:42:20+00:00"
+  },
+  {
+    "name": "ShortcutsActions",
+    "version": " ",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:20+00:00",
+    "last_modified": "2026-01-29T09:42:20+00:00"
+  },
+  {
+    "name": "FindMy",
+    "version": "4.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:20+00:00",
+    "last_modified": "2026-01-29T09:42:20+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0323_AppleLoopsVintageBreaks",
+    "version": "2.1.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:06+00:00",
+    "last_modified": "2026-01-29T09:42:20+00:00"
+  },
+  {
+    "name": "NetAuthAgent",
+    "version": "6.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:20+00:00",
+    "last_modified": "2026-01-29T09:42:20+00:00"
+  },
+  {
+    "name": "CLTools_SwiftBackDeploy",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-12-17T19:28:49+00:00",
+    "last_modified": "2026-01-29T09:42:21+00:00"
+  },
+  {
+    "name": "Activity Monitor",
+    "version": "10.14",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:21+00:00",
+    "last_modified": "2026-01-29T09:42:21+00:00"
+  },
+  {
+    "name": "XProtectPlistConfigData_10_15.16U4408",
+    "version": "5325.1.1765561255",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-12-17T16:20:16+00:00",
+    "last_modified": "2026-01-29T09:42:21+00:00"
+  },
+  {
+    "name": "Install in Progress",
+    "version": "3.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:21+00:00",
+    "last_modified": "2026-01-29T09:42:21+00:00"
+  },
+  {
+    "name": "Image Playground",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:21+00:00",
+    "last_modified": "2026-01-29T09:42:21+00:00"
+  },
+  {
+    "name": "NotificationCenter",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:21+00:00",
+    "last_modified": "2026-01-29T09:42:21+00:00"
+  },
+  {
+    "name": "Chess",
+    "version": "3.18",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:21+00:00",
+    "last_modified": "2026-01-29T09:42:21+00:00"
+  },
+  {
+    "name": "AddressBookUrlForwarder",
+    "version": "14.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:22+00:00",
+    "last_modified": "2026-01-29T09:42:22+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0357_EXS_BassAcousticUprightJazz",
+    "version": "2.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:14+00:00",
+    "last_modified": "2026-01-29T09:42:22+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0491_EXS_OrchBrass",
+    "version": "3.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:32+00:00",
+    "last_modified": "2026-01-29T09:42:22+00:00"
+  },
+  {
+    "name": "ManagedClient",
+    "version": "18.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:22+00:00",
+    "last_modified": "2026-01-29T09:42:22+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0597_LTPChordTrainer",
+    "version": "2.0.0.0.1.1602007057",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:48+00:00",
+    "last_modified": "2026-01-29T09:42:22+00:00"
+  },
+  {
+    "name": "Stocks",
+    "version": "8.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:22+00:00",
+    "last_modified": "2026-01-29T09:42:22+00:00"
+  },
+  {
+    "name": "VoiceOver",
+    "version": "10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:23+00:00",
+    "last_modified": "2026-01-29T09:42:23+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0598_LTPBasicGuitar1",
+    "version": "2.0.0.0.1.1602007057",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:50+00:00",
+    "last_modified": "2026-01-29T09:42:23+00:00"
+  },
+  {
+    "name": "UserNotificationCenter",
+    "version": "82",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:23+00:00",
+    "last_modified": "2026-01-29T09:42:23+00:00"
+  },
+  {
+    "name": "DaVinciPanels",
+    "version": null,
+    "vendor": "Blackmagic-design",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-07T09:36:18+00:00",
+    "last_modified": "2026-01-29T09:42:23+00:00"
+  },
+  {
+    "name": "RosettaUpdateAuto",
+    "version": "1.0.0.0.1763820096",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-12-17T20:08:07+00:00",
+    "last_modified": "2026-01-29T09:42:23+00:00"
+  },
+  {
+    "name": "System Information",
+    "version": "11.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:23+00:00",
+    "last_modified": "2026-01-29T09:42:23+00:00"
+  },
+  {
+    "name": "RapportUIAgent",
+    "version": "7.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:23+00:00",
+    "last_modified": "2026-01-29T09:42:23+00:00"
+  },
+  {
+    "name": "Numbers14",
+    "version": "14.4.1.1742681647",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:10:32+00:00",
+    "last_modified": "2026-01-29T09:42:24+00:00"
+  },
+  {
+    "name": "PosterBoard",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:24+00:00",
+    "last_modified": "2026-01-29T09:42:24+00:00"
+  },
+  {
+    "name": "XProtectPayloads_10_15.16U4381",
+    "version": "153.1.1753944464",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-06T09:08:09+00:00",
+    "last_modified": "2026-01-29T09:42:24+00:00"
+  },
+  {
+    "name": "WhatsApp",
+    "version": "25.27.73",
+    "vendor": "Whatsapp",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-01T05:11:07+00:00",
+    "last_modified": "2026-01-29T09:42:24+00:00"
+  },
+  {
+    "name": "Add Printer",
+    "version": "607",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:24+00:00",
+    "last_modified": "2026-01-29T09:42:24+00:00"
+  },
+  {
+    "name": "AirPort Utility",
+    "version": "6.3.9",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:24+00:00",
+    "last_modified": "2026-01-29T09:42:24+00:00"
+  },
+  {
+    "name": "Books",
+    "version": "8.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:25+00:00",
+    "last_modified": "2026-01-29T09:42:25+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0375_EXS_GuitarsVintageStrat",
+    "version": "2.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:21+00:00",
+    "last_modified": "2026-01-29T09:42:25+00:00"
+  },
+  {
+    "name": "WidgetKit Simulator",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:25+00:00",
+    "last_modified": "2026-01-29T09:42:25+00:00"
+  },
+  {
+    "name": "files.data-template",
+    "version": "26.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-12-17T20:07:39+00:00",
+    "last_modified": "2026-01-29T09:42:25+00:00"
+  },
+  {
+    "name": "Shortcuts Events",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:25+00:00",
+    "last_modified": "2026-01-29T09:42:25+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0321_AppleLoopsIndieDisco",
+    "version": "2.0.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:04+00:00",
+    "last_modified": "2026-01-29T09:42:25+00:00"
+  },
+  {
+    "name": "Xcode",
+    "version": "26.1.1.0.1.1762494225",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-12-04T07:48:39+00:00",
+    "last_modified": "2026-01-29T09:42:26+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0320_AppleLoopsChillwave1",
+    "version": "2.0.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:03+00:00",
+    "last_modified": "2026-01-29T09:42:26+00:00"
+  },
+  {
+    "name": "OBEXAgent",
+    "version": "9.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:26+00:00",
+    "last_modified": "2026-01-29T09:42:26+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0487_EXS_OrchWoodwindFluteSolo",
+    "version": "3.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:26+00:00",
+    "last_modified": "2026-01-29T09:42:26+00:00"
+  },
+  {
+    "name": "OSDUIHelper",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:26+00:00",
+    "last_modified": "2026-01-29T09:42:26+00:00"
+  },
+  {
+    "name": "six",
+    "version": "1.15.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:26+00:00",
+    "last_modified": "2026-01-29T09:42:26+00:00"
+  },
+  {
+    "name": "Erase Assistant",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:27+00:00",
+    "last_modified": "2026-01-29T09:42:27+00:00"
+  },
+  {
+    "name": "Family",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:27+00:00",
+    "last_modified": "2026-01-29T09:42:27+00:00"
+  },
+  {
+    "name": "Xcode Previews",
+    "version": "16.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:27+00:00",
+    "last_modified": "2026-01-29T09:42:27+00:00"
+  },
+  {
+    "name": "Database Events",
+    "version": "1.0.6",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:27+00:00",
+    "last_modified": "2026-01-29T09:42:27+00:00"
+  },
+  {
+    "name": "MDMMigrationTrampoline",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:27+00:00",
+    "last_modified": "2026-01-29T09:42:27+00:00"
+  },
+  {
+    "name": "MTLReplayer",
+    "version": "312.4",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:27+00:00",
+    "last_modified": "2026-01-29T09:42:27+00:00"
+  },
+  {
+    "name": "AirPort Base Station Agent",
+    "version": "2.2.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:27+00:00",
+    "last_modified": "2026-01-29T09:42:27+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0358_EXS_BassElectricFingerStyle",
+    "version": "2.0.0.0.1.1602004766",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:17+00:00",
+    "last_modified": "2026-01-29T09:42:28+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0557_IRsSharedAUX",
+    "version": "2.0.0.0.1.1602781381",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:43+00:00",
+    "last_modified": "2026-01-29T09:42:28+00:00"
+  },
+  {
+    "name": "Rosetta 2 Updater",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:28+00:00",
+    "last_modified": "2026-01-29T09:42:28+00:00"
+  },
+  {
+    "name": "XProtectPlistConfigData_10_15.16U4400",
+    "version": "5320.1.1760723678",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-22T02:05:48+00:00",
+    "last_modified": "2026-01-29T09:42:28+00:00"
+  },
+  {
+    "name": "GarageBand_AppStore",
+    "version": "10.4.12.1.1738002869",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:09:21+00:00",
+    "last_modified": "2026-01-29T09:42:28+00:00"
+  },
+  {
+    "name": "WallpaperAgent",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:29+00:00",
+    "last_modified": "2026-01-29T09:42:29+00:00"
+  },
+  {
+    "name": "Apps",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:28+00:00",
+    "last_modified": "2026-01-29T09:42:28+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0316_AppleLoopsDubstep1",
+    "version": "2.0.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:00+00:00",
+    "last_modified": "2026-01-29T09:42:29+00:00"
+  },
+  {
+    "name": "Image Capture",
+    "version": "8.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:29+00:00",
+    "last_modified": "2026-01-29T09:42:29+00:00"
+  },
+  {
+    "name": "FileProvider-Feedback",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:29+00:00",
+    "last_modified": "2026-01-29T09:42:29+00:00"
+  },
+  {
+    "name": "GatekeeperCompatibilityData.16U1906",
+    "version": "8.0.1.1570042755",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-06T09:08:09+00:00",
+    "last_modified": "2026-01-29T09:42:29+00:00"
+  },
+  {
+    "name": "DiscHelper",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:29+00:00",
+    "last_modified": "2026-01-29T09:42:29+00:00"
+  },
+  {
+    "name": "UnmountAssistantAgent",
+    "version": "5.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:29+00:00",
+    "last_modified": "2026-01-29T09:42:29+00:00"
+  },
+  {
+    "name": "wheel",
+    "version": "0.37.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:30+00:00",
+    "last_modified": "2026-01-29T09:42:30+00:00"
+  },
+  {
+    "name": "Calendar",
+    "version": "16.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:30+00:00",
+    "last_modified": "2026-01-29T09:42:30+00:00"
+  },
+  {
+    "name": "SpacesTouchBarAgent",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:30+00:00",
+    "last_modified": "2026-01-29T09:42:30+00:00"
+  },
+  {
+    "name": "Shortcuts",
+    "version": "7.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:30+00:00",
+    "last_modified": "2026-01-29T09:42:30+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0536_DrummerClapsCowbell",
+    "version": "2.0.0.0.1.1602002531",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:36+00:00",
+    "last_modified": "2026-01-29T09:42:30+00:00"
+  },
+  {
+    "name": "Captive Network Assistant",
+    "version": "5.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:30+00:00",
+    "last_modified": "2026-01-29T09:42:30+00:00"
+  },
+  {
+    "name": "MusicRecognitionMac",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:31+00:00",
+    "last_modified": "2026-01-29T09:42:31+00:00"
+  },
+  {
+    "name": "FairlightPanels",
+    "version": null,
+    "vendor": "Blackmagic-design",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-07T09:36:24+00:00",
+    "last_modified": "2026-01-29T09:42:31+00:00"
+  },
+  {
+    "name": "Pages",
+    "version": "14.4",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:31+00:00",
+    "last_modified": "2026-01-29T09:42:31+00:00"
+  },
+  {
+    "name": "Games",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:31+00:00",
+    "last_modified": "2026-01-29T09:42:31+00:00"
+  },
+  {
+    "name": "Finder",
+    "version": "26.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:31+00:00",
+    "last_modified": "2026-01-29T09:42:31+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0324_AppleLoopsBluesGarage",
+    "version": "2.0.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:08+00:00",
+    "last_modified": "2026-01-29T09:42:31+00:00"
+  },
+  {
+    "name": "Messages",
+    "version": "26.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:31+00:00",
+    "last_modified": "2026-01-29T09:42:31+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0315_AppleLoopsElectroHouse1",
+    "version": "2.1.0.0.1.1601920555",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:07:58+00:00",
+    "last_modified": "2026-01-29T09:42:32+00:00"
+  },
+  {
+    "name": "IOUIAgent",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:32+00:00",
+    "last_modified": "2026-01-29T09:42:32+00:00"
+  },
+  {
+    "name": "ShortcutDroplet",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:32+00:00",
+    "last_modified": "2026-01-29T09:42:32+00:00"
+  },
+  {
+    "name": "WiFiAgent",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:32+00:00",
+    "last_modified": "2026-01-29T09:42:32+00:00"
+  },
+  {
+    "name": "VoiceOver Utility",
+    "version": "10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:32+00:00",
+    "last_modified": "2026-01-29T09:42:32+00:00"
+  },
+  {
+    "name": "Grapher",
+    "version": "2.8",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:33+00:00",
+    "last_modified": "2026-01-29T09:42:33+00:00"
+  },
+  {
+    "name": "Audio MIDI Setup",
+    "version": "3.7",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:33+00:00",
+    "last_modified": "2026-01-29T09:42:33+00:00"
+  },
+  {
+    "name": "AirPlayUIAgent",
+    "version": "2.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:33+00:00",
+    "last_modified": "2026-01-29T09:42:33+00:00"
+  },
+  {
+    "name": "loginwindow",
+    "version": "9.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:33+00:00",
+    "last_modified": "2026-01-29T09:42:33+00:00"
+  },
+  {
+    "name": "StageManagerOnboarding",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:33+00:00",
+    "last_modified": "2026-01-29T09:42:33+00:00"
+  },
+  {
+    "name": "Problem Reporter",
+    "version": "10.13",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:33+00:00",
+    "last_modified": "2026-01-29T09:42:33+00:00"
+  },
+  {
+    "name": "iMovie_AppStore",
+    "version": "10.4.3.1.1729743769",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:09:59+00:00",
+    "last_modified": "2026-01-29T09:42:34+00:00"
+  },
+  {
+    "name": "Setup Assistant",
+    "version": "10.10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:34+00:00",
+    "last_modified": "2026-01-29T09:42:34+00:00"
+  },
+  {
+    "name": "cdm.iMovie_MASReceipt",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:10:01+00:00",
+    "last_modified": "2026-01-29T09:42:34+00:00"
+  },
+  {
+    "name": "Image Events",
+    "version": "1.1.6",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:34+00:00",
+    "last_modified": "2026-01-29T09:42:34+00:00"
+  },
+  {
+    "name": "CLTools_SDK_macOS13",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-12-17T19:28:49+00:00",
+    "last_modified": "2026-01-29T09:42:34+00:00"
+  },
+  {
+    "name": "ControlCenter",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:34+00:00",
+    "last_modified": "2026-01-29T09:42:34+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0560_LTPBasicPiano1",
+    "version": "2.0.0.0.1.1602007057",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:45+00:00",
+    "last_modified": "2026-01-29T09:42:35+00:00"
+  },
+  {
+    "name": "Certificate Assistant",
+    "version": "5.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:35+00:00",
+    "last_modified": "2026-01-29T09:42:35+00:00"
+  },
+  {
+    "name": "CLTools_SDK_macOS12",
+    "version": "26.2.0.0.1.1764812424",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-12-17T19:28:49+00:00",
+    "last_modified": "2026-01-29T09:42:35+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0538_DrummerSticks",
+    "version": "2.0.0.0.1.1602002531",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:38+00:00",
+    "last_modified": "2026-01-29T09:42:35+00:00"
+  },
+  {
+    "name": "TextInputMenuAgent",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:35+00:00",
+    "last_modified": "2026-01-29T09:42:35+00:00"
+  },
+  {
+    "name": "future",
+    "version": "0.18.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:35+00:00",
+    "last_modified": "2026-01-29T09:42:35+00:00"
+  },
+  {
+    "name": "PeopleMessageService",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:35+00:00",
+    "last_modified": "2026-01-29T09:42:35+00:00"
+  },
+  {
+    "name": "MobileAssets",
+    "version": "1.0.0.0.1645860813",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:07:49+00:00",
+    "last_modified": "2026-01-29T09:42:36+00:00"
+  },
+  {
+    "name": "OneNote",
+    "version": "16.104.25121423",
+    "vendor": "Microsoft",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:36+00:00",
+    "last_modified": "2026-01-29T09:42:36+00:00"
+  },
+  {
+    "name": "XProtectPlistConfigData_10_15.16U4396",
+    "version": "5318.1.1759788944",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-10-13T02:51:04+00:00",
+    "last_modified": "2026-01-29T09:42:36+00:00"
+  },
+  {
+    "name": "six",
+    "version": "1.15.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:36+00:00",
+    "last_modified": "2026-01-29T09:42:36+00:00"
+  },
+  {
+    "name": "GameTrampoline",
+    "version": " ",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:36+00:00",
+    "last_modified": "2026-01-29T09:42:36+00:00"
+  },
+  {
+    "name": "Apple Diagnostics",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:36+00:00",
+    "last_modified": "2026-01-29T09:42:36+00:00"
+  },
+  {
+    "name": "rcd",
+    "version": "362",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:37+00:00",
+    "last_modified": "2026-01-29T09:42:37+00:00"
+  },
+  {
+    "name": "altgraph",
+    "version": "0.17.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:37+00:00",
+    "last_modified": "2026-01-29T09:42:37+00:00"
+  },
+  {
+    "name": "cdm.Pages_MASReceipt",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:10:51+00:00",
+    "last_modified": "2026-01-29T09:42:37+00:00"
+  },
+  {
+    "name": "XProtectPayloads_10_15.16U4404",
+    "version": "156.1.1761878842",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-11-07T06:23:06+00:00",
+    "last_modified": "2026-01-29T09:42:37+00:00"
+  },
+  {
+    "name": "Home",
+    "version": "10.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:37+00:00",
+    "last_modified": "2026-01-29T09:42:37+00:00"
+  },
+  {
+    "name": "Console",
+    "version": "1.1",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:37+00:00",
+    "last_modified": "2026-01-29T09:42:37+00:00"
+  },
+  {
+    "name": "PeopleViewService",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:38+00:00",
+    "last_modified": "2026-01-29T09:42:38+00:00"
+  },
+  {
+    "name": "macholib",
+    "version": "1.15.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "pypi",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:38+00:00",
+    "last_modified": "2026-01-29T09:42:38+00:00"
+  },
+  {
+    "name": "VoiceMemos",
+    "version": "3.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:38+00:00",
+    "last_modified": "2026-01-29T09:42:38+00:00"
+  },
+  {
+    "name": "Pass Viewer",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:38+00:00",
+    "last_modified": "2026-01-29T09:42:38+00:00"
+  },
+  {
+    "name": "XProtectPlistConfigData_10_15.16U4409",
+    "version": "5326.1.1768930737",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-23T10:46:17+00:00",
+    "last_modified": "2026-01-29T09:42:38+00:00"
+  },
+  {
+    "name": "Terminal",
+    "version": "2.15",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:38+00:00",
+    "last_modified": "2026-01-29T09:42:38+00:00"
+  },
+  {
+    "name": "cdm.Keynote_MASReceipt",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:10:18+00:00",
+    "last_modified": "2026-01-29T09:42:38+00:00"
+  },
+  {
+    "name": "FaceTime",
+    "version": "36",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:39+00:00",
+    "last_modified": "2026-01-29T09:42:39+00:00"
+  },
+  {
+    "name": "iCloud+",
+    "version": "1.0",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:39+00:00",
+    "last_modified": "2026-01-29T09:42:39+00:00"
+  },
+  {
+    "name": "MAContent10_AssetPack_0537_DrummerShaker",
+    "version": "2.0.0.0.1.1602002531",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2025-08-22T01:08:37+00:00",
+    "last_modified": "2026-01-29T09:42:39+00:00"
+  },
+  {
+    "name": "Automator",
+    "version": "2.10",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:39+00:00",
+    "last_modified": "2026-01-29T09:42:39+00:00"
+  },
+  {
+    "name": "News",
+    "version": "11.2",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:42:39+00:00",
+    "last_modified": "2026-01-29T09:42:39+00:00"
+  },
+  {
+    "name": "wazuh-agent",
+    "version": "4.14.2",
+    "vendor": "Wazuh",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-01-29T09:59:18+00:00",
+    "last_modified": "2026-01-29T09:59:37+00:00"
+  },
+  {
+    "name": "XProtectPlistConfigData_10_15.16U4410",
+    "version": "5327.1.1769644697",
+    "vendor": "Apple",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-02-04T09:37:02+00:00",
+    "last_modified": "2026-02-04T10:39:03+00:00"
+  },
+  {
+    "name": "Chrome",
+    "version": "144.0.7559.133",
+    "vendor": "Google",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-02-06T04:04:27+00:00",
+    "last_modified": "2026-02-06T04:04:27+00:00"
+  },
+  {
+    "name": "Docker",
+    "version": "4.59.1",
+    "vendor": "Docker",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-02-06T05:34:34+00:00",
+    "last_modified": "2026-02-06T05:34:34+00:00"
+  },
+  {
+    "name": "WhatsApp",
+    "version": "26.4.73",
+    "vendor": "Whatsapp",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-02-09T14:55:14+00:00",
+    "last_modified": "2026-02-09T14:55:14+00:00"
+  },
+  {
+    "name": "Kiro",
+    "version": "0.9.2",
+    "vendor": "Kiro",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-02-10T04:51:48+00:00",
+    "last_modified": "2026-02-10T04:51:48+00:00"
+  },
+  {
+    "name": "Cursor",
+    "version": "2.4.32",
+    "vendor": "Todesktop",
+    "architecture": " ",
+    "format": "pkg",
+    "cpe": null,
+    "created_at": "2026-02-10T04:51:48+00:00",
+    "last_modified": "2026-02-10T04:51:48+00:00"
+  },
+  {
+    "name": "newman",
+    "version": "6.2.2",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "npm",
+    "cpe": null,
+    "created_at": "2026-01-29T10:12:29+00:00",
+    "last_modified": "2026-01-29T10:12:29+00:00"
+  },
+  {
+    "name": "Office 16 Click-to-Run Extensibility Component",
+    "version": "16.0.19426.20170",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-22T00:00:00+00:00",
+    "last_modified": "2026-01-29T10:12:29+00:00"
+  },
+  {
+    "name": "WebAdvisor by McAfee",
+    "version": "4.1.1.1086",
+    "vendor": "McAfee, LLC",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-16T03:42:06+00:00",
+    "last_modified": "2026-01-29T10:12:29+00:00"
+  },
+  {
+    "name": "Wazuh Agent",
+    "version": "4.14.2",
+    "vendor": "Wazuh, Inc.",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-29T10:11:35+00:00",
+    "last_modified": "2026-01-29T10:12:30+00:00"
+  },
+  {
+    "name": "Lenovo Smart Meeting Components",
+    "version": "3.3.11.0",
+    "vendor": "Lenovo",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-11-01T00:00:00+00:00",
+    "last_modified": "2026-01-29T10:12:30+00:00"
+  },
+  {
+    "name": "Node.js",
+    "version": "25.5.0",
+    "vendor": "Node.js Foundation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-28T11:20:47+00:00",
+    "last_modified": "2026-01-29T10:12:30+00:00"
+  },
+  {
+    "name": "Microsoft .NET Host FX Resolver - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-11-01T00:00:00+00:00",
+    "last_modified": "2026-01-29T10:12:32+00:00"
+  },
+  {
+    "name": "UiPath Platform",
+    "version": "100.1.152",
+    "vendor": "UiPath",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-21T04:12:36+00:00",
+    "last_modified": "2026-01-29T10:12:32+00:00"
+  },
+  {
+    "name": "Office 16 Click-to-Run Licensing Component",
+    "version": "16.0.17328.20206",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-11-01T00:00:00+00:00",
+    "last_modified": "2026-01-29T10:12:32+00:00"
+  },
+  {
+    "name": "Microsoft .NET Runtime - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-11-01T00:00:00+00:00",
+    "last_modified": "2026-01-29T10:12:32+00:00"
+  },
+  {
+    "name": "Microsoft Windows Desktop Runtime - 8.0.11 (x64)",
+    "version": "8.0.11.34221",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-11-02T05:12:32+00:00",
+    "last_modified": "2026-01-29T10:12:33+00:00"
+  },
+  {
+    "name": "Microsoft Windows Desktop Runtime - 8.0.11 (x64)",
+    "version": "64.44.23253",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-11-01T00:00:00+00:00",
+    "last_modified": "2026-01-29T10:12:33+00:00"
+  },
+  {
+    "name": "npm",
+    "version": "11.8.0",
+    "vendor": " ",
+    "architecture": " ",
+    "format": "npm",
+    "cpe": null,
+    "created_at": "2026-01-29T10:12:34+00:00",
+    "last_modified": "2026-01-29T10:12:34+00:00"
+  },
+  {
+    "name": "Cursor",
+    "version": "2.4.21",
+    "vendor": "Anysphere",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-23T09:54:57+00:00",
+    "last_modified": "2026-01-29T10:12:35+00:00"
+  },
+  {
+    "name": "McAfee",
+    "version": "1.35.148.1",
+    "vendor": "McAfee, LLC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-21T00:06:54+00:00",
+    "last_modified": "2026-01-29T10:12:35+00:00"
+  },
+  {
+    "name": "Lenovo Now",
+    "version": "4.5.0.24",
+    "vendor": "Lenovo",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-12T11:44:14+00:00",
+    "last_modified": "2026-01-29T10:12:35+00:00"
+  },
+  {
+    "name": "Microsoft .NET Host - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-11-01T00:00:00+00:00",
+    "last_modified": "2026-01-29T10:12:36+00:00"
+  },
+  {
+    "name": "Lenovo Vantage Service",
+    "version": "4.2601.20.0",
+    "vendor": "Lenovo Group Ltd.",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-30T05:41:35+00:00",
+    "last_modified": "2026-01-30T06:45:23+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-02T05:36:04+00:00",
+    "last_modified": "2026-02-02T06:29:40+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.44.35211",
+    "version": "14.44.35211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-10T05:20:46+00:00",
+    "last_modified": "2026-02-10T05:30:07+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-02T05:36:09+00:00",
+    "last_modified": "2026-02-02T06:29:40+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-02T05:36:06+00:00",
+    "last_modified": "2026-02-02T06:29:40+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2022 X86 Additional Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-02T05:36:10+00:00",
+    "last_modified": "2026-02-02T06:29:40+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211",
+    "version": "14.44.35211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-10T05:20:45+00:00",
+    "last_modified": "2026-02-10T05:30:07+00:00"
+  },
+  {
+    "name": "Google Chrome",
+    "version": "144.0.7559.133",
+    "vendor": "Google LLC",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T04:02:54+00:00",
+    "last_modified": "2026-02-06T04:20:33+00:00"
+  },
+  {
+    "name": "Microsoft Edge",
+    "version": "144.0.3719.115",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-07T14:14:37+00:00",
+    "last_modified": "2026-02-07T14:23:07+00:00"
+  },
+  {
+    "name": "Microsoft Edge WebView2 Runtime",
+    "version": "144.0.3719.115",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-07T14:15:00+00:00",
+    "last_modified": "2026-02-07T14:23:07+00:00"
+  },
+  {
+    "name": "Microsoft 365 - en-us",
+    "version": "16.0.19628.20166",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T05:18:54+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Microsoft OneNote - en-us",
+    "version": "16.0.19628.20166",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T05:18:54+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Brave",
+    "version": "144.1.86.148",
+    "vendor": "Brave Software Inc",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-05T03:59:34+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Postman x64 11.82.1",
+    "version": "11.82.1",
+    "vendor": "Postman",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-29T04:50:20+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Kiro (User)",
+    "version": "0.8.0",
+    "vendor": "Amazon Web Services",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-23T05:04:18+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Dolby Access",
+    "version": "3.27.6410.0",
+    "vendor": "Dolby Laboratories",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Lenovo Vantage",
+    "version": "10.2511.10.0",
+    "vendor": "LENOVO INC.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Lenovo Smart Meeting",
+    "version": "3.4.20.0",
+    "vendor": "LENOVO INC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "TrackPoint Quick Menu",
+    "version": "1.2511.45.0",
+    "vendor": "LENOVO INC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "TrackPoint",
+    "version": "24.121.55.0",
+    "vendor": "ELAN Microelectronics Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "News",
+    "version": "4.56.242.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Weather",
+    "version": "4.54.63029.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "App Installer",
+    "version": "1.27.459.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Xbox",
+    "version": "2512.1001.36.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Get Help",
+    "version": "10.2409.33293.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Journal",
+    "version": "1.25336.1113.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Microsoft 365 Copilot",
+    "version": "19.2602.33151.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Solitaire & Casual Games",
+    "version": "4.25.1130.0",
+    "vendor": "Microsoft Studios",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Outlook (new)",
+    "version": "1.2024.119.200",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Power Automate",
+    "version": "11.2601.105.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Windows Security",
+    "version": "1000.29429.1000.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Store Experience Host",
+    "version": "22512.1401.1.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Microsoft Whiteboard",
+    "version": "53.20111.128.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Dev Home",
+    "version": "0.0.0.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Photos",
+    "version": "2025.11120.5001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Calculator",
+    "version": "11.2508.4.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Camera",
+    "version": "2025.2510.2.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Feedback Hub",
+    "version": "1.2512.16303.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Xbox Live",
+    "version": "1.24.10001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Game Bar",
+    "version": "7.325.11061.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Xbox Identity Provider",
+    "version": "12.130.16001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Game Speech Window",
+    "version": "1.97.17002.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Phone Link",
+    "version": "1.25112.36.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Family",
+    "version": "0.2.40.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Quick Assist",
+    "version": "2.0.29.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Mobile devices",
+    "version": "0.25112.60.0",
+    "vendor": "Microsoft Windows",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Microsoft Teams",
+    "version": "25306.804.4102.7193",
+    "vendor": "Microsoft",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T06:21:13+00:00",
+    "last_modified": "2026-02-09T06:21:13+00:00"
+  },
+  {
+    "name": "Microsoft Clipchamp",
+    "version": "4.5.10220.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T11:24:03+00:00",
+    "last_modified": "2026-02-09T11:24:03+00:00"
+  },
+  {
+    "name": "Microsoft Store",
+    "version": "22512.1401.1101.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T11:24:03+00:00",
+    "last_modified": "2026-02-09T11:24:03+00:00"
+  },
+  {
+    "name": "Microsoft To Do",
+    "version": "2.168.6211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-10T06:39:31+00:00",
+    "last_modified": "2026-02-10T06:39:31+00:00"
+  },
+  {
+    "name": "WhatsApp",
+    "version": "2.2587.10.0",
+    "vendor": "WhatsApp Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-10T09:42:14+00:00",
+    "last_modified": "2026-02-10T09:42:14+00:00"
+  },
+  {
+    "name": "Microsoft OneDrive",
+    "version": "26.007.0112.0002",
+    "vendor": "Microsoft Corporation",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-10T07:13:34+00:00",
+    "last_modified": "2026-02-10T09:42:14+00:00"
+  },
+  {
+    "name": "Office 16 Click-to-Run Extensibility Component",
+    "version": "16.0.19426.20170",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-22T00:00:00+00:00",
+    "last_modified": "2026-01-29T10:15:08+00:00"
+  },
+  {
+    "name": "DaVinci Resolve",
+    "version": "20.3.10006",
+    "vendor": "Blackmagic Design",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T12:18:02+00:00",
+    "last_modified": "2026-01-29T10:15:08+00:00"
+  },
+  {
+    "name": "AMD Install Manager",
+    "version": "25.30.26008.1803",
+    "vendor": "Advanced Micro Devices, Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-24T12:40:55+00:00",
+    "last_modified": "2026-01-29T10:15:08+00:00"
+  },
+  {
+    "name": "WebAdvisor by McAfee",
+    "version": "4.1.1.1086",
+    "vendor": "McAfee, LLC",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-16T04:09:01+00:00",
+    "last_modified": "2026-01-29T10:15:09+00:00"
+  },
+  {
+    "name": "AnyDesk",
+    "version": "ad 9.6.8",
+    "vendor": "AnyDesk Software GmbH",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-24T15:51:31+00:00",
+    "last_modified": "2026-01-29T10:15:09+00:00"
+  },
+  {
+    "name": "DaVinci Resolve Control Panels",
+    "version": "2.3.4.0",
+    "vendor": "Blackmagic Design",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T12:16:59+00:00",
+    "last_modified": "2026-01-29T10:15:09+00:00"
+  },
+  {
+    "name": "Wazuh Agent",
+    "version": "4.14.2",
+    "vendor": "Wazuh, Inc.",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-29T10:14:25+00:00",
+    "last_modified": "2026-01-29T10:15:09+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40664",
+    "version": "12.0.40664",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T12:16:32+00:00",
+    "last_modified": "2026-01-29T10:15:10+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40664",
+    "version": "12.0.40664",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T12:16:32+00:00",
+    "last_modified": "2026-01-29T10:15:11+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40664",
+    "version": "12.0.40664.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T12:16:32+00:00",
+    "last_modified": "2026-01-29T10:15:11+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-23T10:56:25+00:00",
+    "last_modified": "2026-01-29T10:15:11+00:00"
+  },
+  {
+    "name": "Cursor",
+    "version": "2.3.41",
+    "vendor": "Anysphere",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-19T07:54:45+00:00",
+    "last_modified": "2026-01-29T10:15:11+00:00"
+  },
+  {
+    "name": "AMD Software",
+    "version": "26.1.1",
+    "vendor": "Advanced Micro Devices, Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-22T06:13:34+00:00",
+    "last_modified": "2026-01-29T10:15:11+00:00"
+  },
+  {
+    "name": "Microsoft Teams Meeting Add-in for Microsoft Office",
+    "version": "1.25.28902",
+    "vendor": "Microsoft",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-24T07:26:22+00:00",
+    "last_modified": "2026-01-29T10:15:12+00:00"
+  },
+  {
+    "name": "Microsoft .NET Host FX Resolver - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-08-21T13:39:29+00:00",
+    "last_modified": "2026-01-29T10:15:12+00:00"
+  },
+  {
+    "name": "AMD Settings",
+    "version": "2026.0108.1144.2068",
+    "vendor": "Advanced Micro Devices, Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-22T06:13:20+00:00",
+    "last_modified": "2026-01-29T10:15:12+00:00"
+  },
+  {
+    "name": "Office 16 Click-to-Run Licensing Component",
+    "version": "16.0.17328.20206",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-08-21T13:32:51+00:00",
+    "last_modified": "2026-01-29T10:15:12+00:00"
+  },
+  {
+    "name": "Microsoft .NET Runtime - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-08-21T13:39:27+00:00",
+    "last_modified": "2026-01-29T10:15:12+00:00"
+  },
+  {
+    "name": "Branding64",
+    "version": "1.00.0009",
+    "vendor": "Advanced Micro Devices, Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-22T06:13:24+00:00",
+    "last_modified": "2026-01-29T10:15:13+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664",
+    "version": "12.0.40664",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T12:16:27+00:00",
+    "last_modified": "2026-01-29T10:15:13+00:00"
+  },
+  {
+    "name": "AMD DVR64",
+    "version": "1.0.2",
+    "vendor": "Advanced Micro Devices, Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-22T06:13:30+00:00",
+    "last_modified": "2026-01-29T10:15:13+00:00"
+  },
+  {
+    "name": "RyzenMasterSDK",
+    "version": "1.2.3.5",
+    "vendor": "Advanced Micro Devices, Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-22T06:13:33+00:00",
+    "last_modified": "2026-01-29T10:15:14+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40664",
+    "version": "12.0.40664.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T12:16:27+00:00",
+    "last_modified": "2026-01-29T10:15:14+00:00"
+  },
+  {
+    "name": "Microsoft Windows Desktop Runtime - 8.0.11 (x64)",
+    "version": "8.0.11.34221",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-08-21T13:39:39+00:00",
+    "last_modified": "2026-01-29T10:15:14+00:00"
+  },
+  {
+    "name": "AMD WVR64",
+    "version": "1.0.2",
+    "vendor": "Advanced Micro Devices, Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-22T06:13:32+00:00",
+    "last_modified": "2026-01-29T10:15:14+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2022 X86 Additional Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-24T12:45:41+00:00",
+    "last_modified": "2026-01-29T10:15:15+00:00"
+  },
+  {
+    "name": "Blackmagic RAW Common Components",
+    "version": "5.1",
+    "vendor": "Blackmagic Design",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T12:17:06+00:00",
+    "last_modified": "2026-01-29T10:15:15+00:00"
+  },
+  {
+    "name": "Microsoft Windows Desktop Runtime - 8.0.11 (x64)",
+    "version": "64.44.23253",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-08-21T13:39:38+00:00",
+    "last_modified": "2026-01-29T10:15:15+00:00"
+  },
+  {
+    "name": "Lenovo Smart Meeting Components",
+    "version": "3.4.20.0",
+    "vendor": "Lenovo",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-15T00:00:00+00:00",
+    "last_modified": "2026-01-29T10:15:15+00:00"
+  },
+  {
+    "name": "AMD User Experience Program Installer",
+    "version": "2510.41.01.108",
+    "vendor": "Advanced Micro Devices, Inc.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-22T06:13:41+00:00",
+    "last_modified": "2026-01-29T10:15:16+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-24T12:45:38+00:00",
+    "last_modified": "2026-01-29T10:15:16+00:00"
+  },
+  {
+    "name": "McAfee",
+    "version": "1.35.148.1",
+    "vendor": "McAfee, LLC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-22T06:47:47+00:00",
+    "last_modified": "2026-01-29T10:15:16+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211",
+    "version": "14.44.35211",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-23T10:56:28+00:00",
+    "last_modified": "2026-01-29T10:15:17+00:00"
+  },
+  {
+    "name": "Lenovo Now",
+    "version": "4.5.0.24",
+    "vendor": "Lenovo",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-14T05:04:02+00:00",
+    "last_modified": "2026-01-29T10:15:17+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664",
+    "version": "12.0.40664",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-12-25T12:16:26+00:00",
+    "last_modified": "2026-01-29T10:15:17+00:00"
+  },
+  {
+    "name": "Microsoft .NET Host - 8.0.11 (x64)",
+    "version": "64.44.23191",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2025-08-21T13:39:30+00:00",
+    "last_modified": "2026-01-29T10:15:17+00:00"
+  },
+  {
+    "name": "Lenovo Vantage Service",
+    "version": "4.2601.20.0",
+    "vendor": "Lenovo Group Ltd.",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-30T04:02:05+00:00",
+    "last_modified": "2026-01-30T04:24:02+00:00"
+  },
+  {
+    "name": "Canon MF3010",
+    "version": "3.9.0.1",
+    "vendor": "CANON INC.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-30T08:53:33+00:00",
+    "last_modified": "2026-01-30T09:15:16+00:00"
+  },
+  {
+    "name": "Canon Laser Printer/Scanner/Fax Extended Survey Program",
+    "version": "3.0.4",
+    "vendor": "CANON INC.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-30T08:56:52+00:00",
+    "last_modified": "2026-01-30T09:15:18+00:00"
+  },
+  {
+    "name": "Canon Laser Printer/Scanner/Fax Extended Survey Program",
+    "version": "3.0.4.40070",
+    "vendor": "CANON INC.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-30T08:53:45+00:00",
+    "last_modified": "2026-01-30T09:15:20+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211",
+    "version": "14.44.35211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T08:09:44+00:00",
+    "last_modified": "2026-02-09T08:33:55+00:00"
+  },
+  {
+    "name": "Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.44.35211",
+    "version": "14.44.35211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-09T08:09:45+00:00",
+    "last_modified": "2026-02-09T08:33:55+00:00"
+  },
+  {
+    "name": "uTorrent Web",
+    "version": "1.5.0",
+    "vendor": "BitTorrent Limited",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-01-09T04:58:44+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Dolby Access",
+    "version": "3.27.6410.0",
+    "vendor": "Dolby Laboratories",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Lenovo Vantage",
+    "version": "10.2511.10.0",
+    "vendor": "LENOVO INC.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Lenovo Smart Meeting",
+    "version": "3.4.20.0",
+    "vendor": "LENOVO INC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "TrackPoint",
+    "version": "24.121.55.0",
+    "vendor": "ELAN Microelectronics Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "TrackPoint Quick Menu",
+    "version": "1.2511.45.0",
+    "vendor": "LENOVO INC",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Microsoft Defender",
+    "version": "102.2504.16004.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "News",
+    "version": "4.56.242.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Weather",
+    "version": "4.54.63029.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "App Installer",
+    "version": "1.27.459.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Xbox",
+    "version": "2512.1001.36.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Get Help",
+    "version": "10.2409.33293.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Journal",
+    "version": "1.25336.1113.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Solitaire & Casual Games",
+    "version": "4.25.1130.0",
+    "vendor": "Microsoft Studios",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Outlook",
+    "version": "1.2026.105.100",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Power Automate",
+    "version": "11.2601.105.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Snipping Tool",
+    "version": "11.2510.31.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Windows Security",
+    "version": "1000.29429.1000.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Start Experiences App",
+    "version": "1.195.0.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Store Experience Host",
+    "version": "22512.1401.1.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Microsoft Whiteboard",
+    "version": "53.20111.128.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Dev Home",
+    "version": "0.0.0.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Photos",
+    "version": "2025.11120.5001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Clock",
+    "version": "11.2512.0.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Calculator",
+    "version": "11.2508.4.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Camera",
+    "version": "2025.2510.2.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Feedback Hub",
+    "version": "1.2512.16303.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Notepad",
+    "version": "11.2510.14.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Microsoft Store",
+    "version": "22512.1401.6.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Xbox Live",
+    "version": "1.24.10001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Game Bar",
+    "version": "7.325.11061.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Xbox Identity Provider",
+    "version": "12.130.16001.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Game Speech Window",
+    "version": "1.97.17002.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Media Player",
+    "version": "11.2512.10.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Quick Assist",
+    "version": "2.0.29.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Family",
+    "version": "0.2.40.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "CrossDevice Files",
+    "version": "1.25112.60.0",
+    "vendor": "Microsoft Windows",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Microsoft Teams",
+    "version": "26005.213.4315.4117",
+    "vendor": "Microsoft",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-04T07:36:04+00:00",
+    "last_modified": "2026-02-04T07:36:04+00:00"
+  },
+  {
+    "name": "Microsoft OneDrive",
+    "version": "26.007.0112.0002",
+    "vendor": "Microsoft Corporation",
+    "architecture": " ",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-05T08:59:39+00:00",
+    "last_modified": "2026-02-05T10:26:40+00:00"
+  },
+  {
+    "name": "Google Chrome",
+    "version": "144.0.7559.133",
+    "vendor": "Google LLC",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T03:39:52+00:00",
+    "last_modified": "2026-02-06T04:38:36+00:00"
+  },
+  {
+    "name": "Microsoft 365 Copilot",
+    "version": "19.2602.33151.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T04:38:36+00:00",
+    "last_modified": "2026-02-06T04:38:36+00:00"
+  },
+  {
+    "name": "Microsoft Clipchamp",
+    "version": "4.5.10220.0",
+    "vendor": "Microsoft Corp.",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-06T10:13:59+00:00",
+    "last_modified": "2026-02-06T10:13:59+00:00"
+  },
+  {
+    "name": "VLC media player",
+    "version": "3.0.23",
+    "vendor": "VideoLAN",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-07T06:19:46+00:00",
+    "last_modified": "2026-02-07T06:43:10+00:00"
+  },
+  {
+    "name": "Microsoft Edge",
+    "version": "144.0.3719.115",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-07T06:14:45+00:00",
+    "last_modified": "2026-02-07T06:43:10+00:00"
+  },
+  {
+    "name": "Microsoft Edge WebView2 Runtime",
+    "version": "144.0.3719.115",
+    "vendor": "Microsoft Corporation",
+    "architecture": "i686",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-07T06:15:07+00:00",
+    "last_modified": "2026-02-07T06:43:10+00:00"
+  },
+  {
+    "name": "Microsoft 365 - en-us",
+    "version": "16.0.19628.20166",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-08T08:02:43+00:00",
+    "last_modified": "2026-02-08T09:26:11+00:00"
+  },
+  {
+    "name": "Microsoft OneNote - en-us",
+    "version": "16.0.19628.20166",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-08T08:02:43+00:00",
+    "last_modified": "2026-02-08T09:26:11+00:00"
+  },
+  {
+    "name": "Microsoft To Do",
+    "version": "2.168.6211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-10T04:12:51+00:00",
+    "last_modified": "2026-02-10T04:12:51+00:00"
+  },
+  {
+    "name": "Paint",
+    "version": "11.2512.211.0",
+    "vendor": "Microsoft Corporation",
+    "architecture": "x86_64",
+    "format": "win",
+    "cpe": null,
+    "created_at": "2026-02-10T09:52:38+00:00",
+    "last_modified": "2026-02-10T09:52:38+00:00"
+  }
+]

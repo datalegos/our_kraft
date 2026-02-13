@@ -1,0 +1,127 @@
+Endpoint,Field Path,Field Name,Data Type,Description,Example Value
+agents_manager,data.affected_items[].os.arch,arch,string,System architecture,"x86_64, arm64"
+agents_manager,data.affected_items[].os.major,major,string,OS major version,10
+agents_manager,data.affected_items[].os.name,name,string,Operating system name,Microsoft Windows 11 Home Single Language
+agents_manager,data.affected_items[].os.platform,platform,string,OS platform,"amzn, windows, darwin"
+agents_manager,data.affected_items[].os.uname,uname,string,Full uname output,Linux |wazuh.manager |6.8.0-85-generic
+agents_manager,data.affected_items[].os.version,version,string,OS version,10.0.26200.7623
+agents_manager,data.affected_items[].os.build,build,string,Windows build number (optional),26200.7623
+agents_manager,data.affected_items[].os.minor,minor,string,OS minor version (optional),0
+agents_manager,data.affected_items[].os.codename,codename,string,OS codename (optional),Unknown
+agents_manager,data.affected_items[].name,name,string,Agent hostname,vishnu
+agents_manager,data.affected_items[].ip,ip,string,Agent IP address,192.168.0.2
+agents_manager,data.affected_items[].dateAdd,dateAdd,string,Date agent was added (ISO 8601),2026-01-29T09:26:47+00:00
+agents_manager,data.affected_items[].id,id,string,Agent ID,"000, 001, 002"
+agents_manager,data.affected_items[].manager,manager,string,Manager hostname,wazuh.manager
+agents_manager,data.affected_items[].registerIP,registerIP,string,Registration IP,any
+agents_manager,data.affected_items[].lastKeepAlive,lastKeepAlive,string,Last keep alive timestamp (ISO 8601),2026-02-10T12:52:56+00:00
+agents_manager,data.affected_items[].group_config_status,group_config_status,string,Group configuration status,synced
+agents_manager,data.affected_items[].status_code,status_code,integer,Status code,4
+agents_manager,data.affected_items[].node_name,node_name,string,Node name,node01
+agents_manager,data.affected_items[].version,version,string,Wazuh version,Wazuh v4.14.2
+agents_manager,data.affected_items[].status,status,string,Agent status,"active, disconnected"
+agents_manager,data.affected_items[].group,group,array,Agent groups (optional),default
+agents_manager,data.affected_items[].configSum,configSum,string,Config checksum (optional),ab73af41699f13fdd81903b5f23d8d00
+agents_manager,data.affected_items[].mergedSum,mergedSum,string,Merged config checksum (optional),e15cd0c9f7dec03be7b82012b99d73bf
+agents_manager,data.affected_items[].disconnection_time,disconnection_time,string,Disconnection time (optional ISO 8601),2026-02-10T13:12:46+00:00
+agents_manager,data.total_affected_items,total_affected_items,integer,Total number of items returned,5
+agents_manager,data.total_failed_items,total_failed_items,integer,Total number of failed items,0
+agents_manager,data.failed_items,failed_items,array,List of failed items,[]
+agents_manager,message,message,string,Response message,All selected agents information was returned
+agents_manager,error,error,integer,Error code (0 = success),0
+agents_manager,source,source,string,Data source,manager
+syscollector_packages,data.affected_items[].scan.id,scan.id,integer,Scan ID,0
+syscollector_packages,data.affected_items[].scan.time,scan.time,string,Scan timestamp (ISO 8601),2026-01-29T09:27:20+00:00
+syscollector_packages,data.affected_items[].name,name,string,Package name,Office 16 Click-to-Run Extensibility Component
+syscollector_packages,data.affected_items[].vendor,vendor,string,Package vendor,Microsoft Corporation
+syscollector_packages,data.affected_items[].location,location,string,Installation path,C:\Program Files\McAfee\WebAdvisor
+syscollector_packages,data.affected_items[].source,source,string,Package source URL or empty,https://github.com/nodejs/corepack#readme
+syscollector_packages,data.affected_items[].format,format,string,Package format,"win, npm, deb, rpm"
+syscollector_packages,data.affected_items[].section,section,string,Package section or empty," "
+syscollector_packages,data.affected_items[].size,size,integer,Package size in bytes,0
+syscollector_packages,data.affected_items[].description,description,string,Package description,a package manager for JavaScript
+syscollector_packages,data.affected_items[].install_time,install_time,string,Installation time (ISO 8601 or empty),2025-12-22T00:00:00+00:00
+syscollector_packages,data.affected_items[].priority,priority,string,Package priority or empty," "
+syscollector_packages,data.affected_items[].architecture,architecture,string,Package architecture,"x86_64, i686, arm64"
+syscollector_packages,data.affected_items[].version,version,string,Package version,16.0.19426.20170
+syscollector_packages,data.affected_items[].agent_id,agent_id,string,Agent ID,001
+syscollector_packages,data.total_affected_items,total_affected_items,integer,Total number of items returned,50
+syscollector_packages,data.total_failed_items,total_failed_items,integer,Total number of failed items,0
+syscollector_packages,data.failed_items,failed_items,array,List of failed items,[]
+syscollector_packages,message,message,string,Response message,All specified syscollector information was returned
+syscollector_packages,error,error,integer,Error code (0 = success),0
+vulnerabilities,data.affected_items[].agent_id,agent_id,string,Agent ID,001
+vulnerabilities,data.affected_items[].agent_name,agent_name,string,Agent hostname,vishnu
+vulnerabilities,data.affected_items[].cve,cve,string,CVE identifier,CVE-2022-0815
+vulnerabilities,data.affected_items[].severity,severity,string,Vulnerability severity,"Critical, High, Medium, Low"
+vulnerabilities,data.affected_items[].title,title,string,Vulnerability title (may be empty)," "
+vulnerabilities,data.affected_items[].description,description,string,Detailed vulnerability description,Improper access control vulnerability in McAfee WebAdvisor...
+vulnerabilities,data.affected_items[].published,published,string,Publication date or empty," "
+vulnerabilities,data.affected_items[].status,status,string,Vulnerability status or empty," "
+vulnerabilities,data.affected_items[].cvss,cvss,object,CVSS scoring details (may be empty),{}
+vulnerabilities,data.affected_items[].package_name,package_name,string,Affected package name,WebAdvisor by McAfee
+vulnerabilities,data.affected_items[].package_version,package_version,string,Affected package version,4.1.1.1086
+vulnerabilities,data.affected_items[].timestamp,timestamp,string,Detection timestamp or empty," "
+vulnerabilities,data.total_affected_items,total_affected_items,integer,Total number of items returned,20
+vulnerabilities,data.total_failed_items,total_failed_items,integer,Total number of failed items,0
+vulnerabilities,data.failed_items,failed_items,array,List of failed items,[]
+vulnerabilities,message,message,string,Response message,All specified vulnerability information was returned
+vulnerabilities,error,error,integer,Error code (0 = success),0
+syscollector_hardware,data.affected_items[].cpu.cores,cpu.cores,integer,Number of CPU cores,16
+syscollector_hardware,data.affected_items[].cpu.mhz,cpu.mhz,integer,CPU frequency in MHz,3194
+syscollector_hardware,data.affected_items[].cpu.name,cpu.name,string,CPU model name,AMD Ryzen 7 7735HS with Radeon Graphics
+syscollector_hardware,data.affected_items[].ram.free,ram.free,integer,Free RAM in KB,11301032
+syscollector_hardware,data.affected_items[].ram.total,ram.total,integer,Total RAM in KB,15497440
+syscollector_hardware,data.affected_items[].ram.usage,ram.usage,integer,RAM usage percentage,27
+syscollector_hardware,data.affected_items[].scan.id,scan.id,integer,Scan ID,0
+syscollector_hardware,data.affected_items[].scan.time,scan.time,string,Scan timestamp (ISO 8601),2026-02-10T12:50:20+00:00
+syscollector_hardware,data.affected_items[].board_serial,board_serial,string,Motherboard serial number,L1HF58700S2
+syscollector_hardware,data.affected_items[].agent_id,agent_id,string,Agent ID,001
+syscollector_hardware,data.total_affected_items,total_affected_items,integer,Total number of items returned,1
+syscollector_hardware,data.total_failed_items,total_failed_items,integer,Total number of failed items,0
+syscollector_hardware,data.failed_items,failed_items,array,List of failed items,[]
+syscollector_hardware,message,message,string,Response message,All specified syscollector information was returned
+syscollector_hardware,error,error,integer,Error code (0 = success),0
+file_integrity_monitoring,data.affected_items[].value.name,value.name,string,Registry value name or file attribute,DontAddIncomingSPPInWizard
+file_integrity_monitoring,data.affected_items[].value.type,value.type,string,Registry value type,"REG_DWORD, REG_SZ, REG_BINARY, REG_MULTI_SZ, REG_EXPAND_SZ"
+file_integrity_monitoring,data.affected_items[].sha1,sha1,string,SHA1 hash,1d102a8cf9879ceec3a7b26104b12e875c13d6a7
+file_integrity_monitoring,data.affected_items[].arch,arch,string,Architecture,"[x32], [x64]"
+file_integrity_monitoring,data.affected_items[].sha256,sha256,string,SHA256 hash,ae5ce162888ee3ebe974976cac5ab94a3f55049f8515884883d579fb3fa378d2
+file_integrity_monitoring,data.affected_items[].file,file,string,File path or registry key path,HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BTHPORT\Parameters
+file_integrity_monitoring,data.affected_items[].type,type,string,Entry type,"registry_value, file"
+file_integrity_monitoring,data.affected_items[].md5,md5,string,MD5 hash,ced165163e51e06e01dc44c35fea3eaf
+file_integrity_monitoring,data.affected_items[].date,date,string,Detection date (ISO 8601),2026-01-29T09:27:33+00:00
+file_integrity_monitoring,data.affected_items[].changes,changes,integer,Number of changes detected,1
+file_integrity_monitoring,data.affected_items[].size,size,integer,Size in bytes,4
+file_integrity_monitoring,data.total_affected_items,total_affected_items,integer,Total number of items returned,75011
+file_integrity_monitoring,data.total_failed_items,total_failed_items,integer,Total number of failed items,0
+file_integrity_monitoring,data.failed_items,failed_items,array,List of failed items,[]
+file_integrity_monitoring,message,message,string,Response message,All specified FIM information was returned
+file_integrity_monitoring,error,error,integer,Error code (0 = success),0
+groups,data.affected_items[].name,name,string,Group name,default
+groups,data.affected_items[].count,count,integer,Number of agents in group,4
+groups,data.affected_items[].mergedSum,mergedSum,string,Merged configuration checksum,e15cd0c9f7dec03be7b82012b99d73bf
+groups,data.affected_items[].configSum,configSum,string,Configuration checksum,ab73af41699f13fdd81903b5f23d8d00
+groups,data.total_affected_items,total_affected_items,integer,Total number of items returned,1
+groups,data.total_failed_items,total_failed_items,integer,Total number of failed items,0
+groups,data.failed_items,failed_items,array,List of failed items,[]
+groups,message,message,string,Response message,All selected groups information was returned
+groups,error,error,integer,Error code (0 = success),0
+groups,source,source,string,Data source,manager
+syscollector_os_info,data.affected_items[].os.build,os.build,string,OS build number,26200.7623
+syscollector_os_info,data.affected_items[].os.display_version,os.display_version,string,Display version,25H2
+syscollector_os_info,data.affected_items[].os.major,os.major,string,Major version,10
+syscollector_os_info,data.affected_items[].os.minor,os.minor,string,Minor version,0
+syscollector_os_info,data.affected_items[].os.name,os.name,string,OS name,Microsoft Windows 11 Home Single Language
+syscollector_os_info,data.affected_items[].os.version,os.version,string,Full version string,10.0.26200.7623
+syscollector_os_info,data.affected_items[].scan.id,scan.id,integer,Scan ID,0
+syscollector_os_info,data.affected_items[].scan.time,scan.time,string,Scan timestamp (ISO 8601),2026-02-10T12:50:20+00:00
+syscollector_os_info,data.affected_items[].architecture,architecture,string,System architecture,x86_64
+syscollector_os_info,data.affected_items[].os_release,os_release,string,OS release identifier,2009
+syscollector_os_info,data.affected_items[].hostname,hostname,string,System hostname,DATALEGOS
+syscollector_os_info,data.affected_items[].agent_id,agent_id,string,Agent ID,001
+syscollector_os_info,data.total_affected_items,total_affected_items,integer,Total number of items returned,1
+syscollector_os_info,data.total_failed_items,total_failed_items,integer,Total number of failed items,0
+syscollector_os_info,data.failed_items,failed_items,array,List of failed items,[]
+syscollector_os_info,message,message,string,Response message,All specified syscollector information was returned
+syscollector_os_info,error,error,integer,Error code (0 = success),0

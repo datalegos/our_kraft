@@ -1,0 +1,82 @@
+# Wazuh Data Collection Configuration
+# Wazuh Version: 4.12.2
+wazuh:
+  version: "4.12.2"
+  
+  # Wazuh Manager REST API settings
+  manager:
+    host: "62.171.191.132"
+    port: 55000
+    protocol: "https"
+    username: "wazuh-wui"
+    password: "MyS3cr37P450r.*-"
+    verify_ssl: false
+    timeout: 30
+    # Manager REST API endpoints for knowledge graph data
+    endpoints:
+      agents: "/agents"
+      host: "/syscollector/{agent_id}/os"
+      packages: "/syscollector/{agent_id}/packages"
+      hardware: "/syscollector/{agent_id}/hardware"
+      groups: "/groups"
+      fim: "/syscheck/{agent_id}"
+  
+  # Wazuh Indexer settings
+  indexer:
+    host: "62.171.191.132"
+    port: 9200
+    protocol: "https"
+    username: "admin"
+    password: "SecretPassword"
+    verify_ssl: false
+    timeout: 30
+    # Indexer endpoints for knowledge graph data
+    endpoints:
+      vulnerabilities: "/wazuh-alerts-4.x/_search"
+    # Indexer query settings
+    query_settings:
+      vulnerabilities:
+        index_pattern: "wazuh-alerts-4.x"
+        size: 1000
+
+# Data collection settings
+collection:
+  output_dir: "collected_data"
+  enabled_collectors:
+    - agents
+    - host
+    - packages
+    - groups
+    - hardware
+    - fim
+    - vulnerabilities
+
+# Collector-specific settings
+collectors:
+  agents:
+    source: "manager"  # manager or indexer
+    limit: 1000
+  
+  host:
+    source: "manager"
+    limit: 1000
+  
+  packages:
+    source: "manager"
+    limit: 1000
+  
+  groups:
+    source: "manager"
+    limit: 1000
+  
+  hardware:
+    source: "manager"
+    limit: 1000
+  
+  fim:
+    source: "manager"
+    limit: 5000
+  
+  vulnerabilities:
+    source: "indexer"
+    size: 1000
