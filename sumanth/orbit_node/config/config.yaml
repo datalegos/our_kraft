@@ -50,33 +50,50 @@ collection:
     - hardware
     - fim
     - vulnerabilities
+  # Retry configuration (applies to all collectors unless overridden)
+  max_retries: 3  # Maximum number of retry attempts for failed collections
+  retry_delay: 5  # Initial delay in seconds between retries (exponential backoff)
 
 # Collector-specific settings
 collectors:
   agents:
     source: "manager"  # manager or indexer
     limit: 1000
+    max_retries: 3  # Override global max_retries if needed
+    retry_delay: 5  # Override global retry_delay if needed
   
   host:
     source: "manager"
     limit: 1000
+    max_retries: 3
+    retry_delay: 5
   
   packages:
     source: "manager"
     limit: 1000
+    max_retries: 3
+    retry_delay: 5
   
   groups:
     source: "manager"
     limit: 1000
+    max_retries: 3
+    retry_delay: 5
   
   hardware:
     source: "manager"
     limit: 1000
+    max_retries: 3
+    retry_delay: 5
   
   fim:
     source: "manager"
     limit: 5000
+    max_retries: 3
+    retry_delay: 5
   
   vulnerabilities:
     source: "indexer"
     size: 1000
+    max_retries: 3
+    retry_delay: 5

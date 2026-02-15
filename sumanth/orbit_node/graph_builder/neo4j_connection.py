@@ -80,9 +80,21 @@ class Neo4jConnection:
                 'connection_acquisition_timeout': self.config.get('connection_acquisition_timeout', 60),
             }
             
+            # Check if URI already indicates encryption (neo4j+s://, bolt+s://, etc.)
+            # URIs with +s or +ssc already have encryption built-in
+            uri_has_encryption = '+s' in uri or '+ssc' in uri
+            
             # Handle encrypted connection and trust settings
-            if encrypted:
-                from neo4j import TRUST_ALL_CERTIFICATES, TRUST_SYSTEM_CA_SIGNED_CERTIFICATES, TRUST_CUSTOM_CA_SIGNED_CERTIFICATES
+            if encrypted and not uri_has_encryption:
+                # For bolt:// and neo4j:// schemes, set encrypted/trust explicitly
+                # Import trust constants (handle version differences)
+                from neo4j import TRUST_ALL_CERTIFICATES, TRUST_SYSTEM_CA_SIGNED_CERTIFICATES
+                try:
+                    from neo4j import TRUST_CUSTOM_CA_SIGNED_CERTIFICATES
+                except ImportError:
+                    # TRUST_CUSTOM_CA_SIGNED_CERTIFICATES not available in this driver version
+                    TRUST_CUSTOM_CA_SIGNED_CERTIFICATES = None
+                
                 trust = self.config.get('trust', 'TRUST_ALL_CERTIFICATES')
                 connection_params['encrypted'] = True
                 
@@ -91,9 +103,23 @@ class Neo4jConnection:
                 elif trust == 'TRUST_SYSTEM_CA_SIGNED_CERTIFICATES':
                     connection_params['trust'] = TRUST_SYSTEM_CA_SIGNED_CERTIFICATES
                 elif trust == 'TRUST_CUSTOM_CA_SIGNED_CERTIFICATES':
-                    connection_params['trust'] = TRUST_CUSTOM_CA_SIGNED_CERTIFICATES
+                    if TRUST_CUSTOM_CA_SIGNED_CERTIFICATES is not None:
+                        connection_params['trust'] = TRUST_CUSTOM_CA_SIGNED_CERTIFICATES
+                    else:
+                        logger.warning("TRUST_CUSTOM_CA_SIGNED_CERTIFICATES not available in this driver version, using TRUST_ALL_CERTIFICATES")
+                        connection_params['trust'] = TRUST_ALL_CERTIFICATES
                 else:
                     connection_params['trust'] = TRUST_ALL_CERTIFICATES
+            elif uri_has_encryption:
+                # URI already has encryption built-in (neo4j+s://, bolt+s://, etc.)
+                # For these schemes, we cannot set encrypted/trust/ssl_context parameters
+                # The driver handles SSL automatically, but certificate verification depends on:
+                # 1. System CA certificate store
+                # 2. Network/firewall settings
+                # 3. Aura instance availability
+                logger.info("URI already indicates encryption (bolt+s:// or neo4j+s://)")
+                logger.info("SSL certificate verification handled automatically by driver")
+                logger.info("If connection fails, check: network, firewall, or Aura instance status")
             
             self.driver = GraphDatabase.driver(**connection_params)
             self.database = database

@@ -2,7 +2,14 @@
 
 neo4j:
   # Neo4j server connection details
-  uri: "bolt://localhost:7687"  # Default Neo4j bolt port
+  # For Neo4j Aura, try these in order if connection fails:
+  # 1. bolt+s:// (encrypted, verifies certificates) - RECOMMENDED
+  # 2. bolt+ssc:// (encrypted, accepts self-signed certificates) - Use if SSL verification fails
+  # 3. neo4j+s:// (routing protocol, verifies certificates)
+  uri: "bolt+ssc://41d93103.databases.neo4j.io"  # Using +ssc to bypass SSL certificate verification issues
+  # uri: "bolt+s://41d93103.databases.neo4j.io"  # Use this if SSL certificates verify correctly
+  # uri: "neo4j+s://41d93103.databases.neo4j.io"  # Alternative: routing protocol (may have issues)
+  # uri: "bolt://localhost:7687"  # Default Neo4j bolt port (for local instances)
   # Alternative URIs:
   # - "bolt://localhost:7687" (local)
   # - "neo4j://localhost:7687" (routing)
@@ -10,7 +17,11 @@ neo4j:
   
   # Authentication
   username: "neo4j"
-  password: "Sumanth-dl@orbit"  # Change this to your Neo4j password
+  password: "x-rAmDcxyOT527OHLknqVcurP7PdSoYth0V5P4QUZUw"
+  
+  # Neo4j Aura instance metadata (optional, for reference/logging)
+  aura_instance_id: "41d93103"  # Aura instance ID (already in URI)
+  aura_instance_name: "NODE"  # Aura instance name (for reference)
   
   # Connection settings
   max_connection_lifetime: 3600  # seconds (1 hour)
@@ -20,8 +31,8 @@ neo4j:
   # Database name (for Neo4j 4.0+ multi-database support)
   database: "neo4j"  # Default database, change if using a different database
   
-  # SSL/TLS settings (if required)
-  encrypted: false  # Set to true if using encrypted connection
+  # SSL/TLS settings (required for neo4j+s:// Aura connections)
+  encrypted: true  # Set to true for encrypted connections (neo4j+s://)
   trust: "TRUST_ALL_CERTIFICATES"  # Options: TRUST_ALL_CERTIFICATES, TRUST_SYSTEM_CA_SIGNED_CERTIFICATES, TRUST_CUSTOM_CA_SIGNED_CERTIFICATES
   
   # Query execution settings

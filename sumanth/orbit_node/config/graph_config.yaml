@@ -94,21 +94,12 @@ nodes:
         required: false
         description: "Timestamp when asset's crown jewel classification was made"
       
-      created_at:
-        source_field: "dateAdd"
-        source_path: "data.affected_items[].dateAdd"
-        data_type: "datetime"
+      event_id:
+        source_field: null
+        source_path: null
+        data_type: "string"
         required: true
-        description: "Timestamp when asset was first created/registered (agent add_time)"
-      
-      last_modified:
-        source_field: "lastKeepAlive"
-        source_path: "data.affected_items[].lastKeepAlive"
-        data_type: "datetime"
-        required: true
-        fallback_field: "dateAdd"
-        fallback_path: "data.affected_items[].dateAdd"
-        description: "Timestamp of last modification (from lastKeepAlive, fallback to dateAdd if null or 9999-12-31)"
+        description: "ScanEvent ID that created/updated this asset node"
       
       # group:
       #   source_field: "group"
@@ -169,19 +160,12 @@ nodes:
         required: false
         description: "Platform identifier"
       
-      created_at:
-        source_field: "scan.time"
-        source_path: "data.affected_items[].scan.time"
-        data_type: "datetime"
+      event_id:
+        source_field: null
+        source_path: null
+        data_type: "string"
         required: true
-        description: "Timestamp when host was first discovered (from scan.time)"
-      
-      last_modified:
-        source_field: "scan.time"
-        source_path: "data.affected_items[].scan.time"
-        data_type: "datetime"
-        required: true
-        description: "Timestamp of last scan/modification (from scan.time)"
+        description: "ScanEvent ID that created/updated this host node"
 
   software:
     label: "NJS_Software"
@@ -242,21 +226,12 @@ nodes:
         required: false
         description: "Common Platform Enumeration (CPE) identifier (optional)"
       
-      created_at:
-        source_field: "install_time"
-        source_path: "data.affected_items[].install_time"
-        data_type: "datetime"
+      event_id:
+        source_field: null
+        source_path: null
+        data_type: "string"
         required: true
-        fallback_field: "scan.time"
-        fallback_path: "data.affected_items[].scan.time"
-        description: "Timestamp when software was first installed (from install_time, fallback to scan.time if null)"
-      
-      last_modified:
-        source_field: "scan.time"
-        source_path: "data.affected_items[].scan.time"
-        data_type: "datetime"
-        required: true
-        description: "Timestamp of last scan/modification (from scan.time, always present)"
+        description: "ScanEvent ID that created/updated this software node"
 
   vulnerability:
     label: "NJS_Vulnerability"
@@ -329,23 +304,12 @@ nodes:
         required: false
         description: "Vulnerability description"
       
-      created_at:
-        source_field: "published"
-        source_path: "data.affected_items[].published"
-        data_type: "datetime"
+      event_id:
+        source_field: null
+        source_path: null
+        data_type: "string"
         required: true
-        fallback_field: "timestamp"
-        fallback_path: "data.affected_items[].timestamp"
-        description: "Timestamp when vulnerability was first published (from published, fallback to timestamp if null)"
-      
-      last_modified:
-        source_field: "timestamp"
-        source_path: "data.affected_items[].timestamp"
-        data_type: "datetime"
-        required: true
-        fallback_field: "published"
-        fallback_path: "data.affected_items[].published"
-        description: "Timestamp of last modification/update (from timestamp, fallback to published if null)"
+        description: "ScanEvent ID that created/updated this vulnerability node"
 
   assetgroup:
     label: "NJS_AssetGroup"
@@ -377,21 +341,12 @@ nodes:
         required: false
         description: "Number of agents in the group"
       
-      created_at:
+      event_id:
         source_field: null
         source_path: null
-        data_type: "datetime"
-        default_value: null
+        data_type: "string"
         required: true
-        description: "Timestamp when group was first created (defaults to current time if not available)"
-      
-      last_modified:
-        source_field: null
-        source_path: null
-        data_type: "datetime"
-        default_value: null
-        required: true
-        description: "Timestamp of last modification (defaults to current time if not available)"
+        description: "ScanEvent ID that created/updated this assetgroup node"
 
   hardware:
     label: "NJS_Hardware"
@@ -438,19 +393,86 @@ nodes:
         required: false
         description: "Board serial number"
       
-      created_at:
-        source_field: "scan.time"
-        source_path: "data.affected_items[].scan.time"
-        data_type: "datetime"
+      event_id:
+        source_field: null
+        source_path: null
+        data_type: "string"
         required: true
-        description: "Timestamp when hardware was first discovered (from scan.time)"
+        description: "ScanEvent ID that created/updated this hardware node"
+
+  scanevent:
+    label: "ScanEvent"
+    description: "Event tracking node for audit traceability and timeline reconstruction"
+    
+    # Constraints and indexes for this node type
+    constraints:
+      # Unique constraint on event_id (primary key)
+      unique_scanevent_id:
+        type: "UNIQUE"
+        properties: ["event_id"]
+        description: "Event ID is globally unique identifier"
+        enabled: true
+    
+    properties:
+      # Primary key property
+      event_id:
+        source_field: null
+        source_path: null
+        data_type: "string"
+        required: true
+        description: "Globally unique event ID format: <ORG>_<LAYER>_<TYPE>_<SEQ>_<EPOCH>"
       
-      last_modified:
-        source_field: "scan.time"
-        source_path: "data.affected_items[].scan.time"
+      event_type:
+        source_field: null
+        source_path: null
+        data_type: "enum"
+        enum_values: ["SCAN", "INGEST", "ACTION", "UPDATE", "CONSENSUS", "EXECUTION"]
+        required: true
+        description: "Type of event (SCAN, INGEST, ACTION, etc.)"
+      
+      source_layer:
+        source_field: null
+        source_path: null
+        data_type: "enum"
+        enum_values: ["NODE", "CORE"]
+        required: true
+        description: "Source layer: NODE or CORE"
+      
+      source_id:
+        source_field: null
+        source_path: null
+        data_type: "string"
+        required: true
+        description: "Source identifier (e.g., N1, C1)"
+      
+      description:
+        source_field: null
+        source_path: null
+        data_type: "string"
+        required: true
+        description: "Event description (e.g., STANDARD_BASELINE_LOAD, WAZUH_ASSET_INSERTION)"
+      
+      scanevent_time:
+        source_field: null
+        source_path: null
         data_type: "datetime"
         required: true
-        description: "Timestamp of last scan/modification (from scan.time)"
+        description: "ISO standard date, time, zone till milliseconds (job_start_time)"
+      
+      status:
+        source_field: null
+        source_path: null
+        data_type: "enum"
+        enum_values: ["Created", "Broadcasted", "ActionCardUpdated"]
+        required: true
+        description: "Event status (Created, Broadcasted, ActionCardUpdated)"
+      
+      metadata_json:
+        source_field: null
+        source_path: null
+        data_type: "string"
+        required: false
+        description: "Optional JSON metadata (for Day-1+ incremental updates)"
 
 # Relationships configuration
 relationships:
@@ -585,6 +607,73 @@ relationships:
         source_key_field: "agent_id"
       to_property: "name"
       description: "Match Asset.asset_id (via source agent_id) with Hardware.name (from source cpu.name)"
+  
+  # Relationships from nodes to ScanEvent for audit traceability
+  asset_to_scanevent:
+    from_node: "asset"
+    to_node: "scanevent"
+    type: "NJS_CREATED_BY"
+    description: "Asset CREATED_BY ScanEvent (audit traceability)"
+    enabled: true
+    match_criteria:
+      from_property: "event_id"
+      to_property: "event_id"
+      description: "Match Asset.event_id with ScanEvent.event_id"
+  
+  host_to_scanevent:
+    from_node: "host"
+    to_node: "scanevent"
+    type: "NJS_CREATED_BY"
+    description: "Host CREATED_BY ScanEvent (audit traceability)"
+    enabled: true
+    match_criteria:
+      from_property: "event_id"
+      to_property: "event_id"
+      description: "Match Host.event_id with ScanEvent.event_id"
+  
+  software_to_scanevent:
+    from_node: "software"
+    to_node: "scanevent"
+    type: "NJS_CREATED_BY"
+    description: "Software CREATED_BY ScanEvent (audit traceability)"
+    enabled: true
+    match_criteria:
+      from_property: "event_id"
+      to_property: "event_id"
+      description: "Match Software.event_id with ScanEvent.event_id"
+  
+  vulnerability_to_scanevent:
+    from_node: "vulnerability"
+    to_node: "scanevent"
+    type: "NJS_CREATED_BY"
+    description: "Vulnerability CREATED_BY ScanEvent (audit traceability)"
+    enabled: true
+    match_criteria:
+      from_property: "event_id"
+      to_property: "event_id"
+      description: "Match Vulnerability.event_id with ScanEvent.event_id"
+  
+  assetgroup_to_scanevent:
+    from_node: "assetgroup"
+    to_node: "scanevent"
+    type: "NJS_CREATED_BY"
+    description: "AssetGroup CREATED_BY ScanEvent (audit traceability)"
+    enabled: true
+    match_criteria:
+      from_property: "event_id"
+      to_property: "event_id"
+      description: "Match AssetGroup.event_id with ScanEvent.event_id"
+  
+  hardware_to_scanevent:
+    from_node: "hardware"
+    to_node: "scanevent"
+    type: "NJS_CREATED_BY"
+    description: "Hardware CREATED_BY ScanEvent (audit traceability)"
+    enabled: true
+    match_criteria:
+      from_property: "event_id"
+      to_property: "event_id"
+      description: "Match Hardware.event_id with ScanEvent.event_id"
 
 # File source configuration
 file_sources:

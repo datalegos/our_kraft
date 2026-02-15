@@ -4,6 +4,7 @@ Collects data from Wazuh Manager and Indexer based on configuration
 Organizes data by agent folders similar to reference structure
 """
 import json
+import time
 from pathlib import Path
 from typing import Dict, Any, List, Optional
 from datetime import datetime
@@ -19,6 +20,56 @@ class DataCollector:
         self.output_dir = Path(config['collection']['output_dir'])
         self.collector_dir = self.output_dir / collector_name
         self.collector_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Retry configuration
+        collector_config = config.get('collectors', {}).get(collector_name, {})
+        self.max_retries = collector_config.get('max_retries', config.get('collection', {}).get('max_retries', 3))
+        self.retry_delay = collector_config.get('retry_delay', config.get('collection', {}).get('retry_delay', 5))
+    
+    def _has_error(self, data: Dict[str, Any]) -> bool:
+        """Check if collection data has errors"""
+        if 'error' in data:
+            return True
+        if 'data' in data:
+            failed_items = data['data'].get('total_failed_items', 0)
+            if failed_items > 0:
+                return True
+        return False
+    
+    def _retry_collection(self, collect_func, *args, **kwargs) -> Dict[str, Any]:
+        """Retry collection with exponential backoff"""
+        last_error = None
+        
+        for attempt in range(self.max_retries):
+            try:
+                result = collect_func(*args, **kwargs)
+                
+                # Check if collection was successful
+                if not self._has_error(result):
+                    if attempt > 0:
+                        print(f"  ✓ Collection succeeded on retry attempt {attempt + 1}")
+                    return result
+                else:
+                    last_error = result.get('error', 'Unknown error')
+                    print(f"  ✗ Collection attempt {attempt + 1} failed: {last_error}")
+                    
+            except Exception as e:
+                last_error = str(e)
+                print(f"  ✗ Collection attempt {attempt + 1} failed with exception: {e}")
+            
+            # Wait before retry (exponential backoff)
+            if attempt < self.max_retries - 1:
+                wait_time = self.retry_delay * (2 ** attempt)
+                print(f"  Waiting {wait_time} seconds before retry...")
+                time.sleep(wait_time)
+        
+        # All retries failed
+        print(f"  ✗ All {self.max_retries} retry attempts failed for {self.collector_name}")
+        return {
+            "error": f"Collection failed after {self.max_retries} attempts: {last_error}",
+            "data": {"affected_items": [], "total_affected_items": 0, "total_failed_items": 1},
+            "retries_exhausted": True
+        }
     
     def save_data(self, data: Any, filename: str = None, agent_id: str = None) -> str:
         """Save collected data to JSON file, optionally in agent subfolder"""
@@ -50,10 +101,10 @@ class AgentCollector(DataCollector):
         self.limit = config['collectors']['agents'].get('limit', 1000)
     
     def collect(self) -> Dict[str, Any]:
-        """Collect all agents"""
+        """Collect all agents with retry logic"""
         print(f"Collecting agents from Wazuh {self.source.capitalize()}...")
         
-        try:
+        def collect_agents():
             if self.source == "manager":
                 data = self.client.get_agents(limit=self.limit)
                 result = {**data, 'source': 'manager'}
@@ -84,21 +135,20 @@ class AgentCollector(DataCollector):
                     'error': 0,
                     'source': self.source
                 }
-            
-            filepath = self.save_data(result, "All_Agents.json")
-            agent_count = result.get('data', {}).get('total_affected_items', 0)
-            print(f"Saved {agent_count} agents to {filepath}")
             return result
-            
-        except Exception as e:
-            print(f"Error collecting agents from {self.source}: {e}")
-            error_data = {
-                "error": str(e),
-                "data": {"affected_items": [], "total_affected_items": 0},
-                "source": self.source
-            }
-            filepath = self.save_data(error_data, "All_Agents.json")
-            return error_data
+        
+        result = self._retry_collection(collect_agents)
+        
+        filepath = self.save_data(result, "All_Agents.json")
+        agent_count = result.get('data', {}).get('total_affected_items', 0)
+        
+        if not self._has_error(result):
+            print(f"  ✓ Successfully collected {agent_count} agents")
+        else:
+            print(f"  ✗ Failed to collect agents after retries")
+        
+        print(f"Saved agents data to {filepath}")
+        return result
 
 
 class HostCollector(DataCollector):
@@ -109,23 +159,35 @@ class HostCollector(DataCollector):
         self.limit = config['collectors']['host'].get('limit', 1000)
     
     def collect(self, agent_ids: List[str]) -> Dict[str, Any]:
-        """Collect host data for each agent"""
+        """Collect host data for each agent with retry logic"""
         print(f"Collecting host/OS information for {len(agent_ids)} agents...")
         all_hosts = {}
+        failed_agents = []
         
         for agent_id in agent_ids:
-            try:
-                data = self.client.get_host(agent_id=agent_id)
-                all_hosts[agent_id] = data
+            def collect_agent():
+                return self.client.get_host(agent_id=agent_id)
+            
+            result = self._retry_collection(collect_agent)
+            
+            if not self._has_error(result):
+                all_hosts[agent_id] = result
                 # Save per agent
                 filename = f"Syscollector_OS_Info_{agent_id}.json"
-                self.save_data(data, filename, agent_id)
-            except Exception as e:
-                print(f"Error collecting host data for agent {agent_id}: {e}")
-                all_hosts[agent_id] = {"error": str(e)}
+                self.save_data(result, filename, agent_id)
+            else:
+                print(f"  ✗ Failed to collect host data for agent {agent_id} after retries")
+                all_hosts[agent_id] = result
+                failed_agents.append(agent_id)
         
         # Save summary
         filepath = self.save_data(all_hosts, "Host_Summary.json")
+        
+        if failed_agents:
+            print(f"  ⚠ Failed to collect host data for {len(failed_agents)} agents: {failed_agents}")
+        else:
+            print(f"  ✓ Successfully collected host data for all {len(agent_ids)} agents")
+        
         print(f"Saved host data to {filepath}")
         return all_hosts
 
@@ -138,23 +200,35 @@ class PackagesCollector(DataCollector):
         self.limit = config['collectors']['packages'].get('limit', 1000)
     
     def collect(self, agent_ids: List[str]) -> Dict[str, Any]:
-        """Collect packages data for each agent"""
+        """Collect packages data for each agent with retry logic"""
         print(f"Collecting packages information for {len(agent_ids)} agents...")
         all_packages = {}
+        failed_agents = []
         
         for agent_id in agent_ids:
-            try:
-                data = self.client.get_packages(agent_id=agent_id, limit=self.limit)
-                all_packages[agent_id] = data
+            def collect_agent():
+                return self.client.get_packages(agent_id=agent_id, limit=self.limit)
+            
+            result = self._retry_collection(collect_agent)
+            
+            if not self._has_error(result):
+                all_packages[agent_id] = result
                 # Save per agent
                 filename = f"Syscollector_Packages_{agent_id}.json"
-                self.save_data(data, filename, agent_id)
-            except Exception as e:
-                print(f"Error collecting packages for agent {agent_id}: {e}")
-                all_packages[agent_id] = {"error": str(e)}
+                self.save_data(result, filename, agent_id)
+            else:
+                print(f"  ✗ Failed to collect packages for agent {agent_id} after retries")
+                all_packages[agent_id] = result
+                failed_agents.append(agent_id)
         
         # Save summary
         filepath = self.save_data(all_packages, "Packages_Summary.json")
+        
+        if failed_agents:
+            print(f"  ⚠ Failed to collect packages for {len(failed_agents)} agents: {failed_agents}")
+        else:
+            print(f"  ✓ Successfully collected packages for all {len(agent_ids)} agents")
+        
         print(f"Saved packages data to {filepath}")
         return all_packages
 
@@ -167,23 +241,35 @@ class HardwareCollector(DataCollector):
         self.limit = config['collectors']['hardware'].get('limit', 1000)
     
     def collect(self, agent_ids: List[str]) -> Dict[str, Any]:
-        """Collect hardware data for each agent"""
+        """Collect hardware data for each agent with retry logic"""
         print(f"Collecting hardware information for {len(agent_ids)} agents...")
         all_hardware = {}
+        failed_agents = []
         
         for agent_id in agent_ids:
-            try:
-                data = self.client.get_hardware(agent_id=agent_id)
-                all_hardware[agent_id] = data
+            def collect_agent():
+                return self.client.get_hardware(agent_id=agent_id)
+            
+            result = self._retry_collection(collect_agent)
+            
+            if not self._has_error(result):
+                all_hardware[agent_id] = result
                 # Save per agent
                 filename = f"Syscollector_Hardware_{agent_id}.json"
-                self.save_data(data, filename, agent_id)
-            except Exception as e:
-                print(f"Error collecting hardware for agent {agent_id}: {e}")
-                all_hardware[agent_id] = {"error": str(e)}
+                self.save_data(result, filename, agent_id)
+            else:
+                print(f"  ✗ Failed to collect hardware for agent {agent_id} after retries")
+                all_hardware[agent_id] = result
+                failed_agents.append(agent_id)
         
         # Save summary
         filepath = self.save_data(all_hardware, "Hardware_Summary.json")
+        
+        if failed_agents:
+            print(f"  ⚠ Failed to collect hardware for {len(failed_agents)} agents: {failed_agents}")
+        else:
+            print(f"  ✓ Successfully collected hardware for all {len(agent_ids)} agents")
+        
         print(f"Saved hardware data to {filepath}")
         return all_hardware
 
@@ -196,33 +282,36 @@ class GroupsCollector(DataCollector):
         self.limit = config['collectors']['groups'].get('limit', 1000)
     
     def collect(self) -> Dict[str, Any]:
-        """Collect all groups"""
+        """Collect all groups with retry logic"""
         print("Collecting groups information...")
         
-        try:
+        def collect_groups():
             data = self.client.get_groups(limit=self.limit)
             result = {**data, 'source': 'manager'}
-            
-            # Save groups data
-            if 'data' in data and 'affected_items' in data['data']:
-                for group in data['data']['affected_items']:
-                    group_name = group.get('name', 'unknown')
-                    group_dir = self.collector_dir / f"group_{group_name}"
-                    group_dir.mkdir(parents=True, exist_ok=True)
-                    filename = f"Group_Agents_{group_name}.json"
-                    filepath = group_dir / filename
-                    with open(filepath, 'w', encoding='utf-8') as f:
-                        json.dump(group, f, indent=2, ensure_ascii=False)
-            
-            filepath = self.save_data(result, "Groups_List.json")
-            print(f"Saved groups data to {filepath}")
             return result
-            
-        except Exception as e:
-            print(f"Error collecting groups: {e}")
-            error_data = {"error": str(e), "source": "manager"}
-            filepath = self.save_data(error_data, "Groups_List.json")
-            return error_data
+        
+        result = self._retry_collection(collect_groups)
+        
+        # Save groups data if successful
+        if not self._has_error(result) and 'data' in result and 'affected_items' in result['data']:
+            for group in result['data']['affected_items']:
+                group_name = group.get('name', 'unknown')
+                group_dir = self.collector_dir / f"group_{group_name}"
+                group_dir.mkdir(parents=True, exist_ok=True)
+                filename = f"Group_Agents_{group_name}.json"
+                filepath = group_dir / filename
+                with open(filepath, 'w', encoding='utf-8') as f:
+                    json.dump(group, f, indent=2, ensure_ascii=False)
+        
+        filepath = self.save_data(result, "Groups_List.json")
+        
+        if not self._has_error(result):
+            print(f"  ✓ Successfully collected groups")
+        else:
+            print(f"  ✗ Failed to collect groups after retries")
+        
+        print(f"Saved groups data to {filepath}")
+        return result
 
 
 class FIMCollector(DataCollector):
@@ -233,23 +322,35 @@ class FIMCollector(DataCollector):
         self.limit = config['collectors']['fim'].get('limit', 5000)
     
     def collect(self, agent_ids: List[str]) -> Dict[str, Any]:
-        """Collect FIM data for each agent"""
+        """Collect FIM data for each agent with retry logic"""
         print(f"Collecting FIM information for {len(agent_ids)} agents...")
         all_fim = {}
+        failed_agents = []
         
         for agent_id in agent_ids:
-            try:
-                data = self.client.get_fim(agent_id=agent_id, limit=self.limit)
-                all_fim[agent_id] = data
+            def collect_agent():
+                return self.client.get_fim(agent_id=agent_id, limit=self.limit)
+            
+            result = self._retry_collection(collect_agent)
+            
+            if not self._has_error(result):
+                all_fim[agent_id] = result
                 # Save per agent
                 filename = f"File_Integrity_Monitoring_{agent_id}.json"
-                self.save_data(data, filename, agent_id)
-            except Exception as e:
-                print(f"Error collecting FIM for agent {agent_id}: {e}")
-                all_fim[agent_id] = {"error": str(e)}
+                self.save_data(result, filename, agent_id)
+            else:
+                print(f"  ✗ Failed to collect FIM for agent {agent_id} after retries")
+                all_fim[agent_id] = result
+                failed_agents.append(agent_id)
         
         # Save summary
         filepath = self.save_data(all_fim, "FIM_Summary.json")
+        
+        if failed_agents:
+            print(f"  ⚠ Failed to collect FIM for {len(failed_agents)} agents: {failed_agents}")
+        else:
+            print(f"  ✓ Successfully collected FIM for all {len(agent_ids)} agents")
+        
         print(f"Saved FIM data to {filepath}")
         return all_fim
 

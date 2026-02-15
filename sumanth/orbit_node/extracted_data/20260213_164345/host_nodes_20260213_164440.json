@@ -10,8 +10,8 @@
     "agent_id": "001",
     "os_name": "Microsoft Windows 11 Home Single Language",
     "os_version": "10.0.26200.7623",
-    "architecture": null,
-    "platform": "windows"
+    "architecture": "x86_64",
+    "platform": null
   },
   {
     "agent_id": "002",
@@ -24,14 +24,14 @@
     "agent_id": "003",
     "os_name": "Microsoft Windows 11 Home Single Language",
     "os_version": "10.0.26200.7623",
-    "architecture": null,
-    "platform": "windows"
+    "architecture": "x86_64",
+    "platform": null
   },
   {
     "agent_id": "004",
     "os_name": "Microsoft Windows 11 Home Single Language",
     "os_version": "10.0.26200.7705",
-    "architecture": null,
-    "platform": "windows"
+    "architecture": "x86_64",
+    "platform": null
   }
 ]

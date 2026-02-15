@@ -74,24 +74,47 @@ class RelationshipManager:
         use_latest = paths.get('use_latest', False)
         base_dir_str = paths.get('base_directory')
         
-        if use_latest:
-            collected_data_parent = Path("collected_data")
-            if collected_data_parent.exists():
-                import re
-                latest_dir = max(
-                    (d for d in collected_data_parent.iterdir() if d.is_dir() and re.match(r'\d{8}_\d{6}', d.name)),
-                    key=lambda d: d.name,
-                    default=None
-                )
-                if latest_dir:
-                    logger.info(f"Using latest collected data directory: {latest_dir.name}")
-                    return latest_dir
-            logger.warning("Could not find latest collected data directory. Falling back to configured base_directory.")
+        # Always try to use latest if available, even if use_latest is false
+        # This ensures we use the most recent data
+        script_dir = Path(__file__).parent
+        project_root = script_dir.parent
+        collected_data_parent = project_root / "collected_data"
         
+        logger.info(f"Looking for collected data in: {collected_data_parent}")
+        
+        if collected_data_parent.exists():
+            import re
+            # Match timestamped folders: YYYYMMDD_HHMMSS (15 chars) or YYYYMMDD_HHMMSS_MMM (19 chars)
+            timestamped_dirs = []
+            for d in collected_data_parent.iterdir():
+                if d.is_dir() and not d.name.startswith('.'):
+                    # Check if it matches timestamp pattern
+                    if re.match(r'^\d{8}_\d{6}(_\d{3})?$', d.name):
+                        timestamped_dirs.append(d)
+                        logger.debug(f"Found timestamped directory: {d.name}")
+            
+            if timestamped_dirs:
+                latest_dir = max(timestamped_dirs, key=lambda d: d.name)
+                logger.info(f"Using latest collected data directory: {latest_dir.name}")
+                logger.info(f"Full path: {latest_dir.absolute()}")
+                return latest_dir
+            else:
+                logger.warning(f"No timestamped directories found in {collected_data_parent}")
+        else:
+            logger.warning(f"Collected data parent directory does not exist: {collected_data_parent}")
+        
+        # Fallback to configured base_directory
         if base_dir_str:
-            return Path(base_dir_str)
+            base_dir = Path(base_dir_str)
+            if not base_dir.is_absolute():
+                base_dir = project_root / base_dir
+            if base_dir.exists():
+                logger.info(f"Using configured base directory: {base_dir.absolute()}")
+                return base_dir
+            else:
+                logger.warning(f"Configured base directory does not exist: {base_dir}")
         
-        raise ValueError("No base directory configured in paths_config.yaml")
+        raise ValueError(f"No valid base directory found. Checked: {collected_data_parent} and {base_dir_str}")
     
     def _get_nested_value(self, data: Dict, path: str) -> Any:
         """Get value from nested dictionary using dot notation path"""
@@ -162,6 +185,14 @@ class RelationshipManager:
         
         directory = directory_config.get('directory')
         data_dir = self.base_dir / directory
+        
+        logger.info(f"Loading source data from: {data_dir}")
+        logger.info(f"Source file pattern: {source_file}")
+        logger.info(f"Agent IDs: {agent_ids if agent_ids else 'None (single file)'}")
+        
+        if not data_dir.exists():
+            logger.error(f"Source data directory does not exist: {data_dir}")
+            return []
         
         all_data = []
         
@@ -403,14 +434,31 @@ class RelationshipManager:
             # For example, if from_node is Asset and from_node_key_property is asset_id,
             # we get all asset_ids from Asset nodes
             node_keys_query = f"MATCH (n:{from_label}) RETURN DISTINCT n.{from_node_key_property} as node_key"
+            logger.info(f"Querying {from_label} nodes for {from_node_key_property} values...")
+            logger.debug(f"Query: {node_keys_query}")
             node_keys_result = self.neo4j_conn.execute_query(node_keys_query)
             node_keys = [row['node_key'] for row in node_keys_result if row.get('node_key')]
             
             if not node_keys:
-                logger.warning(f"No {from_label} nodes found to create relationships")
+                logger.error(f"No {from_label} nodes found to create relationships")
+                logger.error(f"Query used: {node_keys_query}")
+                logger.error(f"Query returned {len(node_keys_result)} rows")
+                # Check if nodes exist at all
+                count_query = f"MATCH (n:{from_label}) RETURN count(n) as count"
+                count_result = self.neo4j_conn.execute_query(count_query)
+                total_count = count_result[0].get('count', 0) if count_result else 0
+                logger.error(f"Total {from_label} nodes in database: {total_count}")
+                if total_count > 0:
+                    # Check what properties exist
+                    sample_query = f"MATCH (n:{from_label}) RETURN n LIMIT 1"
+                    sample_result = self.neo4j_conn.execute_query(sample_query)
+                    if sample_result:
+                        sample_node = sample_result[0].get('n', {})
+                        logger.error(f"Sample node properties: {list(sample_node.keys()) if hasattr(sample_node, 'keys') else 'N/A'}")
                 return {'success': 0, 'failed': 0, 'total': 0}
             
-            logger.debug(f"Found {len(node_keys)} {from_node_key_property} values from {from_label} nodes: {node_keys[:5]}...")
+            logger.info(f"Found {len(node_keys)} {from_node_key_property} values from {from_label} nodes")
+            logger.debug(f"Sample node keys: {node_keys[:5]}...")
             
             # Determine if we need agent_ids for per-agent files
             # If source_file contains {agent_id}, we need to load per-agent files
@@ -446,13 +494,22 @@ class RelationshipManager:
                     agent_ids=None
                 )
             
-            logger.debug(f"Loaded {len(source_data_list)} items from source data")
+            logger.info(f"Loaded {len(source_data_list)} items from source data")
             if source_data_list and len(source_data_list) > 0:
                 sample = source_data_list[0]
-                logger.debug(f"Sample source item keys: {list(sample.keys())[:10] if isinstance(sample, dict) else type(sample)}")
-            
-            if not source_data_list:
-                logger.warning(f"No source data loaded for relationship creation")
+                logger.info(f"Sample source item keys: {list(sample.keys())[:10] if isinstance(sample, dict) else type(sample)}")
+                logger.debug(f"Sample source item: {sample}")
+            else:
+                logger.error(f"No source data loaded for relationship creation")
+                logger.error(f"Checked directory: {self.base_dir / directory}")
+                logger.error(f"File pattern: {source_file}")
+                logger.error(f"Agent IDs used: {agent_ids if agent_ids else 'None (single file)'}")
+                # Check if directory exists
+                data_dir = self.base_dir / directory
+                if not data_dir.exists():
+                    logger.error(f"Source data directory does not exist: {data_dir}")
+                else:
+                    logger.error(f"Directory exists but no files found. Contents: {list(data_dir.iterdir())[:10]}")
                 return {'success': 0, 'failed': 0, 'total': 0}
             
             # Extract matching values from source data
@@ -559,7 +616,13 @@ class RelationshipManager:
             
             if not relationships_to_create:
                 logger.warning(f"No matching values found in source data")
-                logger.debug(f"Source data had {len(source_data_list)} items, but no valid relationships extracted")
+                logger.warning(f"Source data had {len(source_data_list)} items, but no valid relationships extracted")
+                logger.warning(f"From node keys count: {len(node_keys_str)}")
+                logger.warning(f"Source field: {source_field}, To property: {to_property}")
+                logger.warning(f"From node key property: {from_node_key_property}")
+                if source_data_list and len(source_data_list) > 0:
+                    sample = source_data_list[0]
+                    logger.warning(f"Sample source item: {sample}")
                 return {'success': 0, 'failed': 0, 'total': 0}
             
             logger.info(f"Creating {len(relationships_to_create)} relationships using source data")
@@ -575,14 +638,23 @@ class RelationshipManager:
             RETURN count(r) as count
             """
             
+            logger.info(f"Executing relationship creation query")
+            logger.debug(f"Query: {query}")
+            logger.debug(f"Sample relationships (first 3): {relationships_to_create[:3]}")
+            
             result = self.neo4j_conn.execute_write(query, {'relationships': relationships_to_create})
+            
+            logger.info(f"Query result: {result}")
             
             if result and len(result) > 0:
                 count = result[0].get('count', 0)
                 logger.info(f"Created {count} {relationship_type} relationships from {from_label} to {to_label} using source data")
                 return {'success': count, 'failed': 0, 'total': count}
             else:
-                logger.warning(f"No relationships created")
+                logger.warning(f"No relationships created - query returned no results")
+                logger.warning(f"Check if nodes exist with matching properties:")
+                logger.warning(f"  From nodes ({from_label}) should have {from_node_key_property} matching: {[r['from_key'] for r in relationships_to_create[:5]]}")
+                logger.warning(f"  To nodes ({to_label}) should have {to_property} matching: {[r['to_value'] for r in relationships_to_create[:5]]}")
                 return {'success': 0, 'failed': 0, 'total': 0}
                 
         except Exception as e:
@@ -725,7 +797,17 @@ class RelationshipManager:
         Returns:
             Dictionary with relationship creation results
         """
+        logger.info("=" * 60)
+        logger.info("Starting relationship creation from config")
+        logger.info("=" * 60)
+        
         relationships_config = self.graph_config.get('relationships', {})
+        logger.info(f"Found {len(relationships_config)} relationship definitions in config")
+        
+        if not relationships_config:
+            logger.warning("No relationships defined in graph_config.yaml")
+            return {}
+        
         results = {}
         
         for rel_name, rel_config in relationships_config.items():
@@ -810,6 +892,20 @@ class RelationshipManager:
                 )
             
             results[rel_name] = result
+            logger.info(f"Relationship '{rel_name}' result: {result}")
+        
+        logger.info("=" * 60)
+        logger.info("Relationship creation from config completed")
+        logger.info(f"Total relationships processed: {len(results)}")
+        logger.info("=" * 60)
+        
+        # Flush logs
+        import sys
+        sys.stdout.flush()
+        import logging
+        for handler in logger.handlers:
+            if hasattr(handler, 'flush'):
+                handler.flush()
         
         return results
 
