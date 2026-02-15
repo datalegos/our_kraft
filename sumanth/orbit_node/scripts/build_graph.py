@@ -78,6 +78,8 @@ def find_latest_extraction_folder() -> Path:
         raise FileNotFoundError(f"No timestamped extraction folders found in extracted_data directory: {extracted_dir}")
     
     # Sort by folder name (which is timestamp) and return latest
+    # String comparison works for timestamp format YYYYMMDD_HHMMSS or YYYYMMDD_HHMMSS_MMM
+    # because it's zero-padded and lexicographically sortable
     latest_folder = max(subfolders, key=lambda x: x.name)
     logger.info(f"Using latest extraction folder: {latest_folder.name}")
     logger.info(f"Full path: {latest_folder.absolute()}")
@@ -85,7 +87,7 @@ def find_latest_extraction_folder() -> Path:
 
 
 def find_latest_nodes(node_type: str) -> str:
-    """Find the latest extracted nodes JSON file for a given node type in timestamped subfolders"""
+    """Find the latest extracted nodes JSON file for a given node type in organized nodes/ subfolder"""
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
     extracted_dir = project_root / 'extracted_data'
@@ -94,13 +96,20 @@ def find_latest_nodes(node_type: str) -> str:
     try:
         latest_folder = find_latest_extraction_folder()
         
-        # First, try standard filename (node_type_nodes.json) - this is the expected format
-        standard_file = latest_folder / f"{node_type}_nodes.json"
+        # First, try organized structure: nodes/ subfolder (new format)
+        nodes_dir = latest_folder / 'nodes'
+        standard_file = nodes_dir / f"{node_type}_nodes.json"
         if standard_file.exists():
-            logger.info(f"Found {node_type} nodes file in latest extraction folder: {standard_file}")
+            logger.info(f"Found {node_type} nodes file in organized nodes/ folder: {standard_file}")
             return str(standard_file)
         
-        # Fallback: look for timestamped filenames (old format for backward compatibility)
+        # Fallback 1: try root of timestamped folder (old format)
+        standard_file_root = latest_folder / f"{node_type}_nodes.json"
+        if standard_file_root.exists():
+            logger.info(f"Found {node_type} nodes file in root folder (old format): {standard_file_root}")
+            return str(standard_file_root)
+        
+        # Fallback 2: look for timestamped filenames (very old format for backward compatibility)
         pattern = f"{node_type}_nodes_*.json"
         node_files = list(latest_folder.glob(pattern))
         if node_files:
@@ -111,7 +120,8 @@ def find_latest_nodes(node_type: str) -> str:
         
         # If not found in latest folder, raise error with helpful message
         raise FileNotFoundError(
-            f"No {node_type}_nodes.json or {node_type}_nodes_*.json files found in latest extraction folder: {latest_folder}\n"
+            f"No {node_type}_nodes.json file found in latest extraction folder: {latest_folder}\n"
+            f"Expected location: {nodes_dir / f'{node_type}_nodes.json'}\n"
             f"Please run 'python extract_nodes.py {node_type}' first to extract {node_type} nodes."
         )
     except FileNotFoundError as e:
@@ -227,7 +237,7 @@ def main():
         
         # Helper function to add event_id to nodes in JSON file
         def add_event_id_to_nodes(json_file: str, event_id: str) -> str:
-            """Add event_id to all nodes in JSON file and return updated file path"""
+            """Add event_id to all nodes in JSON file and save to organized processed/ subfolder"""
             if not json_file:
                 return json_file
             
@@ -239,13 +249,27 @@ def main():
                 for node in nodes:
                     node['event_id'] = event_id
                 
-                # Save updated nodes to temporary file
-                temp_file = json_file.replace('.json', '_with_event_id.json')
-                with open(temp_file, 'w', encoding='utf-8') as f:
+                # Save to organized processed/ subfolder in the same timestamped folder
+                json_path = Path(json_file)
+                # Get the timestamped folder (parent of nodes/ or direct parent)
+                if json_path.parent.name == 'nodes':
+                    timestamped_folder = json_path.parent.parent
+                else:
+                    timestamped_folder = json_path.parent
+                
+                # Create processed/ subfolder
+                processed_dir = timestamped_folder / 'processed'
+                processed_dir.mkdir(parents=True, exist_ok=True)
+                
+                # Save with consistent naming
+                output_filename = f"{json_path.stem}_with_event_id.json"
+                processed_file = processed_dir / output_filename
+                
+                with open(processed_file, 'w', encoding='utf-8') as f:
                     json.dump(nodes, f, indent=2, ensure_ascii=False)
                 
-                logger.debug(f"Added event_id to {len(nodes)} nodes in {json_file}")
-                return temp_file
+                logger.debug(f"Added event_id to {len(nodes)} nodes and saved to: {processed_file}")
+                return str(processed_file)
             except Exception as e:
                 logger.warning(f"Could not add event_id to {json_file}: {e}")
                 return json_file

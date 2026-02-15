@@ -423,11 +423,19 @@ class NodeExtractor:
                     asset_files = []
                     import re
                     for subfolder in extracted_dir.iterdir():
-                        if subfolder.is_dir() and re.match(r'^\d{8}_\d{6}$', subfolder.name):
+                        if subfolder.is_dir() and re.match(r'^\d{8}_\d{6}(_\d{3})?$', subfolder.name):
+                            # Try organized structure first (nodes/ subfolder)
+                            nodes_dir = subfolder / 'nodes'
+                            if nodes_dir.exists():
+                                asset_files.extend(nodes_dir.glob('asset_nodes.json'))
+                            # Fallback to root of timestamped folder
+                            asset_files.extend(subfolder.glob('asset_nodes.json'))
+                            # Fallback to old timestamped format
                             asset_files.extend(subfolder.glob('asset_nodes_*.json'))
                     
                     if not asset_files:
-                        asset_files = list(extracted_dir.glob('asset_nodes_*.json'))
+                        # Final fallback: check root of extracted_dir
+                        asset_files = list(extracted_dir.glob('asset_nodes*.json'))
                     
                     if asset_files:
                         latest_asset_file = max(asset_files, key=lambda x: x.stat().st_mtime)
@@ -497,11 +505,47 @@ class NodeExtractor:
         return session_folder
     
     def _get_extraction_session_folder(self, base_output_dir: Path) -> Path:
-        """Create a new timestamped extraction session folder (always creates new folder)"""
-        # Always create a new timestamped folder for each extraction run
-        # Use milliseconds to ensure uniqueness even if called multiple times in the same second
+        """Get or create a timestamped extraction session folder (reuses recent session if within 10 seconds)"""
+        session_marker = base_output_dir / '.current_session'
         current_time = datetime.now()
-        # Format: YYYYMMDD_HHMMSS_MMM (with milliseconds for uniqueness)
+        
+        # Check if there's a recent session folder we can reuse (within 10 seconds)
+        # This allows multiple node types to use the same session folder when extracting all
+        if session_marker.exists():
+            try:
+                with open(session_marker, 'r') as f:
+                    existing_timestamp = f.read().strip()
+                
+                existing_folder = base_output_dir / existing_timestamp
+                if existing_folder.exists():
+                    # Parse the existing timestamp to check if it's recent
+                    try:
+                        # Format: YYYYMMDD_HHMMSS_MMM
+                        if len(existing_timestamp) == 19:  # With milliseconds
+                            timestamp_str = existing_timestamp[:15]  # YYYYMMDD_HHMMSS
+                            folder_time = datetime.strptime(timestamp_str, "%Y%m%d_%H%M%S")
+                            # Add milliseconds
+                            milliseconds = int(existing_timestamp[16:])
+                            folder_time = folder_time.replace(microsecond=milliseconds * 1000)
+                        else:  # Without milliseconds
+                            folder_time = datetime.strptime(existing_timestamp, "%Y%m%d_%H%M%S")
+                        
+                        # Check if folder was created within last 10 seconds
+                        time_diff = (current_time - folder_time).total_seconds()
+                        if 0 <= time_diff <= 10:
+                            # Reuse existing session folder
+                            self._session_timestamp = existing_timestamp
+                            logger.info(f"Reusing existing extraction session folder: {existing_folder}")
+                            return existing_folder
+                    except (ValueError, IndexError):
+                        # If parsing fails, create new folder
+                        pass
+            except Exception:
+                # If reading marker fails, create new folder
+                pass
+        
+        # Create a new timestamped folder for this extraction session
+        # Use milliseconds to ensure uniqueness
         microseconds = current_time.microsecond
         milliseconds = microseconds // 1000  # Convert to milliseconds (0-999)
         session_timestamp = current_time.strftime("%Y%m%d_%H%M%S") + f"_{milliseconds:03d}"
@@ -509,7 +553,6 @@ class NodeExtractor:
         session_folder.mkdir(parents=True, exist_ok=True)
         
         # Update session marker to track the latest session
-        session_marker = base_output_dir / '.current_session'
         try:
             with open(session_marker, 'w') as f:
                 f.write(session_timestamp)
@@ -523,15 +566,19 @@ class NodeExtractor:
         return session_folder
     
     def save_extracted_nodes(self, nodes: List[Dict[str, Any]], output_file: Optional[str] = None) -> str:
-        """Save extracted nodes to JSON file in timestamped session folder"""
+        """Save extracted nodes to JSON file in organized nodes/ subfolder within timestamped session folder"""
         output_dir = self._get_output_directory()
+        
+        # Create nodes/ subfolder for organized storage
+        nodes_dir = output_dir / 'nodes'
+        nodes_dir.mkdir(parents=True, exist_ok=True)
         
         if output_file is None:
             # Always use standard filename: node_type_nodes.json
             # This ensures consistent naming and easy lookup by build_graph.py
             output_file = f"{self.node_type}_nodes.json"
         
-        output_path = output_dir / output_file
+        output_path = nodes_dir / output_file
         
         # Convert datetime objects to ISO format strings for JSON serialization
         serializable_nodes = []

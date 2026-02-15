@@ -8,7 +8,8 @@
     "last_seen_at": null,
     "is_crown_jewel": false,
     "classification_reason": "Yet to be classified",
-    "classified_at": null
+    "classified_at": null,
+    "event_id": "NODE_N1_SCAN_00001_1771152574"
   },
   {
     "asset_id": "001",
@@ -19,7 +20,8 @@
     "last_seen_at": "2026-02-10T12:52:56+00:00",
     "is_crown_jewel": false,
     "classification_reason": "Yet to be classified",
-    "classified_at": null
+    "classified_at": null,
+    "event_id": "NODE_N1_SCAN_00001_1771152574"
   },
   {
     "asset_id": "002",
@@ -30,7 +32,8 @@
     "last_seen_at": "2026-02-10T12:49:07+00:00",
     "is_crown_jewel": false,
     "classification_reason": "Yet to be classified",
-    "classified_at": null
+    "classified_at": null,
+    "event_id": "NODE_N1_SCAN_00001_1771152574"
   },
   {
     "asset_id": "003",
@@ -41,7 +44,8 @@
     "last_seen_at": "2026-02-10T12:24:37+00:00",
     "is_crown_jewel": false,
     "classification_reason": "Yet to be classified",
-    "classified_at": null
+    "classified_at": null,
+    "event_id": "NODE_N1_SCAN_00001_1771152574"
   },
   {
     "asset_id": "004",
@@ -52,6 +56,7 @@
     "last_seen_at": "2026-02-10T12:16:50+00:00",
     "is_crown_jewel": false,
     "classification_reason": "Yet to be classified",
-    "classified_at": null
+    "classified_at": null,
+    "event_id": "NODE_N1_SCAN_00001_1771152574"
   }
 ]

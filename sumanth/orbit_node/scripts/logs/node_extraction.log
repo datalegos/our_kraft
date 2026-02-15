@@ -1525,3 +1525,309 @@ Saving extracted hardware nodes...
 2026-02-13 16:57:23,656 - __main__ - INFO - Extracted 5 hardware nodes
 2026-02-13 16:57:23,656 - __main__ - INFO - Output file: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260213_164345\hardware_nodes.json
 2026-02-13 16:57:23,656 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,098 - __main__ - INFO - Loaded graph_config.yaml
+2026-02-15 16:17:01,107 - __main__ - INFO - Loaded paths_config.yaml
+2026-02-15 16:17:01,111 - __main__ - INFO - Loaded neo4j_config.yaml
+2026-02-15 16:17:01,113 - __main__ - INFO - Using latest collected data folder for verification: 20260210_201344
+2026-02-15 16:17:01,113 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,114 - __main__ - INFO - VERIFYING COLLECTION STATUS
+2026-02-15 16:17:01,114 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,114 - __main__ - INFO - Verifying collections in base directory: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344
+2026-02-15 16:17:01,335 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,335 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,335 - __main__ - INFO - EXTRACTING ALL NODE TYPES
+2026-02-15 16:17:01,336 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,336 - __main__ - INFO - Found 6 node types to extract: asset, host, software, vulnerability, assetgroup, hardware
+2026-02-15 16:17:01,336 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,336 - __main__ - INFO - ASSET Node Extraction Started
+2026-02-15 16:17:01,337 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,338 - __main__ - INFO - Using latest collected data folder: 20260210_201344
+2026-02-15 16:17:01,338 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344
+2026-02-15 16:17:01,338 - __main__ - INFO - 
+Extracting asset nodes from collected data...
+2026-02-15 16:17:01,339 - __main__ - INFO - Loading asset data from summary file (per_agent: false)
+2026-02-15 16:17:01,339 - __main__ - INFO - Loading asset data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\agents_manager
+2026-02-15 16:17:01,339 - __main__ - INFO - File pattern: All_Agents.json, per_agent: False, agent_ids: None
+2026-02-15 16:17:01,340 - __main__ - INFO - Loading summary file: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\agents_manager\All_Agents.json
+2026-02-15 16:17:01,341 - __main__ - INFO - Loaded 5 items from C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\agents_manager\All_Agents.json
+2026-02-15 16:17:01,341 - __main__ - INFO - Total items loaded for asset: 5
+2026-02-15 16:17:01,342 - __main__ - INFO - Successfully extracted 5 asset nodes
+2026-02-15 16:17:01,342 - __main__ - INFO - 
+Saving extracted asset nodes...
+2026-02-15 16:17:01,345 - __main__ - INFO - Created new extraction session folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_343
+2026-02-15 16:17:01,347 - __main__ - INFO - Saved 5 asset nodes to: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_343\nodes\asset_nodes.json
+2026-02-15 16:17:01,347 - __main__ - INFO - 
+============================================================
+2026-02-15 16:17:01,348 - __main__ - INFO - ASSET Node Extraction Completed!
+2026-02-15 16:17:01,348 - __main__ - INFO - Extracted 5 asset nodes
+2026-02-15 16:17:01,348 - __main__ - INFO - Output file: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_343\nodes\asset_nodes.json
+2026-02-15 16:17:01,349 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,349 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,349 - __main__ - INFO - HOST Node Extraction Started
+2026-02-15 16:17:01,350 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,351 - __main__ - INFO - Using latest collected data folder: 20260210_201344
+2026-02-15 16:17:01,351 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344
+2026-02-15 16:17:01,352 - __main__ - INFO - 
+Extracting host nodes from collected data...
+2026-02-15 16:17:01,352 - __main__ - INFO - Loading host data requires agent IDs (per_agent: true)
+2026-02-15 16:17:01,353 - __main__ - INFO - Found 5 agent IDs from All_Agents.json: ['000', '001', '002', '003', '004']
+2026-02-15 16:17:01,354 - __main__ - INFO - Loading host data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\host
+2026-02-15 16:17:01,355 - __main__ - INFO - File pattern: Syscollector_OS_Info_{agent_id}.json, per_agent: True, agent_ids: ['000', '001', '002', '003', '004']
+2026-02-15 16:17:01,357 - __main__ - INFO - Total items loaded for host: 5
+2026-02-15 16:17:01,358 - __main__ - INFO - Successfully extracted 5 host nodes
+2026-02-15 16:17:01,358 - __main__ - INFO - 
+Saving extracted host nodes...
+2026-02-15 16:17:01,360 - __main__ - INFO - Created new extraction session folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_359
+2026-02-15 16:17:01,363 - __main__ - INFO - Saved 5 host nodes to: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_359\nodes\host_nodes.json
+2026-02-15 16:17:01,364 - __main__ - INFO - 
+============================================================
+2026-02-15 16:17:01,364 - __main__ - INFO - HOST Node Extraction Completed!
+2026-02-15 16:17:01,364 - __main__ - INFO - Extracted 5 host nodes
+2026-02-15 16:17:01,365 - __main__ - INFO - Output file: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_359\nodes\host_nodes.json
+2026-02-15 16:17:01,365 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,365 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,366 - __main__ - INFO - SOFTWARE Node Extraction Started
+2026-02-15 16:17:01,366 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,367 - __main__ - INFO - Using latest collected data folder: 20260210_201344
+2026-02-15 16:17:01,367 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344
+2026-02-15 16:17:01,367 - __main__ - INFO - 
+Extracting software nodes from collected data...
+2026-02-15 16:17:01,368 - __main__ - INFO - Loading software data requires agent IDs (per_agent: true)
+2026-02-15 16:17:01,368 - __main__ - INFO - Found 5 agent IDs from All_Agents.json: ['000', '001', '002', '003', '004']
+2026-02-15 16:17:01,369 - __main__ - INFO - Loading software data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\packages
+2026-02-15 16:17:01,369 - __main__ - INFO - File pattern: Syscollector_Packages_{agent_id}.json, per_agent: True, agent_ids: ['000', '001', '002', '003', '004']
+2026-02-15 16:17:01,378 - __main__ - INFO - Total items loaded for software: 726
+2026-02-15 16:17:01,383 - __main__ - INFO - Successfully extracted 726 software nodes
+2026-02-15 16:17:01,383 - __main__ - INFO - 
+Saving extracted software nodes...
+2026-02-15 16:17:01,385 - __main__ - INFO - Created new extraction session folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_384
+2026-02-15 16:17:01,400 - __main__ - INFO - Saved 726 software nodes to: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_384\nodes\software_nodes.json
+2026-02-15 16:17:01,401 - __main__ - INFO - 
+============================================================
+2026-02-15 16:17:01,401 - __main__ - INFO - SOFTWARE Node Extraction Completed!
+2026-02-15 16:17:01,402 - __main__ - INFO - Extracted 726 software nodes
+2026-02-15 16:17:01,402 - __main__ - INFO - Output file: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_384\nodes\software_nodes.json
+2026-02-15 16:17:01,403 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,403 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,403 - __main__ - INFO - VULNERABILITY Node Extraction Started
+2026-02-15 16:17:01,404 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,405 - __main__ - INFO - Using latest collected data folder: 20260210_201344
+2026-02-15 16:17:01,405 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344
+2026-02-15 16:17:01,405 - __main__ - INFO - 
+Extracting vulnerability nodes from collected data...
+2026-02-15 16:17:01,406 - __main__ - INFO - Loading vulnerability data requires agent IDs (per_agent: true)
+2026-02-15 16:17:01,407 - __main__ - INFO - Found 5 agent IDs from All_Agents.json: ['000', '001', '002', '003', '004']
+2026-02-15 16:17:01,407 - __main__ - INFO - Loading vulnerability data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\vulnerabilities
+2026-02-15 16:17:01,407 - __main__ - INFO - File pattern: Vulnerabilities_{agent_id}.json, per_agent: True, agent_ids: ['000', '001', '002', '003', '004']
+2026-02-15 16:17:01,410 - __main__ - INFO - Total items loaded for vulnerability: 53
+2026-02-15 16:17:01,411 - __main__ - INFO - Successfully extracted 53 vulnerability nodes
+2026-02-15 16:17:01,412 - __main__ - INFO - 
+Saving extracted vulnerability nodes...
+2026-02-15 16:17:01,414 - __main__ - INFO - Created new extraction session folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_412
+2026-02-15 16:17:01,417 - __main__ - INFO - Saved 53 vulnerability nodes to: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_412\nodes\vulnerability_nodes.json
+2026-02-15 16:17:01,418 - __main__ - INFO - 
+============================================================
+2026-02-15 16:17:01,418 - __main__ - INFO - VULNERABILITY Node Extraction Completed!
+2026-02-15 16:17:01,418 - __main__ - INFO - Extracted 53 vulnerability nodes
+2026-02-15 16:17:01,419 - __main__ - INFO - Output file: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_412\nodes\vulnerability_nodes.json
+2026-02-15 16:17:01,419 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,419 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,419 - __main__ - INFO - ASSETGROUP Node Extraction Started
+2026-02-15 16:17:01,420 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,420 - __main__ - INFO - Using latest collected data folder: 20260210_201344
+2026-02-15 16:17:01,421 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344
+2026-02-15 16:17:01,421 - __main__ - INFO - 
+Extracting assetgroup nodes from collected data...
+2026-02-15 16:17:01,422 - __main__ - INFO - Loading assetgroup data from summary file (per_agent: false)
+2026-02-15 16:17:01,422 - __main__ - INFO - Loading assetgroup data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\groups
+2026-02-15 16:17:01,422 - __main__ - INFO - File pattern: Groups_List.json, per_agent: False, agent_ids: None
+2026-02-15 16:17:01,422 - __main__ - INFO - Loading summary file: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\groups\Groups_List.json
+2026-02-15 16:17:01,423 - __main__ - INFO - Loaded 1 items from C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\groups\Groups_List.json
+2026-02-15 16:17:01,423 - __main__ - INFO - Total items loaded for assetgroup: 1
+2026-02-15 16:17:01,423 - __main__ - INFO - Successfully extracted 1 assetgroup nodes
+2026-02-15 16:17:01,424 - __main__ - INFO - 
+Saving extracted assetgroup nodes...
+2026-02-15 16:17:01,426 - __main__ - INFO - Created new extraction session folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_425
+2026-02-15 16:17:01,429 - __main__ - INFO - Saved 1 assetgroup nodes to: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_425\nodes\assetgroup_nodes.json
+2026-02-15 16:17:01,429 - __main__ - INFO - 
+============================================================
+2026-02-15 16:17:01,430 - __main__ - INFO - ASSETGROUP Node Extraction Completed!
+2026-02-15 16:17:01,430 - __main__ - INFO - Extracted 1 assetgroup nodes
+2026-02-15 16:17:01,430 - __main__ - INFO - Output file: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_425\nodes\assetgroup_nodes.json
+2026-02-15 16:17:01,431 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,431 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,431 - __main__ - INFO - HARDWARE Node Extraction Started
+2026-02-15 16:17:01,432 - __main__ - INFO - ============================================================
+2026-02-15 16:17:01,433 - __main__ - INFO - Using latest collected data folder: 20260210_201344
+2026-02-15 16:17:01,433 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344
+2026-02-15 16:17:01,433 - __main__ - INFO - 
+Extracting hardware nodes from collected data...
+2026-02-15 16:17:01,433 - __main__ - INFO - Loading hardware data requires agent IDs (per_agent: true)
+2026-02-15 16:17:01,434 - __main__ - INFO - Found 5 agent IDs from All_Agents.json: ['000', '001', '002', '003', '004']
+2026-02-15 16:17:01,435 - __main__ - INFO - Loading hardware data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\hardware
+2026-02-15 16:17:01,435 - __main__ - INFO - File pattern: Syscollector_Hardware_{agent_id}.json, per_agent: True, agent_ids: ['000', '001', '002', '003', '004']
+2026-02-15 16:17:01,437 - __main__ - INFO - Total items loaded for hardware: 5
+2026-02-15 16:17:01,437 - __main__ - INFO - Successfully extracted 5 hardware nodes
+2026-02-15 16:17:01,438 - __main__ - INFO - 
+Saving extracted hardware nodes...
+2026-02-15 16:17:01,440 - __main__ - INFO - Created new extraction session folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_439
+2026-02-15 16:17:01,443 - __main__ - INFO - Saved 5 hardware nodes to: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_439\nodes\hardware_nodes.json
+2026-02-15 16:17:01,444 - __main__ - INFO - 
+============================================================
+2026-02-15 16:17:01,444 - __main__ - INFO - HARDWARE Node Extraction Completed!
+2026-02-15 16:17:01,444 - __main__ - INFO - Extracted 5 hardware nodes
+2026-02-15 16:17:01,445 - __main__ - INFO - Output file: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161701_439\nodes\hardware_nodes.json
+2026-02-15 16:17:01,445 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,295 - __main__ - INFO - Loaded graph_config.yaml
+2026-02-15 16:19:34,302 - __main__ - INFO - Loaded paths_config.yaml
+2026-02-15 16:19:34,308 - __main__ - INFO - Loaded neo4j_config.yaml
+2026-02-15 16:19:34,310 - __main__ - INFO - Using latest collected data folder for verification: 20260210_201344
+2026-02-15 16:19:34,310 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,311 - __main__ - INFO - VERIFYING COLLECTION STATUS
+2026-02-15 16:19:34,311 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,311 - __main__ - INFO - Verifying collections in base directory: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344
+2026-02-15 16:19:34,524 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,524 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,525 - __main__ - INFO - EXTRACTING ALL NODE TYPES
+2026-02-15 16:19:34,525 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,525 - __main__ - INFO - Found 6 node types to extract: asset, host, software, vulnerability, assetgroup, hardware
+2026-02-15 16:19:34,525 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,525 - __main__ - INFO - ASSET Node Extraction Started
+2026-02-15 16:19:34,526 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,526 - __main__ - INFO - Using latest collected data folder: 20260210_201344
+2026-02-15 16:19:34,527 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344
+2026-02-15 16:19:34,527 - __main__ - INFO - 
+Extracting asset nodes from collected data...
+2026-02-15 16:19:34,527 - __main__ - INFO - Loading asset data from summary file (per_agent: false)
+2026-02-15 16:19:34,528 - __main__ - INFO - Loading asset data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\agents_manager
+2026-02-15 16:19:34,528 - __main__ - INFO - File pattern: All_Agents.json, per_agent: False, agent_ids: None
+2026-02-15 16:19:34,528 - __main__ - INFO - Loading summary file: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\agents_manager\All_Agents.json
+2026-02-15 16:19:34,529 - __main__ - INFO - Loaded 5 items from C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\agents_manager\All_Agents.json
+2026-02-15 16:19:34,529 - __main__ - INFO - Total items loaded for asset: 5
+2026-02-15 16:19:34,529 - __main__ - INFO - Successfully extracted 5 asset nodes
+2026-02-15 16:19:34,530 - __main__ - INFO - 
+Saving extracted asset nodes...
+2026-02-15 16:19:34,543 - __main__ - INFO - Created new extraction session folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:19:34,546 - __main__ - INFO - Saved 5 asset nodes to: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\asset_nodes.json
+2026-02-15 16:19:34,546 - __main__ - INFO - 
+============================================================
+2026-02-15 16:19:34,546 - __main__ - INFO - ASSET Node Extraction Completed!
+2026-02-15 16:19:34,546 - __main__ - INFO - Extracted 5 asset nodes
+2026-02-15 16:19:34,547 - __main__ - INFO - Output file: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\asset_nodes.json
+2026-02-15 16:19:34,547 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,547 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,548 - __main__ - INFO - HOST Node Extraction Started
+2026-02-15 16:19:34,548 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,549 - __main__ - INFO - Using latest collected data folder: 20260210_201344
+2026-02-15 16:19:34,549 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344
+2026-02-15 16:19:34,549 - __main__ - INFO - 
+Extracting host nodes from collected data...
+2026-02-15 16:19:34,549 - __main__ - INFO - Loading host data requires agent IDs (per_agent: true)
+2026-02-15 16:19:34,550 - __main__ - INFO - Found 5 agent IDs from All_Agents.json: ['000', '001', '002', '003', '004']
+2026-02-15 16:19:34,550 - __main__ - INFO - Loading host data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\host
+2026-02-15 16:19:34,551 - __main__ - INFO - File pattern: Syscollector_OS_Info_{agent_id}.json, per_agent: True, agent_ids: ['000', '001', '002', '003', '004']
+2026-02-15 16:19:34,553 - __main__ - INFO - Total items loaded for host: 5
+2026-02-15 16:19:34,553 - __main__ - INFO - Successfully extracted 5 host nodes
+2026-02-15 16:19:34,554 - __main__ - INFO - 
+Saving extracted host nodes...
+2026-02-15 16:19:34,555 - __main__ - INFO - Reusing existing extraction session folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:19:34,558 - __main__ - INFO - Saved 5 host nodes to: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\host_nodes.json
+2026-02-15 16:19:34,558 - __main__ - INFO - 
+============================================================
+2026-02-15 16:19:34,558 - __main__ - INFO - HOST Node Extraction Completed!
+2026-02-15 16:19:34,559 - __main__ - INFO - Extracted 5 host nodes
+2026-02-15 16:19:34,559 - __main__ - INFO - Output file: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\host_nodes.json
+2026-02-15 16:19:34,559 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,559 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,560 - __main__ - INFO - SOFTWARE Node Extraction Started
+2026-02-15 16:19:34,560 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,560 - __main__ - INFO - Using latest collected data folder: 20260210_201344
+2026-02-15 16:19:34,561 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344
+2026-02-15 16:19:34,561 - __main__ - INFO - 
+Extracting software nodes from collected data...
+2026-02-15 16:19:34,561 - __main__ - INFO - Loading software data requires agent IDs (per_agent: true)
+2026-02-15 16:19:34,562 - __main__ - INFO - Found 5 agent IDs from All_Agents.json: ['000', '001', '002', '003', '004']
+2026-02-15 16:19:34,562 - __main__ - INFO - Loading software data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\packages
+2026-02-15 16:19:34,562 - __main__ - INFO - File pattern: Syscollector_Packages_{agent_id}.json, per_agent: True, agent_ids: ['000', '001', '002', '003', '004']
+2026-02-15 16:19:34,571 - __main__ - INFO - Total items loaded for software: 726
+2026-02-15 16:19:34,575 - __main__ - INFO - Successfully extracted 726 software nodes
+2026-02-15 16:19:34,576 - __main__ - INFO - 
+Saving extracted software nodes...
+2026-02-15 16:19:34,577 - __main__ - INFO - Reusing existing extraction session folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:19:34,596 - __main__ - INFO - Saved 726 software nodes to: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\software_nodes.json
+2026-02-15 16:19:34,597 - __main__ - INFO - 
+============================================================
+2026-02-15 16:19:34,598 - __main__ - INFO - SOFTWARE Node Extraction Completed!
+2026-02-15 16:19:34,598 - __main__ - INFO - Extracted 726 software nodes
+2026-02-15 16:19:34,598 - __main__ - INFO - Output file: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\software_nodes.json
+2026-02-15 16:19:34,599 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,599 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,599 - __main__ - INFO - VULNERABILITY Node Extraction Started
+2026-02-15 16:19:34,600 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,601 - __main__ - INFO - Using latest collected data folder: 20260210_201344
+2026-02-15 16:19:34,601 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344
+2026-02-15 16:19:34,601 - __main__ - INFO - 
+Extracting vulnerability nodes from collected data...
+2026-02-15 16:19:34,602 - __main__ - INFO - Loading vulnerability data requires agent IDs (per_agent: true)
+2026-02-15 16:19:34,602 - __main__ - INFO - Found 5 agent IDs from All_Agents.json: ['000', '001', '002', '003', '004']
+2026-02-15 16:19:34,603 - __main__ - INFO - Loading vulnerability data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\vulnerabilities
+2026-02-15 16:19:34,603 - __main__ - INFO - File pattern: Vulnerabilities_{agent_id}.json, per_agent: True, agent_ids: ['000', '001', '002', '003', '004']
+2026-02-15 16:19:34,606 - __main__ - INFO - Total items loaded for vulnerability: 53
+2026-02-15 16:19:34,608 - __main__ - INFO - Successfully extracted 53 vulnerability nodes
+2026-02-15 16:19:34,608 - __main__ - INFO - 
+Saving extracted vulnerability nodes...
+2026-02-15 16:19:34,610 - __main__ - INFO - Reusing existing extraction session folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:19:34,613 - __main__ - INFO - Saved 53 vulnerability nodes to: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\vulnerability_nodes.json
+2026-02-15 16:19:34,614 - __main__ - INFO - 
+============================================================
+2026-02-15 16:19:34,614 - __main__ - INFO - VULNERABILITY Node Extraction Completed!
+2026-02-15 16:19:34,615 - __main__ - INFO - Extracted 53 vulnerability nodes
+2026-02-15 16:19:34,615 - __main__ - INFO - Output file: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\vulnerability_nodes.json
+2026-02-15 16:19:34,615 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,616 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,616 - __main__ - INFO - ASSETGROUP Node Extraction Started
+2026-02-15 16:19:34,616 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,617 - __main__ - INFO - Using latest collected data folder: 20260210_201344
+2026-02-15 16:19:34,617 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344
+2026-02-15 16:19:34,617 - __main__ - INFO - 
+Extracting assetgroup nodes from collected data...
+2026-02-15 16:19:34,618 - __main__ - INFO - Loading assetgroup data from summary file (per_agent: false)
+2026-02-15 16:19:34,618 - __main__ - INFO - Loading assetgroup data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\groups
+2026-02-15 16:19:34,618 - __main__ - INFO - File pattern: Groups_List.json, per_agent: False, agent_ids: None
+2026-02-15 16:19:34,619 - __main__ - INFO - Loading summary file: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\groups\Groups_List.json
+2026-02-15 16:19:34,619 - __main__ - INFO - Loaded 1 items from C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\groups\Groups_List.json
+2026-02-15 16:19:34,619 - __main__ - INFO - Total items loaded for assetgroup: 1
+2026-02-15 16:19:34,620 - __main__ - INFO - Successfully extracted 1 assetgroup nodes
+2026-02-15 16:19:34,620 - __main__ - INFO - 
+Saving extracted assetgroup nodes...
+2026-02-15 16:19:34,622 - __main__ - INFO - Reusing existing extraction session folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:19:34,623 - __main__ - INFO - Saved 1 assetgroup nodes to: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\assetgroup_nodes.json
+2026-02-15 16:19:34,624 - __main__ - INFO - 
+============================================================
+2026-02-15 16:19:34,624 - __main__ - INFO - ASSETGROUP Node Extraction Completed!
+2026-02-15 16:19:34,624 - __main__ - INFO - Extracted 1 assetgroup nodes
+2026-02-15 16:19:34,625 - __main__ - INFO - Output file: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\assetgroup_nodes.json
+2026-02-15 16:19:34,625 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,625 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,626 - __main__ - INFO - HARDWARE Node Extraction Started
+2026-02-15 16:19:34,626 - __main__ - INFO - ============================================================
+2026-02-15 16:19:34,627 - __main__ - INFO - Using latest collected data folder: 20260210_201344
+2026-02-15 16:19:34,627 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344
+2026-02-15 16:19:34,627 - __main__ - INFO - 
+Extracting hardware nodes from collected data...
+2026-02-15 16:19:34,628 - __main__ - INFO - Loading hardware data requires agent IDs (per_agent: true)
+2026-02-15 16:19:34,628 - __main__ - INFO - Found 5 agent IDs from All_Agents.json: ['000', '001', '002', '003', '004']
+2026-02-15 16:19:34,629 - __main__ - INFO - Loading hardware data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\hardware
+2026-02-15 16:19:34,629 - __main__ - INFO - File pattern: Syscollector_Hardware_{agent_id}.json, per_agent: True, agent_ids: ['000', '001', '002', '003', '004']
+2026-02-15 16:19:34,633 - __main__ - INFO - Total items loaded for hardware: 5
+2026-02-15 16:19:34,633 - __main__ - INFO - Successfully extracted 5 hardware nodes
+2026-02-15 16:19:34,634 - __main__ - INFO - 
+Saving extracted hardware nodes...
+2026-02-15 16:19:34,635 - __main__ - INFO - Reusing existing extraction session folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:19:34,637 - __main__ - INFO - Saved 5 hardware nodes to: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\hardware_nodes.json
+2026-02-15 16:19:34,637 - __main__ - INFO - 
+============================================================
+2026-02-15 16:19:34,638 - __main__ - INFO - HARDWARE Node Extraction Completed!
+2026-02-15 16:19:34,638 - __main__ - INFO - Extracted 5 hardware nodes
+2026-02-15 16:19:34,638 - __main__ - INFO - Output file: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\hardware_nodes.json
+2026-02-15 16:19:34,639 - __main__ - INFO - ============================================================
