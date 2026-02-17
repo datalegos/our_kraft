@@ -1,0 +1,213 @@
+# Aggregation Configuration
+# Defines what data to aggregate and how to aggregate it
+
+aggregation_settings:
+  # Enable/disable specific aggregations
+  enabled_aggregations:
+    - host
+    - software
+    - vulnerability
+    - hardware
+    - asset
+    - assetgroup
+  
+  # Software aggregation settings
+  software:
+    top_packages_limit: 50  # Number of top packages to include
+    include_multi_version: true  # Track packages with multiple versions
+  
+  # Vulnerability aggregation settings
+  vulnerability:
+    top_cves_limit: 20  # Number of top CVEs to include
+    severity_levels:
+      - Critical
+      - High
+      - Medium
+      - Low
+      - Unknown
+  
+  # Output settings
+  output:
+    create_summary_report: true
+    create_individual_files: true
+    create_complete_file: true
+    format: json  # json or csv
+
+# PII/PCI Detection Configuration (for Presidio integration)
+pii_detection:
+  enabled: true  # Enabled for Phase 4
+  confidence_threshold: 0.5  # Minimum confidence score (0.0 to 1.0)
+  
+  # Entity types to detect
+  # Comment out entities that cause false positives in your data
+  entities_to_detect:
+    # Personal Information (High Priority)
+    - EMAIL_ADDRESS      # email@example.com
+    - PHONE_NUMBER       # +1-555-123-4567
+    - US_SSN             # 123-45-6789
+    - US_PASSPORT        # Passport numbers
+    - US_DRIVER_LICENSE  # Driver's license numbers
+    
+    # Financial Information (PCI - High Priority)
+    - CREDIT_CARD        # Credit card numbers
+    - IBAN_CODE          # International bank accounts
+    - US_BANK_NUMBER     # Bank account numbers
+    - CRYPTO             # Cryptocurrency addresses
+    
+    # Network Information
+    - IP_ADDRESS         # 192.168.1.1
+    # - URL              # Disabled: causes false positives with package names
+    
+    # Medical Information
+    - MEDICAL_LICENSE    # Medical license numbers
+    
+    # Names (Can cause false positives with software names - use deny_list_patterns to filter)
+    - PERSON             # Person names - filtered by deny_list_patterns
+    
+    # Location (Can cause false positives - use deny_list_patterns to filter)
+    - LOCATION           # Location names - filtered by deny_list_patterns
+    
+    # Dates/Times (Can cause false positives with version numbers - use deny_list_patterns to filter)
+    - DATE_TIME          # Timestamps and dates - filtered by deny_list_patterns
+    
+    # Other Identifiers (Enable if needed for your region)
+    # - NRP              # National Registry of Persons
+    # - AU_ABN           # Australian Business Number
+    # - AU_ACN           # Australian Company Number
+    # - AU_TFN           # Australian Tax File Number
+    # - AU_MEDICARE      # Australian Medicare numbers
+  
+  # False Positive Filtering Strategy:
+  # - Keep PERSON, LOCATION, DATE_TIME enabled to detect real PII
+  # - Use deny_list_patterns to filter out known technical/software patterns
+  # - This allows detection of real names/locations while filtering false positives
+  false_positive_filters:
+    enabled: true
+    
+    # Regex patterns for known false positives
+    # These patterns filter out technical identifiers that Presidio incorrectly flags as PII
+    # 
+    # IMPORTANT: These patterns should be SPECIFIC to avoid filtering real PII
+    # - Use anchors (^ and $) where possible
+    # - Match known software/technical patterns, not general words
+    deny_list_patterns:
+      # ===== DATE_TIME False Positives =====
+      # ISO 8601 timestamps (not user birthdays or sensitive dates)
+      - '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}'  # 2026-02-16T15:30:52.681703
+      
+      # Software version numbers (not dates)
+      - '^\d+\.\d+\.\d+$'                        # 3.12.10, 2.1.1
+      - '^\d+\.\d+$'                             # 2.1, 3.12
+      - '^\d+\.\d+\.\d+\+\d+$'                   # 25.0.1+8 (Java versions)
+      - '\d+\.\d+\.\d+\+\d+'                     # Version with + anywhere
+      
+      # Years in software names (not dates)
+      - '^\d{4}$'                                # 2022, 2013, 2015 (standalone years)
+      - '^\d{4}-\d{4}$'                          # 2015-2022 (year ranges)
+      - '^\d{4} X\d+'                            # 2022 X64, 2022 X86
+      - '\d{4}-\d{4} Redistributable'            # 2015-2022 Redistributable
+      
+      # Build/version numbers
+      - '^\d+\.\d+\.\d+\.\d+$'                   # 14.44.35211
+      
+      # CVE numbers (partial matches from CVE identifiers)
+      - '^\d{5}$'                                # 12084 (from CVE-2025-12084)
+      - '^\d{4,5}$'                              # 4-5 digit numbers (likely CVE parts)
+      
+      # ===== LOCATION False Positives =====
+      # Technical field names (not real locations)
+      - '^source_path$'
+      - '^[a-z_]+_path$'                         # Any field ending in _path
+      - '^[a-z_]+_directory$'                    # Any field ending in _directory
+      
+      # Operating system names (not locations)
+      - '^(Linux|Windows|Unix|MacOS|Darwin|Ubuntu|Debian|CentOS|RedHat|Fedora)$'
+      
+      # Software library names starting with 'lib' (not locations)
+      - '^lib[a-z]+$'                            # libzstd, libreport, libgcrypt, libpsl, libsolv, libsigsegv
+      - '^lib[a-z]+-[a-z]+$'                     # lib-something
+      
+      # ===== PERSON False Positives =====
+      # Software/Application names with version numbers
+      - 'Desktop \d+'                            # Neo4j Desktop 2 2.1.1
+      - '^\w+ \d+\.\d+'                          # Python 3.12.10, Version X.Y
+      - '^Neo4j'                                 # Neo4j products
+      - '^Python \d+'                            # Python versions
+      
+      # Microsoft products with years
+      - '^Microsoft Visual C\+\+'                # Microsoft Visual C++ (any year)
+      - '^Microsoft .* \d{4}'                    # Microsoft products with years
+      
+      # CVE identifiers (not person names)
+      - '^CVE-\d{4}-\d+$'                        # CVE-2022-0815
+      
+      # Software agent/service names
+      - '^\w+Agent$'                             # KeyboardAccessAgent, NotificationAgent
+      - 'Agent$'                                 # Anything ending in Agent
+      - 'Dispatcher$'                            # FolderActionsDispatcher
+      - 'Notification$'                          # Keychain Circle Notification, Keychain Circle Notification
+      - 'Circle Notification$'                   # Keychain Circle Notification
+      - 'Center$'                                # NotificationCenter
+      
+      # Common software package names (lowercase technical names)
+      - '^[a-z]+\d*$'                            # npth, mpfr, ecdsa, flake8, mccabe, httpcore, pytest, tiktoken
+      - '^[a-z]+-[a-z]+$'                        # pytest-asyncio, etc.
+      
+      # Mac content packages
+      - '^MAContent\d+_'                         # MAContent10_AssetPack_*
+      
+      # Known application names (be specific to avoid filtering real names)
+      - '^(Git|Docker|Postman|Wazuh|Kiro|Antigravity|Lassen)$'
+      - '^(Font Book|Photo Booth|Image Capture|Grapher|GameTrampoline|DaVinci Resolve)$'
+      - '^Windows Subsystem'                     # Windows Subsystem for Linux
+      - '^Eclipse Temurin'                       # Eclipse Temurin JDK
+      
+      # Receipt/CDM patterns
+      - '_MASReceipt$'                           # Keynote_MASReceipt
+      - 'MASReceipt'                             # Any MASReceipt
+      - '^cdm\.'                                 # cdm.* patterns
+      
+      # Add more patterns as you discover false positives in your data
+      # Keep patterns specific to avoid filtering real PII
+    
+    # Custom recognizer patterns for proactive detection
+    # These patterns identify software packages before they're flagged as PII
+    custom_recognizer_patterns:
+      - name: "lib_packages"
+        regex: '\blib[a-z]+\b'
+        score: 0.95
+      - name: "cve_identifiers"
+        regex: '\bCVE-\d{4}-\d+\b'
+        score: 0.99
+      - name: "software_agents"
+        regex: '\b\w+Agent\b'
+        score: 0.90
+      - name: "python_packages"
+        regex: '\b[a-z]+\d*\b'
+        score: 0.85
+      - name: "mac_content"
+        regex: '\bMAContent\d+_\w+\b'
+        score: 0.95
+      - name: "timestamps"
+        regex: '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}'
+        score: 0.99
+      - name: "version_numbers"
+        regex: '\d+\.\d+\.\d+'
+        score: 0.90
+  
+  # Notes:
+  # - PERSON, LOCATION, DATE_TIME are disabled by default for technical data
+  # - They cause many false positives with software package names and versions
+  # - Enable them only if you need to detect actual person names/locations
+  # - For production, focus on high-risk PII: emails, SSNs, credit cards
+  # - Adjust deny_list_patterns and custom_recognizer_patterns as needed for your environment
+  
+# Future: Core Graph Configuration (for aggregated data graph)
+core_graph:
+  enabled: false  # Will be enabled in next phase
+  neo4j_database: "core"  # Separate database for aggregated data
+  node_types:
+    - OSDistribution
+    - SoftwarePackage
+    - VulnerabilitySummary
+    - HardwareProfile

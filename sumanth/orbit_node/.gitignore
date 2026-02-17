@@ -1,6 +1,19 @@
 # Collected data
 collected_data/
 
+# Extracted data
+extracted_data/
+
+# Aggregated data
+aggregated_data/
+aggregated_data_core/
+
+# PII scan results
+pii_scan_results/
+
+# Logs
+logs/
+
 # Python
 __pycache__/
 *.py[cod]

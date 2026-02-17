@@ -57,6 +57,15 @@ paths:
   # Output directory for processed/extracted data
   output_directory: "extracted_data"
   
+  # Output directory for aggregated data
+  aggregated_directory: "aggregated_data"
+  
+  # Output directory for aggregated core data
+  aggregated_core_directory: "aggregated_data_core"
+  
+  # Output directory for PII scan results
+  pii_scan_results_directory: "pii_scan_results"
+  
   # Logging
   log_directory: "logs"
 
