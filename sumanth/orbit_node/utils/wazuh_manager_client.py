@@ -129,6 +129,17 @@ class WazuhManagerClient:
         endpoint = f'/syscollector/{agent_id}/hardware'
         return self._make_request('GET', endpoint, params=params)
     
+    def get_cpe(self, agent_id: str, limit: int = 1000) -> Dict[str, Any]:
+        """Get CPE (Common Platform Enumeration) information from Wazuh Manager REST API"""
+        params = {
+            'pretty': 'true',
+            'limit': str(limit)
+        }
+        endpoint = f'/syscollector/{agent_id}/packages'
+        # Note: CPE data is included in the packages endpoint response
+        # Each package may have a 'cpe' field with CPE identifier
+        return self._make_request('GET', endpoint, params=params)
+    
     def get_groups(self, limit: int = 1000) -> Dict[str, Any]:
         """Get groups information from Wazuh Manager REST API"""
         params = {

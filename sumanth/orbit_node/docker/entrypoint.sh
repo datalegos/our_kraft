@@ -1,11 +1,11 @@
 #!/bin/bash
 set -e
 
-# DataLegos Pipeline Entrypoint
+# NJS Pipeline Entrypoint
 # Validates environment, creates .env, and runs pipeline
 
 echo "==================================================================="
-echo "DataLegos Pipeline Container Starting"
+echo "NJS Pipeline Container Starting"
 echo "==================================================================="
 echo "Timestamp: $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
 echo "Mode: ${PIPELINE_MODE:-run-once}"
@@ -79,7 +79,7 @@ log "✅ .env file created"
 
 # Create shared data directories if they don't exist
 log "Setting up shared data directories..."
-mkdir -p ${SHARED_DATA_PATH}/{collected_data,extracted_data,aggregated_data_core,pii_scan_results,logs,pipeline}
+mkdir -p ${SHARED_DATA_PATH}/{data/{collected,extracted,aggregated,aggregated_core,pii_scan_results},logs,pipeline,config}
 
 log "✅ Shared data directories ready"
 
@@ -104,7 +104,7 @@ log "✅ Neo4j is ready!"
 case "$1" in
     run-pipeline)
         log "Starting pipeline in run-once mode..."
-        python /app/scripts/orchestrator.py
+        poetry run python /app/scripts/orchestrator.py
         ;;
     
     run-scheduled)
@@ -112,7 +112,7 @@ case "$1" in
         log "Schedule: ${PIPELINE_SCHEDULE:-0 2 * * *}"
         # TODO: Implement cron-based scheduling
         # For now, run once
-        python /app/scripts/orchestrator.py
+        poetry run python /app/scripts/orchestrator.py
         ;;
     
     run-step)
@@ -121,7 +121,7 @@ case "$1" in
             exit 1
         fi
         log "Running single step: $2"
-        python /app/scripts/orchestrator.py --step "$2"
+        poetry run python /app/scripts/orchestrator.py --step "$2"
         ;;
     
     shell)

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-DataLegos Pipeline Orchestrator
+NJS Pipeline Orchestrator
 Sequential execution with validation gates and .done files
 
-Follows DataLegos maintainability standards:
+Follows NJS maintainability standards:
 - Parameter-driven configuration
 - Structured logging
 - Error codes
@@ -39,7 +39,7 @@ class PipelineError(Exception):
 
 class PipelineOrchestrator:
     """
-    Orchestrates sequential execution of DataLegos pipeline.
+    Orchestrates sequential execution of NJS pipeline.
     
     Pipeline Steps:
     1. collect_data      - Collect from Wazuh API
@@ -76,7 +76,7 @@ class PipelineOrchestrator:
         logger.addHandler(file_handler)
         
         logger.info("=" * 80)
-        logger.info("DataLegos Pipeline Orchestrator Initialized")
+        logger.info("NJS Pipeline Orchestrator Initialized")
         logger.info(f"Shared Data Path: {self.shared_data_path}")
         logger.info(f"Project Root: {self.project_root}")
         logger.info("=" * 80)
@@ -310,7 +310,7 @@ class PipelineOrchestrator:
     def _validate_collect_data_output(self):
         """Validate collected data output"""
         # Find latest collected_data folder
-        collected_dir = self.shared_data_path / 'collected_data'
+        collected_dir = self.shared_data_path / 'data' / 'collected'
         if not collected_dir.exists():
             raise PipelineError(
                 "PIPELINE-VALIDATE-001",
@@ -339,7 +339,7 @@ class PipelineOrchestrator:
     
     def _validate_extract_data_output(self):
         """Validate extracted data output"""
-        extracted_dir = self.shared_data_path / 'extracted_data'
+        extracted_dir = self.shared_data_path / 'data' / 'extracted'
         if not extracted_dir.exists():
             raise PipelineError(
                 "PIPELINE-VALIDATE-004",
@@ -372,7 +372,7 @@ class PipelineOrchestrator:
     
     def _validate_aggregate_data_output(self):
         """Validate aggregated data output"""
-        aggregated_dir = self.shared_data_path / 'aggregated_data_core'
+        aggregated_dir = self.shared_data_path / 'data' / 'aggregated_core'
         if not aggregated_dir.exists():
             raise PipelineError(
                 "PIPELINE-VALIDATE-007",
@@ -398,7 +398,7 @@ class PipelineOrchestrator:
     
     def _validate_pii_scan_output(self):
         """Validate PII scan output"""
-        pii_dir = self.shared_data_path / 'pii_scan_results'
+        pii_dir = self.shared_data_path / 'data' / 'pii_scan_results'
         if not pii_dir.exists():
             raise PipelineError(
                 "PIPELINE-VALIDATE-010",
@@ -442,11 +442,11 @@ class PipelineOrchestrator:
         """Get path to .done file for a step"""
         # Map steps to their output directories
         done_paths = {
-            "collect_data": self.shared_data_path / 'collected_data' / '.done',
-            "extract_data": self.shared_data_path / 'extracted_data' / '.done',
+            "collect_data": self.shared_data_path / 'data' / 'collected' / '.done',
+            "extract_data": self.shared_data_path / 'data' / 'extracted' / '.done',
             "build_node_graph": self.shared_data_path / 'pipeline' / 'node_graph.done',
-            "aggregate_data": self.shared_data_path / 'aggregated_data_core' / '.done',
-            "detect_pii": self.shared_data_path / 'pii_scan_results' / '.done',
+            "aggregate_data": self.shared_data_path / 'data' / 'aggregated_core' / '.done',
+            "detect_pii": self.shared_data_path / 'data' / 'pii_scan_results' / '.done',
             "build_core_graph": self.shared_data_path / 'pipeline' / 'core_graph.done',
         }
         
@@ -488,7 +488,7 @@ class PipelineOrchestrator:
 def main():
     """Main entry point"""
     parser = argparse.ArgumentParser(
-        description='DataLegos Pipeline Orchestrator'
+        description='NJS Pipeline Orchestrator'
     )
     parser.add_argument(
         '--step',

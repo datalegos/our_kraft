@@ -16,7 +16,7 @@ from utils.wazuh_manager_client import WazuhManagerClient
 from utils.data_collector import (
     AgentCollector, HostCollector, PackagesCollector,
     HardwareCollector, GroupsCollector, FIMCollector,
-    VulnerabilitiesCollector
+    VulnerabilitiesCollector, CPECollector
 )
 from utils.csv_converter import convert_collected_data_to_csv
 
@@ -145,6 +145,13 @@ def main():
         print("-" * 70)
         hardware_collector = HardwareCollector(manager_client, config)
         hardware_collector.collect(agent_ids)
+    
+    if 'cpe' in enabled_collectors and manager_client and agent_ids:
+        print("\n" + "-" * 70)
+        print("COLLECTING CPE (COMMON PLATFORM ENUMERATION)")
+        print("-" * 70)
+        cpe_collector = CPECollector(manager_client, config)
+        cpe_collector.collect(agent_ids)
     
     if 'groups' in enabled_collectors and manager_client:
         print("\n" + "-" * 70)

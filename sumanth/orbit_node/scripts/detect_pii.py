@@ -3,7 +3,7 @@
 PII/PCI Detection Script using Microsoft Presidio
 Scans aggregated data for sensitive information before sending to Core Graph.
 
-Configuration-driven implementation following DataLegos standards:
+Configuration-driven implementation following NJS standards:
 - All patterns loaded from config/aggregation_config.yaml
 - No hard-coded values
 - Parameterized false positive filtering

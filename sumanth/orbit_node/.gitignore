@@ -38,3 +38,42 @@ Thumbs.db
 # Config (optional - uncomment if you want to ignore config changes)
 # config.yaml
 
+
+# Data directories (stored in ../orbit_node_shared_data)
+aggregated_data/
+aggregated_data_core/
+collected_data/
+extracted_data/
+logs/
+pii_scan_results/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Backups
+backups/
+*.dump

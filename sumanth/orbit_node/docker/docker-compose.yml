@@ -1,13 +1,13 @@
 version: '3.8'
 
-# DataLegos Pipeline Stack
+# NJS Pipeline Stack
 # Orchestrates Neo4j and Pipeline containers with shared data volume
 
 services:
   # Neo4j Database - Hosts both node_kg and core databases
   neo4j:
     image: neo4j:5.15.0
-    container_name: datalegos_neo4j
+    container_name: orbit-neo4j
     environment:
       - NEO4J_AUTH=${NEO4J_USERNAME:-neo4j}/${NEO4J_PASSWORD:-changeme}
       - NEO4J_dbms_memory_heap_max__size=2G
@@ -22,7 +22,7 @@ services:
       - neo4j_logs:/logs
       - neo4j_import:/var/lib/neo4j/import
     networks:
-      - datalegos_network
+      - njs_network
     healthcheck:
       test: ["CMD", "cypher-shell", "-u", "${NEO4J_USERNAME:-neo4j}", "-p", "${NEO4J_PASSWORD:-changeme}", "RETURN 1"]
       interval: 10s
@@ -31,12 +31,12 @@ services:
       start_period: 30s
     restart: unless-stopped
 
-  # DataLegos Pipeline Container
+  # NJS Pipeline Container
   pipeline:
     build:
       context: ..
       dockerfile: docker/Dockerfile
-    container_name: datalegos_pipeline
+    container_name: njs-pipeline
     depends_on:
       neo4j:
         condition: service_healthy
@@ -65,16 +65,22 @@ services:
       - SHARED_DATA_PATH=/shared_data
     volumes:
       # Shared data volume - sibling to project directory
-      # This is mounted from host: ../orbit_node_shared_data
-      - ../orbit_node_shared_data:/shared_data
+      # This is mounted from host: ../njs_shared_data
+      - ../njs_shared_data:/shared_data
       
-      # Config files (read-only)
-      - ../config:/app/config:ro
+      # Config files mounted into shared data (read-write for runtime config)
+      - ../config:/shared_data/config:ro
       
       # Scripts (for development - can be removed in production)
       - ../scripts:/app/scripts:ro
+      
+      # Graph builder modules
+      - ../graph_builder:/app/graph_builder:ro
+      
+      # Utils modules
+      - ../utils:/app/utils:ro
     networks:
-      - datalegos_network
+      - njs_network
     restart: unless-stopped
     # Uncomment for scheduled runs
     # command: ["run-scheduled"]
@@ -88,5 +94,5 @@ volumes:
     driver: local
 
 networks:
-  datalegos_network:
+  njs_network:
     driver: bridge

@@ -1,10 +1,10 @@
-# DataLegos Pipeline Container
-# Follows DataLegos maintainability standards
+# NJS Pipeline Container
+# Uses Poetry for dependency management
 
 FROM python:3.12-slim
 
-LABEL maintainer="DataLegos Team"
-LABEL description="DataLegos Node-to-Core Pipeline"
+LABEL maintainer="NJS Team"
+LABEL description="NJS Node-to-Core Pipeline"
 LABEL version="1.0.0"
 
 # Install system dependencies
@@ -15,22 +15,34 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
+# Install Poetry
+RUN curl -sSL https://install.python-poetry.org | python3 - && \
+    ln -s /root/.local/bin/poetry /usr/local/bin/poetry
+
+# Configure Poetry
+ENV POETRY_NO_INTERACTION=1 \
+    POETRY_VIRTUALENVS_IN_PROJECT=true \
+    POETRY_VIRTUALENVS_CREATE=true \
+    POETRY_CACHE_DIR=/tmp/poetry_cache
+
 # Set working directory
 WORKDIR /app
 
-# Copy requirements first (for layer caching)
-COPY requirements.txt requirements_presidio.txt ./
+# Copy Poetry files first (for layer caching)
+COPY pyproject.toml poetry.lock* ./
 
-# Install Python dependencies
-RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir -r requirements.txt && \
-    pip install --no-cache-dir -r requirements_presidio.txt
+# Install dependencies
+RUN poetry install --no-root --only main && \
+    rm -rf $POETRY_CACHE_DIR
 
 # Download spaCy model for Presidio
-RUN python -m spacy download en_core_web_lg
+RUN poetry run python -m spacy download en_core_web_lg
 
 # Copy application code
 COPY . /app/
+
+# Install project
+RUN poetry install --only main
 
 # Create .env from template if it doesn't exist
 RUN if [ -f .env.example ] && [ ! -f .env ]; then \
