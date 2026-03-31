@@ -303,3 +303,12 @@ group_specific_requests:
     endpoint: /groups/{group_id}/files
     params:
       pretty: true
+
+# Wazuh Indexer (OpenSearch) Configuration
+indexer:
+  url: https://62.171.191.132:9200
+  username: admin
+  password: SecretPassword
+  verify_certs: false
+  cpe_index_pattern: "wazuh-alerts-*"
+  cpe_search_limit: 1000

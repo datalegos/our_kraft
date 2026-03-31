@@ -455,3 +455,80 @@ class VulnerabilitiesCollector(DataCollector):
             error_data = {"error": str(e), "source": "indexer"}
             filepath = self.save_data(error_data, "Vulnerabilities_Summary.json")
             return error_data
+
+
+class CPECollector(DataCollector):
+    """Collect CPE (Common Platform Enumeration) information"""
+    
+    def __init__(self, manager_client, config: Dict[str, Any]):
+        super().__init__(manager_client, config, "cpe")
+        self.limit = config['collectors']['cpe'].get('limit', 1000)
+    
+    def collect(self, agent_ids: List[str]) -> Dict[str, Any]:
+        """Collect CPE data for each agent with retry logic"""
+        print(f"Collecting CPE information for {len(agent_ids)} agents...")
+        all_cpe = {}
+        failed_agents = []
+        
+        for agent_id in agent_ids:
+            def collect_agent():
+                # CPE data comes from the packages endpoint
+                packages_data = self.client.get_packages(agent_id=agent_id, limit=self.limit)
+                
+                # Extract CPE information from packages
+                cpe_items = []
+                if 'data' in packages_data and 'affected_items' in packages_data['data']:
+                    for package in packages_data['data']['affected_items']:
+                        # Check if package has CPE field
+                        if 'cpe' in package and package['cpe']:
+                            cpe_items.append({
+                                'agent_id': agent_id,
+                                'cpe': package['cpe'],
+                                'package_name': package.get('name', ''),
+                                'package_version': package.get('version', ''),
+                                'package_architecture': package.get('architecture', ''),
+                                'package_vendor': package.get('vendor', ''),
+                                'package_description': package.get('description', ''),
+                                'scan_time': package.get('scan', {}).get('time', '')
+                            })
+                
+                # Create result in standard format
+                result = {
+                    'data': {
+                        'affected_items': cpe_items,
+                        'total_affected_items': len(cpe_items),
+                        'total_failed_items': 0,
+                        'failed_items': []
+                    },
+                    'message': f'CPE information extracted from packages for agent {agent_id}',
+                    'error': 0,
+                    'source': 'manager'
+                }
+                
+                return result
+            
+            result = self._retry_collection(collect_agent)
+            
+            if not self._has_error(result):
+                all_cpe[agent_id] = result
+                # Save per agent
+                filename = f"Syscollector_CPE_{agent_id}.json"
+                self.save_data(result, filename, agent_id)
+                
+                cpe_count = result.get('data', {}).get('total_affected_items', 0)
+                print(f"  ✓ Agent {agent_id}: Found {cpe_count} packages with CPE identifiers")
+            else:
+                print(f"  ✗ Failed to collect CPE for agent {agent_id} after retries")
+                all_cpe[agent_id] = result
+                failed_agents.append(agent_id)
+        
+        # Save summary
+        filepath = self.save_data(all_cpe, "CPE_Summary.json")
+        
+        if failed_agents:
+            print(f"  ⚠ Failed to collect CPE for {len(failed_agents)} agents: {failed_agents}")
+        else:
+            print(f"  ✓ Successfully collected CPE for all {len(agent_ids)} agents")
+        
+        print(f"Saved CPE data to {filepath}")
+        return all_cpe

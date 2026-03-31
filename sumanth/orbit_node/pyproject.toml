@@ -1,0 +1,80 @@
+[tool.poetry]
+name = "njs-orbit-node"
+version = "1.0.0"
+description = "NJS Orbit Node - Privacy-preserving data aggregation and graph database pipeline"
+authors = ["NJS Team <team@njsecure.com>"]
+readme = "README.md"
+license = "Proprietary"
+packages = [{include = "scripts"}, {include = "graph_builder"}, {include = "utils"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+pyyaml = "^6.0.1"
+neo4j = "^5.15.0"
+pandas = "^2.1.0"
+python-dotenv = "^1.0.0"
+python-dateutil = "^2.8.2"
+
+# PII Detection dependencies
+presidio-analyzer = "2.2.354"
+presidio-anonymizer = "2.2.354"
+spacy = "^3.7.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+pytest-mock = "^3.12.0"
+black = "^23.12.0"
+flake8 = "^7.0.0"
+pylint = "^3.0.0"
+mypy = "^1.8.0"
+ipython = "^8.18.0"
+ipdb = "^0.13.13"
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^7.2.0"
+sphinx-rtd-theme = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ['py312']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q --strict-markers"
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+[tool.mypy]
+python_version = "3.12"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+ignore_missing_imports = true
+
+[tool.pylint.messages_control]
+disable = "C0330, C0326"
+
+[tool.pylint.format]
+max-line-length = "100"

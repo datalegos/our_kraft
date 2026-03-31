@@ -18,6 +18,7 @@ wazuh:
       host: "/syscollector/{agent_id}/os"
       packages: "/syscollector/{agent_id}/packages"
       hardware: "/syscollector/{agent_id}/hardware"
+      cpe: "/syscollector/{agent_id}/packages"  # CPE data is in packages
       groups: "/groups"
       fim: "/syscheck/{agent_id}"
   
@@ -48,6 +49,7 @@ collection:
     - packages
     - groups
     - hardware
+    - cpe
     - fim
     - vulnerabilities
   # Retry configuration (applies to all collectors unless overridden)
@@ -81,6 +83,12 @@ collectors:
     retry_delay: 5
   
   hardware:
+    source: "manager"
+    limit: 1000
+    max_retries: 3
+    retry_delay: 5
+  
+  cpe:
     source: "manager"
     limit: 1000
     max_retries: 3

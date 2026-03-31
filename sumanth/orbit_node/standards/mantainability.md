@@ -1,6 +1,6 @@
 # Steering: Maintainability, Observability, Security, and Operational Rules
 Version: 1.0
-Owner: DataLegos — Architecture Team
+Owner: NJS — Architecture Team
 Purpose: Enforce system-level engineering rules for HRMS code, configuration, outputs, and runbooks.
 
 --- INSTRUCTION SUMMARY ---

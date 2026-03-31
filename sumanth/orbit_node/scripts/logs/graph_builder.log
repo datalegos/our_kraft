@@ -3897,3 +3897,1172 @@ Setting up constraints...
 ============================================================
 2026-02-14 10:28:35,188 - __main__ - INFO - Creating ScanEvent
 2026-02-14 10:28:35,188 - __main__ - INFO - ============================================================
+2026-02-15 16:35:16,897 - __main__ - INFO - ============================================================
+2026-02-15 16:35:16,899 - __main__ - INFO - Neo4j Graph Builder
+2026-02-15 16:35:16,899 - __main__ - INFO - ============================================================
+2026-02-15 16:35:16,901 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:35:16,901 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:35:16,901 - __main__ - INFO - Found asset nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\asset_nodes.json
+2026-02-15 16:35:16,902 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:35:16,902 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:35:16,903 - __main__ - INFO - Found host nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\host_nodes.json
+2026-02-15 16:35:16,904 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:35:16,904 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:35:16,904 - __main__ - INFO - Found software nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\software_nodes.json
+2026-02-15 16:35:16,905 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:35:16,905 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:35:16,905 - __main__ - INFO - Found vulnerability nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\vulnerability_nodes.json
+2026-02-15 16:35:16,906 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:35:16,906 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:35:16,907 - __main__ - INFO - Found assetgroup nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\assetgroup_nodes.json
+2026-02-15 16:35:16,909 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:35:16,909 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:35:16,910 - __main__ - INFO - Found hardware nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\hardware_nodes.json
+2026-02-15 16:35:16,910 - __main__ - INFO - 
+Initializing graph builder...
+2026-02-15 16:35:16,913 - graph_builder.neo4j_connection - ERROR - Error parsing Neo4j config YAML: while scanning a simple key
+  in "C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml", line 20, column 3
+could not find expected ':'
+  in "C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml", line 21, column 3
+2026-02-15 16:35:16,913 - graph_builder.neo4j_connection - ERROR - Error parsing Neo4j config YAML: while scanning a simple key
+  in "C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml", line 20, column 3
+could not find expected ':'
+  in "C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml", line 21, column 3
+2026-02-15 16:35:16,913 - graph_builder.neo4j_connection - ERROR - Error parsing Neo4j config YAML: while scanning a simple key
+  in "C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml", line 20, column 3
+could not find expected ':'
+  in "C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml", line 21, column 3
+2026-02-15 16:35:16,914 - __main__ - ERROR - Error during graph building: while scanning a simple key
+  in "C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml", line 20, column 3
+could not find expected ':'
+  in "C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml", line 21, column 3
+Traceback (most recent call last):
+  File "C:\Users\sgade\OneDrive\Desktop\orbit_node\scripts\build_graph.py", line 193, in main
+    builder = GraphBuilder(
+        neo4j_config_path=str(config_dir / "neo4j_config.yaml"),
+        graph_config_path=str(config_dir / "graph_config.yaml")
+    )
+  File "C:\Users\sgade\OneDrive\Desktop\orbit_node\graph_builder\graph_builder.py", line 28, in __init__
+    self.neo4j_conn = Neo4jConnection(neo4j_config_path)
+                      ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sgade\OneDrive\Desktop\orbit_node\graph_builder\neo4j_connection.py", line 20, in __init__
+    self.config = self._load_config(config_path)
+                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\sgade\OneDrive\Desktop\orbit_node\graph_builder\neo4j_connection.py", line 37, in _load_config
+    config = yaml.safe_load(f)
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+           ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\yaml\composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+              ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+                         ~~~~~~~~~~^^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\yaml\parser.py", line 428, in parse_block_mapping_key
+    if self.check_token(KeyToken):
+       ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\yaml\scanner.py", line 115, in check_token
+    while self.need_more_tokens():
+          ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\yaml\scanner.py", line 152, in need_more_tokens
+    self.stale_possible_simple_keys()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\yaml\scanner.py", line 291, in stale_possible_simple_keys
+    raise ScannerError("while scanning a simple key", key.mark,
+            "could not find expected ':'", self.get_mark())
+yaml.scanner.ScannerError: while scanning a simple key
+  in "C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml", line 20, column 3
+could not find expected ':'
+  in "C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml", line 21, column 3
+2026-02-15 16:36:05,671 - __main__ - INFO - ============================================================
+2026-02-15 16:36:05,672 - __main__ - INFO - Neo4j Graph Builder
+2026-02-15 16:36:05,672 - __main__ - INFO - ============================================================
+2026-02-15 16:36:05,674 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:05,674 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:05,675 - __main__ - INFO - Found asset nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\asset_nodes.json
+2026-02-15 16:36:05,675 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:05,676 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:05,676 - __main__ - INFO - Found host nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\host_nodes.json
+2026-02-15 16:36:05,677 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:05,677 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:05,677 - __main__ - INFO - Found software nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\software_nodes.json
+2026-02-15 16:36:05,678 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:05,678 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:05,679 - __main__ - INFO - Found vulnerability nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\vulnerability_nodes.json
+2026-02-15 16:36:05,680 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:05,680 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:05,680 - __main__ - INFO - Found assetgroup nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\assetgroup_nodes.json
+2026-02-15 16:36:05,681 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:05,681 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:05,682 - __main__ - INFO - Found hardware nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\hardware_nodes.json
+2026-02-15 16:36:05,683 - __main__ - INFO - 
+Initializing graph builder...
+2026-02-15 16:36:05,689 - graph_builder.neo4j_connection - INFO - Loaded Neo4j configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml
+2026-02-15 16:36:05,689 - graph_builder.neo4j_connection - INFO - Loaded Neo4j configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml
+2026-02-15 16:36:05,689 - graph_builder.neo4j_connection - INFO - Loaded Neo4j configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml
+2026-02-15 16:36:05,690 - graph_builder.neo4j_connection - INFO - Connecting to Neo4j at bolt://localhost:7687 with username: neo4j
+2026-02-15 16:36:05,690 - graph_builder.neo4j_connection - INFO - Connecting to Neo4j at bolt://localhost:7687 with username: neo4j
+2026-02-15 16:36:05,690 - graph_builder.neo4j_connection - INFO - Connecting to Neo4j at bolt://localhost:7687 with username: neo4j
+2026-02-15 16:36:07,805 - graph_builder.neo4j_connection - ERROR - Neo4j connection test failed: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+[SSLEOFError] Connection Failed. Please ensure that your database is listening on the correct host and port and that you have enabled encryption if required. Note that the default encryption setting has changed in Neo4j 4.0. See the docs for more information. Failed to establish encrypted connection. (code 8: Exec format error)
+2026-02-15 16:36:07,805 - graph_builder.neo4j_connection - ERROR - Neo4j connection test failed: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+[SSLEOFError] Connection Failed. Please ensure that your database is listening on the correct host and port and that you have enabled encryption if required. Note that the default encryption setting has changed in Neo4j 4.0. See the docs for more information. Failed to establish encrypted connection. (code 8: Exec format error)
+2026-02-15 16:36:07,805 - graph_builder.neo4j_connection - ERROR - Neo4j connection test failed: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+[SSLEOFError] Connection Failed. Please ensure that your database is listening on the correct host and port and that you have enabled encryption if required. Note that the default encryption setting has changed in Neo4j 4.0. See the docs for more information. Failed to establish encrypted connection. (code 8: Exec format error)
+2026-02-15 16:36:07,805 - graph_builder.neo4j_connection - ERROR - Failed to connect to Neo4j: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+[SSLEOFError] Connection Failed. Please ensure that your database is listening on the correct host and port and that you have enabled encryption if required. Note that the default encryption setting has changed in Neo4j 4.0. See the docs for more information. Failed to establish encrypted connection. (code 8: Exec format error)
+2026-02-15 16:36:07,805 - graph_builder.neo4j_connection - ERROR - Failed to connect to Neo4j: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+[SSLEOFError] Connection Failed. Please ensure that your database is listening on the correct host and port and that you have enabled encryption if required. Note that the default encryption setting has changed in Neo4j 4.0. See the docs for more information. Failed to establish encrypted connection. (code 8: Exec format error)
+2026-02-15 16:36:07,805 - graph_builder.neo4j_connection - ERROR - Failed to connect to Neo4j: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+[SSLEOFError] Connection Failed. Please ensure that your database is listening on the correct host and port and that you have enabled encryption if required. Note that the default encryption setting has changed in Neo4j 4.0. See the docs for more information. Failed to establish encrypted connection. (code 8: Exec format error)
+2026-02-15 16:36:07,806 - __main__ - ERROR - Error during graph building: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+[SSLEOFError] Connection Failed. Please ensure that your database is listening on the correct host and port and that you have enabled encryption if required. Note that the default encryption setting has changed in Neo4j 4.0. See the docs for more information. Failed to establish encrypted connection. (code 8: Exec format error)
+Traceback (most recent call last):
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_async_compat\network\_bolt_socket.py", line 528, in _connect
+    s.connect(resolved_address)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_async_compat\network\_bolt_socket.py", line 690, in connect
+    s = BoltSocket._connect(resolved_address, tcp_timeout,
+                            keep_alive)
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_async_compat\network\_bolt_socket.py", line 546, in _connect
+    raise ServiceUnavailable(
+    ...<2 lines>...
+    ) from error
+neo4j.exceptions.ServiceUnavailable: Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sgade\OneDrive\Desktop\orbit_node\scripts\build_graph.py", line 193, in main
+    builder = GraphBuilder(
+        neo4j_config_path=str(config_dir / "neo4j_config.yaml"),
+        graph_config_path=str(config_dir / "graph_config.yaml")
+    )
+  File "C:\Users\sgade\OneDrive\Desktop\orbit_node\graph_builder\graph_builder.py", line 28, in __init__
+    self.neo4j_conn = Neo4jConnection(neo4j_config_path)
+                      ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sgade\OneDrive\Desktop\orbit_node\graph_builder\neo4j_connection.py", line 22, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\sgade\OneDrive\Desktop\orbit_node\graph_builder\neo4j_connection.py", line 128, in _connect
+    self.test_connection()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sgade\OneDrive\Desktop\orbit_node\graph_builder\neo4j_connection.py", line 151, in test_connection
+    result = session.run("RETURN 1 as test")
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_sync\work\session.py", line 302, in run
+    self._connect(self._config.default_access_mode)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_sync\work\session.py", line 130, in _connect
+    super()._connect(
+    ~~~~~~~~~~~~~~~~^
+        access_mode, auth=self._config.auth, **acquire_kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_sync\work\workspace.py", line 178, in _connect
+    self._connection = self._pool.acquire(**acquire_kwargs_)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_sync\io\_pool.py", line 526, in acquire
+    return self._acquire(
+           ~~~~~~~~~~~~~^
+        self.address, auth, deadline, liveness_check_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_sync\io\_pool.py", line 313, in _acquire
+    return connection_creator()
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_sync\io\_pool.py", line 165, in connection_creator
+    connection = self.opener(
+        address, auth or self.pool_config.auth, deadline
+    )
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_sync\io\_pool.py", line 500, in opener
+    return Bolt.open(
+           ~~~~~~~~~^
+        addr, auth_manager=auth_manager, deadline=deadline,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        routing_context=None, pool_config=pool_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_sync\io\_bolt.py", line 400, in open
+    BoltSocket.connect(
+    ~~~~~~~~~~~~~~~~~~^
+        address,
+        ^^^^^^^^
+    ...<4 lines>...
+        keep_alive=pool_config.keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_async_compat\network\_bolt_socket.py", line 718, in connect
+    raise ServiceUnavailable(
+    ...<4 lines>...
+    ) from errors[0]
+neo4j.exceptions.ServiceUnavailable: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+[SSLEOFError] Connection Failed. Please ensure that your database is listening on the correct host and port and that you have enabled encryption if required. Note that the default encryption setting has changed in Neo4j 4.0. See the docs for more information. Failed to establish encrypted connection. (code 8: Exec format error)
+2026-02-15 16:36:44,893 - __main__ - INFO - ============================================================
+2026-02-15 16:36:44,893 - __main__ - INFO - Neo4j Graph Builder
+2026-02-15 16:36:44,894 - __main__ - INFO - ============================================================
+2026-02-15 16:36:44,895 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:44,896 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:44,896 - __main__ - INFO - Found asset nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\asset_nodes.json
+2026-02-15 16:36:44,897 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:44,897 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:44,898 - __main__ - INFO - Found host nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\host_nodes.json
+2026-02-15 16:36:44,898 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:44,898 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:44,899 - __main__ - INFO - Found software nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\software_nodes.json
+2026-02-15 16:36:44,899 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:44,899 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:44,900 - __main__ - INFO - Found vulnerability nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\vulnerability_nodes.json
+2026-02-15 16:36:44,900 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:44,900 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:44,901 - __main__ - INFO - Found assetgroup nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\assetgroup_nodes.json
+2026-02-15 16:36:44,901 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:44,901 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:44,901 - __main__ - INFO - Found hardware nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\hardware_nodes.json
+2026-02-15 16:36:44,902 - __main__ - INFO - 
+Initializing graph builder...
+2026-02-15 16:36:44,908 - graph_builder.neo4j_connection - INFO - Loaded Neo4j configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml
+2026-02-15 16:36:44,908 - graph_builder.neo4j_connection - INFO - Loaded Neo4j configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml
+2026-02-15 16:36:44,908 - graph_builder.neo4j_connection - INFO - Loaded Neo4j configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml
+2026-02-15 16:36:44,908 - graph_builder.neo4j_connection - INFO - Connecting to Neo4j at bolt://localhost:7687 with username: neo4j
+2026-02-15 16:36:44,908 - graph_builder.neo4j_connection - INFO - Connecting to Neo4j at bolt://localhost:7687 with username: neo4j
+2026-02-15 16:36:44,908 - graph_builder.neo4j_connection - INFO - Connecting to Neo4j at bolt://localhost:7687 with username: neo4j
+2026-02-15 16:36:46,988 - graph_builder.neo4j_connection - ERROR - Neo4j connection test failed: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+[SSLEOFError] Connection Failed. Please ensure that your database is listening on the correct host and port and that you have enabled encryption if required. Note that the default encryption setting has changed in Neo4j 4.0. See the docs for more information. Failed to establish encrypted connection. (code 8: Exec format error)
+2026-02-15 16:36:46,988 - graph_builder.neo4j_connection - ERROR - Neo4j connection test failed: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+[SSLEOFError] Connection Failed. Please ensure that your database is listening on the correct host and port and that you have enabled encryption if required. Note that the default encryption setting has changed in Neo4j 4.0. See the docs for more information. Failed to establish encrypted connection. (code 8: Exec format error)
+2026-02-15 16:36:46,988 - graph_builder.neo4j_connection - ERROR - Neo4j connection test failed: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+[SSLEOFError] Connection Failed. Please ensure that your database is listening on the correct host and port and that you have enabled encryption if required. Note that the default encryption setting has changed in Neo4j 4.0. See the docs for more information. Failed to establish encrypted connection. (code 8: Exec format error)
+2026-02-15 16:36:46,989 - graph_builder.neo4j_connection - ERROR - Failed to connect to Neo4j: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+[SSLEOFError] Connection Failed. Please ensure that your database is listening on the correct host and port and that you have enabled encryption if required. Note that the default encryption setting has changed in Neo4j 4.0. See the docs for more information. Failed to establish encrypted connection. (code 8: Exec format error)
+2026-02-15 16:36:46,989 - graph_builder.neo4j_connection - ERROR - Failed to connect to Neo4j: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+[SSLEOFError] Connection Failed. Please ensure that your database is listening on the correct host and port and that you have enabled encryption if required. Note that the default encryption setting has changed in Neo4j 4.0. See the docs for more information. Failed to establish encrypted connection. (code 8: Exec format error)
+2026-02-15 16:36:46,989 - graph_builder.neo4j_connection - ERROR - Failed to connect to Neo4j: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+[SSLEOFError] Connection Failed. Please ensure that your database is listening on the correct host and port and that you have enabled encryption if required. Note that the default encryption setting has changed in Neo4j 4.0. See the docs for more information. Failed to establish encrypted connection. (code 8: Exec format error)
+2026-02-15 16:36:46,989 - __main__ - ERROR - Error during graph building: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+[SSLEOFError] Connection Failed. Please ensure that your database is listening on the correct host and port and that you have enabled encryption if required. Note that the default encryption setting has changed in Neo4j 4.0. See the docs for more information. Failed to establish encrypted connection. (code 8: Exec format error)
+Traceback (most recent call last):
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_async_compat\network\_bolt_socket.py", line 528, in _connect
+    s.connect(resolved_address)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_async_compat\network\_bolt_socket.py", line 690, in connect
+    s = BoltSocket._connect(resolved_address, tcp_timeout,
+                            keep_alive)
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_async_compat\network\_bolt_socket.py", line 546, in _connect
+    raise ServiceUnavailable(
+    ...<2 lines>...
+    ) from error
+neo4j.exceptions.ServiceUnavailable: Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sgade\OneDrive\Desktop\orbit_node\scripts\build_graph.py", line 193, in main
+    builder = GraphBuilder(
+        neo4j_config_path=str(config_dir / "neo4j_config.yaml"),
+        graph_config_path=str(config_dir / "graph_config.yaml")
+    )
+  File "C:\Users\sgade\OneDrive\Desktop\orbit_node\graph_builder\graph_builder.py", line 28, in __init__
+    self.neo4j_conn = Neo4jConnection(neo4j_config_path)
+                      ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sgade\OneDrive\Desktop\orbit_node\graph_builder\neo4j_connection.py", line 22, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\sgade\OneDrive\Desktop\orbit_node\graph_builder\neo4j_connection.py", line 128, in _connect
+    self.test_connection()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sgade\OneDrive\Desktop\orbit_node\graph_builder\neo4j_connection.py", line 151, in test_connection
+    result = session.run("RETURN 1 as test")
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_sync\work\session.py", line 302, in run
+    self._connect(self._config.default_access_mode)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_sync\work\session.py", line 130, in _connect
+    super()._connect(
+    ~~~~~~~~~~~~~~~~^
+        access_mode, auth=self._config.auth, **acquire_kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_sync\work\workspace.py", line 178, in _connect
+    self._connection = self._pool.acquire(**acquire_kwargs_)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_sync\io\_pool.py", line 526, in acquire
+    return self._acquire(
+           ~~~~~~~~~~~~~^
+        self.address, auth, deadline, liveness_check_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_sync\io\_pool.py", line 313, in _acquire
+    return connection_creator()
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_sync\io\_pool.py", line 165, in connection_creator
+    connection = self.opener(
+        address, auth or self.pool_config.auth, deadline
+    )
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_sync\io\_pool.py", line 500, in opener
+    return Bolt.open(
+           ~~~~~~~~~^
+        addr, auth_manager=auth_manager, deadline=deadline,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        routing_context=None, pool_config=pool_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_sync\io\_bolt.py", line 400, in open
+    BoltSocket.connect(
+    ~~~~~~~~~~~~~~~~~~^
+        address,
+        ^^^^^^^^
+    ...<4 lines>...
+        keep_alive=pool_config.keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\sgade\anaconda3\Lib\site-packages\neo4j\_async_compat\network\_bolt_socket.py", line 718, in connect
+    raise ServiceUnavailable(
+    ...<4 lines>...
+    ) from errors[0]
+neo4j.exceptions.ServiceUnavailable: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+[SSLEOFError] Connection Failed. Please ensure that your database is listening on the correct host and port and that you have enabled encryption if required. Note that the default encryption setting has changed in Neo4j 4.0. See the docs for more information. Failed to establish encrypted connection. (code 8: Exec format error)
+2026-02-15 16:36:56,028 - __main__ - INFO - ============================================================
+2026-02-15 16:36:56,029 - __main__ - INFO - Neo4j Graph Builder
+2026-02-15 16:36:56,029 - __main__ - INFO - ============================================================
+2026-02-15 16:36:56,032 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:56,032 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:56,032 - __main__ - INFO - Found asset nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\asset_nodes.json
+2026-02-15 16:36:56,033 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:56,034 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:56,034 - __main__ - INFO - Found host nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\host_nodes.json
+2026-02-15 16:36:56,035 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:56,035 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:56,036 - __main__ - INFO - Found software nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\software_nodes.json
+2026-02-15 16:36:56,037 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:56,037 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:56,038 - __main__ - INFO - Found vulnerability nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\vulnerability_nodes.json
+2026-02-15 16:36:56,038 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:56,039 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:56,039 - __main__ - INFO - Found assetgroup nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\assetgroup_nodes.json
+2026-02-15 16:36:56,040 - __main__ - INFO - Using latest extraction folder: 20260215_161934_530
+2026-02-15 16:36:56,040 - __main__ - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530
+2026-02-15 16:36:56,041 - __main__ - INFO - Found hardware nodes file in organized nodes/ folder: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\nodes\hardware_nodes.json
+2026-02-15 16:36:56,041 - __main__ - INFO - 
+Initializing graph builder...
+2026-02-15 16:36:56,047 - graph_builder.neo4j_connection - INFO - Loaded Neo4j configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml
+2026-02-15 16:36:56,047 - graph_builder.neo4j_connection - INFO - Loaded Neo4j configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml
+2026-02-15 16:36:56,047 - graph_builder.neo4j_connection - INFO - Loaded Neo4j configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\neo4j_config.yaml
+2026-02-15 16:36:56,047 - graph_builder.neo4j_connection - INFO - Connecting to Neo4j at bolt://localhost:7687 with username: neo4j
+2026-02-15 16:36:56,047 - graph_builder.neo4j_connection - INFO - Connecting to Neo4j at bolt://localhost:7687 with username: neo4j
+2026-02-15 16:36:56,047 - graph_builder.neo4j_connection - INFO - Connecting to Neo4j at bolt://localhost:7687 with username: neo4j
+2026-02-15 16:36:58,196 - graph_builder.neo4j_connection - INFO - Neo4j connection test successful
+2026-02-15 16:36:58,196 - graph_builder.neo4j_connection - INFO - Neo4j connection test successful
+2026-02-15 16:36:58,196 - graph_builder.neo4j_connection - INFO - Neo4j connection test successful
+2026-02-15 16:36:58,198 - graph_builder.neo4j_connection - INFO - Successfully connected to Neo4j at bolt://localhost:7687
+2026-02-15 16:36:58,198 - graph_builder.neo4j_connection - INFO - Successfully connected to Neo4j at bolt://localhost:7687
+2026-02-15 16:36:58,198 - graph_builder.neo4j_connection - INFO - Successfully connected to Neo4j at bolt://localhost:7687
+2026-02-15 16:36:58,315 - graph_builder.constraints_manager - INFO - Loaded graph configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\graph_config.yaml
+2026-02-15 16:36:58,315 - graph_builder.constraints_manager - INFO - Loaded graph configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\graph_config.yaml
+2026-02-15 16:36:58,315 - graph_builder.constraints_manager - INFO - Loaded graph configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\graph_config.yaml
+2026-02-15 16:36:58,413 - graph_builder.relationship_manager - INFO - Loaded graph configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\graph_config.yaml
+2026-02-15 16:36:58,413 - graph_builder.relationship_manager - INFO - Loaded graph configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\graph_config.yaml
+2026-02-15 16:36:58,413 - graph_builder.relationship_manager - INFO - Loaded graph configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\graph_config.yaml
+2026-02-15 16:36:58,427 - graph_builder.relationship_manager - INFO - Loaded paths configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\paths_config.yaml
+2026-02-15 16:36:58,427 - graph_builder.relationship_manager - INFO - Loaded paths configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\paths_config.yaml
+2026-02-15 16:36:58,427 - graph_builder.relationship_manager - INFO - Loaded paths configuration from C:\Users\sgade\OneDrive\Desktop\orbit_node\config\paths_config.yaml
+2026-02-15 16:36:58,427 - graph_builder.relationship_manager - INFO - Looking for collected data in: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data
+2026-02-15 16:36:58,427 - graph_builder.relationship_manager - INFO - Looking for collected data in: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data
+2026-02-15 16:36:58,427 - graph_builder.relationship_manager - INFO - Looking for collected data in: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data
+2026-02-15 16:36:58,429 - graph_builder.relationship_manager - INFO - Using latest collected data directory: 20260210_201344
+2026-02-15 16:36:58,429 - graph_builder.relationship_manager - INFO - Using latest collected data directory: 20260210_201344
+2026-02-15 16:36:58,429 - graph_builder.relationship_manager - INFO - Using latest collected data directory: 20260210_201344
+2026-02-15 16:36:58,429 - graph_builder.relationship_manager - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344
+2026-02-15 16:36:58,429 - graph_builder.relationship_manager - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344
+2026-02-15 16:36:58,429 - graph_builder.relationship_manager - INFO - Full path: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344
+2026-02-15 16:36:58,430 - __main__ - INFO - 
+Setting up constraints...
+2026-02-15 16:36:58,431 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:36:58,431 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:36:58,431 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:36:58,431 - graph_builder.graph_builder - INFO - Setting up Neo4j constraints and indexes
+2026-02-15 16:36:58,431 - graph_builder.graph_builder - INFO - Setting up Neo4j constraints and indexes
+2026-02-15 16:36:58,431 - graph_builder.graph_builder - INFO - Setting up Neo4j constraints and indexes
+2026-02-15 16:36:58,432 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:36:58,432 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:36:58,432 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:36:58,432 - graph_builder.constraints_manager - INFO - Creating constraints for node type: asset
+2026-02-15 16:36:58,432 - graph_builder.constraints_manager - INFO - Creating constraints for node type: asset
+2026-02-15 16:36:58,432 - graph_builder.constraints_manager - INFO - Creating constraints for node type: asset
+2026-02-15 16:36:58,826 - graph_builder.constraints_manager - INFO - Created UNIQUE constraint 'unique_asset_id' on NJS_Asset(asset_id)
+2026-02-15 16:36:58,826 - graph_builder.constraints_manager - INFO - Created UNIQUE constraint 'unique_asset_id' on NJS_Asset(asset_id)
+2026-02-15 16:36:58,826 - graph_builder.constraints_manager - INFO - Created UNIQUE constraint 'unique_asset_id' on NJS_Asset(asset_id)
+2026-02-15 16:36:58,826 - graph_builder.constraints_manager - INFO - Creating constraints for node type: host
+2026-02-15 16:36:58,826 - graph_builder.constraints_manager - INFO - Creating constraints for node type: host
+2026-02-15 16:36:58,826 - graph_builder.constraints_manager - INFO - Creating constraints for node type: host
+2026-02-15 16:36:58,922 - graph_builder.constraints_manager - INFO - Created composite UNIQUE constraint 'unique_host_composite' on NJS_Host(agent_id, os_name)
+2026-02-15 16:36:58,922 - graph_builder.constraints_manager - INFO - Created composite UNIQUE constraint 'unique_host_composite' on NJS_Host(agent_id, os_name)
+2026-02-15 16:36:58,922 - graph_builder.constraints_manager - INFO - Created composite UNIQUE constraint 'unique_host_composite' on NJS_Host(agent_id, os_name)
+2026-02-15 16:36:58,923 - graph_builder.constraints_manager - INFO - Creating constraints for node type: software
+2026-02-15 16:36:58,923 - graph_builder.constraints_manager - INFO - Creating constraints for node type: software
+2026-02-15 16:36:58,923 - graph_builder.constraints_manager - INFO - Creating constraints for node type: software
+2026-02-15 16:36:59,000 - graph_builder.constraints_manager - INFO - Created UNIQUE constraint 'unique_software_name' on NJS_Software(name)
+2026-02-15 16:36:59,000 - graph_builder.constraints_manager - INFO - Created UNIQUE constraint 'unique_software_name' on NJS_Software(name)
+2026-02-15 16:36:59,000 - graph_builder.constraints_manager - INFO - Created UNIQUE constraint 'unique_software_name' on NJS_Software(name)
+2026-02-15 16:36:59,000 - graph_builder.constraints_manager - INFO - Creating constraints for node type: vulnerability
+2026-02-15 16:36:59,000 - graph_builder.constraints_manager - INFO - Creating constraints for node type: vulnerability
+2026-02-15 16:36:59,000 - graph_builder.constraints_manager - INFO - Creating constraints for node type: vulnerability
+2026-02-15 16:36:59,073 - graph_builder.constraints_manager - INFO - Created UNIQUE constraint 'unique_cve_id' on NJS_Vulnerability(cve_id)
+2026-02-15 16:36:59,073 - graph_builder.constraints_manager - INFO - Created UNIQUE constraint 'unique_cve_id' on NJS_Vulnerability(cve_id)
+2026-02-15 16:36:59,073 - graph_builder.constraints_manager - INFO - Created UNIQUE constraint 'unique_cve_id' on NJS_Vulnerability(cve_id)
+2026-02-15 16:36:59,074 - graph_builder.constraints_manager - INFO - Creating constraints for node type: assetgroup
+2026-02-15 16:36:59,074 - graph_builder.constraints_manager - INFO - Creating constraints for node type: assetgroup
+2026-02-15 16:36:59,074 - graph_builder.constraints_manager - INFO - Creating constraints for node type: assetgroup
+2026-02-15 16:36:59,146 - graph_builder.constraints_manager - INFO - Created UNIQUE constraint 'unique_assetgroup_name' on NJS_AssetGroup(name)
+2026-02-15 16:36:59,146 - graph_builder.constraints_manager - INFO - Created UNIQUE constraint 'unique_assetgroup_name' on NJS_AssetGroup(name)
+2026-02-15 16:36:59,146 - graph_builder.constraints_manager - INFO - Created UNIQUE constraint 'unique_assetgroup_name' on NJS_AssetGroup(name)
+2026-02-15 16:36:59,147 - graph_builder.constraints_manager - INFO - Creating constraints for node type: hardware
+2026-02-15 16:36:59,147 - graph_builder.constraints_manager - INFO - Creating constraints for node type: hardware
+2026-02-15 16:36:59,147 - graph_builder.constraints_manager - INFO - Creating constraints for node type: hardware
+2026-02-15 16:36:59,198 - graph_builder.constraints_manager - INFO - Created composite UNIQUE constraint 'unique_hardware_composite' on NJS_Hardware(agent_id, name)
+2026-02-15 16:36:59,198 - graph_builder.constraints_manager - INFO - Created composite UNIQUE constraint 'unique_hardware_composite' on NJS_Hardware(agent_id, name)
+2026-02-15 16:36:59,198 - graph_builder.constraints_manager - INFO - Created composite UNIQUE constraint 'unique_hardware_composite' on NJS_Hardware(agent_id, name)
+2026-02-15 16:36:59,199 - graph_builder.constraints_manager - INFO - Creating constraints for node type: scanevent
+2026-02-15 16:36:59,199 - graph_builder.constraints_manager - INFO - Creating constraints for node type: scanevent
+2026-02-15 16:36:59,199 - graph_builder.constraints_manager - INFO - Creating constraints for node type: scanevent
+2026-02-15 16:36:59,253 - graph_builder.constraints_manager - INFO - Created UNIQUE constraint 'unique_scanevent_id' on ScanEvent(event_id)
+2026-02-15 16:36:59,253 - graph_builder.constraints_manager - INFO - Created UNIQUE constraint 'unique_scanevent_id' on ScanEvent(event_id)
+2026-02-15 16:36:59,253 - graph_builder.constraints_manager - INFO - Created UNIQUE constraint 'unique_scanevent_id' on ScanEvent(event_id)
+2026-02-15 16:36:59,254 - graph_builder.graph_builder - INFO - asset: 1/1 constraints created successfully
+2026-02-15 16:36:59,254 - graph_builder.graph_builder - INFO - asset: 1/1 constraints created successfully
+2026-02-15 16:36:59,254 - graph_builder.graph_builder - INFO - asset: 1/1 constraints created successfully
+2026-02-15 16:36:59,254 - graph_builder.graph_builder - INFO - host: 1/1 constraints created successfully
+2026-02-15 16:36:59,254 - graph_builder.graph_builder - INFO - host: 1/1 constraints created successfully
+2026-02-15 16:36:59,254 - graph_builder.graph_builder - INFO - host: 1/1 constraints created successfully
+2026-02-15 16:36:59,255 - graph_builder.graph_builder - INFO - software: 1/1 constraints created successfully
+2026-02-15 16:36:59,255 - graph_builder.graph_builder - INFO - software: 1/1 constraints created successfully
+2026-02-15 16:36:59,255 - graph_builder.graph_builder - INFO - software: 1/1 constraints created successfully
+2026-02-15 16:36:59,255 - graph_builder.graph_builder - INFO - vulnerability: 1/1 constraints created successfully
+2026-02-15 16:36:59,255 - graph_builder.graph_builder - INFO - vulnerability: 1/1 constraints created successfully
+2026-02-15 16:36:59,255 - graph_builder.graph_builder - INFO - vulnerability: 1/1 constraints created successfully
+2026-02-15 16:36:59,256 - graph_builder.graph_builder - INFO - assetgroup: 1/1 constraints created successfully
+2026-02-15 16:36:59,256 - graph_builder.graph_builder - INFO - assetgroup: 1/1 constraints created successfully
+2026-02-15 16:36:59,256 - graph_builder.graph_builder - INFO - assetgroup: 1/1 constraints created successfully
+2026-02-15 16:36:59,256 - graph_builder.graph_builder - INFO - hardware: 1/1 constraints created successfully
+2026-02-15 16:36:59,256 - graph_builder.graph_builder - INFO - hardware: 1/1 constraints created successfully
+2026-02-15 16:36:59,256 - graph_builder.graph_builder - INFO - hardware: 1/1 constraints created successfully
+2026-02-15 16:36:59,257 - graph_builder.graph_builder - INFO - scanevent: 1/1 constraints created successfully
+2026-02-15 16:36:59,257 - graph_builder.graph_builder - INFO - scanevent: 1/1 constraints created successfully
+2026-02-15 16:36:59,257 - graph_builder.graph_builder - INFO - scanevent: 1/1 constraints created successfully
+2026-02-15 16:36:59,257 - __main__ - INFO - Constraints setup completed successfully
+2026-02-15 16:36:59,257 - __main__ - INFO - 
+============================================================
+2026-02-15 16:36:59,258 - __main__ - INFO - Creating ScanEvent
+2026-02-15 16:36:59,258 - __main__ - INFO - ============================================================
+2026-02-15 16:37:00,562 - graph_builder.scanevent_manager - INFO - Created ScanEvent: NODE_N1_SCAN_00001_1771152574
+2026-02-15 16:37:00,562 - graph_builder.scanevent_manager - INFO - Created ScanEvent: NODE_N1_SCAN_00001_1771152574
+2026-02-15 16:37:00,562 - graph_builder.scanevent_manager - INFO - Created ScanEvent: NODE_N1_SCAN_00001_1771152574
+2026-02-15 16:37:00,563 - graph_builder.scanevent_manager - INFO -   Description: STANDARD_BASELINE_LOAD
+2026-02-15 16:37:00,563 - graph_builder.scanevent_manager - INFO -   Description: STANDARD_BASELINE_LOAD
+2026-02-15 16:37:00,563 - graph_builder.scanevent_manager - INFO -   Description: STANDARD_BASELINE_LOAD
+2026-02-15 16:37:00,563 - graph_builder.scanevent_manager - INFO -   Time: 2026-02-15T16:19:34.538728
+2026-02-15 16:37:00,563 - graph_builder.scanevent_manager - INFO -   Time: 2026-02-15T16:19:34.538728
+2026-02-15 16:37:00,563 - graph_builder.scanevent_manager - INFO -   Time: 2026-02-15T16:19:34.538728
+2026-02-15 16:37:00,564 - graph_builder.scanevent_manager - INFO -   Status: Created
+2026-02-15 16:37:00,564 - graph_builder.scanevent_manager - INFO -   Status: Created
+2026-02-15 16:37:00,564 - graph_builder.scanevent_manager - INFO -   Status: Created
+2026-02-15 16:37:00,564 - __main__ - INFO - ScanEvent created: NODE_N1_SCAN_00001_1771152574
+2026-02-15 16:37:00,565 - __main__ - INFO - ============================================================
+2026-02-15 16:37:00,565 - __main__ - INFO - 
+Adding event_id (NODE_N1_SCAN_00001_1771152574) to all nodes...
+2026-02-15 16:37:00,609 - __main__ - INFO - 
+Inserting asset nodes...
+2026-02-15 16:37:00,609 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:00,609 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:00,609 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:00,610 - graph_builder.graph_builder - INFO - Inserting ASSET nodes into Neo4j
+2026-02-15 16:37:00,610 - graph_builder.graph_builder - INFO - Inserting ASSET nodes into Neo4j
+2026-02-15 16:37:00,610 - graph_builder.graph_builder - INFO - Inserting ASSET nodes into Neo4j
+2026-02-15 16:37:00,610 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:00,610 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:00,610 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:00,611 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\asset_nodes_with_event_id.json
+2026-02-15 16:37:00,611 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\asset_nodes_with_event_id.json
+2026-02-15 16:37:00,611 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\asset_nodes_with_event_id.json
+2026-02-15 16:37:00,612 - graph_builder.node_inserter - INFO - Loaded 5 nodes from JSON file
+2026-02-15 16:37:00,612 - graph_builder.node_inserter - INFO - Loaded 5 nodes from JSON file
+2026-02-15 16:37:00,612 - graph_builder.node_inserter - INFO - Loaded 5 nodes from JSON file
+2026-02-15 16:37:00,695 - graph_builder.graph_builder - INFO - Existing NJS_Asset nodes in database: 0
+2026-02-15 16:37:00,695 - graph_builder.graph_builder - INFO - Existing NJS_Asset nodes in database: 0
+2026-02-15 16:37:00,695 - graph_builder.graph_builder - INFO - Existing NJS_Asset nodes in database: 0
+2026-02-15 16:37:00,696 - graph_builder.node_inserter - INFO - Inserting 5 NJS_Asset nodes in batches of 100
+2026-02-15 16:37:00,696 - graph_builder.node_inserter - INFO - Inserting 5 NJS_Asset nodes in batches of 100
+2026-02-15 16:37:00,696 - graph_builder.node_inserter - INFO - Inserting 5 NJS_Asset nodes in batches of 100
+2026-02-15 16:37:00,697 - graph_builder.node_inserter - INFO - Processing batch 1/1 (5 nodes)
+2026-02-15 16:37:00,697 - graph_builder.node_inserter - INFO - Processing batch 1/1 (5 nodes)
+2026-02-15 16:37:00,697 - graph_builder.node_inserter - INFO - Processing batch 1/1 (5 nodes)
+2026-02-15 16:37:01,022 - graph_builder.node_inserter - INFO - Batch insertion complete: 5 succeeded, 0 failed
+2026-02-15 16:37:01,022 - graph_builder.node_inserter - INFO - Batch insertion complete: 5 succeeded, 0 failed
+2026-02-15 16:37:01,022 - graph_builder.node_inserter - INFO - Batch insertion complete: 5 succeeded, 0 failed
+2026-02-15 16:37:01,030 - graph_builder.graph_builder - INFO - Total NJS_Asset nodes in database after insertion: 5
+2026-02-15 16:37:01,030 - graph_builder.graph_builder - INFO - Total NJS_Asset nodes in database after insertion: 5
+2026-02-15 16:37:01,030 - graph_builder.graph_builder - INFO - Total NJS_Asset nodes in database after insertion: 5
+2026-02-15 16:37:01,031 - __main__ - INFO - 
+Inserting host nodes...
+2026-02-15 16:37:01,031 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:01,031 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:01,031 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:01,032 - graph_builder.graph_builder - INFO - Inserting HOST nodes into Neo4j
+2026-02-15 16:37:01,032 - graph_builder.graph_builder - INFO - Inserting HOST nodes into Neo4j
+2026-02-15 16:37:01,032 - graph_builder.graph_builder - INFO - Inserting HOST nodes into Neo4j
+2026-02-15 16:37:01,032 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:01,032 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:01,032 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:01,033 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\host_nodes_with_event_id.json
+2026-02-15 16:37:01,033 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\host_nodes_with_event_id.json
+2026-02-15 16:37:01,033 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\host_nodes_with_event_id.json
+2026-02-15 16:37:01,033 - graph_builder.node_inserter - INFO - Loaded 5 nodes from JSON file
+2026-02-15 16:37:01,033 - graph_builder.node_inserter - INFO - Loaded 5 nodes from JSON file
+2026-02-15 16:37:01,033 - graph_builder.node_inserter - INFO - Loaded 5 nodes from JSON file
+2026-02-15 16:37:01,101 - graph_builder.graph_builder - INFO - Existing NJS_Host nodes in database: 0
+2026-02-15 16:37:01,101 - graph_builder.graph_builder - INFO - Existing NJS_Host nodes in database: 0
+2026-02-15 16:37:01,101 - graph_builder.graph_builder - INFO - Existing NJS_Host nodes in database: 0
+2026-02-15 16:37:01,102 - graph_builder.node_inserter - INFO - Inserting 5 NJS_Host nodes in batches of 100
+2026-02-15 16:37:01,102 - graph_builder.node_inserter - INFO - Inserting 5 NJS_Host nodes in batches of 100
+2026-02-15 16:37:01,102 - graph_builder.node_inserter - INFO - Inserting 5 NJS_Host nodes in batches of 100
+2026-02-15 16:37:01,102 - graph_builder.node_inserter - INFO - Processing batch 1/1 (5 nodes)
+2026-02-15 16:37:01,102 - graph_builder.node_inserter - INFO - Processing batch 1/1 (5 nodes)
+2026-02-15 16:37:01,102 - graph_builder.node_inserter - INFO - Processing batch 1/1 (5 nodes)
+2026-02-15 16:37:01,564 - graph_builder.node_inserter - INFO - Batch insertion complete: 5 succeeded, 0 failed
+2026-02-15 16:37:01,564 - graph_builder.node_inserter - INFO - Batch insertion complete: 5 succeeded, 0 failed
+2026-02-15 16:37:01,564 - graph_builder.node_inserter - INFO - Batch insertion complete: 5 succeeded, 0 failed
+2026-02-15 16:37:01,574 - graph_builder.graph_builder - INFO - Total NJS_Host nodes in database after insertion: 5
+2026-02-15 16:37:01,574 - graph_builder.graph_builder - INFO - Total NJS_Host nodes in database after insertion: 5
+2026-02-15 16:37:01,574 - graph_builder.graph_builder - INFO - Total NJS_Host nodes in database after insertion: 5
+2026-02-15 16:37:01,575 - __main__ - INFO - 
+Inserting software nodes...
+2026-02-15 16:37:01,575 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:01,575 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:01,575 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:01,576 - graph_builder.graph_builder - INFO - Inserting SOFTWARE nodes into Neo4j
+2026-02-15 16:37:01,576 - graph_builder.graph_builder - INFO - Inserting SOFTWARE nodes into Neo4j
+2026-02-15 16:37:01,576 - graph_builder.graph_builder - INFO - Inserting SOFTWARE nodes into Neo4j
+2026-02-15 16:37:01,576 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:01,576 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:01,576 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:01,577 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\software_nodes_with_event_id.json
+2026-02-15 16:37:01,577 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\software_nodes_with_event_id.json
+2026-02-15 16:37:01,577 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\software_nodes_with_event_id.json
+2026-02-15 16:37:01,581 - graph_builder.node_inserter - INFO - Loaded 726 nodes from JSON file
+2026-02-15 16:37:01,581 - graph_builder.node_inserter - INFO - Loaded 726 nodes from JSON file
+2026-02-15 16:37:01,581 - graph_builder.node_inserter - INFO - Loaded 726 nodes from JSON file
+2026-02-15 16:37:01,645 - graph_builder.graph_builder - INFO - Existing NJS_Software nodes in database: 0
+2026-02-15 16:37:01,645 - graph_builder.graph_builder - INFO - Existing NJS_Software nodes in database: 0
+2026-02-15 16:37:01,645 - graph_builder.graph_builder - INFO - Existing NJS_Software nodes in database: 0
+2026-02-15 16:37:01,646 - graph_builder.node_inserter - INFO - Inserting 726 NJS_Software nodes in batches of 100
+2026-02-15 16:37:01,646 - graph_builder.node_inserter - INFO - Inserting 726 NJS_Software nodes in batches of 100
+2026-02-15 16:37:01,646 - graph_builder.node_inserter - INFO - Inserting 726 NJS_Software nodes in batches of 100
+2026-02-15 16:37:01,647 - graph_builder.node_inserter - INFO - Processing batch 1/8 (100 nodes)
+2026-02-15 16:37:01,647 - graph_builder.node_inserter - INFO - Processing batch 1/8 (100 nodes)
+2026-02-15 16:37:01,647 - graph_builder.node_inserter - INFO - Processing batch 1/8 (100 nodes)
+2026-02-15 16:37:03,309 - graph_builder.node_inserter - INFO - Processing batch 2/8 (100 nodes)
+2026-02-15 16:37:03,309 - graph_builder.node_inserter - INFO - Processing batch 2/8 (100 nodes)
+2026-02-15 16:37:03,309 - graph_builder.node_inserter - INFO - Processing batch 2/8 (100 nodes)
+2026-02-15 16:37:04,992 - graph_builder.node_inserter - INFO - Processing batch 3/8 (100 nodes)
+2026-02-15 16:37:04,992 - graph_builder.node_inserter - INFO - Processing batch 3/8 (100 nodes)
+2026-02-15 16:37:04,992 - graph_builder.node_inserter - INFO - Processing batch 3/8 (100 nodes)
+2026-02-15 16:37:06,056 - graph_builder.node_inserter - INFO - Processing batch 4/8 (100 nodes)
+2026-02-15 16:37:06,056 - graph_builder.node_inserter - INFO - Processing batch 4/8 (100 nodes)
+2026-02-15 16:37:06,056 - graph_builder.node_inserter - INFO - Processing batch 4/8 (100 nodes)
+2026-02-15 16:37:06,891 - graph_builder.node_inserter - INFO - Processing batch 5/8 (100 nodes)
+2026-02-15 16:37:06,891 - graph_builder.node_inserter - INFO - Processing batch 5/8 (100 nodes)
+2026-02-15 16:37:06,891 - graph_builder.node_inserter - INFO - Processing batch 5/8 (100 nodes)
+2026-02-15 16:37:07,575 - graph_builder.node_inserter - INFO - Processing batch 6/8 (100 nodes)
+2026-02-15 16:37:07,575 - graph_builder.node_inserter - INFO - Processing batch 6/8 (100 nodes)
+2026-02-15 16:37:07,575 - graph_builder.node_inserter - INFO - Processing batch 6/8 (100 nodes)
+2026-02-15 16:37:08,265 - graph_builder.node_inserter - INFO - Processing batch 7/8 (100 nodes)
+2026-02-15 16:37:08,265 - graph_builder.node_inserter - INFO - Processing batch 7/8 (100 nodes)
+2026-02-15 16:37:08,265 - graph_builder.node_inserter - INFO - Processing batch 7/8 (100 nodes)
+2026-02-15 16:37:08,894 - graph_builder.node_inserter - INFO - Processing batch 8/8 (26 nodes)
+2026-02-15 16:37:08,894 - graph_builder.node_inserter - INFO - Processing batch 8/8 (26 nodes)
+2026-02-15 16:37:08,894 - graph_builder.node_inserter - INFO - Processing batch 8/8 (26 nodes)
+2026-02-15 16:37:09,055 - graph_builder.node_inserter - INFO - Batch insertion complete: 726 succeeded, 0 failed
+2026-02-15 16:37:09,055 - graph_builder.node_inserter - INFO - Batch insertion complete: 726 succeeded, 0 failed
+2026-02-15 16:37:09,055 - graph_builder.node_inserter - INFO - Batch insertion complete: 726 succeeded, 0 failed
+2026-02-15 16:37:09,059 - graph_builder.graph_builder - INFO - Total NJS_Software nodes in database after insertion: 583
+2026-02-15 16:37:09,059 - graph_builder.graph_builder - INFO - Total NJS_Software nodes in database after insertion: 583
+2026-02-15 16:37:09,059 - graph_builder.graph_builder - INFO - Total NJS_Software nodes in database after insertion: 583
+2026-02-15 16:37:09,059 - __main__ - INFO - 
+Inserting vulnerability nodes...
+2026-02-15 16:37:09,060 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,060 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,060 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,060 - graph_builder.graph_builder - INFO - Inserting VULNERABILITY nodes into Neo4j
+2026-02-15 16:37:09,060 - graph_builder.graph_builder - INFO - Inserting VULNERABILITY nodes into Neo4j
+2026-02-15 16:37:09,060 - graph_builder.graph_builder - INFO - Inserting VULNERABILITY nodes into Neo4j
+2026-02-15 16:37:09,060 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,060 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,060 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,061 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\vulnerability_nodes_with_event_id.json
+2026-02-15 16:37:09,061 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\vulnerability_nodes_with_event_id.json
+2026-02-15 16:37:09,061 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\vulnerability_nodes_with_event_id.json
+2026-02-15 16:37:09,062 - graph_builder.node_inserter - INFO - Loaded 53 nodes from JSON file
+2026-02-15 16:37:09,062 - graph_builder.node_inserter - INFO - Loaded 53 nodes from JSON file
+2026-02-15 16:37:09,062 - graph_builder.node_inserter - INFO - Loaded 53 nodes from JSON file
+2026-02-15 16:37:09,118 - graph_builder.graph_builder - INFO - Existing NJS_Vulnerability nodes in database: 0
+2026-02-15 16:37:09,118 - graph_builder.graph_builder - INFO - Existing NJS_Vulnerability nodes in database: 0
+2026-02-15 16:37:09,118 - graph_builder.graph_builder - INFO - Existing NJS_Vulnerability nodes in database: 0
+2026-02-15 16:37:09,119 - graph_builder.node_inserter - INFO - Inserting 53 NJS_Vulnerability nodes in batches of 100
+2026-02-15 16:37:09,119 - graph_builder.node_inserter - INFO - Inserting 53 NJS_Vulnerability nodes in batches of 100
+2026-02-15 16:37:09,119 - graph_builder.node_inserter - INFO - Inserting 53 NJS_Vulnerability nodes in batches of 100
+2026-02-15 16:37:09,119 - graph_builder.node_inserter - INFO - Processing batch 1/1 (53 nodes)
+2026-02-15 16:37:09,119 - graph_builder.node_inserter - INFO - Processing batch 1/1 (53 nodes)
+2026-02-15 16:37:09,119 - graph_builder.node_inserter - INFO - Processing batch 1/1 (53 nodes)
+2026-02-15 16:37:09,786 - graph_builder.node_inserter - INFO - Batch insertion complete: 53 succeeded, 0 failed
+2026-02-15 16:37:09,786 - graph_builder.node_inserter - INFO - Batch insertion complete: 53 succeeded, 0 failed
+2026-02-15 16:37:09,786 - graph_builder.node_inserter - INFO - Batch insertion complete: 53 succeeded, 0 failed
+2026-02-15 16:37:09,790 - graph_builder.graph_builder - INFO - Total NJS_Vulnerability nodes in database after insertion: 40
+2026-02-15 16:37:09,790 - graph_builder.graph_builder - INFO - Total NJS_Vulnerability nodes in database after insertion: 40
+2026-02-15 16:37:09,790 - graph_builder.graph_builder - INFO - Total NJS_Vulnerability nodes in database after insertion: 40
+2026-02-15 16:37:09,790 - __main__ - INFO - 
+Inserting assetgroup nodes...
+2026-02-15 16:37:09,791 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,791 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,791 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,791 - graph_builder.graph_builder - INFO - Inserting ASSETGROUP nodes into Neo4j
+2026-02-15 16:37:09,791 - graph_builder.graph_builder - INFO - Inserting ASSETGROUP nodes into Neo4j
+2026-02-15 16:37:09,791 - graph_builder.graph_builder - INFO - Inserting ASSETGROUP nodes into Neo4j
+2026-02-15 16:37:09,792 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,792 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,792 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,793 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\assetgroup_nodes_with_event_id.json
+2026-02-15 16:37:09,793 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\assetgroup_nodes_with_event_id.json
+2026-02-15 16:37:09,793 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\assetgroup_nodes_with_event_id.json
+2026-02-15 16:37:09,793 - graph_builder.node_inserter - INFO - Loaded 1 nodes from JSON file
+2026-02-15 16:37:09,793 - graph_builder.node_inserter - INFO - Loaded 1 nodes from JSON file
+2026-02-15 16:37:09,793 - graph_builder.node_inserter - INFO - Loaded 1 nodes from JSON file
+2026-02-15 16:37:09,838 - graph_builder.graph_builder - INFO - Existing NJS_AssetGroup nodes in database: 0
+2026-02-15 16:37:09,838 - graph_builder.graph_builder - INFO - Existing NJS_AssetGroup nodes in database: 0
+2026-02-15 16:37:09,838 - graph_builder.graph_builder - INFO - Existing NJS_AssetGroup nodes in database: 0
+2026-02-15 16:37:09,838 - graph_builder.node_inserter - INFO - Inserting 1 NJS_AssetGroup nodes in batches of 100
+2026-02-15 16:37:09,838 - graph_builder.node_inserter - INFO - Inserting 1 NJS_AssetGroup nodes in batches of 100
+2026-02-15 16:37:09,838 - graph_builder.node_inserter - INFO - Inserting 1 NJS_AssetGroup nodes in batches of 100
+2026-02-15 16:37:09,839 - graph_builder.node_inserter - INFO - Processing batch 1/1 (1 nodes)
+2026-02-15 16:37:09,839 - graph_builder.node_inserter - INFO - Processing batch 1/1 (1 nodes)
+2026-02-15 16:37:09,839 - graph_builder.node_inserter - INFO - Processing batch 1/1 (1 nodes)
+2026-02-15 16:37:09,900 - graph_builder.node_inserter - INFO - Batch insertion complete: 1 succeeded, 0 failed
+2026-02-15 16:37:09,900 - graph_builder.node_inserter - INFO - Batch insertion complete: 1 succeeded, 0 failed
+2026-02-15 16:37:09,900 - graph_builder.node_inserter - INFO - Batch insertion complete: 1 succeeded, 0 failed
+2026-02-15 16:37:09,903 - graph_builder.graph_builder - INFO - Total NJS_AssetGroup nodes in database after insertion: 1
+2026-02-15 16:37:09,903 - graph_builder.graph_builder - INFO - Total NJS_AssetGroup nodes in database after insertion: 1
+2026-02-15 16:37:09,903 - graph_builder.graph_builder - INFO - Total NJS_AssetGroup nodes in database after insertion: 1
+2026-02-15 16:37:09,904 - __main__ - INFO - 
+Inserting hardware nodes...
+2026-02-15 16:37:09,904 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,904 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,904 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,904 - graph_builder.graph_builder - INFO - Inserting HARDWARE nodes into Neo4j
+2026-02-15 16:37:09,904 - graph_builder.graph_builder - INFO - Inserting HARDWARE nodes into Neo4j
+2026-02-15 16:37:09,904 - graph_builder.graph_builder - INFO - Inserting HARDWARE nodes into Neo4j
+2026-02-15 16:37:09,905 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,905 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,905 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:09,905 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\hardware_nodes_with_event_id.json
+2026-02-15 16:37:09,905 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\hardware_nodes_with_event_id.json
+2026-02-15 16:37:09,905 - graph_builder.node_inserter - INFO - Loading nodes from: C:\Users\sgade\OneDrive\Desktop\orbit_node\extracted_data\20260215_161934_530\processed\hardware_nodes_with_event_id.json
+2026-02-15 16:37:09,906 - graph_builder.node_inserter - INFO - Loaded 5 nodes from JSON file
+2026-02-15 16:37:09,906 - graph_builder.node_inserter - INFO - Loaded 5 nodes from JSON file
+2026-02-15 16:37:09,906 - graph_builder.node_inserter - INFO - Loaded 5 nodes from JSON file
+2026-02-15 16:37:09,946 - graph_builder.graph_builder - INFO - Existing NJS_Hardware nodes in database: 0
+2026-02-15 16:37:09,946 - graph_builder.graph_builder - INFO - Existing NJS_Hardware nodes in database: 0
+2026-02-15 16:37:09,946 - graph_builder.graph_builder - INFO - Existing NJS_Hardware nodes in database: 0
+2026-02-15 16:37:09,947 - graph_builder.node_inserter - INFO - Inserting 5 NJS_Hardware nodes in batches of 100
+2026-02-15 16:37:09,947 - graph_builder.node_inserter - INFO - Inserting 5 NJS_Hardware nodes in batches of 100
+2026-02-15 16:37:09,947 - graph_builder.node_inserter - INFO - Inserting 5 NJS_Hardware nodes in batches of 100
+2026-02-15 16:37:09,947 - graph_builder.node_inserter - INFO - Processing batch 1/1 (5 nodes)
+2026-02-15 16:37:09,947 - graph_builder.node_inserter - INFO - Processing batch 1/1 (5 nodes)
+2026-02-15 16:37:09,947 - graph_builder.node_inserter - INFO - Processing batch 1/1 (5 nodes)
+2026-02-15 16:37:10,129 - graph_builder.node_inserter - INFO - Batch insertion complete: 5 succeeded, 0 failed
+2026-02-15 16:37:10,129 - graph_builder.node_inserter - INFO - Batch insertion complete: 5 succeeded, 0 failed
+2026-02-15 16:37:10,129 - graph_builder.node_inserter - INFO - Batch insertion complete: 5 succeeded, 0 failed
+2026-02-15 16:37:10,134 - graph_builder.graph_builder - INFO - Total NJS_Hardware nodes in database after insertion: 5
+2026-02-15 16:37:10,134 - graph_builder.graph_builder - INFO - Total NJS_Hardware nodes in database after insertion: 5
+2026-02-15 16:37:10,134 - graph_builder.graph_builder - INFO - Total NJS_Hardware nodes in database after insertion: 5
+2026-02-15 16:37:10,134 - __main__ - INFO - 
+============================================================
+2026-02-15 16:37:10,135 - __main__ - INFO - CREATING RELATIONSHIPS
+2026-02-15 16:37:10,135 - __main__ - INFO - ============================================================
+2026-02-15 16:37:10,135 - __main__ - INFO - Starting relationship creation process...
+2026-02-15 16:37:10,136 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:10,136 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:10,136 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:10,136 - graph_builder.graph_builder - INFO - Creating Relationships
+2026-02-15 16:37:10,136 - graph_builder.graph_builder - INFO - Creating Relationships
+2026-02-15 16:37:10,136 - graph_builder.graph_builder - INFO - Creating Relationships
+2026-02-15 16:37:10,137 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:10,137 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:10,137 - graph_builder.graph_builder - INFO - ============================================================
+2026-02-15 16:37:10,137 - graph_builder.relationship_manager - INFO - ============================================================
+2026-02-15 16:37:10,137 - graph_builder.relationship_manager - INFO - ============================================================
+2026-02-15 16:37:10,137 - graph_builder.relationship_manager - INFO - ============================================================
+2026-02-15 16:37:10,137 - graph_builder.relationship_manager - INFO - Starting relationship creation from config
+2026-02-15 16:37:10,137 - graph_builder.relationship_manager - INFO - Starting relationship creation from config
+2026-02-15 16:37:10,137 - graph_builder.relationship_manager - INFO - Starting relationship creation from config
+2026-02-15 16:37:10,138 - graph_builder.relationship_manager - INFO - ============================================================
+2026-02-15 16:37:10,138 - graph_builder.relationship_manager - INFO - ============================================================
+2026-02-15 16:37:10,138 - graph_builder.relationship_manager - INFO - ============================================================
+2026-02-15 16:37:10,138 - graph_builder.relationship_manager - INFO - Found 13 relationship definitions in config
+2026-02-15 16:37:10,138 - graph_builder.relationship_manager - INFO - Found 13 relationship definitions in config
+2026-02-15 16:37:10,138 - graph_builder.relationship_manager - INFO - Found 13 relationship definitions in config
+2026-02-15 16:37:10,139 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_host': NJS_Asset-[:NJS_HAS_OS]->NJS_Host
+2026-02-15 16:37:10,139 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_host': NJS_Asset-[:NJS_HAS_OS]->NJS_Host
+2026-02-15 16:37:10,139 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_host': NJS_Asset-[:NJS_HAS_OS]->NJS_Host
+2026-02-15 16:37:10,139 - graph_builder.relationship_manager - INFO - Querying NJS_Asset nodes for asset_id values...
+2026-02-15 16:37:10,139 - graph_builder.relationship_manager - INFO - Querying NJS_Asset nodes for asset_id values...
+2026-02-15 16:37:10,139 - graph_builder.relationship_manager - INFO - Querying NJS_Asset nodes for asset_id values...
+2026-02-15 16:37:10,221 - graph_builder.relationship_manager - INFO - Found 5 asset_id values from NJS_Asset nodes
+2026-02-15 16:37:10,221 - graph_builder.relationship_manager - INFO - Found 5 asset_id values from NJS_Asset nodes
+2026-02-15 16:37:10,221 - graph_builder.relationship_manager - INFO - Found 5 asset_id values from NJS_Asset nodes
+2026-02-15 16:37:10,222 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\host
+2026-02-15 16:37:10,222 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\host
+2026-02-15 16:37:10,222 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\host
+2026-02-15 16:37:10,222 - graph_builder.relationship_manager - INFO - Source file pattern: Syscollector_OS_Info_{agent_id}.json
+2026-02-15 16:37:10,222 - graph_builder.relationship_manager - INFO - Source file pattern: Syscollector_OS_Info_{agent_id}.json
+2026-02-15 16:37:10,222 - graph_builder.relationship_manager - INFO - Source file pattern: Syscollector_OS_Info_{agent_id}.json
+2026-02-15 16:37:10,222 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:10,222 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:10,222 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:10,226 - graph_builder.relationship_manager - INFO - Loaded 5 items from source data
+2026-02-15 16:37:10,226 - graph_builder.relationship_manager - INFO - Loaded 5 items from source data
+2026-02-15 16:37:10,226 - graph_builder.relationship_manager - INFO - Loaded 5 items from source data
+2026-02-15 16:37:10,227 - graph_builder.relationship_manager - INFO - Sample source item keys: ['os', 'scan', 'architecture', 'release', 'sysname', 'hostname', 'version', 'agent_id', '_agent_id']
+2026-02-15 16:37:10,227 - graph_builder.relationship_manager - INFO - Sample source item keys: ['os', 'scan', 'architecture', 'release', 'sysname', 'hostname', 'version', 'agent_id', '_agent_id']
+2026-02-15 16:37:10,227 - graph_builder.relationship_manager - INFO - Sample source item keys: ['os', 'scan', 'architecture', 'release', 'sysname', 'hostname', 'version', 'agent_id', '_agent_id']
+2026-02-15 16:37:10,227 - graph_builder.relationship_manager - INFO - Prepared 5 relationships to create from source data
+2026-02-15 16:37:10,227 - graph_builder.relationship_manager - INFO - Prepared 5 relationships to create from source data
+2026-02-15 16:37:10,227 - graph_builder.relationship_manager - INFO - Prepared 5 relationships to create from source data
+2026-02-15 16:37:10,228 - graph_builder.relationship_manager - INFO - Creating 5 relationships using source data
+2026-02-15 16:37:10,228 - graph_builder.relationship_manager - INFO - Creating 5 relationships using source data
+2026-02-15 16:37:10,228 - graph_builder.relationship_manager - INFO - Creating 5 relationships using source data
+2026-02-15 16:37:10,228 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:10,228 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:10,228 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:10,575 - graph_builder.relationship_manager - INFO - Query result: [{'count': 11}]
+2026-02-15 16:37:10,575 - graph_builder.relationship_manager - INFO - Query result: [{'count': 11}]
+2026-02-15 16:37:10,575 - graph_builder.relationship_manager - INFO - Query result: [{'count': 11}]
+2026-02-15 16:37:10,575 - graph_builder.relationship_manager - INFO - Created 11 NJS_HAS_OS relationships from NJS_Asset to NJS_Host using source data
+2026-02-15 16:37:10,575 - graph_builder.relationship_manager - INFO - Created 11 NJS_HAS_OS relationships from NJS_Asset to NJS_Host using source data
+2026-02-15 16:37:10,575 - graph_builder.relationship_manager - INFO - Created 11 NJS_HAS_OS relationships from NJS_Asset to NJS_Host using source data
+2026-02-15 16:37:10,576 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_host' result: {'success': 11, 'failed': 0, 'total': 11}
+2026-02-15 16:37:10,576 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_host' result: {'success': 11, 'failed': 0, 'total': 11}
+2026-02-15 16:37:10,576 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_host' result: {'success': 11, 'failed': 0, 'total': 11}
+2026-02-15 16:37:10,576 - graph_builder.relationship_manager - INFO - Creating relationship 'host_to_software': NJS_Host-[:NJS_INSTALLED_ON]->NJS_Software
+2026-02-15 16:37:10,576 - graph_builder.relationship_manager - INFO - Creating relationship 'host_to_software': NJS_Host-[:NJS_INSTALLED_ON]->NJS_Software
+2026-02-15 16:37:10,576 - graph_builder.relationship_manager - INFO - Creating relationship 'host_to_software': NJS_Host-[:NJS_INSTALLED_ON]->NJS_Software
+2026-02-15 16:37:10,576 - graph_builder.relationship_manager - INFO - Querying NJS_Host nodes for agent_id values...
+2026-02-15 16:37:10,576 - graph_builder.relationship_manager - INFO - Querying NJS_Host nodes for agent_id values...
+2026-02-15 16:37:10,576 - graph_builder.relationship_manager - INFO - Querying NJS_Host nodes for agent_id values...
+2026-02-15 16:37:10,623 - graph_builder.relationship_manager - INFO - Found 5 agent_id values from NJS_Host nodes
+2026-02-15 16:37:10,623 - graph_builder.relationship_manager - INFO - Found 5 agent_id values from NJS_Host nodes
+2026-02-15 16:37:10,623 - graph_builder.relationship_manager - INFO - Found 5 agent_id values from NJS_Host nodes
+2026-02-15 16:37:10,624 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\packages
+2026-02-15 16:37:10,624 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\packages
+2026-02-15 16:37:10,624 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\packages
+2026-02-15 16:37:10,625 - graph_builder.relationship_manager - INFO - Source file pattern: Syscollector_Packages_{agent_id}.json
+2026-02-15 16:37:10,625 - graph_builder.relationship_manager - INFO - Source file pattern: Syscollector_Packages_{agent_id}.json
+2026-02-15 16:37:10,625 - graph_builder.relationship_manager - INFO - Source file pattern: Syscollector_Packages_{agent_id}.json
+2026-02-15 16:37:10,625 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:10,625 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:10,625 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:10,639 - graph_builder.relationship_manager - INFO - Loaded 726 items from source data
+2026-02-15 16:37:10,639 - graph_builder.relationship_manager - INFO - Loaded 726 items from source data
+2026-02-15 16:37:10,639 - graph_builder.relationship_manager - INFO - Loaded 726 items from source data
+2026-02-15 16:37:10,639 - graph_builder.relationship_manager - INFO - Sample source item keys: ['scan', 'name', 'vendor', 'location', 'source', 'format', 'section', 'size', 'description', 'install_time']
+2026-02-15 16:37:10,639 - graph_builder.relationship_manager - INFO - Sample source item keys: ['scan', 'name', 'vendor', 'location', 'source', 'format', 'section', 'size', 'description', 'install_time']
+2026-02-15 16:37:10,639 - graph_builder.relationship_manager - INFO - Sample source item keys: ['scan', 'name', 'vendor', 'location', 'source', 'format', 'section', 'size', 'description', 'install_time']
+2026-02-15 16:37:10,641 - graph_builder.relationship_manager - INFO - Prepared 726 relationships to create from source data
+2026-02-15 16:37:10,641 - graph_builder.relationship_manager - INFO - Prepared 726 relationships to create from source data
+2026-02-15 16:37:10,641 - graph_builder.relationship_manager - INFO - Prepared 726 relationships to create from source data
+2026-02-15 16:37:10,641 - graph_builder.relationship_manager - INFO - Creating 726 relationships using source data
+2026-02-15 16:37:10,641 - graph_builder.relationship_manager - INFO - Creating 726 relationships using source data
+2026-02-15 16:37:10,641 - graph_builder.relationship_manager - INFO - Creating 726 relationships using source data
+2026-02-15 16:37:10,642 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:10,642 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:10,642 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:11,443 - graph_builder.relationship_manager - INFO - Query result: [{'count': 726}]
+2026-02-15 16:37:11,443 - graph_builder.relationship_manager - INFO - Query result: [{'count': 726}]
+2026-02-15 16:37:11,443 - graph_builder.relationship_manager - INFO - Query result: [{'count': 726}]
+2026-02-15 16:37:11,443 - graph_builder.relationship_manager - INFO - Created 726 NJS_INSTALLED_ON relationships from NJS_Host to NJS_Software using source data
+2026-02-15 16:37:11,443 - graph_builder.relationship_manager - INFO - Created 726 NJS_INSTALLED_ON relationships from NJS_Host to NJS_Software using source data
+2026-02-15 16:37:11,443 - graph_builder.relationship_manager - INFO - Created 726 NJS_INSTALLED_ON relationships from NJS_Host to NJS_Software using source data
+2026-02-15 16:37:11,444 - graph_builder.relationship_manager - INFO - Relationship 'host_to_software' result: {'success': 726, 'failed': 0, 'total': 726}
+2026-02-15 16:37:11,444 - graph_builder.relationship_manager - INFO - Relationship 'host_to_software' result: {'success': 726, 'failed': 0, 'total': 726}
+2026-02-15 16:37:11,444 - graph_builder.relationship_manager - INFO - Relationship 'host_to_software' result: {'success': 726, 'failed': 0, 'total': 726}
+2026-02-15 16:37:11,445 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_software': NJS_Asset-[:NJS_HAS_SOFTWARE]->NJS_Software
+2026-02-15 16:37:11,445 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_software': NJS_Asset-[:NJS_HAS_SOFTWARE]->NJS_Software
+2026-02-15 16:37:11,445 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_software': NJS_Asset-[:NJS_HAS_SOFTWARE]->NJS_Software
+2026-02-15 16:37:11,445 - graph_builder.relationship_manager - INFO - Querying NJS_Asset nodes for asset_id values...
+2026-02-15 16:37:11,445 - graph_builder.relationship_manager - INFO - Querying NJS_Asset nodes for asset_id values...
+2026-02-15 16:37:11,445 - graph_builder.relationship_manager - INFO - Querying NJS_Asset nodes for asset_id values...
+2026-02-15 16:37:11,451 - graph_builder.relationship_manager - INFO - Found 5 asset_id values from NJS_Asset nodes
+2026-02-15 16:37:11,451 - graph_builder.relationship_manager - INFO - Found 5 asset_id values from NJS_Asset nodes
+2026-02-15 16:37:11,451 - graph_builder.relationship_manager - INFO - Found 5 asset_id values from NJS_Asset nodes
+2026-02-15 16:37:11,452 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\packages
+2026-02-15 16:37:11,452 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\packages
+2026-02-15 16:37:11,452 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\packages
+2026-02-15 16:37:11,453 - graph_builder.relationship_manager - INFO - Source file pattern: Syscollector_Packages_{agent_id}.json
+2026-02-15 16:37:11,453 - graph_builder.relationship_manager - INFO - Source file pattern: Syscollector_Packages_{agent_id}.json
+2026-02-15 16:37:11,453 - graph_builder.relationship_manager - INFO - Source file pattern: Syscollector_Packages_{agent_id}.json
+2026-02-15 16:37:11,453 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:11,453 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:11,453 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:11,464 - graph_builder.relationship_manager - INFO - Loaded 726 items from source data
+2026-02-15 16:37:11,464 - graph_builder.relationship_manager - INFO - Loaded 726 items from source data
+2026-02-15 16:37:11,464 - graph_builder.relationship_manager - INFO - Loaded 726 items from source data
+2026-02-15 16:37:11,465 - graph_builder.relationship_manager - INFO - Sample source item keys: ['scan', 'name', 'vendor', 'location', 'source', 'format', 'section', 'size', 'description', 'install_time']
+2026-02-15 16:37:11,465 - graph_builder.relationship_manager - INFO - Sample source item keys: ['scan', 'name', 'vendor', 'location', 'source', 'format', 'section', 'size', 'description', 'install_time']
+2026-02-15 16:37:11,465 - graph_builder.relationship_manager - INFO - Sample source item keys: ['scan', 'name', 'vendor', 'location', 'source', 'format', 'section', 'size', 'description', 'install_time']
+2026-02-15 16:37:11,467 - graph_builder.relationship_manager - INFO - Prepared 726 relationships to create from source data
+2026-02-15 16:37:11,467 - graph_builder.relationship_manager - INFO - Prepared 726 relationships to create from source data
+2026-02-15 16:37:11,467 - graph_builder.relationship_manager - INFO - Prepared 726 relationships to create from source data
+2026-02-15 16:37:11,468 - graph_builder.relationship_manager - INFO - Creating 726 relationships using source data
+2026-02-15 16:37:11,468 - graph_builder.relationship_manager - INFO - Creating 726 relationships using source data
+2026-02-15 16:37:11,468 - graph_builder.relationship_manager - INFO - Creating 726 relationships using source data
+2026-02-15 16:37:11,468 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:11,468 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:11,468 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:11,854 - graph_builder.relationship_manager - INFO - Query result: [{'count': 726}]
+2026-02-15 16:37:11,854 - graph_builder.relationship_manager - INFO - Query result: [{'count': 726}]
+2026-02-15 16:37:11,854 - graph_builder.relationship_manager - INFO - Query result: [{'count': 726}]
+2026-02-15 16:37:11,854 - graph_builder.relationship_manager - INFO - Created 726 NJS_HAS_SOFTWARE relationships from NJS_Asset to NJS_Software using source data
+2026-02-15 16:37:11,854 - graph_builder.relationship_manager - INFO - Created 726 NJS_HAS_SOFTWARE relationships from NJS_Asset to NJS_Software using source data
+2026-02-15 16:37:11,854 - graph_builder.relationship_manager - INFO - Created 726 NJS_HAS_SOFTWARE relationships from NJS_Asset to NJS_Software using source data
+2026-02-15 16:37:11,856 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_software' result: {'success': 726, 'failed': 0, 'total': 726}
+2026-02-15 16:37:11,856 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_software' result: {'success': 726, 'failed': 0, 'total': 726}
+2026-02-15 16:37:11,856 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_software' result: {'success': 726, 'failed': 0, 'total': 726}
+2026-02-15 16:37:11,856 - graph_builder.relationship_manager - INFO - Creating relationship 'software_to_vulnerability': NJS_Software-[:NJS_VULNERABLE_TO]->NJS_Vulnerability
+2026-02-15 16:37:11,856 - graph_builder.relationship_manager - INFO - Creating relationship 'software_to_vulnerability': NJS_Software-[:NJS_VULNERABLE_TO]->NJS_Vulnerability
+2026-02-15 16:37:11,856 - graph_builder.relationship_manager - INFO - Creating relationship 'software_to_vulnerability': NJS_Software-[:NJS_VULNERABLE_TO]->NJS_Vulnerability
+2026-02-15 16:37:11,856 - graph_builder.relationship_manager - INFO - Querying NJS_Software nodes for name values...
+2026-02-15 16:37:11,856 - graph_builder.relationship_manager - INFO - Querying NJS_Software nodes for name values...
+2026-02-15 16:37:11,856 - graph_builder.relationship_manager - INFO - Querying NJS_Software nodes for name values...
+2026-02-15 16:37:11,966 - graph_builder.relationship_manager - INFO - Found 583 name values from NJS_Software nodes
+2026-02-15 16:37:11,966 - graph_builder.relationship_manager - INFO - Found 583 name values from NJS_Software nodes
+2026-02-15 16:37:11,966 - graph_builder.relationship_manager - INFO - Found 583 name values from NJS_Software nodes
+2026-02-15 16:37:12,025 - graph_builder.relationship_manager - INFO - Loading all agent files for 5 agents
+2026-02-15 16:37:12,025 - graph_builder.relationship_manager - INFO - Loading all agent files for 5 agents
+2026-02-15 16:37:12,025 - graph_builder.relationship_manager - INFO - Loading all agent files for 5 agents
+2026-02-15 16:37:12,026 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\vulnerabilities
+2026-02-15 16:37:12,026 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\vulnerabilities
+2026-02-15 16:37:12,026 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\vulnerabilities
+2026-02-15 16:37:12,026 - graph_builder.relationship_manager - INFO - Source file pattern: Vulnerabilities_{agent_id}.json
+2026-02-15 16:37:12,026 - graph_builder.relationship_manager - INFO - Source file pattern: Vulnerabilities_{agent_id}.json
+2026-02-15 16:37:12,026 - graph_builder.relationship_manager - INFO - Source file pattern: Vulnerabilities_{agent_id}.json
+2026-02-15 16:37:12,027 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:12,027 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:12,027 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:12,038 - graph_builder.relationship_manager - INFO - Loaded 53 items from source data
+2026-02-15 16:37:12,038 - graph_builder.relationship_manager - INFO - Loaded 53 items from source data
+2026-02-15 16:37:12,038 - graph_builder.relationship_manager - INFO - Loaded 53 items from source data
+2026-02-15 16:37:12,039 - graph_builder.relationship_manager - INFO - Sample source item keys: ['agent_id', 'agent_name', 'cve', 'severity', 'title', 'description', 'published', 'status', 'cvss', 'package_name']
+2026-02-15 16:37:12,039 - graph_builder.relationship_manager - INFO - Sample source item keys: ['agent_id', 'agent_name', 'cve', 'severity', 'title', 'description', 'published', 'status', 'cvss', 'package_name']
+2026-02-15 16:37:12,039 - graph_builder.relationship_manager - INFO - Sample source item keys: ['agent_id', 'agent_name', 'cve', 'severity', 'title', 'description', 'published', 'status', 'cvss', 'package_name']
+2026-02-15 16:37:12,040 - graph_builder.relationship_manager - INFO - Prepared 53 relationships to create from source data
+2026-02-15 16:37:12,040 - graph_builder.relationship_manager - INFO - Prepared 53 relationships to create from source data
+2026-02-15 16:37:12,040 - graph_builder.relationship_manager - INFO - Prepared 53 relationships to create from source data
+2026-02-15 16:37:12,040 - graph_builder.relationship_manager - INFO - Creating 53 relationships using source data
+2026-02-15 16:37:12,040 - graph_builder.relationship_manager - INFO - Creating 53 relationships using source data
+2026-02-15 16:37:12,040 - graph_builder.relationship_manager - INFO - Creating 53 relationships using source data
+2026-02-15 16:37:12,041 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:12,041 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:12,041 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:12,269 - graph_builder.relationship_manager - INFO - Query result: [{'count': 53}]
+2026-02-15 16:37:12,269 - graph_builder.relationship_manager - INFO - Query result: [{'count': 53}]
+2026-02-15 16:37:12,269 - graph_builder.relationship_manager - INFO - Query result: [{'count': 53}]
+2026-02-15 16:37:12,270 - graph_builder.relationship_manager - INFO - Created 53 NJS_VULNERABLE_TO relationships from NJS_Software to NJS_Vulnerability using source data
+2026-02-15 16:37:12,270 - graph_builder.relationship_manager - INFO - Created 53 NJS_VULNERABLE_TO relationships from NJS_Software to NJS_Vulnerability using source data
+2026-02-15 16:37:12,270 - graph_builder.relationship_manager - INFO - Created 53 NJS_VULNERABLE_TO relationships from NJS_Software to NJS_Vulnerability using source data
+2026-02-15 16:37:12,270 - graph_builder.relationship_manager - INFO - Relationship 'software_to_vulnerability' result: {'success': 53, 'failed': 0, 'total': 53}
+2026-02-15 16:37:12,270 - graph_builder.relationship_manager - INFO - Relationship 'software_to_vulnerability' result: {'success': 53, 'failed': 0, 'total': 53}
+2026-02-15 16:37:12,270 - graph_builder.relationship_manager - INFO - Relationship 'software_to_vulnerability' result: {'success': 53, 'failed': 0, 'total': 53}
+2026-02-15 16:37:12,271 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_vulnerability': NJS_Asset-[:NJS_AFFECTED_BY]->NJS_Vulnerability
+2026-02-15 16:37:12,271 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_vulnerability': NJS_Asset-[:NJS_AFFECTED_BY]->NJS_Vulnerability
+2026-02-15 16:37:12,271 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_vulnerability': NJS_Asset-[:NJS_AFFECTED_BY]->NJS_Vulnerability
+2026-02-15 16:37:12,272 - graph_builder.relationship_manager - INFO - Querying NJS_Asset nodes for asset_id values...
+2026-02-15 16:37:12,272 - graph_builder.relationship_manager - INFO - Querying NJS_Asset nodes for asset_id values...
+2026-02-15 16:37:12,272 - graph_builder.relationship_manager - INFO - Querying NJS_Asset nodes for asset_id values...
+2026-02-15 16:37:12,277 - graph_builder.relationship_manager - INFO - Found 5 asset_id values from NJS_Asset nodes
+2026-02-15 16:37:12,277 - graph_builder.relationship_manager - INFO - Found 5 asset_id values from NJS_Asset nodes
+2026-02-15 16:37:12,277 - graph_builder.relationship_manager - INFO - Found 5 asset_id values from NJS_Asset nodes
+2026-02-15 16:37:12,283 - graph_builder.relationship_manager - INFO - Loading all agent files for 5 agents
+2026-02-15 16:37:12,283 - graph_builder.relationship_manager - INFO - Loading all agent files for 5 agents
+2026-02-15 16:37:12,283 - graph_builder.relationship_manager - INFO - Loading all agent files for 5 agents
+2026-02-15 16:37:12,283 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\vulnerabilities
+2026-02-15 16:37:12,283 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\vulnerabilities
+2026-02-15 16:37:12,283 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\vulnerabilities
+2026-02-15 16:37:12,284 - graph_builder.relationship_manager - INFO - Source file pattern: Vulnerabilities_{agent_id}.json
+2026-02-15 16:37:12,284 - graph_builder.relationship_manager - INFO - Source file pattern: Vulnerabilities_{agent_id}.json
+2026-02-15 16:37:12,284 - graph_builder.relationship_manager - INFO - Source file pattern: Vulnerabilities_{agent_id}.json
+2026-02-15 16:37:12,284 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:12,284 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:12,284 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:12,289 - graph_builder.relationship_manager - INFO - Loaded 53 items from source data
+2026-02-15 16:37:12,289 - graph_builder.relationship_manager - INFO - Loaded 53 items from source data
+2026-02-15 16:37:12,289 - graph_builder.relationship_manager - INFO - Loaded 53 items from source data
+2026-02-15 16:37:12,289 - graph_builder.relationship_manager - INFO - Sample source item keys: ['agent_id', 'agent_name', 'cve', 'severity', 'title', 'description', 'published', 'status', 'cvss', 'package_name']
+2026-02-15 16:37:12,289 - graph_builder.relationship_manager - INFO - Sample source item keys: ['agent_id', 'agent_name', 'cve', 'severity', 'title', 'description', 'published', 'status', 'cvss', 'package_name']
+2026-02-15 16:37:12,289 - graph_builder.relationship_manager - INFO - Sample source item keys: ['agent_id', 'agent_name', 'cve', 'severity', 'title', 'description', 'published', 'status', 'cvss', 'package_name']
+2026-02-15 16:37:12,290 - graph_builder.relationship_manager - INFO - Prepared 53 relationships to create from source data
+2026-02-15 16:37:12,290 - graph_builder.relationship_manager - INFO - Prepared 53 relationships to create from source data
+2026-02-15 16:37:12,290 - graph_builder.relationship_manager - INFO - Prepared 53 relationships to create from source data
+2026-02-15 16:37:12,290 - graph_builder.relationship_manager - INFO - Creating 53 relationships using source data
+2026-02-15 16:37:12,290 - graph_builder.relationship_manager - INFO - Creating 53 relationships using source data
+2026-02-15 16:37:12,290 - graph_builder.relationship_manager - INFO - Creating 53 relationships using source data
+2026-02-15 16:37:12,291 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:12,291 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:12,291 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:12,426 - graph_builder.relationship_manager - INFO - Query result: [{'count': 53}]
+2026-02-15 16:37:12,426 - graph_builder.relationship_manager - INFO - Query result: [{'count': 53}]
+2026-02-15 16:37:12,426 - graph_builder.relationship_manager - INFO - Query result: [{'count': 53}]
+2026-02-15 16:37:12,426 - graph_builder.relationship_manager - INFO - Created 53 NJS_AFFECTED_BY relationships from NJS_Asset to NJS_Vulnerability using source data
+2026-02-15 16:37:12,426 - graph_builder.relationship_manager - INFO - Created 53 NJS_AFFECTED_BY relationships from NJS_Asset to NJS_Vulnerability using source data
+2026-02-15 16:37:12,426 - graph_builder.relationship_manager - INFO - Created 53 NJS_AFFECTED_BY relationships from NJS_Asset to NJS_Vulnerability using source data
+2026-02-15 16:37:12,427 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_vulnerability' result: {'success': 53, 'failed': 0, 'total': 53}
+2026-02-15 16:37:12,427 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_vulnerability' result: {'success': 53, 'failed': 0, 'total': 53}
+2026-02-15 16:37:12,427 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_vulnerability' result: {'success': 53, 'failed': 0, 'total': 53}
+2026-02-15 16:37:12,427 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_assetgroup': NJS_Asset-[:NJS_BELONGS_TO]->NJS_AssetGroup
+2026-02-15 16:37:12,427 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_assetgroup': NJS_Asset-[:NJS_BELONGS_TO]->NJS_AssetGroup
+2026-02-15 16:37:12,427 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_assetgroup': NJS_Asset-[:NJS_BELONGS_TO]->NJS_AssetGroup
+2026-02-15 16:37:12,428 - graph_builder.relationship_manager - INFO - Querying NJS_Asset nodes for asset_id values...
+2026-02-15 16:37:12,428 - graph_builder.relationship_manager - INFO - Querying NJS_Asset nodes for asset_id values...
+2026-02-15 16:37:12,428 - graph_builder.relationship_manager - INFO - Querying NJS_Asset nodes for asset_id values...
+2026-02-15 16:37:12,433 - graph_builder.relationship_manager - INFO - Found 5 asset_id values from NJS_Asset nodes
+2026-02-15 16:37:12,433 - graph_builder.relationship_manager - INFO - Found 5 asset_id values from NJS_Asset nodes
+2026-02-15 16:37:12,433 - graph_builder.relationship_manager - INFO - Found 5 asset_id values from NJS_Asset nodes
+2026-02-15 16:37:12,433 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\agents_manager
+2026-02-15 16:37:12,433 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\agents_manager
+2026-02-15 16:37:12,433 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\agents_manager
+2026-02-15 16:37:12,434 - graph_builder.relationship_manager - INFO - Source file pattern: All_Agents.json
+2026-02-15 16:37:12,434 - graph_builder.relationship_manager - INFO - Source file pattern: All_Agents.json
+2026-02-15 16:37:12,434 - graph_builder.relationship_manager - INFO - Source file pattern: All_Agents.json
+2026-02-15 16:37:12,434 - graph_builder.relationship_manager - INFO - Agent IDs: None (single file)
+2026-02-15 16:37:12,434 - graph_builder.relationship_manager - INFO - Agent IDs: None (single file)
+2026-02-15 16:37:12,434 - graph_builder.relationship_manager - INFO - Agent IDs: None (single file)
+2026-02-15 16:37:12,436 - graph_builder.relationship_manager - INFO - Loaded 5 items from source data
+2026-02-15 16:37:12,436 - graph_builder.relationship_manager - INFO - Loaded 5 items from source data
+2026-02-15 16:37:12,436 - graph_builder.relationship_manager - INFO - Loaded 5 items from source data
+2026-02-15 16:37:12,437 - graph_builder.relationship_manager - INFO - Sample source item keys: ['os', 'name', 'ip', 'dateAdd', 'id', 'manager', 'registerIP', 'lastKeepAlive', 'group_config_status', 'status_code']
+2026-02-15 16:37:12,437 - graph_builder.relationship_manager - INFO - Sample source item keys: ['os', 'name', 'ip', 'dateAdd', 'id', 'manager', 'registerIP', 'lastKeepAlive', 'group_config_status', 'status_code']
+2026-02-15 16:37:12,437 - graph_builder.relationship_manager - INFO - Sample source item keys: ['os', 'name', 'ip', 'dateAdd', 'id', 'manager', 'registerIP', 'lastKeepAlive', 'group_config_status', 'status_code']
+2026-02-15 16:37:12,437 - graph_builder.relationship_manager - INFO - Prepared 4 relationships to create from source data
+2026-02-15 16:37:12,437 - graph_builder.relationship_manager - INFO - Prepared 4 relationships to create from source data
+2026-02-15 16:37:12,437 - graph_builder.relationship_manager - INFO - Prepared 4 relationships to create from source data
+2026-02-15 16:37:12,438 - graph_builder.relationship_manager - INFO - Creating 4 relationships using source data
+2026-02-15 16:37:12,438 - graph_builder.relationship_manager - INFO - Creating 4 relationships using source data
+2026-02-15 16:37:12,438 - graph_builder.relationship_manager - INFO - Creating 4 relationships using source data
+2026-02-15 16:37:12,438 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:12,438 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:12,438 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:12,596 - graph_builder.relationship_manager - INFO - Query result: [{'count': 4}]
+2026-02-15 16:37:12,596 - graph_builder.relationship_manager - INFO - Query result: [{'count': 4}]
+2026-02-15 16:37:12,596 - graph_builder.relationship_manager - INFO - Query result: [{'count': 4}]
+2026-02-15 16:37:12,597 - graph_builder.relationship_manager - INFO - Created 4 NJS_BELONGS_TO relationships from NJS_Asset to NJS_AssetGroup using source data
+2026-02-15 16:37:12,597 - graph_builder.relationship_manager - INFO - Created 4 NJS_BELONGS_TO relationships from NJS_Asset to NJS_AssetGroup using source data
+2026-02-15 16:37:12,597 - graph_builder.relationship_manager - INFO - Created 4 NJS_BELONGS_TO relationships from NJS_Asset to NJS_AssetGroup using source data
+2026-02-15 16:37:12,597 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_assetgroup' result: {'success': 4, 'failed': 0, 'total': 4}
+2026-02-15 16:37:12,597 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_assetgroup' result: {'success': 4, 'failed': 0, 'total': 4}
+2026-02-15 16:37:12,597 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_assetgroup' result: {'success': 4, 'failed': 0, 'total': 4}
+2026-02-15 16:37:12,598 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_hardware': NJS_Asset-[:NJS_HAS_HARDWARE]->NJS_Hardware
+2026-02-15 16:37:12,598 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_hardware': NJS_Asset-[:NJS_HAS_HARDWARE]->NJS_Hardware
+2026-02-15 16:37:12,598 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_hardware': NJS_Asset-[:NJS_HAS_HARDWARE]->NJS_Hardware
+2026-02-15 16:37:12,598 - graph_builder.relationship_manager - INFO - Querying NJS_Asset nodes for asset_id values...
+2026-02-15 16:37:12,598 - graph_builder.relationship_manager - INFO - Querying NJS_Asset nodes for asset_id values...
+2026-02-15 16:37:12,598 - graph_builder.relationship_manager - INFO - Querying NJS_Asset nodes for asset_id values...
+2026-02-15 16:37:12,603 - graph_builder.relationship_manager - INFO - Found 5 asset_id values from NJS_Asset nodes
+2026-02-15 16:37:12,603 - graph_builder.relationship_manager - INFO - Found 5 asset_id values from NJS_Asset nodes
+2026-02-15 16:37:12,603 - graph_builder.relationship_manager - INFO - Found 5 asset_id values from NJS_Asset nodes
+2026-02-15 16:37:12,603 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\hardware
+2026-02-15 16:37:12,603 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\hardware
+2026-02-15 16:37:12,603 - graph_builder.relationship_manager - INFO - Loading source data from: C:\Users\sgade\OneDrive\Desktop\orbit_node\collected_data\20260210_201344\hardware
+2026-02-15 16:37:12,604 - graph_builder.relationship_manager - INFO - Source file pattern: Syscollector_Hardware_{agent_id}.json
+2026-02-15 16:37:12,604 - graph_builder.relationship_manager - INFO - Source file pattern: Syscollector_Hardware_{agent_id}.json
+2026-02-15 16:37:12,604 - graph_builder.relationship_manager - INFO - Source file pattern: Syscollector_Hardware_{agent_id}.json
+2026-02-15 16:37:12,604 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:12,604 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:12,604 - graph_builder.relationship_manager - INFO - Agent IDs: ['000', '001', '002', '003', '004']
+2026-02-15 16:37:12,608 - graph_builder.relationship_manager - INFO - Loaded 5 items from source data
+2026-02-15 16:37:12,608 - graph_builder.relationship_manager - INFO - Loaded 5 items from source data
+2026-02-15 16:37:12,608 - graph_builder.relationship_manager - INFO - Loaded 5 items from source data
+2026-02-15 16:37:12,608 - graph_builder.relationship_manager - INFO - Sample source item keys: ['cpu', 'ram', 'scan', 'board_serial', 'agent_id', '_agent_id']
+2026-02-15 16:37:12,608 - graph_builder.relationship_manager - INFO - Sample source item keys: ['cpu', 'ram', 'scan', 'board_serial', 'agent_id', '_agent_id']
+2026-02-15 16:37:12,608 - graph_builder.relationship_manager - INFO - Sample source item keys: ['cpu', 'ram', 'scan', 'board_serial', 'agent_id', '_agent_id']
+2026-02-15 16:37:12,609 - graph_builder.relationship_manager - INFO - Prepared 5 relationships to create from source data
+2026-02-15 16:37:12,609 - graph_builder.relationship_manager - INFO - Prepared 5 relationships to create from source data
+2026-02-15 16:37:12,609 - graph_builder.relationship_manager - INFO - Prepared 5 relationships to create from source data
+2026-02-15 16:37:12,609 - graph_builder.relationship_manager - INFO - Creating 5 relationships using source data
+2026-02-15 16:37:12,609 - graph_builder.relationship_manager - INFO - Creating 5 relationships using source data
+2026-02-15 16:37:12,609 - graph_builder.relationship_manager - INFO - Creating 5 relationships using source data
+2026-02-15 16:37:12,609 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:12,609 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:12,609 - graph_builder.relationship_manager - INFO - Executing relationship creation query
+2026-02-15 16:37:12,739 - graph_builder.relationship_manager - INFO - Query result: [{'count': 11}]
+2026-02-15 16:37:12,739 - graph_builder.relationship_manager - INFO - Query result: [{'count': 11}]
+2026-02-15 16:37:12,739 - graph_builder.relationship_manager - INFO - Query result: [{'count': 11}]
+2026-02-15 16:37:12,739 - graph_builder.relationship_manager - INFO - Created 11 NJS_HAS_HARDWARE relationships from NJS_Asset to NJS_Hardware using source data
+2026-02-15 16:37:12,739 - graph_builder.relationship_manager - INFO - Created 11 NJS_HAS_HARDWARE relationships from NJS_Asset to NJS_Hardware using source data
+2026-02-15 16:37:12,739 - graph_builder.relationship_manager - INFO - Created 11 NJS_HAS_HARDWARE relationships from NJS_Asset to NJS_Hardware using source data
+2026-02-15 16:37:12,740 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_hardware' result: {'success': 11, 'failed': 0, 'total': 11}
+2026-02-15 16:37:12,740 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_hardware' result: {'success': 11, 'failed': 0, 'total': 11}
+2026-02-15 16:37:12,740 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_hardware' result: {'success': 11, 'failed': 0, 'total': 11}
+2026-02-15 16:37:12,740 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_scanevent': NJS_Asset-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:12,740 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_scanevent': NJS_Asset-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:12,740 - graph_builder.relationship_manager - INFO - Creating relationship 'asset_to_scanevent': NJS_Asset-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:12,882 - graph_builder.relationship_manager - INFO - Created 5 NJS_CREATED_BY relationships from NJS_Asset to ScanEvent
+2026-02-15 16:37:12,882 - graph_builder.relationship_manager - INFO - Created 5 NJS_CREATED_BY relationships from NJS_Asset to ScanEvent
+2026-02-15 16:37:12,882 - graph_builder.relationship_manager - INFO - Created 5 NJS_CREATED_BY relationships from NJS_Asset to ScanEvent
+2026-02-15 16:37:12,883 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_scanevent' result: {'success': 5, 'failed': 0, 'total': 5}
+2026-02-15 16:37:12,883 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_scanevent' result: {'success': 5, 'failed': 0, 'total': 5}
+2026-02-15 16:37:12,883 - graph_builder.relationship_manager - INFO - Relationship 'asset_to_scanevent' result: {'success': 5, 'failed': 0, 'total': 5}
+2026-02-15 16:37:12,883 - graph_builder.relationship_manager - INFO - Creating relationship 'host_to_scanevent': NJS_Host-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:12,883 - graph_builder.relationship_manager - INFO - Creating relationship 'host_to_scanevent': NJS_Host-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:12,883 - graph_builder.relationship_manager - INFO - Creating relationship 'host_to_scanevent': NJS_Host-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:12,981 - graph_builder.relationship_manager - INFO - Created 5 NJS_CREATED_BY relationships from NJS_Host to ScanEvent
+2026-02-15 16:37:12,981 - graph_builder.relationship_manager - INFO - Created 5 NJS_CREATED_BY relationships from NJS_Host to ScanEvent
+2026-02-15 16:37:12,981 - graph_builder.relationship_manager - INFO - Created 5 NJS_CREATED_BY relationships from NJS_Host to ScanEvent
+2026-02-15 16:37:12,981 - graph_builder.relationship_manager - INFO - Relationship 'host_to_scanevent' result: {'success': 5, 'failed': 0, 'total': 5}
+2026-02-15 16:37:12,981 - graph_builder.relationship_manager - INFO - Relationship 'host_to_scanevent' result: {'success': 5, 'failed': 0, 'total': 5}
+2026-02-15 16:37:12,981 - graph_builder.relationship_manager - INFO - Relationship 'host_to_scanevent' result: {'success': 5, 'failed': 0, 'total': 5}
+2026-02-15 16:37:12,982 - graph_builder.relationship_manager - INFO - Creating relationship 'software_to_scanevent': NJS_Software-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:12,982 - graph_builder.relationship_manager - INFO - Creating relationship 'software_to_scanevent': NJS_Software-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:12,982 - graph_builder.relationship_manager - INFO - Creating relationship 'software_to_scanevent': NJS_Software-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:13,149 - graph_builder.relationship_manager - INFO - Created 583 NJS_CREATED_BY relationships from NJS_Software to ScanEvent
+2026-02-15 16:37:13,149 - graph_builder.relationship_manager - INFO - Created 583 NJS_CREATED_BY relationships from NJS_Software to ScanEvent
+2026-02-15 16:37:13,149 - graph_builder.relationship_manager - INFO - Created 583 NJS_CREATED_BY relationships from NJS_Software to ScanEvent
+2026-02-15 16:37:13,149 - graph_builder.relationship_manager - INFO - Relationship 'software_to_scanevent' result: {'success': 583, 'failed': 0, 'total': 583}
+2026-02-15 16:37:13,149 - graph_builder.relationship_manager - INFO - Relationship 'software_to_scanevent' result: {'success': 583, 'failed': 0, 'total': 583}
+2026-02-15 16:37:13,149 - graph_builder.relationship_manager - INFO - Relationship 'software_to_scanevent' result: {'success': 583, 'failed': 0, 'total': 583}
+2026-02-15 16:37:13,150 - graph_builder.relationship_manager - INFO - Creating relationship 'vulnerability_to_scanevent': NJS_Vulnerability-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:13,150 - graph_builder.relationship_manager - INFO - Creating relationship 'vulnerability_to_scanevent': NJS_Vulnerability-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:13,150 - graph_builder.relationship_manager - INFO - Creating relationship 'vulnerability_to_scanevent': NJS_Vulnerability-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:13,266 - graph_builder.relationship_manager - INFO - Created 40 NJS_CREATED_BY relationships from NJS_Vulnerability to ScanEvent
+2026-02-15 16:37:13,266 - graph_builder.relationship_manager - INFO - Created 40 NJS_CREATED_BY relationships from NJS_Vulnerability to ScanEvent
+2026-02-15 16:37:13,266 - graph_builder.relationship_manager - INFO - Created 40 NJS_CREATED_BY relationships from NJS_Vulnerability to ScanEvent
+2026-02-15 16:37:13,266 - graph_builder.relationship_manager - INFO - Relationship 'vulnerability_to_scanevent' result: {'success': 40, 'failed': 0, 'total': 40}
+2026-02-15 16:37:13,266 - graph_builder.relationship_manager - INFO - Relationship 'vulnerability_to_scanevent' result: {'success': 40, 'failed': 0, 'total': 40}
+2026-02-15 16:37:13,266 - graph_builder.relationship_manager - INFO - Relationship 'vulnerability_to_scanevent' result: {'success': 40, 'failed': 0, 'total': 40}
+2026-02-15 16:37:13,267 - graph_builder.relationship_manager - INFO - Creating relationship 'assetgroup_to_scanevent': NJS_AssetGroup-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:13,267 - graph_builder.relationship_manager - INFO - Creating relationship 'assetgroup_to_scanevent': NJS_AssetGroup-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:13,267 - graph_builder.relationship_manager - INFO - Creating relationship 'assetgroup_to_scanevent': NJS_AssetGroup-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:13,369 - graph_builder.relationship_manager - INFO - Created 1 NJS_CREATED_BY relationships from NJS_AssetGroup to ScanEvent
+2026-02-15 16:37:13,369 - graph_builder.relationship_manager - INFO - Created 1 NJS_CREATED_BY relationships from NJS_AssetGroup to ScanEvent
+2026-02-15 16:37:13,369 - graph_builder.relationship_manager - INFO - Created 1 NJS_CREATED_BY relationships from NJS_AssetGroup to ScanEvent
+2026-02-15 16:37:13,370 - graph_builder.relationship_manager - INFO - Relationship 'assetgroup_to_scanevent' result: {'success': 1, 'failed': 0, 'total': 1}
+2026-02-15 16:37:13,370 - graph_builder.relationship_manager - INFO - Relationship 'assetgroup_to_scanevent' result: {'success': 1, 'failed': 0, 'total': 1}
+2026-02-15 16:37:13,370 - graph_builder.relationship_manager - INFO - Relationship 'assetgroup_to_scanevent' result: {'success': 1, 'failed': 0, 'total': 1}
+2026-02-15 16:37:13,370 - graph_builder.relationship_manager - INFO - Creating relationship 'hardware_to_scanevent': NJS_Hardware-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:13,370 - graph_builder.relationship_manager - INFO - Creating relationship 'hardware_to_scanevent': NJS_Hardware-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:13,370 - graph_builder.relationship_manager - INFO - Creating relationship 'hardware_to_scanevent': NJS_Hardware-[:NJS_CREATED_BY]->ScanEvent
+2026-02-15 16:37:13,474 - graph_builder.relationship_manager - INFO - Created 5 NJS_CREATED_BY relationships from NJS_Hardware to ScanEvent
+2026-02-15 16:37:13,474 - graph_builder.relationship_manager - INFO - Created 5 NJS_CREATED_BY relationships from NJS_Hardware to ScanEvent
+2026-02-15 16:37:13,474 - graph_builder.relationship_manager - INFO - Created 5 NJS_CREATED_BY relationships from NJS_Hardware to ScanEvent
+2026-02-15 16:37:13,474 - graph_builder.relationship_manager - INFO - Relationship 'hardware_to_scanevent' result: {'success': 5, 'failed': 0, 'total': 5}
+2026-02-15 16:37:13,474 - graph_builder.relationship_manager - INFO - Relationship 'hardware_to_scanevent' result: {'success': 5, 'failed': 0, 'total': 5}
+2026-02-15 16:37:13,474 - graph_builder.relationship_manager - INFO - Relationship 'hardware_to_scanevent' result: {'success': 5, 'failed': 0, 'total': 5}
+2026-02-15 16:37:13,475 - graph_builder.relationship_manager - INFO - ============================================================
+2026-02-15 16:37:13,475 - graph_builder.relationship_manager - INFO - ============================================================
+2026-02-15 16:37:13,475 - graph_builder.relationship_manager - INFO - ============================================================
+2026-02-15 16:37:13,475 - graph_builder.relationship_manager - INFO - Relationship creation from config completed
+2026-02-15 16:37:13,475 - graph_builder.relationship_manager - INFO - Relationship creation from config completed
+2026-02-15 16:37:13,475 - graph_builder.relationship_manager - INFO - Relationship creation from config completed
+2026-02-15 16:37:13,476 - graph_builder.relationship_manager - INFO - Total relationships processed: 13
+2026-02-15 16:37:13,476 - graph_builder.relationship_manager - INFO - Total relationships processed: 13
+2026-02-15 16:37:13,476 - graph_builder.relationship_manager - INFO - Total relationships processed: 13
+2026-02-15 16:37:13,476 - graph_builder.relationship_manager - INFO - ============================================================
+2026-02-15 16:37:13,476 - graph_builder.relationship_manager - INFO - ============================================================
+2026-02-15 16:37:13,476 - graph_builder.relationship_manager - INFO - ============================================================
+2026-02-15 16:37:13,476 - graph_builder.graph_builder - INFO - asset_to_host: 11 relationships created
+2026-02-15 16:37:13,476 - graph_builder.graph_builder - INFO - asset_to_host: 11 relationships created
+2026-02-15 16:37:13,476 - graph_builder.graph_builder - INFO - asset_to_host: 11 relationships created
+2026-02-15 16:37:13,476 - graph_builder.graph_builder - INFO - host_to_software: 726 relationships created
+2026-02-15 16:37:13,476 - graph_builder.graph_builder - INFO - host_to_software: 726 relationships created
+2026-02-15 16:37:13,476 - graph_builder.graph_builder - INFO - host_to_software: 726 relationships created
+2026-02-15 16:37:13,477 - graph_builder.graph_builder - INFO - asset_to_software: 726 relationships created
+2026-02-15 16:37:13,477 - graph_builder.graph_builder - INFO - asset_to_software: 726 relationships created
+2026-02-15 16:37:13,477 - graph_builder.graph_builder - INFO - asset_to_software: 726 relationships created
+2026-02-15 16:37:13,477 - graph_builder.graph_builder - INFO - software_to_vulnerability: 53 relationships created
+2026-02-15 16:37:13,477 - graph_builder.graph_builder - INFO - software_to_vulnerability: 53 relationships created
+2026-02-15 16:37:13,477 - graph_builder.graph_builder - INFO - software_to_vulnerability: 53 relationships created
+2026-02-15 16:37:13,477 - graph_builder.graph_builder - INFO - asset_to_vulnerability: 53 relationships created
+2026-02-15 16:37:13,477 - graph_builder.graph_builder - INFO - asset_to_vulnerability: 53 relationships created
+2026-02-15 16:37:13,477 - graph_builder.graph_builder - INFO - asset_to_vulnerability: 53 relationships created
+2026-02-15 16:37:13,478 - graph_builder.graph_builder - INFO - asset_to_assetgroup: 4 relationships created
+2026-02-15 16:37:13,478 - graph_builder.graph_builder - INFO - asset_to_assetgroup: 4 relationships created
+2026-02-15 16:37:13,478 - graph_builder.graph_builder - INFO - asset_to_assetgroup: 4 relationships created
+2026-02-15 16:37:13,478 - graph_builder.graph_builder - INFO - asset_to_hardware: 11 relationships created
+2026-02-15 16:37:13,478 - graph_builder.graph_builder - INFO - asset_to_hardware: 11 relationships created
+2026-02-15 16:37:13,478 - graph_builder.graph_builder - INFO - asset_to_hardware: 11 relationships created
+2026-02-15 16:37:13,478 - graph_builder.graph_builder - INFO - asset_to_scanevent: 5 relationships created
+2026-02-15 16:37:13,478 - graph_builder.graph_builder - INFO - asset_to_scanevent: 5 relationships created
+2026-02-15 16:37:13,478 - graph_builder.graph_builder - INFO - asset_to_scanevent: 5 relationships created
+2026-02-15 16:37:13,479 - graph_builder.graph_builder - INFO - host_to_scanevent: 5 relationships created
+2026-02-15 16:37:13,479 - graph_builder.graph_builder - INFO - host_to_scanevent: 5 relationships created
+2026-02-15 16:37:13,479 - graph_builder.graph_builder - INFO - host_to_scanevent: 5 relationships created
+2026-02-15 16:37:13,479 - graph_builder.graph_builder - INFO - software_to_scanevent: 583 relationships created
+2026-02-15 16:37:13,479 - graph_builder.graph_builder - INFO - software_to_scanevent: 583 relationships created
+2026-02-15 16:37:13,479 - graph_builder.graph_builder - INFO - software_to_scanevent: 583 relationships created
+2026-02-15 16:37:13,479 - graph_builder.graph_builder - INFO - vulnerability_to_scanevent: 40 relationships created
+2026-02-15 16:37:13,479 - graph_builder.graph_builder - INFO - vulnerability_to_scanevent: 40 relationships created
+2026-02-15 16:37:13,479 - graph_builder.graph_builder - INFO - vulnerability_to_scanevent: 40 relationships created
+2026-02-15 16:37:13,480 - graph_builder.graph_builder - INFO - assetgroup_to_scanevent: 1 relationships created
+2026-02-15 16:37:13,480 - graph_builder.graph_builder - INFO - assetgroup_to_scanevent: 1 relationships created
+2026-02-15 16:37:13,480 - graph_builder.graph_builder - INFO - assetgroup_to_scanevent: 1 relationships created
+2026-02-15 16:37:13,480 - graph_builder.graph_builder - INFO - hardware_to_scanevent: 5 relationships created
+2026-02-15 16:37:13,480 - graph_builder.graph_builder - INFO - hardware_to_scanevent: 5 relationships created
+2026-02-15 16:37:13,480 - graph_builder.graph_builder - INFO - hardware_to_scanevent: 5 relationships created
+2026-02-15 16:37:13,481 - __main__ - INFO - Relationship creation process completed
+2026-02-15 16:37:13,481 - __main__ - INFO - Relationship results: {'asset_to_host': {'success': 11, 'failed': 0, 'total': 11}, 'host_to_software': {'success': 726, 'failed': 0, 'total': 726}, 'asset_to_software': {'success': 726, 'failed': 0, 'total': 726}, 'software_to_vulnerability': {'success': 53, 'failed': 0, 'total': 53}, 'asset_to_vulnerability': {'success': 53, 'failed': 0, 'total': 53}, 'asset_to_assetgroup': {'success': 4, 'failed': 0, 'total': 4}, 'asset_to_hardware': {'success': 11, 'failed': 0, 'total': 11}, 'asset_to_scanevent': {'success': 5, 'failed': 0, 'total': 5}, 'host_to_scanevent': {'success': 5, 'failed': 0, 'total': 5}, 'software_to_scanevent': {'success': 583, 'failed': 0, 'total': 583}, 'vulnerability_to_scanevent': {'success': 40, 'failed': 0, 'total': 40}, 'assetgroup_to_scanevent': {'success': 1, 'failed': 0, 'total': 1}, 'hardware_to_scanevent': {'success': 5, 'failed': 0, 'total': 5}}
+2026-02-15 16:37:13,481 - __main__ - INFO - ============================================================
+2026-02-15 16:37:13,485 - graph_builder.neo4j_connection - INFO - Neo4j connection closed
+2026-02-15 16:37:13,485 - graph_builder.neo4j_connection - INFO - Neo4j connection closed
+2026-02-15 16:37:13,485 - graph_builder.neo4j_connection - INFO - Neo4j connection closed
+2026-02-15 16:37:13,486 - __main__ - INFO - Graph building process completed successfully
