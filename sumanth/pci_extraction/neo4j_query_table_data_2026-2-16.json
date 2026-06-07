@@ -1,0 +1,150 @@
+[
+  {
+    "c.id": "CVE-2002-1973",
+    "c.name": "CVE-2002-1973",
+    "c.description": "Buffer overflow in CHttpServer::OnParseError in the ISAPI extension (Isapi.cpp) when built using Microsoft Foundation Class (MFC) static libraries in Visual C++ 5.0, and 6.0 before SP3, as used in multiple products including BadBlue, allows remote attackers to cause a denial of service (access violation and crash) and possibly execute arbitrary code via a long query string that causes a parsing error.",
+    "c.cpes": [
+      "cpe:2.3:a:microsoft:foundation_class_library:7.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:working_resources_inc.:badblue:personal_1.7.3:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "c.id": "CVE-2002-1981",
+    "c.name": "CVE-2002-1981",
+    "c.description": "Microsoft SQL Server 2000 through SQL Server 2000 SP2 allows the \"public\" role to execute the (1) sp_MSSetServerProperties or (2) sp_MSsetalertinfo stored procedures, which allows attackers to modify configuration including SQL server startup and alert settings.",
+    "c.cpes": [
+      "cpe:2.3:a:microsoft:sql_server:2000:*:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:sql_server:2000:sp1:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:sql_server:2000:sp2:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "c.id": "CVE-2002-1984",
+    "c.name": "CVE-2002-1984",
+    "c.description": "Microsoft Internet Explorer 5.0.1 through 6.0 on Windows 2000 or Windows XP allows remote attackers to cause a denial of service (crash) via an OBJECT tag that contains a crafted CLASSID (CLSID) value of \"CLSID:00022613-0000-0000-C000-000000000046\".",
+    "c.cpes": [
+      "cpe:2.3:a:microsoft:internet_explorer:5.0.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:internet_explorer:5.0.1:sp1:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:internet_explorer:5.0.1:sp2:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:internet_explorer:5.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:internet_explorer:5.5:sp1:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:internet_explorer:5.5:sp2:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:internet_explorer:6.0:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "c.id": "CVE-2002-2028",
+    "c.name": "CVE-2002-2028",
+    "c.description": "The screensaver on Windows NT 4.0, 2000, XP, and 2002 does not verify if a domain account has already been locked when a valid password is provided, which makes it easier for users with physical access to conduct brute force password guessing.",
+    "c.cpes": [
+      "cpe:2.3:o:microsoft:windows_2000:*:*:*:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_2000:*:sp1:*:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_2000:*:sp2:*:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:*:enterprise_server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:*:server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:*:terminal_server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:*:workstation:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp1:enterprise_server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp1:server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp1:terminal_server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp1:workstation:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp2:enterprise_server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp2:server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp2:terminal_server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp2:workstation:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp3:enterprise_server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp3:server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp3:terminal_server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp3:workstation:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp4:enterprise_server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp4:server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp4:terminal_server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp4:workstation:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp5:enterprise_server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp5:server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp5:terminal_server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp5:workstation:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp6a:enterprise_server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp6a:server:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:sp6a:workstation:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_xp:*:gold:professional:*:*:*:*:*"
+    ]
+  },
+  {
+    "c.id": "CVE-2002-2031",
+    "c.name": "CVE-2002-2031",
+    "c.description": "Internet Explorer 5.0, 5.0.1 and 5.5 with JavaScript execution enabled allows remote attackers to determine the existence of arbitrary files via a script tag with a src parameter that references a non-JavaScript file, then using the onError event handler to monitor the results.",
+    "c.cpes": [
+      "cpe:2.3:a:microsoft:internet_explorer:5.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:internet_explorer:5.0.1:*:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:internet_explorer:5.0.1:sp1:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:internet_explorer:5.0.1:sp2:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:internet_explorer:5.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:internet_explorer:5.5:sp2:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:internet_explorer:6.0:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "c.id": "CVE-2002-2062",
+    "c.name": "CVE-2002-2062",
+    "c.description": "Cross-site scripting (XSS) vulnerability in ftp.htt in Internet Explorer 5.5 and 6.0, when running on Windows 2000 with \"Enable folder view for FTP sites\" and \"Enable Web content in folders\" selected, allows remote attackers to inject arbitrary web script or HTML via the hostname portion of an FTP URL.",
+    "c.cpes": [
+      "cpe:2.3:a:microsoft:internet_explorer:5.5:*:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:internet_explorer:5.5:sp1:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:internet_explorer:5.5:sp2:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:internet_explorer:6.0:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "c.id": "CVE-2002-2073",
+    "c.name": "CVE-2002-2073",
+    "c.description": "Cross-site scripting (XSS) vulnerability in the default ASP pages on Microsoft Site Server 3.0 on Windows NT 4.0 allows remote attackers to inject arbitrary web script or HTML via the (1) ctr parameter in Default.asp and (2) the query string to formslogin.asp.",
+    "c.cpes": [
+      "cpe:2.3:a:microsoft:site_server:3.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:site_server_commerce:3.0:*:*:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_nt:4.0:*:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "c.id": "CVE-2002-2077",
+    "c.name": "CVE-2002-2077",
+    "c.description": "The DCOM client in Windows 2000 before SP3 does not properly clear memory before sending an \"alter context\" request, which may allow remote attackers to obtain sensitive information by sniffing the session.",
+    "c.cpes": [
+      "cpe:2.3:o:microsoft:windows_2000:*:*:*:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_2000:*:sp1:*:*:*:*:*:*",
+      "cpe:2.3:o:microsoft:windows_2000:*:sp2:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "c.id": "CVE-2002-2081",
+    "c.name": "CVE-2002-2081",
+    "c.description": "cphost.dll in Microsoft Site Server 3.0 allows remote attackers to cause a denial of service (disk consumption) via an HTTP POST of a file with a long TargetURL parameter, which causes Site Server to abort and leaves the uploaded file in c:\\temp.",
+    "c.cpes": [
+      "cpe:2.3:a:microsoft:site_server:3.0:*:i386:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:site_server:3.0:apha:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:site_server:3.0:sp1:i386:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:site_server:3.0:sp1_alpha:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:site_server:3.0:sp2:i386:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:site_server:3.0:sp2_alpha:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:site_server:3.0:sp3:i386:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:site_server:3.0:sp3_alpha:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:site_server:3.0:sp4:i386:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:site_server:3.0:sp4_alpha:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:site_server_commerce:3.0:*:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:site_server_commerce:3.0:alpha:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:site_server_commerce:3.0:sp1_alpha:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:site_server_commerce:3.0:sp2_alpha:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:site_server_commerce:3.0:sp3_alpha:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:site_server_commerce:3.0:sp4_alpha:*:*:*:*:*:*"
+    ]
+  },
+  {
+    "c.id": "CVE-2002-2100",
+    "c.name": "CVE-2002-2100",
+    "c.description": "Microsoft Outlook 2002 allows remote attackers to embed bypass the file download restrictions for attachments via an HTML email message that uses an IFRAME to reference malicious content.",
+    "c.cpes": [
+      "cpe:2.3:a:microsoft:outlook:2000:*:*:*:*:*:*:*",
+      "cpe:2.3:a:microsoft:outlook:2002:*:*:*:*:*:*:*"
+    ]
+  }
+]

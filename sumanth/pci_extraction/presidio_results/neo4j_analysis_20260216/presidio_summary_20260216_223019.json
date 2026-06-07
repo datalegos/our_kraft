@@ -1,0 +1,25 @@
+{
+  "analysis_timestamp": "2026-02-16T22:30:19.759467",
+  "input_file": "neo4j_query_table_data_2026-2-16.json",
+  "total_records_processed": 10,
+  "records_with_entities": 9,
+  "total_entities_found": 41,
+  "entity_type_summary": {
+    "DATE_TIME": 10,
+    "LOCATION": 13,
+    "PERSON": 4,
+    "IP_ADDRESS": 1,
+    "US_DRIVER_LICENSE": 8,
+    "US_BANK_NUMBER": 2,
+    "URL": 3
+  },
+  "entity_types_detected": [
+    "DATE_TIME",
+    "LOCATION",
+    "PERSON",
+    "IP_ADDRESS",
+    "US_DRIVER_LICENSE",
+    "US_BANK_NUMBER",
+    "URL"
+  ]
+}

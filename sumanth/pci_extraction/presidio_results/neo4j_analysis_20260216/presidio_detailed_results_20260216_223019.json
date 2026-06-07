@@ -1,0 +1,549 @@
+{
+  "summary": {
+    "analysis_timestamp": "2026-02-16T22:30:19.759467",
+    "input_file": "neo4j_query_table_data_2026-2-16.json",
+    "total_records_processed": 10,
+    "records_with_entities": 9,
+    "total_entities_found": 41,
+    "entity_type_summary": {
+      "DATE_TIME": 10,
+      "LOCATION": 13,
+      "PERSON": 4,
+      "IP_ADDRESS": 1,
+      "US_DRIVER_LICENSE": 8,
+      "US_BANK_NUMBER": 2,
+      "URL": 3
+    },
+    "entity_types_detected": [
+      "DATE_TIME",
+      "LOCATION",
+      "PERSON",
+      "IP_ADDRESS",
+      "US_DRIVER_LICENSE",
+      "US_BANK_NUMBER",
+      "URL"
+    ]
+  },
+  "detailed_results": [
+    {
+      "record_id": "CVE-2002-1973",
+      "record_name": "CVE-2002-1973",
+      "fields_analyzed": {
+        "c.id": {
+          "original_text": "CVE-2002-1973",
+          "entities": [
+            {
+              "type": "DATE_TIME",
+              "text": "1973",
+              "start": 9,
+              "end": 13,
+              "score": 0.85
+            }
+          ]
+        },
+        "c.name": {
+          "original_text": "CVE-2002-1973",
+          "entities": [
+            {
+              "type": "DATE_TIME",
+              "text": "1973",
+              "start": 9,
+              "end": 13,
+              "score": 0.85
+            }
+          ]
+        },
+        "c.description": {
+          "original_text": "Buffer overflow in CHttpServer::OnParseError in the ISAPI extension (Isapi.cpp) when built using Microsoft Foundation Class (MFC) static libraries in Visual C++ 5.0, and 6.0 before SP3, as used in mul...",
+          "entities": [
+            {
+              "type": "LOCATION",
+              "text": "Visual",
+              "start": 150,
+              "end": 156,
+              "score": 0.85
+            },
+            {
+              "type": "PERSON",
+              "text": "C++ 5.0",
+              "start": 157,
+              "end": 164,
+              "score": 0.85
+            },
+            {
+              "type": "IP_ADDRESS",
+              "text": "::",
+              "start": 30,
+              "end": 32,
+              "score": 0.6
+            }
+          ]
+        }
+      },
+      "total_entities_found": 5,
+      "entity_types_found": [
+        "DATE_TIME",
+        "LOCATION",
+        "PERSON",
+        "IP_ADDRESS"
+      ]
+    },
+    {
+      "record_id": "CVE-2002-1981",
+      "record_name": "CVE-2002-1981",
+      "fields_analyzed": {
+        "c.id": {
+          "original_text": "CVE-2002-1981",
+          "entities": [
+            {
+              "type": "LOCATION",
+              "text": "CVE-2002",
+              "start": 0,
+              "end": 8,
+              "score": 0.85
+            },
+            {
+              "type": "DATE_TIME",
+              "text": "1981",
+              "start": 9,
+              "end": 13,
+              "score": 0.85
+            }
+          ]
+        },
+        "c.name": {
+          "original_text": "CVE-2002-1981",
+          "entities": [
+            {
+              "type": "LOCATION",
+              "text": "CVE-2002",
+              "start": 0,
+              "end": 8,
+              "score": 0.85
+            },
+            {
+              "type": "DATE_TIME",
+              "text": "1981",
+              "start": 9,
+              "end": 13,
+              "score": 0.85
+            }
+          ]
+        },
+        "c.description": {
+          "original_text": "Microsoft SQL Server 2000 through SQL Server 2000 SP2 allows the \"public\" role to execute the (1) sp_MSSetServerProperties or (2) sp_MSsetalertinfo stored procedures, which allows attackers to modify ...",
+          "entities": [
+            {
+              "type": "DATE_TIME",
+              "text": "2000",
+              "start": 21,
+              "end": 25,
+              "score": 0.85
+            }
+          ]
+        }
+      },
+      "total_entities_found": 5,
+      "entity_types_found": [
+        "LOCATION",
+        "DATE_TIME"
+      ]
+    },
+    {
+      "record_id": "CVE-2002-1984",
+      "record_name": "CVE-2002-1984",
+      "fields_analyzed": {
+        "c.id": {
+          "original_text": "CVE-2002-1984",
+          "entities": [
+            {
+              "type": "LOCATION",
+              "text": "CVE-2002",
+              "start": 0,
+              "end": 8,
+              "score": 0.85
+            },
+            {
+              "type": "DATE_TIME",
+              "text": "1984",
+              "start": 9,
+              "end": 13,
+              "score": 0.85
+            }
+          ]
+        },
+        "c.name": {
+          "original_text": "CVE-2002-1984",
+          "entities": [
+            {
+              "type": "LOCATION",
+              "text": "CVE-2002",
+              "start": 0,
+              "end": 8,
+              "score": 0.85
+            },
+            {
+              "type": "DATE_TIME",
+              "text": "1984",
+              "start": 9,
+              "end": 13,
+              "score": 0.85
+            }
+          ]
+        },
+        "c.description": {
+          "original_text": "Microsoft Internet Explorer 5.0.1 through 6.0 on Windows 2000 or Windows XP allows remote attackers to cause a denial of service (crash) via an OBJECT tag that contains a crafted CLASSID (CLSID) value...",
+          "entities": [
+            {
+              "type": "LOCATION",
+              "text": "Windows XP",
+              "start": 65,
+              "end": 75,
+              "score": 0.85
+            },
+            {
+              "type": "PERSON",
+              "text": "CLASSID",
+              "start": 179,
+              "end": 186,
+              "score": 0.85
+            },
+            {
+              "type": "US_DRIVER_LICENSE",
+              "text": "C000",
+              "start": 230,
+              "end": 234,
+              "score": 0.3
+            },
+            {
+              "type": "US_BANK_NUMBER",
+              "text": "00022613",
+              "start": 211,
+              "end": 219,
+              "score": 0.05
+            },
+            {
+              "type": "US_BANK_NUMBER",
+              "text": "000000000046",
+              "start": 235,
+              "end": 247,
+              "score": 0.05
+            },
+            {
+              "type": "US_DRIVER_LICENSE",
+              "text": "00022613",
+              "start": 211,
+              "end": 219,
+              "score": 0.01
+            },
+            {
+              "type": "US_DRIVER_LICENSE",
+              "text": "000000000046",
+              "start": 235,
+              "end": 247,
+              "score": 0.01
+            }
+          ]
+        }
+      },
+      "total_entities_found": 11,
+      "entity_types_found": [
+        "LOCATION",
+        "DATE_TIME",
+        "PERSON",
+        "US_DRIVER_LICENSE",
+        "US_BANK_NUMBER"
+      ]
+    },
+    {
+      "record_id": "CVE-2002-2028",
+      "record_name": "CVE-2002-2028",
+      "fields_analyzed": {
+        "c.description": {
+          "original_text": "The screensaver on Windows NT 4.0, 2000, XP, and 2002 does not verify if a domain account has already been locked when a valid password is provided, which makes it easier for users with physical acces...",
+          "entities": [
+            {
+              "type": "LOCATION",
+              "text": "XP",
+              "start": 41,
+              "end": 43,
+              "score": 0.85
+            },
+            {
+              "type": "DATE_TIME",
+              "text": "2002",
+              "start": 49,
+              "end": 53,
+              "score": 0.85
+            }
+          ]
+        },
+        "c.cpes[30]": {
+          "original_text": "cpe:2.3:o:microsoft:windows_xp:*:gold:professional:*:*:*:*:*",
+          "entities": [
+            {
+              "type": "PERSON",
+              "text": "microsoft",
+              "start": 10,
+              "end": 19,
+              "score": 0.85
+            }
+          ]
+        }
+      },
+      "total_entities_found": 3,
+      "entity_types_found": [
+        "LOCATION",
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "record_id": "CVE-2002-2031",
+      "record_name": "CVE-2002-2031",
+      "fields_analyzed": {
+        "c.id": {
+          "original_text": "CVE-2002-2031",
+          "entities": [
+            {
+              "type": "LOCATION",
+              "text": "CVE-2002",
+              "start": 0,
+              "end": 8,
+              "score": 0.85
+            }
+          ]
+        },
+        "c.name": {
+          "original_text": "CVE-2002-2031",
+          "entities": [
+            {
+              "type": "LOCATION",
+              "text": "CVE-2002",
+              "start": 0,
+              "end": 8,
+              "score": 0.85
+            }
+          ]
+        },
+        "c.description": {
+          "original_text": "Internet Explorer 5.0, 5.0.1 and 5.5 with JavaScript execution enabled allows remote attackers to determine the existence of arbitrary files via a script tag with a src parameter that references a non...",
+          "entities": [
+            {
+              "type": "DATE_TIME",
+              "text": "5.0.1",
+              "start": 23,
+              "end": 28,
+              "score": 0.85
+            }
+          ]
+        }
+      },
+      "total_entities_found": 3,
+      "entity_types_found": [
+        "LOCATION",
+        "DATE_TIME"
+      ]
+    },
+    {
+      "record_id": "CVE-2002-2062",
+      "record_name": "CVE-2002-2062",
+      "fields_analyzed": {
+        "c.description": {
+          "original_text": "Cross-site scripting (XSS) vulnerability in ftp.htt in Internet Explorer 5.5 and 6.0, when running on Windows 2000 with \"Enable folder view for FTP sites\" and \"Enable Web content in folders\" selected,...",
+          "entities": [
+            {
+              "type": "LOCATION",
+              "text": "XSS",
+              "start": 22,
+              "end": 25,
+              "score": 0.85
+            },
+            {
+              "type": "DATE_TIME",
+              "text": "Windows 2000",
+              "start": 102,
+              "end": 114,
+              "score": 0.85
+            },
+            {
+              "type": "URL",
+              "text": "ftp.ht",
+              "start": 44,
+              "end": 50,
+              "score": 0.5
+            }
+          ]
+        }
+      },
+      "total_entities_found": 3,
+      "entity_types_found": [
+        "LOCATION",
+        "DATE_TIME",
+        "URL"
+      ]
+    },
+    {
+      "record_id": "CVE-2002-2073",
+      "record_name": "CVE-2002-2073",
+      "fields_analyzed": {
+        "c.description": {
+          "original_text": "Cross-site scripting (XSS) vulnerability in the default ASP pages on Microsoft Site Server 3.0 on Windows NT 4.0 allows remote attackers to inject arbitrary web script or HTML via the (1) ctr paramete...",
+          "entities": [
+            {
+              "type": "LOCATION",
+              "text": "XSS",
+              "start": 22,
+              "end": 25,
+              "score": 0.85
+            },
+            {
+              "type": "URL",
+              "text": "Default.as",
+              "start": 205,
+              "end": 215,
+              "score": 0.5
+            },
+            {
+              "type": "URL",
+              "text": "formslogin.as",
+              "start": 245,
+              "end": 258,
+              "score": 0.5
+            }
+          ]
+        }
+      },
+      "total_entities_found": 3,
+      "entity_types_found": [
+        "LOCATION",
+        "URL"
+      ]
+    },
+    {
+      "record_id": "CVE-2002-2077",
+      "record_name": "CVE-2002-2077",
+      "fields_analyzed": {
+        "c.description": {
+          "original_text": "The DCOM client in Windows 2000 before SP3 does not properly clear memory before sending an \"alter context\" request, which may allow remote attackers to obtain sensitive information by sniffing the se...",
+          "entities": [
+            {
+              "type": "LOCATION",
+              "text": "Windows 2000",
+              "start": 19,
+              "end": 31,
+              "score": 0.85
+            }
+          ]
+        }
+      },
+      "total_entities_found": 1,
+      "entity_types_found": [
+        "LOCATION"
+      ]
+    },
+    {
+      "record_id": "CVE-2002-2081",
+      "record_name": "CVE-2002-2081",
+      "fields_analyzed": {
+        "c.description": {
+          "original_text": "cphost.dll in Microsoft Site Server 3.0 allows remote attackers to cause a denial of service (disk consumption) via an HTTP POST of a file with a long TargetURL parameter, which causes Site Server to ...",
+          "entities": [
+            {
+              "type": "LOCATION",
+              "text": "c:\\temp",
+              "start": 238,
+              "end": 245,
+              "score": 0.85
+            }
+          ]
+        },
+        "c.cpes[0]": {
+          "original_text": "cpe:2.3:a:microsoft:site_server:3.0:*:i386:*:*:*:*:*",
+          "entities": [
+            {
+              "type": "US_DRIVER_LICENSE",
+              "text": "i386",
+              "start": 38,
+              "end": 42,
+              "score": 0.3
+            }
+          ]
+        },
+        "c.cpes[2]": {
+          "original_text": "cpe:2.3:a:microsoft:site_server:3.0:sp1:i386:*:*:*:*:*",
+          "entities": [
+            {
+              "type": "US_DRIVER_LICENSE",
+              "text": "i386",
+              "start": 40,
+              "end": 44,
+              "score": 0.3
+            }
+          ]
+        },
+        "c.cpes[4]": {
+          "original_text": "cpe:2.3:a:microsoft:site_server:3.0:sp2:i386:*:*:*:*:*",
+          "entities": [
+            {
+              "type": "US_DRIVER_LICENSE",
+              "text": "i386",
+              "start": 40,
+              "end": 44,
+              "score": 0.3
+            }
+          ]
+        },
+        "c.cpes[6]": {
+          "original_text": "cpe:2.3:a:microsoft:site_server:3.0:sp3:i386:*:*:*:*:*",
+          "entities": [
+            {
+              "type": "US_DRIVER_LICENSE",
+              "text": "i386",
+              "start": 40,
+              "end": 44,
+              "score": 0.3
+            }
+          ]
+        },
+        "c.cpes[8]": {
+          "original_text": "cpe:2.3:a:microsoft:site_server:3.0:sp4:i386:*:*:*:*:*",
+          "entities": [
+            {
+              "type": "US_DRIVER_LICENSE",
+              "text": "i386",
+              "start": 40,
+              "end": 44,
+              "score": 0.3
+            }
+          ]
+        },
+        "c.cpes[14]": {
+          "original_text": "cpe:2.3:a:microsoft:site_server_commerce:3.0:sp3_alpha:*:*:*:*:*:*",
+          "entities": [
+            {
+              "type": "PERSON",
+              "text": "sp3_alpha:*",
+              "start": 45,
+              "end": 56,
+              "score": 0.85
+            }
+          ]
+        }
+      },
+      "total_entities_found": 7,
+      "entity_types_found": [
+        "LOCATION",
+        "US_DRIVER_LICENSE",
+        "PERSON"
+      ]
+    },
+    {
+      "record_id": "CVE-2002-2100",
+      "record_name": "CVE-2002-2100",
+      "fields_analyzed": {},
+      "total_entities_found": 0,
+      "entity_types_found": []
+    }
+  ]
+}

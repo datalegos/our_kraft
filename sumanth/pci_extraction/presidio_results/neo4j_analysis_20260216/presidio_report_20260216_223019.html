@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Presidio Analysis Report - Neo4j Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        .summary-box {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .stat {
+            display: inline-block;
+            margin: 10px 20px 10px 0;
+        }
+        .stat-label {
+            font-weight: bold;
+            color: #7f8c8d;
+        }
+        .stat-value {
+            font-size: 24px;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .entity-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            margin: 2px;
+            border-radius: 3px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .CREDIT_CARD { background-color: #e74c3c; color: white; }
+        .US_SSN { background-color: #e67e22; color: white; }
+        .PERSON { background-color: #3498db; color: white; }
+        .PHONE_NUMBER { background-color: #9b59b6; color: white; }
+        .EMAIL_ADDRESS { background-color: #1abc9c; color: white; }
+        .LOCATION { background-color: #16a085; color: white; }
+        .ORGANIZATION { background-color: #27ae60; color: white; }
+        .DATE_TIME { background-color: #95a5a6; color: white; }
+        .IP_ADDRESS { background-color: #c0392b; color: white; }
+        .URL { background-color: #8e44ad; color: white; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Presidio PII/PCI Analysis Report</h1>
+        <p><strong>Analysis Date:</strong> 2026-02-16T22:30:19.759467</p>
+        <p><strong>Input File:</strong> neo4j_query_table_data_2026-2-16.json</p>
+        
+        <div class="summary-box">
+            <h2>Summary Statistics</h2>
+            <div class="stat">
+                <div class="stat-label">Total Records</div>
+                <div class="stat-value">10</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Records with Entities</div>
+                <div class="stat-value">9</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Total Entities Found</div>
+                <div class="stat-value">41</div>
+            </div>
+        </div>
+        
+        <h2>Entity Type Distribution</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Entity Type</th>
+                    <th>Count</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td><span class="entity-badge LOCATION">LOCATION</span></td>
+                    <td>13</td>
+                    <td>31.7%</td>
+                </tr>
+
+                <tr>
+                    <td><span class="entity-badge DATE_TIME">DATE_TIME</span></td>
+                    <td>10</td>
+                    <td>24.4%</td>
+                </tr>
+
+                <tr>
+                    <td><span class="entity-badge US_DRIVER_LICENSE">US_DRIVER_LICENSE</span></td>
+                    <td>8</td>
+                    <td>19.5%</td>
+                </tr>
+
+                <tr>
+                    <td><span class="entity-badge PERSON">PERSON</span></td>
+                    <td>4</td>
+                    <td>9.8%</td>
+                </tr>
+
+                <tr>
+                    <td><span class="entity-badge URL">URL</span></td>
+                    <td>3</td>
+                    <td>7.3%</td>
+                </tr>
+
+                <tr>
+                    <td><span class="entity-badge US_BANK_NUMBER">US_BANK_NUMBER</span></td>
+                    <td>2</td>
+                    <td>4.9%</td>
+                </tr>
+
+                <tr>
+                    <td><span class="entity-badge IP_ADDRESS">IP_ADDRESS</span></td>
+                    <td>1</td>
+                    <td>2.4%</td>
+                </tr>
+
+            </tbody>
+        </table>
+        
+        <h2>Detailed Findings by Record</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Record ID</th>
+                    <th>Entities Found</th>
+                    <th>Entity Types</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>CVE-2002-1973</td>
+                    <td>5</td>
+                    <td><span class="entity-badge DATE_TIME">DATE_TIME</span><span class="entity-badge LOCATION">LOCATION</span><span class="entity-badge PERSON">PERSON</span><span class="entity-badge IP_ADDRESS">IP_ADDRESS</span></td>
+                </tr>
+
+                <tr>
+                    <td>CVE-2002-1981</td>
+                    <td>5</td>
+                    <td><span class="entity-badge LOCATION">LOCATION</span><span class="entity-badge DATE_TIME">DATE_TIME</span></td>
+                </tr>
+
+                <tr>
+                    <td>CVE-2002-1984</td>
+                    <td>11</td>
+                    <td><span class="entity-badge LOCATION">LOCATION</span><span class="entity-badge DATE_TIME">DATE_TIME</span><span class="entity-badge PERSON">PERSON</span><span class="entity-badge US_DRIVER_LICENSE">US_DRIVER_LICENSE</span><span class="entity-badge US_BANK_NUMBER">US_BANK_NUMBER</span></td>
+                </tr>
+
+                <tr>
+                    <td>CVE-2002-2028</td>
+                    <td>3</td>
+                    <td><span class="entity-badge LOCATION">LOCATION</span><span class="entity-badge DATE_TIME">DATE_TIME</span><span class="entity-badge PERSON">PERSON</span></td>
+                </tr>
+
+                <tr>
+                    <td>CVE-2002-2031</td>
+                    <td>3</td>
+                    <td><span class="entity-badge LOCATION">LOCATION</span><span class="entity-badge DATE_TIME">DATE_TIME</span></td>
+                </tr>
+
+                <tr>
+                    <td>CVE-2002-2062</td>
+                    <td>3</td>
+                    <td><span class="entity-badge LOCATION">LOCATION</span><span class="entity-badge DATE_TIME">DATE_TIME</span><span class="entity-badge URL">URL</span></td>
+                </tr>
+
+                <tr>
+                    <td>CVE-2002-2073</td>
+                    <td>3</td>
+                    <td><span class="entity-badge LOCATION">LOCATION</span><span class="entity-badge URL">URL</span></td>
+                </tr>
+
+                <tr>
+                    <td>CVE-2002-2077</td>
+                    <td>1</td>
+                    <td><span class="entity-badge LOCATION">LOCATION</span></td>
+                </tr>
+
+                <tr>
+                    <td>CVE-2002-2081</td>
+                    <td>7</td>
+                    <td><span class="entity-badge LOCATION">LOCATION</span><span class="entity-badge US_DRIVER_LICENSE">US_DRIVER_LICENSE</span><span class="entity-badge PERSON">PERSON</span></td>
+                </tr>
+
+            </tbody>
+        </table>
+        
+        <p style="margin-top: 40px; color: #7f8c8d; font-size: 12px;">
+            Generated by Presidio PII/PCI Analysis Tool
+        </p>
+    </div>
+</body>
+</html>

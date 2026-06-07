@@ -1,0 +1,111 @@
+# Database Discovery and Data Extraction Configuration
+
+# Database Connection Settings
+database:
+  # Database types to scan for
+  types:
+    - postgresql
+    - mysql
+  
+  # Port ranges to scan
+  port_scan:
+    postgresql:
+      - 5432
+      - 5433
+      - 5434
+    mysql:
+      - 3306
+      - 3307
+      - 3308
+  
+  # Hosts to scan
+  hosts:
+    - localhost
+  
+  # Connection credentials to try
+  credentials:
+    postgresql:
+      - username: postgres
+        password: pgadmin
+      - username: postgres
+        password: postgres
+      - username: postgres
+        password: ""
+    mysql:
+      - username: root
+        password: root
+      - username: root
+        password: ""
+      - username: mysql
+        password: mysql
+
+# Data Extraction Settings
+extraction:
+  # Percentage of records to extract from each table (0.5 = 50%)
+  sample_percentage: 0.5
+  
+  # Maximum number of records per table (safety limit)
+  max_records_per_table: 10000
+  
+  # Tables to exclude from extraction (system tables, etc.)
+  exclude_tables:
+    postgresql:
+      - pg_*
+      - information_schema.*
+    mysql:
+      - mysql.*
+      - information_schema.*
+      - performance_schema.*
+      - sys.*
+  
+  # Databases to exclude
+  exclude_databases:
+    postgresql:
+      - template0
+      - template1
+      - postgres
+    mysql:
+      - mysql
+      - information_schema
+      - performance_schema
+      - sys
+
+# Output Settings
+output:
+  # Output directory for extracted data
+  directory: ./data/extracted_data
+  
+  # File format (json, csv, sql)
+  format: json
+  
+  # Include timestamp in filenames
+  include_timestamp: true
+  
+  # Compress output files
+  compress: false
+  
+  # File naming pattern
+  # Available variables: {timestamp}, {host}, {port}, {database}, {table}
+  filename_pattern: "{timestamp}_{host}_{port}_{database}_{table}.{format}"
+
+# Logging Settings
+logging:
+  # Log level (DEBUG, INFO, WARNING, ERROR)
+  level: INFO
+  
+  # Log file location
+  file: ./logs/extraction_{timestamp}.log
+  
+  # Also log to console
+  console: true
+
+# Security Settings
+security:
+  # Connection timeout in seconds
+  connection_timeout: 10
+  
+  # Query timeout in seconds
+  query_timeout: 300
+  
+  # Maximum concurrent connections
+  max_connections: 5

@@ -1,0 +1,27 @@
+{
+  "database": {
+    "uri": "bolt://localhost:7687",
+    "username": "neo4j",
+    "password": "sumanth@dl",
+    "database": "student-placement"
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "api_key": "",
+    "temperature": 0.1,
+    "max_tokens": 1000,
+    "fallback_provider": "local",
+    "local_model": "llama3.1:8b"
+  },
+  "agent": {
+    "max_conversation_history": 10,
+    "enable_query_explanation": true,
+    "enable_suggestions": true,
+    "enable_self_correction": true,
+    "max_query_attempts": 3
+  },
+  "data_sources": {
+    "student_csv": "Dataset/train.csv"
+  }
+}

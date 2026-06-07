@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: school_postgres_db
+    environment:
+      POSTGRES_DB: school_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - school_network
+
+volumes:
+  postgres_data:
+
+networks:
+  school_network:
+    driver: bridge

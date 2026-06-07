@@ -1,0 +1,55 @@
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: school_postgres
+    environment:
+      POSTGRES_DB: school_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - "5432:5432"
+    volumes:
+      - ../shared_folder/database/data:/var/lib/postgresql/data
+    networks:
+      - school_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d school_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  # School Management Application
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: school_app
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/school_db
+      PYTHONPATH: /app
+    ports:
+      - "8080:8000"
+    volumes:
+      - ../shared_folder/database:/app/shared_database
+    networks:
+      - school_network
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    command: >
+      sh -c "
+        echo 'Waiting for database to be ready...' &&
+        sleep 15 &&
+        echo 'Creating tables with SQLAlchemy...' &&
+        python -c 'from app.database.database import engine; from app.models.models import Base; Base.metadata.create_all(bind=engine); print(\"Tables created successfully\")' &&
+        echo 'Starting FastAPI application...' &&
+        python main.py
+      "
+
+networks:
+  school_network:
+    driver: bridge

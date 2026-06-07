@@ -1,0 +1,24 @@
+# Configuration files with sensitive data
+config.py
+
+# State files
+orbit_last_check.txt
+
+# Output files
+orbit_package_changes.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,13 @@
+# Database Discovery and Data Extraction Tool Requirements
+
+# Core dependencies
+PyYAML>=6.0
+python-dateutil>=2.8.0
+
+# Database drivers
+psycopg2-binary>=2.9.0  # PostgreSQL driver
+mysql-connector-python>=8.0.0  # MySQL driver
+
+# Optional: For better performance and additional features
+# pandas>=1.3.0  # For data manipulation (optional)
+# sqlalchemy>=1.4.0  # For ORM support (optional)

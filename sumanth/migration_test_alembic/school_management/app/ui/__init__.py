@@ -1,0 +1,1 @@
+# UI package - contains static files and templates

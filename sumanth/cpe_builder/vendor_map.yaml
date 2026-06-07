@@ -1,0 +1,83 @@
+# Vendor Normalization Map
+# Maps messy Wazuh vendor strings to clean NVD-compatible vendor names
+# Add new vendors as new banks onboard with different software
+
+vendor_mappings:
+  # Microsoft variants
+  "Microsoft Corporation": "microsoft"
+  "Microsoft Corp.": "microsoft"
+  "Microsoft Corp": "microsoft"
+  "Microsoft Studios": "microsoft"
+  "Microsoft": "microsoft"
+  
+  # Google variants
+  "Google LLC": "google"
+  "Google": "google"
+  
+  # Amazon variants
+  "Amazon Web Services": "amazon"
+  "Amazon": "amazon"
+  
+  # Anaconda
+  "Anaconda, Inc.": "anaconda"
+  "Anaconda": "anaconda"
+  
+  # Anysphere
+  "Anysphere": "anysphere"
+  
+  # Docker
+  "Docker Inc.": "docker"
+  "Docker": "docker"
+  
+  # Dolby
+  "Dolby Laboratories": "dolby"
+  "Dolby": "dolby"
+  
+  # ELAN
+  "ELAN Microelectronics Corporation": "elan"
+  "ELAN": "elan"
+  
+  # EnterpriseDB
+  "EnterpriseDB": "enterprisedb"
+  
+  # Lenovo variants
+  "LENOVO INC": "lenovo"
+  "LENOVO INC.": "lenovo"
+  "Lenovo": "lenovo"
+  "Lenovo Group Ltd.": "lenovo"
+  
+  # McAfee
+  "McAfee, LLC": "mcafee"
+  "McAfee": "mcafee"
+  
+  # Neo4j
+  "Neo4j Inc.": "neo4j"
+  "Neo4j": "neo4j"
+  
+  # Notepad++
+  "Notepad++ Team": "notepad-plus-plus"
+  
+  # PostgreSQL
+  "PostgreSQL Global Development Group": "postgresql"
+  "PostgreSQL": "postgresql"
+  
+  # Postman
+  "Postman": "postman"
+  
+  # Git
+  "The Git Development Community": "git"
+  "Git": "git"
+  
+  # Wazuh
+  "Wazuh, Inc.": "wazuh"
+  "Wazuh": "wazuh"
+  
+  # Python
+  "Python Software Foundation": "python"
+  "Python": "python"
+  
+  # Node.js
+  "Node.js Foundation": "nodejs"
+  "OpenJS Foundation": "nodejs"
+  
+  # Add more vendors as needed when new banks onboard
