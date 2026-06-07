@@ -1,0 +1,359 @@
+{
+  "info": {
+    "name": "Productivity Agent API",
+    "description": "Collection for testing the Productivity Agent API. Set the `base_url` variable to your server address before running.\n\nTasks are read-only — sourced from the external worky PostgreSQL database. Only GET endpoints are available.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:8000",
+      "type": "string"
+    },
+    {
+      "key": "task_id",
+      "value": "",
+      "type": "string",
+      "description": "Set this to a real task ID from the worky database before running Get Task requests"
+    }
+  ],
+  "item": [
+    {
+      "name": "Tasks",
+      "item": [
+        {
+          "name": "List Tasks — all",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status is 200', () => pm.response.to.have.status(200));",
+                  "pm.test('Response is an array', () => pm.expect(pm.response.json()).to.be.an('array'));",
+                  "pm.test('No is_deleted field in items', () => {",
+                  "  const tasks = pm.response.json();",
+                  "  tasks.forEach(t => pm.expect(t).to.not.have.property('is_deleted'));",
+                  "});",
+                  "if (pm.response.json().length > 0) {",
+                  "  pm.collectionVariables.set('task_id', pm.response.json()[0].id);",
+                  "  pm.test('First task has id', () => pm.expect(pm.response.json()[0].id).to.be.a('string').and.not.empty);",
+                  "  pm.test('First task has name', () => pm.expect(pm.response.json()[0].name).to.be.a('string').and.not.empty);",
+                  "  pm.test('First task has status', () => pm.expect(pm.response.json()[0].status).to.be.a('string'));",
+                  "  pm.test('First task has priority', () => pm.expect(pm.response.json()[0].priority).to.be.a('string'));",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": { "raw": "{{base_url}}/tasks/", "host": ["{{base_url}}"], "path": ["tasks", ""] }
+          }
+        },
+        {
+          "name": "List Tasks — filter by status",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status is 200', () => pm.response.to.have.status(200));",
+                  "pm.test('Response is an array', () => pm.expect(pm.response.json()).to.be.an('array'));",
+                  "pm.test('All returned tasks match status filter', () => {",
+                  "  pm.response.json().forEach(t => pm.expect(t.status).to.eql('Planning'));",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/tasks/?status=Planning",
+              "host": ["{{base_url}}"],
+              "path": ["tasks", ""],
+              "query": [{ "key": "status", "value": "Planning" }]
+            }
+          }
+        },
+        {
+          "name": "List Tasks — filter by priority",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status is 200', () => pm.response.to.have.status(200));",
+                  "pm.test('Response is an array', () => pm.expect(pm.response.json()).to.be.an('array'));",
+                  "pm.test('All returned tasks match priority filter', () => {",
+                  "  pm.response.json().forEach(t => pm.expect(t.priority).to.eql('High'));",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/tasks/?priority=High",
+              "host": ["{{base_url}}"],
+              "path": ["tasks", ""],
+              "query": [{ "key": "priority", "value": "High" }]
+            }
+          }
+        },
+        {
+          "name": "List Tasks — filter by sprint_id",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status is 200', () => pm.response.to.have.status(200));",
+                  "pm.test('Response is an array', () => pm.expect(pm.response.json()).to.be.an('array'));"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/tasks/?sprint_id=SP-001",
+              "host": ["{{base_url}}"],
+              "path": ["tasks", ""],
+              "query": [{ "key": "sprint_id", "value": "SP-001" }]
+            }
+          }
+        },
+        {
+          "name": "List Tasks — filter by assigned_to",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status is 200', () => pm.response.to.have.status(200));",
+                  "pm.test('Response is an array', () => pm.expect(pm.response.json()).to.be.an('array'));"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/tasks/?assigned_to=USR-001",
+              "host": ["{{base_url}}"],
+              "path": ["tasks", ""],
+              "query": [{ "key": "assigned_to", "value": "USR-001" }]
+            }
+          }
+        },
+        {
+          "name": "List Tasks — filter by phase_id",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status is 200', () => pm.response.to.have.status(200));",
+                  "pm.test('Response is an array', () => pm.expect(pm.response.json()).to.be.an('array'));"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/tasks/?phase_id=PH-001",
+              "host": ["{{base_url}}"],
+              "path": ["tasks", ""],
+              "query": [{ "key": "phase_id", "value": "PH-001" }]
+            }
+          }
+        },
+        {
+          "name": "List Tasks — multiple filters (status + priority)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status is 200', () => pm.response.to.have.status(200));",
+                  "pm.test('Response is an array', () => pm.expect(pm.response.json()).to.be.an('array'));",
+                  "pm.test('All tasks match both filters', () => {",
+                  "  pm.response.json().forEach(t => {",
+                  "    pm.expect(t.status).to.eql('Planning');",
+                  "    pm.expect(t.priority).to.eql('High');",
+                  "  });",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/tasks/?status=Planning&priority=High",
+              "host": ["{{base_url}}"],
+              "path": ["tasks", ""],
+              "query": [
+                { "key": "status", "value": "Planning" },
+                { "key": "priority", "value": "High" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Task — valid",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status is 200', () => pm.response.to.have.status(200));",
+                  "pm.test('id matches', () => pm.expect(pm.response.json().id).to.eql(pm.collectionVariables.get('task_id')));",
+                  "pm.test('name is present', () => pm.expect(pm.response.json().name).to.be.a('string').and.not.empty);",
+                  "pm.test('status is present', () => pm.expect(pm.response.json().status).to.be.a('string'));",
+                  "pm.test('priority is present', () => pm.expect(pm.response.json().priority).to.be.a('string'));",
+                  "pm.test('user_story_id is present', () => pm.expect(pm.response.json().user_story_id).to.be.a('string').and.not.empty);",
+                  "pm.test('is_deleted is NOT in response', () => pm.expect(pm.response.json()).to.not.have.property('is_deleted'));"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/tasks/{{task_id}}",
+              "host": ["{{base_url}}"],
+              "path": ["tasks", "{{task_id}}"]
+            }
+          }
+        },
+        {
+          "name": "Get Task — not found (404)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status is 404', () => pm.response.to.have.status(404));",
+                  "pm.test('error_code is TASK_NOT_FOUND', () => pm.expect(pm.response.json().error_code).to.eql('TASK_NOT_FOUND'));"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/tasks/TSK-NONEXISTENT",
+              "host": ["{{base_url}}"],
+              "path": ["tasks", "TSK-NONEXISTENT"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Agent",
+      "item": [
+        {
+          "name": "Get Agent Decision",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status is 200', () => pm.response.to.have.status(200));",
+                  "pm.test('Has next_task field', () => pm.expect(pm.response.json()).to.have.property('next_task'));",
+                  "pm.test('Has productivity_score field', () => pm.expect(pm.response.json()).to.have.property('productivity_score'));",
+                  "pm.test('Has suggestion field', () => pm.expect(pm.response.json()).to.have.property('suggestion'));",
+                  "pm.test('productivity_score is a number', () => pm.expect(pm.response.json().productivity_score).to.be.a('number'));",
+                  "pm.test('productivity_score in [0, 1]', () => {",
+                  "  const score = pm.response.json().productivity_score;",
+                  "  pm.expect(score).to.be.at.least(0).and.at.most(1);",
+                  "});",
+                  "pm.test('suggestion is non-empty string', () => {",
+                  "  pm.expect(pm.response.json().suggestion).to.be.a('string').and.not.empty;",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/agent/decision",
+              "host": ["{{base_url}}"],
+              "path": ["agent", "decision"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Health",
+      "item": [
+        {
+          "name": "OpenAPI Docs",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Docs page is reachable', () => pm.response.to.have.status(200));"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": { "raw": "{{base_url}}/docs", "host": ["{{base_url}}"], "path": ["docs"] }
+          }
+        },
+        {
+          "name": "OpenAPI JSON Schema",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Schema is reachable', () => pm.response.to.have.status(200));",
+                  "pm.test('Response is JSON', () => pm.response.to.be.json);"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": { "raw": "{{base_url}}/openapi.json", "host": ["{{base_url}}"], "path": ["openapi.json"] }
+          }
+        }
+      ]
+    }
+  ]
+}
